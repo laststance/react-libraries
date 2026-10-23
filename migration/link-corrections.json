@@ -1,0 +1,107 @@
+[
+  {
+    "number": 116,
+    "url": "https://github.com/speed-highlight/core",
+    "reason": "The saved examples path returns 404; use the project repository."
+  },
+  {
+    "number": 180,
+    "url": "https://github.com/flsilva/nexar.flsilva.com/",
+    "reason": "The saved domain redirects to an unrelated product; retain the original author's architecture reference."
+  },
+  {
+    "number": 252,
+    "url": "https://www.npmjs.com/package/@ngneat/falso",
+    "reason": "The original docs and repository return 404; retain the published package."
+  },
+  {
+    "number": 296,
+    "url": "https://github.com/userfront/userfront",
+    "reason": "The saved tutorial is unavailable and the company homepage changed products; retain the original authentication SDK."
+  },
+  {
+    "number": 304,
+    "url": "https://github.com/jquense/react-big-calendar",
+    "reason": "The saved examples URL returns 404; use the project repository."
+  },
+  {
+    "number": 306,
+    "url": "https://www.embla-carousel.com/",
+    "reason": "The saved React guide path returns 404; use the documentation homepage."
+  },
+  {
+    "number": 310,
+    "url": "https://recharts.github.io/",
+    "reason": "The original domain directs visitors to the current documentation host."
+  },
+  {
+    "number": 313,
+    "url": "https://github.com/antonmedv/codejar",
+    "reason": "The saved documentation host timed out; use the project repository."
+  },
+  {
+    "number": 337,
+    "url": "https://shopify.dev/docs/api/hydrogen-react",
+    "reason": "The saved repository subdirectory returns 404; use the official API documentation."
+  },
+  {
+    "number": 378,
+    "url": "https://github.com/adazzle/react-data-grid",
+    "reason": "The saved examples host returns 404; use the project repository."
+  },
+  {
+    "number": 430,
+    "url": "https://reactrouter.com/",
+    "reason": "The saved version path returns 404; use the documentation homepage."
+  },
+  {
+    "number": 454,
+    "url": "https://zustand.docs.pmnd.rs/",
+    "reason": "The saved introduction path returns 404; use the current documentation host."
+  },
+  {
+    "number": 524,
+    "url": "https://react.fluentui.dev/",
+    "reason": "The saved Chromatic build requires authentication; use the public component documentation."
+  },
+  {
+    "number": 526,
+    "url": "https://coss.com/origin",
+    "reason": "Retain the legacy Origin UI collection; the former homepage now redirects to coss ui."
+  },
+  {
+    "number": 536,
+    "url": "https://coss.com/ui",
+    "reason": "The saved company homepage is not the component documentation; use the UI product page."
+  },
+  {
+    "number": 537,
+    "url": "https://coss.com/ui",
+    "reason": "Both coss UI bookmarks describe the same component library."
+  },
+  {
+    "number": 541,
+    "url": "https://primer.style/",
+    "reason": "The saved design subpath timed out; use the design-system homepage."
+  },
+  {
+    "number": 555,
+    "url": "https://partytown.qwik.dev/",
+    "reason": "Use the current project documentation host."
+  },
+  {
+    "number": 560,
+    "url": "https://github.com/magnitudedev/browser-agent",
+    "reason": "The original domain now describes an inference product; retain the browser-automation project."
+  },
+  {
+    "number": 566,
+    "url": "https://www.gatsbyjs.com/",
+    "reason": "The saved Gatsby heading pointed to an unrelated React badge board; use the intended framework's homepage."
+  },
+  {
+    "number": 371,
+    "url": "https://visgl.github.io/react-map-gl/",
+    "reason": "Use the verified HTTPS documentation URL instead of the original HTTP bookmark."
+  }
+]

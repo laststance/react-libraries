@@ -1,0 +1,38 @@
+{
+  "id": "dbbfa1fdb4c6434f9a0e227bfa2322ce",
+  "title": "Customer Service",
+  "sourceUrl": "https://laststance.notion.site/dbbfa1fdb4c6434f9a0e227bfa2322ce",
+  "fetchedAt": "2026-10-23T20:07:18.760Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "d613e22081514ea8adbd3a499b6a5af7",
+      "type": "sub_sub_header",
+      "title": "Drift",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a44d3698ded04680bd78196a831f130f",
+      "type": "bookmark",
+      "title": "Drift | Everything Starts With a Conversation",
+      "description": "Drift’s Conversation Cloud helps businesses connect with customers in the moments that matter most — using chat, email, video, and more.",
+      "url": "https://www.drift.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0bac2f67851d4bcfa70f422405562c6a",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "f58e20f2ee6642558c3d067f168b88a2",
+  "title": "Marketing",
+  "sourceUrl": "https://laststance.notion.site/f58e20f2ee6642558c3d067f168b88a2",
+  "fetchedAt": "2026-10-23T20:07:19.544Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "292dfb0f71bb4e06a5d7f95d48629647",
+      "type": "sub_sub_header",
+      "title": "Prismic",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4c8a812dc8b84f9c906fe31b61eced11",
+      "type": "bookmark",
+      "title": "Prismic: Headless Page Builder - Launch and Iterate Faster",
+      "description": "Prismic is the headless page builder that lets developers and marketers ship and iterate faster, and build sites that just keep getting better.",
+      "url": "https://prismic.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3e13ea1d84004bcbae5c5e5e3b88972a",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

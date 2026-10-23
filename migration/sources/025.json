@@ -1,0 +1,10 @@
+{
+  "number": 25,
+  "originalUrl": "https://directus.io/",
+  "requestUrl": "https://directus.io/",
+  "finalUrl": "https://directus.com/",
+  "status": 200,
+  "title": "Directus | Collaborative Backend & Headless CMS",
+  "description": "The collaborative backend and self-hostable headless CMS over any database. No-code interface, REST + GraphQL APIs, and MCP for Claude, ChatGPT, and Cursor.",
+  "checkedAt": "2026-10-23T20:09:50.510Z"
+}

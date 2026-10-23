@@ -1,0 +1,38 @@
+{
+  "id": "309f4aa9fa258056b9a5e70f7d2f600c",
+  "title": "Service Worker",
+  "sourceUrl": "https://laststance.notion.site/309f4aa9fa258056b9a5e70f7d2f600c",
+  "fetchedAt": "2026-10-23T20:07:12.051Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "309f4aa9fa2580279fdcc84e1a6d160c",
+      "type": "sub_header",
+      "title": "Shovel",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "309f4aa9fa25800ebfcbe2ecd4486d33",
+      "type": "external_object_instance",
+      "title": "shovel",
+      "description": "",
+      "url": "https://github.com/bikeshaving/shovel",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "309f4aa9fa2580b38d77fab2e74a8ce1",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

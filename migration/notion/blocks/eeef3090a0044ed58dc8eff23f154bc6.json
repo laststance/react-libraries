@@ -1,0 +1,241 @@
+{
+  "id": "eeef3090a0044ed58dc8eff23f154bc6",
+  "title": "NPM package tool",
+  "sourceUrl": "https://laststance.notion.site/eeef3090a0044ed58dc8eff23f154bc6",
+  "fetchedAt": "2026-10-23T20:07:19.396Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "93819a0196064b90b9c063a07ae2c4b5",
+      "type": "text",
+      "title": " API Extractor",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2d49c20fcb064a91a9321da03e7458d9",
+      "type": "bookmark",
+      "title": "What is API Extractor? | API Extractor",
+      "description": "API Extractor is a TypeScript analysis tool that produces three different output types:",
+      "url": "https://api-extractor.com/pages/overview/intro/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ec309ad2a54c44e5ab4f3c78331314ef",
+      "type": "sub_header",
+      "title": "Bundler",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "13558dbf6d5e4b4fa048571b19f78717",
+      "type": "sub_sub_header",
+      "title": "tshy",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b5c105cd729048b08ddad4289cd8586b",
+      "type": "external_object_instance",
+      "title": "tshy",
+      "description": "",
+      "url": "https://github.com/isaacs/tshy",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ba8f6d24f8df408482f42338265346dd",
+      "type": "sub_sub_header",
+      "title": "tsup",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "dea331bc6ac44441b8e2f64d2abcff6d",
+      "type": "bookmark",
+      "title": "tsup",
+      "description": "bundle typescript library with ease",
+      "url": "https://tsup.egoist.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "80e39baa269248248d93e0568e0c8715",
+      "type": "sub_sub_header",
+      "title": "pkgroll",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c24b7f89b6e640ac95959adc01bfba08",
+      "type": "external_object_instance",
+      "title": "pkgroll",
+      "description": "",
+      "url": "https://github.com/privatenumber/pkgroll",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c2fdc118b99e4fbeb887711a3d0eac38",
+      "type": "sub_sub_header",
+      "title": "Preconstruct",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "84ce39657bd24fc0ade08bf5a0f1f300",
+      "type": "bookmark",
+      "title": "Introduction | Preconstruct",
+      "description": "Dev and build your code painlessly in monorepos",
+      "url": "https://preconstruct.tools/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9469caf71ae94d38bd91090abd102ed0",
+      "type": "sub_header",
+      "title": "Package Release Things",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7df9995614414c878b9ed4e18b8fff7c",
+      "type": "sub_sub_header",
+      "title": "Yalc",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "17b94b4e44514de1a3ae3655925a30d4",
+      "type": "bookmark",
+      "title": "npm: yalc",
+      "description": "Work with npm/yarn packages locally like a boss.. Latest version: 1.0.0-pre.53, last published: 2 years ago. Start using yalc in your project by running `npm i yalc`. There are 90 other projects in the npm registry using yalc.",
+      "url": "https://www.npmjs.com/package/yalc",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a0551ff33c034011bb4e5b9591605576",
+      "type": "sub_sub_header",
+      "title": "Release It",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f5643bcbf2e74fbf95b94276f3da162f",
+      "type": "external_object_instance",
+      "title": "release-it",
+      "description": "",
+      "url": "https://github.com/release-it/release-it",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "74f645ffcc6d459ebacbb156d68c847e",
+      "type": "sub_sub_header",
+      "title": "PubLint",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "768ca56c5b034fa9a0675545f5fce831",
+      "type": "bookmark",
+      "title": "publint",
+      "description": "Lint npm packages to ensure widest compatibility across environments.",
+      "url": "https://publint.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b6fc78efe3244c1fa143f88061a43179",
+      "type": "sub_sub_header",
+      "title": "Size Limit",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "59d4966e5b84408d82b0d41107b1b383",
+      "type": "external_object_instance",
+      "title": "size-limit",
+      "description": "",
+      "url": "https://github.com/ai/size-limit",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "be99231462af4a4d9a2df54479088863",
+      "type": "sub_sub_header",
+      "title": "NCC",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "73a86378e8364e4f9eac774c7d4181e8",
+      "type": "text",
+      "title": "https://www.npmjs.com/package/@vercel/ncc",
+      "description": "",
+      "url": "",
+      "links": [
+        {
+          "text": "https://www.npmjs.com/package/@vercel/ncc",
+          "url": "https://www.npmjs.com/package/@vercel/ncc"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa2580f1b01dec02d41a1502",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "db6331eecef844ddba88f0bdd3f6e07e",
+      "type": "sub_sub_header",
+      "title": "npmgraph",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa2580eba78dde30de88ca43",
+      "type": "bookmark",
+      "title": "npmgraph - NPM Dependency Diagrams",
+      "description": "Graph / visualize of npm dependencies",
+      "url": "https://npmgraph.js.org/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

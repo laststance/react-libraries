@@ -1,0 +1,218 @@
+{
+  "id": "be7b54024fb14ff58ab51772e5c70549",
+  "title": "Auth",
+  "sourceUrl": "https://laststance.notion.site/be7b54024fb14ff58ab51772e5c70549",
+  "fetchedAt": "2026-10-23T20:07:18.236Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "dca4190c4fe047438f419170694c1476",
+      "type": "sub_sub_header",
+      "title": "Clerk",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b140a1de0a5542ee87aef721b6e42f74",
+      "type": "bookmark",
+      "title": "Clerk | Authentication and User Management",
+      "description": "The easiest way to add authentication and user management to your application. Purpose-built for React, Next.js, Remix, and “The Modern Web”.",
+      "url": "https://clerk.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d0d99bcbf615476da3fe510f3c77d7ec",
+      "type": "sub_sub_header",
+      "title": "Auth0",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "004ba3b9a4a0495392b2c0e253b11f5a",
+      "type": "bookmark",
+      "title": "Auth0: Secure access for everyone. But not just anyone.",
+      "description": "Rapidly integrate authentication and authorization for web, mobile, and legacy applications so you can focus on your core business.",
+      "url": "https://auth0.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8e292834765a401f8bce8887825b4bec",
+      "type": "sub_sub_header",
+      "title": "Userfront",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7771239cd7f549569a9d88a7f49937cc",
+      "type": "bookmark",
+      "title": "React Authentication | Userfront | Auth Without Complexity",
+      "description": "React Authentication",
+      "url": "https://userfront.com/tutorials/react-authentication",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6a4ce957039140f7ad50f4654027e341",
+      "type": "sub_sub_header",
+      "title": "React OAuth2 | Google",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b28784ce8eab4361a0a8fbaf2751851a",
+      "type": "external_object_instance",
+      "title": "react-oauth",
+      "description": "",
+      "url": "https://github.com/MomenSherif/react-oauth",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fd0d4797840e41ae9f4e9e02d7f4b5ce",
+      "type": "sub_sub_header",
+      "title": "Auth.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "89c4e6f685274951beb4d50c4ffdd842",
+      "type": "bookmark",
+      "title": "Auth.js",
+      "description": "Authentication for the Web.",
+      "url": "https://authjs.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "774ecc180919465b8d2038b7873b863c",
+      "type": "sub_sub_header",
+      "title": "Lucia",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5e31c1b8b6a743b5a5cb5fa9e5c1ab38",
+      "type": "bookmark",
+      "title": "Lucia documentation",
+      "description": "Lucia is an open source auth library that abstracts away the complexity of handling sessions.",
+      "url": "https://lucia-auth.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a54b8ccf873f4071bb72f48e4d88d079",
+      "type": "sub_sub_header",
+      "title": "SuperTokens",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "950b1f89ed4a448cbbe69bbb38a70f6f",
+      "type": "bookmark",
+      "title": "SuperTokens, Open Source User Authentication",
+      "description": "Open Source User Authentication. Build fast, maintain control, with reasonable pricing.",
+      "url": "https://supertokens.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "69daf773db434683a78c3cfa079b987b",
+      "type": "sub_sub_header",
+      "title": "integrationos/authkit-react",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a83b829f6e054251bc0df89ba35dbbc1",
+      "type": "bookmark",
+      "title": "AuthKit",
+      "description": "Web site created using create-react-app",
+      "url": "https://authkit-demo.integrationos.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ce94f7bc310c4b22bf171038622aa8e8",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4fb1ed73fa3348a2869a5548f75aa38e",
+      "type": "sub_sub_header",
+      "title": "propelauth",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "605a79e247634c73ad8e792058a4db80",
+      "type": "bookmark",
+      "title": "PropelAuth - Authentication for B2B products",
+      "description": "Onboard companies of any size in just a few lines of code.",
+      "url": "https://www.propelauth.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7a188f1059874568abce53c1cd6262da",
+      "type": "sub_sub_header",
+      "title": "Logto",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b363b3ef60b64cf0b00d60d2be482775",
+      "type": "bookmark",
+      "title": "Logto: The better identity infrastructure for developers",
+      "description": "Logto is an open-source Auth0 alternative designed for modern apps and SaaS products.",
+      "url": "https://logto.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21ff4aa9fa258055b6e7d027c643ad93",
+      "type": "sub_sub_header",
+      "title": "Better Auth",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21ff4aa9fa25800c97e2d8b3da2c0d8d",
+      "type": "bookmark",
+      "title": "Better Auth",
+      "description": "The most comprehensive authentication library for TypeScript.",
+      "url": "https://www.better-auth.com/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

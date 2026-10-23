@@ -1,0 +1,160 @@
+1|Midscene.js|ai|AI-driven automation that interprets interfaces from natural-language instructions.|Automating browser and application workflows using visual understanding.
+2|TypeSpec|api-tools|A language for describing APIs and generating specifications and clients.|Maintaining an API contract that feeds multiple code generators.
+3|Postman|api-tools|A workspace for sending requests, testing APIs, and sharing API collections.|Collaborating on request examples and repeatable API checks.
+4|Apidog|api-tools|An integrated workspace for API design, debugging, mocking, and documentation.|Keeping API contracts and test workflows in one application.
+5|Apicurio|api-tools|Open-source tools for designing APIs and managing schemas in a registry.|Teams that need shared API definitions and schema governance.
+6|AsyncAPI|api-tools|A specification and tool ecosystem for event-driven APIs.|Documenting message channels, payloads, and asynchronous integrations.
+7|Insomnia|api-tools|An API client for composing requests and organizing development workflows.|Exploring HTTP APIs and testing requests during development.
+8|Stoplight|api-tools|Tools for designing and documenting APIs around shared specifications.|Reviewing API contracts before implementing endpoints.
+9|Swagger|api-tools|Tools for editing, documenting, and exploring OpenAPI-described APIs.|Publishing interactive API documentation and maintaining API definitions.
+10|Redocly|api-tools|Tools for validating API descriptions and publishing API documentation.|Turning OpenAPI files into a navigable developer reference.
+11|PropelAuth|auth|Authentication and organization management designed for business applications.|Adding team accounts, organizations, and business sign-in flows.
+12|Auth0|auth|A managed identity platform for authentication and authorization.|Supporting multiple sign-in providers across web and mobile applications.
+13|Clerk|auth|Hosted authentication with user-management components and SDKs.|Adding account screens and session handling to a React application.
+14|FusionAuth|auth|An identity platform with APIs for login and user management.|Applications that need control over identity deployment and configuration.
+15|WorkOS|auth|APIs for enterprise identity features such as SSO and directory synchronization.|Making a SaaS application integrate with customers' identity systems.
+16|Hasura|backend|A platform for exposing data through APIs, including GraphQL.|Connecting applications to existing data sources with an API layer.
+17|Turso|databases|A database platform built around SQLite-compatible storage.|Applications that want a hosted SQLite-oriented database workflow.
+18|PocketBase|backend|A compact backend combining a database, authentication, storage, and an admin UI.|Small applications that benefit from a self-contained backend.
+19|Appwrite|backend|A backend platform providing authentication, databases, storage, and functions.|Building application features from managed or self-hosted backend services.
+20|Trigger.dev|background-jobs|A platform for writing and operating background jobs in application code.|Long-running tasks, scheduled work, and external API integrations.
+21|Grafbase|backend|Tools for building a GraphQL API layer across services and data sources.|Presenting multiple backend capabilities through a unified GraphQL interface.
+22|PlanetScale|databases|A managed database platform for application workloads.|Teams that want database operations handled by a hosted service.
+23|Upstash|backend|Serverless-oriented data and messaging services with HTTP-friendly APIs.|Adding caching, rate limiting, or queued work to serverless applications.
+24|Supabase|backend|A Postgres-based backend platform with authentication, storage, APIs, and realtime features.|Applications that want SQL data and common backend services together.
+25|Directus|backend|A data platform that adds APIs and an administration interface to SQL databases.|Managing structured content while retaining an existing SQL data model.
+26|Amazon Web Services|hosting|Cloud infrastructure and managed services for deploying and operating applications.|Teams that need configurable compute, storage, networking, and managed backends.
+27|Google Cloud|hosting|Cloud services for application hosting, data processing, and infrastructure.|Deploying applications alongside managed data and computing services.
+28|Microsoft Azure|hosting|A cloud platform offering compute, storage, identity, and managed application services.|Applications integrated with Microsoft's cloud and enterprise ecosystem.
+29|Heroku|hosting|A managed application platform with deployment workflows and add-on services.|Deploying a server application without managing its underlying machines directly.
+30|Render|hosting|A cloud platform for deploying websites, services, and background workers.|Git-based deployment of a frontend and its supporting services.
+31|DigitalOcean|hosting|Cloud infrastructure and managed services for application development.|Small teams that need servers, databases, and application hosting.
+32|Cloudflare Developers|hosting|Documentation for Cloudflare's developer platform and edge services.|Building edge-hosted applications with networking, storage, and compute services.
+33|Cuber|hosting|An automation tool for building and deploying applications on Kubernetes.|Teams that want an application deployment workflow on their own cluster.
+34|Fly.io|hosting|A platform for deploying applications on distributed virtual machines.|Running server applications near users across multiple regions.
+35|Vercel|hosting|A deployment platform focused on frontend applications and associated server functions.|Preview deployments and production hosting for modern web frameworks.
+36|Reactiflux|community|A Discord community centered on React and related development topics.|Discussing React questions and learning from other developers.
+37|Answer Overflow|community|Tools that make Discord support conversations discoverable on the web.|Turning community support discussions into searchable answers.
+38|daily.dev|community|A developer community and feed for discovering technical articles.|Keeping up with development topics and sharing useful reading.
+39|DEV Community|community|A publishing and discussion community for software developers.|Reading practical development articles and sharing implementation experiences.
+40|HackerNoon|community|A publishing platform for technology stories and technical articles.|Discovering broader industry perspectives and developer-written content.
+41|Hashnode|community|A blogging platform and community for developers.|Publishing a technical blog and finding developer-written articles.
+42|Showwcase|community|A professional community platform for developers.|Sharing projects and connecting with other software builders.
+43|Better-T-Stack|frameworks|A configurable starter generator for type-safe TypeScript application stacks.|Choosing compatible frontend, backend, and tooling options when starting a project.
+44|Tone.js|media|A Web Audio framework for creating interactive music in the browser.|Scheduling sound, synthesis, and musical interaction in web applications.
+45|Tonal|media|A JavaScript library for music-theory calculations.|Working with notes, chords, intervals, and scales in music software.
+46|Prop for That|styling|A library that exposes JavaScript runtime values as live CSS custom properties.|Making CSS respond to pointer position, element state, and other browser information.
+47|HelloCSV|files|A CSV import interface for bringing tabular data into an application.|Guiding users through uploading and mapping spreadsheet-style data.
+48|json-to-csv-export|files|A utility for converting JSON data into a downloadable CSV file.|Adding an export button for reports and tabular data.
+49|Cally|calendars|Framework-independent calendar components for choosing dates and ranges.|Adding an accessible date-selection interface with custom styling.
+50|Konva|graphics|A canvas framework for interactive two-dimensional graphics.|Building diagrams and editors with draggable canvas objects.
+51|LiteGraph.js|graphics|A graph editor and execution framework for node-based workflows.|Creating visual programming interfaces and connected processing nodes.
+52|CanvasJS|charts|A charting library for displaying interactive data visualizations.|Adding a ready-made chart UI with configurable series and axes.
+53|Plotteus|charts|A JavaScript visualization library oriented toward data storytelling.|Presenting data through explanatory visual narratives.
+54|Plotly.js|charts|An interactive charting library with many scientific and statistical chart types.|Building analytical dashboards and explorable data visualizations.
+55|Fancy ANSI|styling|A utility for rendering ANSI-formatted terminal text on the web.|Showing colored command output inside browser-based interfaces.
+56|Croner|background-jobs|A scheduler that runs JavaScript tasks using cron expressions.|Scheduling recurring jobs within a JavaScript or TypeScript process.
+57|Dinero.js|utilities|Utilities for representing monetary amounts and performing money calculations.|Handling currencies and arithmetic without treating money as an unstructured number.
+58|clsx|styling|A small utility for composing conditional CSS class names.|Building className values from component states and optional styles.
+59|jQuery|utilities|A browser library for DOM manipulation, events, and Ajax requests.|Maintaining existing jQuery interfaces and integrating older browser widgets.
+60|select-dom|utilities|Convenience helpers for selecting DOM elements.|Small browser scripts that need concise DOM queries.
+61|apisauce|data-fetching|An HTTP client wrapper that standardizes responses and request handling.|API clients that benefit from consistent success and error results.
+62|redaxios|data-fetching|An Axios-style HTTP client implemented around the Fetch API.|Using familiar request syntax with a fetch-based implementation.
+63|Axios|data-fetching|A promise-based HTTP client for browsers and Node.js.|Configuring API requests, interceptors, and shared request behavior.
+64|Ky|data-fetching|A Fetch API wrapper with conveniences for HTTP requests.|Writing concise browser API clients with configurable retry and response handling.
+65|Better Fetch|data-fetching|A fetch wrapper with TypeScript-focused request and response tooling.|Building typed API clients around the standard Fetch API.
+66|verifyfetch|files|A browser download utility with resumable transfers and integrity verification.|Downloading large model files while recovering from interrupted connections.
+67|Day.js|dates|A compact date library with a chainable API.|Working with dates through a familiar, chainable API.
+68|Spacetime|dates|Date and time utilities with timezone-aware manipulation.|Working with dates across timezones using a chainable interface.
+69|@internationalized/date|dates|Date and time objects for calendars, timezones, and internationalized interfaces.|Building date controls that need explicit calendar and timezone behavior.
+70|date-fns|dates|Functions for formatting, parsing, and manipulating JavaScript dates.|Picking individual functions for the date operations you need.
+71|jsdiff|utilities|Algorithms for finding differences between strings and structured text.|Showing text changes, patches, and comparison views.
+72|emoji-picker-element|inputs|An emoji picker delivered as a browser custom element.|Adding emoji selection without depending on a particular UI framework.
+73|Emoji Mart|inputs|An emoji picker and associated emoji data utilities.|Adding searchable emoji selection to messaging or editing interfaces.
+74|PKI.js|security|JavaScript tools for working with public-key infrastructure formats.|Processing certificates and cryptographic structures with Web Crypto integration.
+75|FileSaver.js|files|A browser utility for saving generated data as a file.|Offering downloads of client-generated documents and exports.
+76|content-disposition-header|files|Utilities for working with HTTP Content-Disposition headers.|Controlling filenames and attachment behavior in file-download responses.
+77|Chrono|dates|A parser that recognizes dates expressed in natural language.|Turning phrases such as next Friday into structured date information.
+78|SuperJSON|serialization|A serializer that preserves JavaScript values beyond plain JSON types.|Moving dates and other richer values between application layers.
+79|Immutable.js|state|Persistent immutable data structures for JavaScript.|Managing complex collections while retaining previous versions of state.
+80|tldts|utilities|A parser for domain names and public suffix information.|Extracting hostnames, domains, and subdomains from URLs.
+81|es-toolkit|utilities|A typed collection of common JavaScript utility functions.|Handling everyday collection and data transformations with individual helpers.
+82|Radash|utilities|A collection of utility functions for JavaScript and TypeScript.|Reducing repeated application-level data manipulation code.
+83|Nano ID Collision Calculator|developer-tools|A calculator for estimating collisions in randomly generated Nano IDs.|Choosing an ID length based on an application's expected volume.
+84|Lodash|utilities|Utilities for working with arrays, objects, strings, and functions.|Maintaining familiar data-transformation helpers across a JavaScript codebase.
+85|downloadjs|files|A browser helper for downloading strings, blobs, and data URLs.|Saving data that an application generates on the client.
+86|Sugar|utilities|Utilities that extend common operations on JavaScript values.|Working with dates, strings, and collections through a unified helper library.
+87|TinyQueue|utilities|A binary-heap priority queue for JavaScript.|Processing items in priority order without repeatedly sorting an array.
+88|Cal-Heatmap|charts|A charting library for time-series calendar heatmaps.|Visualizing activity or measurements over days and months.
+89|React Calendar Heatmap|charts|A React component for calendar-style activity heatmaps.|Showing contribution history or daily activity in a compact grid.
+90|Heat.js|charts|A configurable JavaScript heatmap component.|Presenting activity patterns with a customizable heatmap interface.
+91|FilterQL|utilities|A query language for filtering structured JavaScript data.|Expressing reusable filtering conditions over collections.
+92|NSFWJS|media|A browser-oriented image classifier for potentially sensitive visual content.|Adding a client-side classification signal to an image moderation workflow.
+93|devalue|serialization|A serializer for JavaScript values that go beyond ordinary JSON.|Transferring structured application state across server and client boundaries.
+94|GitHub Hotkey|keyboard|A utility that associates keyboard shortcuts with page elements.|Adding declarative shortcuts to browser interfaces.
+95|Lightbox2|media|A script that opens images in an overlay.|Adding a straightforward enlarged-image viewer to a webpage.
+96|TinyBase|state|A reactive data store designed for local-first applications.|Managing structured client data with reactive views and persistence.
+97|Remend|editors|A utility that repairs incomplete Markdown while content is streaming.|Rendering progressively generated Markdown from AI responses.
+98|JsBarcode|graphics|A JavaScript barcode generator.|Creating barcode graphics for labels and inventory interfaces.
+99|RE2JS|utilities|A JavaScript implementation of RE2-style regular-expression matching.|Using predictable regex execution for supported pattern syntax.
+100|Regex|utilities|Utilities for composing more expressive JavaScript regular expressions.|Writing and maintaining complex patterns with clearer structure.
+101|JSON Editor|editors|A browser editor for viewing and modifying JSON.|Building configuration screens and structured-data inspection tools.
+102|RoosterJS|editors|A framework-independent rich-text editor toolkit.|Embedding a customizable HTML editing experience in a web application.
+103|Quill|editors|An extensible rich-text editor for the browser.|Adding formatted text editing with a configurable toolbar and document model.
+104|OverlayScrollbars|scrolling|Customizable overlay scrollbars that preserve native scrolling behavior.|Styling scrolling containers while retaining familiar browser interaction.
+105|Typesense|search|A search engine for fast, typo-tolerant search over indexed documents.|Providing search across a server-managed collection of application data.
+106|fzf|search|A JavaScript implementation of fuzzy matching inspired by fzf.|Ranking short labels and commands from approximate text input.
+107|MiniSearch|search|An in-memory full-text search engine for JavaScript.|Searching small to medium datasets directly in the browser or Node.js.
+108|js-search|search|A JavaScript library for searching indexed object collections.|Adding client-side text search to an existing in-memory dataset.
+109|isomorphic-dompurify|security|A wrapper for using DOMPurify across browser and server environments.|Sharing HTML sanitization behavior between application layers.
+110|DOMPurify|security|An HTML sanitizer that removes unsafe markup from untrusted content.|Rendering user-supplied HTML after applying an appropriate sanitization policy.
+111|Shovel|server|A server framework using Service Worker APIs across JavaScript runtimes.|Writing portable request handlers for Node.js, Bun, and Cloudflare Workers.
+112|Flickity|media|A touch-friendly carousel library.|Displaying swipeable image galleries and horizontally browsable content.
+113|Transformers.js|ai|Tools for running machine-learning models in JavaScript.|Adding model inference to browser or JavaScript application workflows.
+114|vits-web|media|A project for running text-to-speech generation in the browser.|Experimenting with local speech synthesis in web interfaces.
+115|Linkify|rich-content|Utilities for detecting links in text and turning them into markup.|Making URLs, mentions, and similar text patterns clickable.
+116|Speed Highlight|code-highlighting|A syntax-highlighting library for code snippets.|Adding highlighted code samples to webpages and documentation.
+117|Driver.js|onboarding|A library for highlighting page elements and creating guided tours.|Introducing features through focused step-by-step interface walkthroughs.
+118|Journey.js|onboarding|A JavaScript library for guided user journeys.|Walking users through controls and key application features.
+119|Class Variance Authority|styling|Utilities for defining component variants as sets of CSS classes.|Managing size, color, and state variants in a component system.
+120|Tailwind Variants|styling|A variant API for composing Tailwind CSS classes.|Building components with typed style variants and multiple slots.
+121|deep-equal-json|utilities|A helper for comparing JSON-compatible values deeply.|Checking whether nested serialized data has changed.
+122|fast-json-stringify|serialization|A schema-driven JSON serializer.|Serializing known response shapes in performance-sensitive server code.
+123|ArkType|validation|A runtime validator with TypeScript-like schema syntax.|Validating external data while keeping schema definitions close to static types.
+124|Superstruct|validation|Composable validators for JavaScript and TypeScript values.|Checking application input with small reusable data structures.
+125|Yup|validation|A schema builder for parsing and validating values.|Defining form constraints and reusable object validation rules.
+126|io-ts|validation|A runtime type system for decoding and encoding data.|Validating data at application boundaries in functional TypeScript code.
+127|Joi|validation|A schema-based validation library for JavaScript.|Checking structured request payloads and configuration objects.
+128|Zod|validation|A TypeScript-oriented schema validation library.|Validating unknown data and deriving static types from schemas.
+129|canvas-confetti|animation|A canvas-based confetti animation library.|Adding a celebratory visual effect to successful actions.
+130|zip.js|files|A JavaScript library for reading and writing ZIP archives.|Creating or extracting compressed files in browser-based workflows.
+131|minimatch|files|A matcher for shell-style glob patterns.|Checking file paths against include and exclude patterns.
+132|react-device-detect|utilities|React helpers for detecting browser and device information.|Adapting behavior when a feature check alone does not cover device differences.
+133|UAParser.js|utilities|A parser for browser, operating-system, and device information from user agents.|Interpreting user-agent strings in analytics or compatibility workflows.
+134|JavaScript Today|learning|Articles about JavaScript, web development, and related programming topics.|Finding introductory explanations and practical web-development reading.
+135|Algorithm Visualizer|learning|An interactive project for visualizing algorithms.|Learning how algorithms change data step by step.
+136|The Design System Guide|learning|Guides and resources for creating and maintaining design systems.|Planning component standards and a shared design workflow.
+137|LeetCode|learning|A platform for practicing programming problems.|Preparing for coding interviews and improving algorithmic problem solving.
+138|W3Schools|learning|Tutorials and references covering common web technologies.|Looking up introductory examples while learning web development.
+139|HTML DOM by Phuoc Nguyen|learning|Examples of DOM manipulation using browser APIs.|Learning to implement browser interactions with vanilla JavaScript.
+140|W3Schools JavaScript Tutorial|learning|An introductory tutorial and reference for JavaScript.|Learning language basics through short examples and exercises.
+141|W3Schools HTML Tutorial|learning|An introductory guide to HTML elements and document structure.|Learning how to structure webpage content and forms.
+142|ByteByteGo|learning|Articles explaining system design and software architecture.|Building intuition about distributed systems and application infrastructure.
+143|freeCodeCamp|learning|Programming lessons, projects, and technical articles.|Learning web development through structured practice.
+144|W3Schools CSS Tutorial|learning|An introductory guide to CSS styling and layout.|Learning selectors, visual styling, and browser layout techniques.
+145|MDN Web Docs|learning|Reference documentation for web standards and browser APIs.|Checking how HTML, CSS, JavaScript, and browser features work.
+146|MDN HTTP Guide|learning|Reference material explaining HTTP messages, headers, and behavior.|Understanding the protocol behind browser and API requests.
+147|web.dev|learning|Guides to building modern, performant, and accessible websites.|Improving real-world browser experiences with platform-focused guidance.
+148|TutorialsPoint Express Tutorial|learning|An introductory tutorial for building servers with Express.|Learning basic routing and server application structure.
+149|Node.js CLI Apps Best Practices|learning|A collection of recommendations for building command-line applications.|Reviewing CLI usability, reliability, and packaging decisions.
+150|React Documentation|learning|The official learning and reference documentation for React.|Learning React concepts and checking supported component patterns.
+151|Unicorn Utterances|learning|Articles explaining programming concepts at several experience levels.|Learning frontend development through detailed technical explanations.
+152|React Handbook|learning|A guide to application architecture and feature development in React.|Exploring approaches to organizing production React code.
+153|Epic Stack User Impersonation Example|learning|A saved discussion linking to an Epic Stack user-impersonation example.|Studying an administrative workflow that lets support staff act as another user.
+154|Advanced TypeScript Guide|learning|A guide connecting advanced TypeScript features with practical examples.|Deepening understanding of types beyond introductory syntax.
+155|yalc|packages|A local package workflow for testing unpublished dependencies.|Trying changes to a library in a consuming project before publishing.
+156|npmgraph|packages|A visual explorer for npm dependency graphs.|Understanding the packages pulled into a dependency tree.
+157|API Extractor|packages|A TypeScript analysis tool for API reports and declaration output.|Reviewing public API changes in a published TypeScript library.
+158|Size Limit|packages|A tool for checking JavaScript package size against configured budgets.|Catching bundle-size regressions in continuous integration.
+159|@vercel/ncc|build-tools|A compiler that bundles a Node.js project into a distributable output.|Packaging server code and its dependencies for deployment.
+160|publint|packages|A linter for published package structure and compatibility.|Checking exports and packaging before releasing an npm library.

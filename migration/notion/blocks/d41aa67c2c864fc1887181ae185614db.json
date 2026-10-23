@@ -1,0 +1,38 @@
+{
+  "id": "d41aa67c2c864fc1887181ae185614db",
+  "title": "Develop Environment",
+  "sourceUrl": "https://laststance.notion.site/d41aa67c2c864fc1887181ae185614db",
+  "fetchedAt": "2026-10-23T20:07:18.597Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "5f39a05247ac45cd8f04c1d01d51fe20",
+      "type": "sub_sub_header",
+      "title": "doctoc",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6795cba77a334121903521ab90193130",
+      "type": "bookmark",
+      "title": "npm: doctoc",
+      "description": "Generates TOC for markdown files of local git repo.. Latest version: 2.2.1, last published: 10 months ago. Start using doctoc in your project by running `npm i doctoc`. There are 83 other projects in the npm registry using doctoc.",
+      "url": "https://www.npmjs.com/package/doctoc",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b17a5ae2032845138e7042319496225a",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

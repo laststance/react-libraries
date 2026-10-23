@@ -1,0 +1,38 @@
+{
+  "id": "1d7f4aa9fa258024b5bcc027258c12b3",
+  "title": "Carousel",
+  "sourceUrl": "https://laststance.notion.site/1d7f4aa9fa258024b5bcc027258c12b3",
+  "fetchedAt": "2026-10-23T20:07:09.471Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "1d7f4aa9fa25808a975cd9391045a609",
+      "type": "text",
+      "title": "Embla Carousel",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d7f4aa9fa25803ebf8cd3343afac616",
+      "type": "bookmark",
+      "title": "React",
+      "description": "Learn how to setup Embla Carousel using React.",
+      "url": "https://www.embla-carousel.com/get-started/react/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d7f4aa9fa2580968c7df982cff06015",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

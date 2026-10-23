@@ -1,0 +1,17 @@
+{
+  "id": "b0788c7247d04b6cacec8c81f720e5cc",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/b0788c7247d04b6cacec8c81f720e5cc",
+  "title": "Geolocation/map",
+  "content": "\n[<b>React Leaflet</b>](https://react-leaflet.js.org/)\n\n<bookmark source=\"https://react-leaflet.js.org/\" />\n\nreact-map-gl\n\n<bookmark source=\"http://visgl.github.io/react-map-gl/\" />\n\n### React Google Map\n\n<bookmark source=\"https://visgl.github.io/react-google-maps/\" />\n\n### nmea.js\n\n<unknown url=\"https://app.notion.com/p/b0788c7247d04b6cacec8c81f720e5cc#d9a585d468e54da0a61e60d6f0a7567a\" alt=\"external_object_instance\" />\n\n## [https://github.com/nickichi/jposta](https://github.com/nickichi/jposta)jpostal\n\n<link-preview url=\"https://app.notion.com/p/b0788c7247d04b6cacec8c81f720e5cc#27ef4aa9fa25805087e0e4142729b12e\" source=\"https://github.com/nickichi/jposta\" />\n\n## map\n\n<bookmark source=\"https://www.npmjs.com/package/react-openlayers\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2026-01-22T06:44:01.282Z",
+    "truncated": true,
+    "unknownBlockCount": 1,
+    "unknownBlockIds": [
+      "d9a585d4-68e5-4da0-a61e-60d6f0a7567a"
+    ]
+  }
+}

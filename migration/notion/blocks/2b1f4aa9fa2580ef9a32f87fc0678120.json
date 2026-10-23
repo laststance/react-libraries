@@ -1,0 +1,29 @@
+{
+  "id": "2b1f4aa9fa2580ef9a32f87fc0678120",
+  "title": "OpenAPI",
+  "sourceUrl": "https://laststance.notion.site/2b1f4aa9fa2580ef9a32f87fc0678120",
+  "fetchedAt": "2026-10-23T20:07:11.361Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "2b1f4aa9fa2580eabf60cb70ad02ae0c",
+      "type": "sub_header",
+      "title": "Orval",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2b1f4aa9fa25802eb2fcdb7f068381d0",
+      "type": "embed",
+      "title": "",
+      "description": "",
+      "url": "https://orval.dev/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

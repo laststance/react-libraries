@@ -1,0 +1,97 @@
+481|Polished|styling|Style utilities for JavaScript-based styling systems.|Calculating colors, layout values, and reusable CSS fragments.
+482|Tailwind CSS|styling|A utility-first CSS framework.|Building interface styles directly from composable utility classes.
+483|shadcn/ui|ui-kits|A collection of component source code and distribution tooling.|Owning and customizing accessible React components inside your project.
+484|Swiper|media|A touch-oriented slider and carousel library.|Building swipeable content with configurable navigation and transitions.
+485|Expressive Code|code-highlighting|A framework for richly rendered code blocks.|Publishing code examples with highlighting, annotations, and presentation features.
+486|Code Hike|code-highlighting|Tools for combining code and explanatory content.|Building interactive code walkthroughs and technical storytelling pages.
+487|Lowlight|code-highlighting|Syntax highlighting that produces a virtual syntax tree.|Rendering highlighted code through a custom virtual-DOM integration.
+488|Shiki|code-highlighting|A syntax highlighter using TextMate grammars and editor-style themes.|Rendering code samples with coloring similar to a code editor.
+489|Shiki Magic Move|code-highlighting|Tools for animating changes between highlighted code blocks.|Showing how code evolves during a tutorial or presentation.
+490|TanStack Table|data-tables|Table logic for sorting, filtering, and pagination with control over your UI.|A custom table that fits your existing design system.
+491|TanStack Virtual|performance|Headless utilities for rendering only visible items in large lists.|Keeping long lists and tables responsive without choosing their visual design.
+492|Uiverse|ui-kits|A community collection of CSS and Tailwind interface elements.|Finding small reusable visual components and styling inspiration.
+493|HeroUI|ui-kits|A React component library built around accessible interface patterns.|Building a coordinated application UI with customizable components.
+494|FlyonUI|ui-kits|A Tailwind CSS component library with semantic class names.|Assembling styled interface elements with a class-based component workflow.
+495|Flowbite React|ui-kits|React components built around Tailwind CSS and the Flowbite design system.|Adding styled application components to a Tailwind-based project.
+496|Luxe|ui-kits|A collection of copyable interface components.|Adding distinctive visual components that you can customize in your codebase.
+497|Material Tailwind|ui-kits|Tailwind-based components following Material Design patterns.|Building a styled interface with Material-inspired visual conventions.
+498|react-daisyUI|ui-kits|React components for daisyUI's Tailwind-based styles.|Using daisyUI patterns through component props and composition.
+499|JollyUI|ui-kits|Copyable components built with React Aria and shadcn-style conventions.|Owning accessible component source in a Tailwind-oriented application.
+500|Headless UI|ui-kits|Unstyled interactive components for web interfaces.|Designing custom UI while reusing established interaction behavior.
+501|React Chrono|charts|A React component for displaying chronological timelines.|Presenting events, milestones, or historical information in sequence.
+502|Sonner|notifications|A toast-notification component for React.|Adding concise transient feedback for application actions.
+503|rc-notification|notifications|A notification component for React.|Displaying configurable temporary messages in an application interface.
+504|React Hot Toast|notifications|A React library for toast notifications.|Showing success, error, and asynchronous-operation feedback.
+505|React Toastify|notifications|A configurable toast-notification library for React.|Managing transient alerts with configurable positioning and behavior.
+506|Floating UI|overlays|Positioning and interaction primitives for floating elements.|Building tooltips, popovers, and menus anchored to other elements.
+507|react-tour-onboarding|onboarding|React components for guided interface tours.|Introducing application controls through a sequence of highlighted steps.
+508|Reactour|onboarding|A tour library for guiding users around a React interface.|Highlighting features and explaining workflows inside the application.
+509|Pendo|analytics|A product-analytics and digital-adoption platform.|Combining usage insights with in-app guidance for users.
+510|Onboarding Lib|onboarding|Headless tooling for multi-step onboarding with validation and persistence.|Building a custom onboarding flow while reusing its state-management behavior.
+511|React Tweet|rich-content|React components for embedding posts from X, formerly Twitter.|Showing linked social posts inside a React content page.
+512|React Tweet|rich-content|React components for embedding posts from X, formerly Twitter.|Showing linked social posts inside a React content page.
+513|type-fest|typescript|A collection of reusable TypeScript utility types.|Expressing common advanced type transformations without redefining them.
+514|ts-expect|typescript|Utilities for asserting expected TypeScript types.|Checking that public types behave as intended during compilation.
+515|ts-pattern|typescript|A type-safe pattern-matching library.|Expressing structured branching with exhaustive matching over TypeScript values.
+516|tsd|typescript|A tool for testing TypeScript declaration files.|Protecting a library's exported types with compile-time assertions.
+517|ts-toolbelt|typescript|A collection of advanced TypeScript type utilities.|Building complex type transformations from reusable type-level operations.
+518|React Highlight Words|rich-content|A React component for highlighting matching words in text.|Emphasizing search terms within result excerpts or document content.
+519|React Wrap Balancer|rich-content|A React component that balances text wrapping.|Making short headings and titles wrap more evenly.
+520|Park UI|ui-kits|A collection of styled components built on reusable UI primitives.|Starting a design system from coordinated component recipes.
+521|Ark UI|ui-kits|A headless component library for several JavaScript frameworks.|Reusing accessible interaction patterns while controlling component styling.
+522|Rewind UI|ui-kits|A React component library for application interfaces.|Assembling common screens from a coordinated component set.
+523|Reshaped|ui-kits|A React and Figma component system.|Keeping product design and implementation aligned through shared components.
+524|Fluent UI React|ui-kits|Microsoft's React components for Fluent-style interfaces.|Building applications that follow Fluent design conventions.
+525|RetroUI|ui-kits|React and Tailwind components with a retro-inspired style.|Giving an application a deliberately distinctive visual identity.
+526|Origin UI|ui-kits|Copyable React and Tailwind interface components.|Starting from editable application UI examples and layouts.
+527|21st.dev|ui-kits|A collection of reusable React and Tailwind components.|Discovering prepared interface elements and page sections.
+528|Magic UI|animation|A collection of animated components and presentation patterns.|Building expressive landing pages and marketing interfaces.
+529|Tailark|ui-kits|Prebuilt UI blocks for marketing websites.|Composing responsive page sections from reusable layouts.
+530|Awesome shadcn/ui|learning|A curated collection of projects in the shadcn/ui ecosystem.|Discovering related components, tools, and example applications.
+531|shadcn Admin Kit|ui-kits|Components and blocks for administrative React applications.|Building internal tools and data-management dashboards with shadcn-style UI.
+532|tweakcn|styling|A visual theme editor for shadcn/ui applications.|Trying design-token changes and exporting a coordinated theme.
+533|ElevenLabs UI|ai|Components for audio and AI-agent interfaces.|Building voice-oriented application screens with reusable interaction elements.
+534|Pure UI|ui-kits|A design system built with Base UI primitives.|Starting a React interface from a coordinated Base UI component set.
+535|Lina|scrolling|A ScrollArea replacement with native touch behavior and adaptive visual masks.|Refining scroll-container interactions in a shadcn-style interface.
+536|coss ui|ui-kits|A React component library built on Base UI.|Building application interfaces with customizable accessible primitives and components.
+537|coss ui|ui-kits|A React component library built on Base UI.|Building application interfaces with customizable accessible primitives and components.
+538|Spark UI|ui-kits|A component collection presented through an interactive Storybook.|Exploring reusable UI elements and their available variations.
+539|Astryx Design System|ui-kits|An open-source design system with customizable components.|Building a coordinated interface from shared design foundations.
+540|React Spectrum|ui-kits|Adobe's React implementation of its Spectrum design system.|Building interfaces with coordinated adaptive components and accessibility patterns.
+541|Primer React|ui-kits|React components and guidance from GitHub's Primer design system.|Building interfaces that follow Primer's product design conventions.
+542|Ariakit|ui-kits|Low-level accessible components for React.|Creating a custom design system while reusing interaction and accessibility behavior.
+543|MUI|ui-kits|A React component ecosystem including Material UI.|Building an application with a broad, coordinated component library.
+544|Radix UI|ui-kits|Accessible React primitives and associated interface tooling.|Building custom-styled controls from reusable interaction components.
+545|Chakra UI|ui-kits|A React component library with composable styling and theme support.|Building consistent application screens from configurable components.
+546|Cult UI|ui-kits|Copyable React interface components.|Adding customizable components and visual patterns to an application.
+547|Mantine|ui-kits|A React library of components and utility hooks.|Building feature-rich application screens with coordinated UI controls.
+548|React Component|ui-kits|A collection of React packages underlying Ant Design.|Using individual interface components without adopting a complete design system.
+549|Saas UI|ui-kits|Components and starter tooling for SaaS interfaces.|Building business applications, internal tools, and account-management screens.
+550|Ant Design|ui-kits|A React component library and design system for enterprise interfaces.|Building data-heavy business applications with established component patterns.
+551|Atlassian Design System|ui-kits|UI components, foundations, and guidance from Atlassian.|Building product interfaces around a coordinated enterprise design system.
+552|LiveKit|media|Infrastructure and SDKs for realtime audio and video.|Building interactive calls, rooms, and live media experiences.
+553|Remotion|media|A framework for creating videos with React.|Generating parameterized video compositions from reusable components.
+554|workerpool|background-jobs|A worker-pool library for browsers and Node.js.|Moving expensive computation away from the main execution thread.
+555|Partytown|performance|A tool for running compatible third-party scripts in a web worker.|Reducing main-thread work caused by external website scripts.
+556|intl-t|i18n|Internationalization utilities for application text.|Organizing translated messages in a JavaScript or TypeScript application.
+557|Supabase UI Library|ui-kits|UI components for applications built with Supabase.|Adding frontend patterns connected to Supabase-backed features.
+558|Canvas UI|graphics|Canvas, WebGL, and WebGPU effects that work with live HTML content.|Adding creative graphics to interfaces across supported web frameworks.
+559|Shortest|testing|A testing tool focused on application and CI workflows.|Exploring automated checks for user-facing application behavior.
+560|Magnitude Browser Agent|testing|A vision-based browser automation framework using natural-language instructions.|Automating and testing browser workflows through an AI-controlled agent.
+561|@msw/playwright|testing|Bindings that connect Mock Service Worker to Playwright.|Controlling network responses during browser-level application tests.
+562|Playwright|testing|A framework for automating and testing web browsers.|Verifying real user workflows across supported browser engines.
+563|playwright-persona|testing|Authentication helpers for organizing Playwright tests around personas.|Testing workflows as users with different accounts and permissions.
+564|Docusaurus|documentation|A React-based site generator for documentation and content.|Publishing a structured documentation website with reusable content features.
+565|Next Docs|documentation|A Next.js-based documentation-site project from the original collection.|Exploring a documentation layout and publishing approach built with Next.js.
+566|Gatsby|frameworks|A React framework for building content-driven websites.|Building sites that connect structured content to reusable React pages.
+567|Nextra|documentation|A documentation and content framework based on Next.js and MDX.|Publishing technical documentation with React-enhanced Markdown content.
+568|Effect|typescript|A TypeScript library for composing computations and managing application effects.|Structuring asynchronous work, errors, dependencies, and resource lifecycles.
+569|zshy|packages|A TypeScript library build tool based on the TypeScript compiler.|Publishing packages without adopting a separate bundling workflow.
+570|TypeChat|ai|Tools for translating natural-language requests into typed structured data.|Connecting language-model output to TypeScript-defined application operations.
+571|tsx|build-tools|A tool for executing TypeScript files in Node.js.|Running development scripts and local TypeScript programs directly.
+572|ts-expect|typescript|Utilities for asserting expected TypeScript types.|Checking that public types behave as intended during compilation.
+573|True Myth|typescript|Typed abstractions for optional values and recoverable errors.|Representing absence and failure explicitly in TypeScript application logic.
+574|tsd|typescript|A tool for testing TypeScript declaration files.|Protecting a library's exported types with compile-time assertions.
+575|Total TypeScript TSConfig|typescript|Shared TypeScript configuration presets.|Starting projects with consistent compiler settings.
+576|React Native Reanimated|mobile|An animation library for React Native.|Building responsive mobile animations and gesture-driven interactions.
+577|Solito|mobile|Navigation tooling for sharing React code across web and native applications.|Coordinating navigation in a shared Next.js and React Native codebase.

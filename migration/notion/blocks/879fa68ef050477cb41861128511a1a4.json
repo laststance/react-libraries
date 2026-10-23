@@ -1,0 +1,83 @@
+{
+  "id": "879fa68ef050477cb41861128511a1a4",
+  "title": "General",
+  "sourceUrl": "https://laststance.notion.site/879fa68ef050477cb41861128511a1a4",
+  "fetchedAt": "2026-10-23T20:07:16.079Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "35529c78db6e41938eb646c364612af0",
+      "type": "sub_sub_header",
+      "title": "minimatch",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7d4248977b1b443c9f1c608d25e5b390",
+      "type": "bookmark",
+      "title": "npm: minimatch",
+      "description": "a glob matcher in javascript. Latest version: 9.0.3, last published: 7 months ago. Start using minimatch in your project by running `npm i minimatch`. There are 8000 other projects in the npm registry using minimatch.",
+      "url": "https://www.npmjs.com/package/minimatch",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8cb7d072f454426f8ffe23cf40c870ff",
+      "type": "sub_sub_header",
+      "title": "Globby",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0d894ad325164016a9b1d31abff1190f",
+      "type": "bookmark",
+      "title": "npm: globby",
+      "description": "User-friendly glob matching. Latest version: 14.0.0, last published: 3 months ago. Start using globby in your project by running `npm i globby`. There are 7665 other projects in the npm registry using globby.",
+      "url": "https://www.npmjs.com/package/globby",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "dd950e0db784444db34c828f6cd4236b",
+      "type": "sub_sub_header",
+      "title": "concurrently",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20a6b6b05db346c99a6ae11e76df7d7e",
+      "type": "bookmark",
+      "title": "npm: concurrently",
+      "description": "Run commands concurrently. Latest version: 8.2.2, last published: 4 months ago. Start using concurrently in your project by running `npm i concurrently`. There are 1586 other projects in the npm registry using concurrently.",
+      "url": "https://www.npmjs.com/package/concurrently",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "81de21d50b0f4c159902a99e515afc5c",
+      "type": "sub_sub_header",
+      "title": "Glob",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "245c6161b6b74ef6885410113d7c53c2",
+      "type": "bookmark",
+      "title": "npm: glob",
+      "description": "the most correct and second fastest glob implementation in JavaScript. Latest version: 10.3.10, last published: 4 months ago. Start using glob in your project by running `npm i glob`. There are 30388 other projects in the npm registry using glob.",
+      "url": "https://www.npmjs.com/package/glob",
+      "links": [],
+      "children": []
+    }
+  ]
+}

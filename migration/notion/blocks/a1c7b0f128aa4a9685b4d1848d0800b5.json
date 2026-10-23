@@ -1,0 +1,677 @@
+{
+  "id": "a1c7b0f128aa4a9685b4d1848d0800b5",
+  "title": "JavaScript Library(Browser, Universal, No React specific)",
+  "sourceUrl": "https://laststance.notion.site/a1c7b0f128aa4a9685b4d1848d0800b5",
+  "fetchedAt": "2026-10-23T20:07:17.346Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "6704a7514bee4e38bda259895f1bf47d",
+      "type": "page",
+      "title": "General",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "3ed6d0c000be438f8a06eb5cdbca74dd",
+        "1daf4aa9fa25808c9f70c15547340c3b",
+        "57ba1af27cbe43b48498cde135015558",
+        "a88648c616084ee8bed561040feea8f5",
+        "b27d04d946c549bc9eca78867e4de9a7",
+        "3dbe11b183914165bd906e241be8e7c2",
+        "8338ed84075c43a5ab2ef29129f6ea13",
+        "8905c02cf0d34d41a5dc431d11774725",
+        "77d5409abb84456ea98f43d32861572d",
+        "72ec0b4f79b94eda844a17359fcc7bee",
+        "d4d5201c57064fd5bc34a24a0e3e9ded",
+        "3c1424db5da64564bed9032326e67d4e",
+        "a1fa05d79c11456dbb28e54655aedc77",
+        "98d8398ff8e741399faefc9e179bd31c",
+        "6fd99dac2c4a4449838f8c3737a0fc5d",
+        "d445649192e44a1ca25acb1c830d5ed3",
+        "1d7f4aa9fa258004ae2bca1f42888162",
+        "1d7f4aa9fa2580a2af16efd2241c85d7",
+        "1d7f4aa9fa2580c5b53df8cd3380265e",
+        "1d8f4aa9fa2580338a8ad64edb67b472",
+        "1daf4aa9fa258004ab9ef2e256351184",
+        "1daf4aa9fa2580e8acf8e148f8acd414",
+        "1daf4aa9fa2580c19c6ff01e70c86f29",
+        "1daf4aa9fa25803696c8e915c3bbee33",
+        "1daf4aa9fa25800f9ea0ec9b385fee43",
+        "2e5f4aa9fa25806dad7dcb23bbb54201",
+        "2e5f4aa9fa2580ab9e0ed8eada568b60",
+        "2e5f4aa9fa25805a8f2fc2afb5e72598",
+        "2e5f4aa9fa2580e49f12f4948c1e39fd",
+        "2e5f4aa9fa25801a91d0e6584929836c",
+        "2e5f4aa9fa2580f9a297cb73cf7390d7"
+      ]
+    },
+    {
+      "id": "91a94f8b310d4bbdbc9374ad70597e5b",
+      "type": "page",
+      "title": "Date",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "7cd6e6f070e4493796134a06d3ff461b",
+        "d0cfc89584af4a3a89b04e6215aadb31",
+        "37c998651715414eb5e47f6b7b5962b1",
+        "393cb17eb4db43e9b781a64c5979d56c",
+        "0d7b500e69c4432aae3c9a426188fa1e",
+        "340638454a2a4b96a6fd500a306f2b7a",
+        "1f40faf849c44feda0dc6532716aee22",
+        "292f4aa9fa2580c5aa7dd37ab25d0eba",
+        "292f4aa9fa25802e9ce4fbebe456fb22"
+      ]
+    },
+    {
+      "id": "881fb16767204e20aa61f2614ba331ba",
+      "type": "page",
+      "title": "Currency",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "51578ad2570b49f98999ad4f35c84fd1",
+        "47c053d1f1b3416a9da9a62ea12a48f6",
+        "9d5dd48f51ba4a1096da7709429b9bee"
+      ]
+    },
+    {
+      "id": "9d6a87a3d884465cac72fa3d5487c426",
+      "type": "page",
+      "title": "DOM",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "2924459faeaf40e58a52f13b3caa00de",
+        "3ef1541134104af9899c72afdabadc98",
+        "0d8792b08ecf45cab7adccbdd50c80cf",
+        "9ed4b628c49447e48423429775ed60a3",
+        "726bea22d6e341109f41dbcb381af9ad",
+        "0cbbc7d44b8a4477a50695ea6c51fe10",
+        "ca17492b96db4bfd83b796830a25cb76",
+        "21711fb237224f73bb7a8d658f6f4fd3"
+      ]
+    },
+    {
+      "id": "4cd7c8a8cc6648eea2b41bff85949570",
+      "type": "page",
+      "title": "Keyboard",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "8ffd3fb058584a9bb0d79f3f30fe696d",
+        "ea46e04a3557401dbbc516ba9cf02584",
+        "1bdadbf5632e46fa8ef19962c42db6b2"
+      ]
+    },
+    {
+      "id": "9f5134513f1f471db03c247b537b639d",
+      "type": "page",
+      "title": "Validation",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "487d2c4dc7df47b78789ddb860eca36e",
+        "ae96d29e8d744dde852d6b8551108402",
+        "7dfa2494ff624bba822ef5fa7387e4ff",
+        "6f3d538577544028bd5044e651c16113",
+        "fc5c9e466cf5409f9258a2d48b84375a",
+        "bec91b7952db456db2c9451ca98d5743",
+        "886ee35eec6b407ba34e41156d5e6398",
+        "9ddba66819c94f738ac5e7dd9362d670",
+        "7475369a6aaf4bbc96b62706ab4422b5",
+        "3222d98a255646dd89ce3cd859f0df48",
+        "1cbf4aa9fa2580c6b186ee36d433f4e7",
+        "1cbf4aa9fa25804799a8fd43af206d0a"
+      ]
+    },
+    {
+      "id": "acde07ca1fa4463e9595e63e9ee0ad7d",
+      "type": "page",
+      "title": "Syntax Highlight",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "b76aaba50db44edf94ce1c0e3e8b4e4f",
+        "8783a5aae32845e8983e37b9e6d9c719"
+      ]
+    },
+    {
+      "id": "0a36b8cd7ce54dd89a32da771112c415",
+      "type": "page",
+      "title": "HeatMap",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "d64c13f3670e4fa7abf0fb6945a2a778",
+        "d6afb294c59b48469cbf55e89f27b446",
+        "c8935cf9728e43ea8d50d2d012b2978b",
+        "c0def36788b8409aa86ca1e86320e828",
+        "d9c9c91f48c74857b11fb719efe9a137",
+        "bfd47603802f441dbf8495d25800ded3"
+      ]
+    },
+    {
+      "id": "eb10d285949b496a873bbf9c657ceed3",
+      "type": "page",
+      "title": "Regex",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "ac062c30fd1c4ab184201a1cf6ab2dd7",
+        "b5fbb33d4300429593864632238038e0",
+        "3c168d45f6774efdbabf1db05e17f181",
+        "f5ca6bc724214e71b65f5475cf179752"
+      ]
+    },
+    {
+      "id": "44d3dda12ea848a0aec3e4fb28fd1b96",
+      "type": "page",
+      "title": "Zip/PDF",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "2eb52ab417d644948dda0cc48c94805b",
+        "a170803c020a49c09f70e1bc479f1ddb"
+      ]
+    },
+    {
+      "id": "4b04d3d57a2f4e638b34ff3b5fb8021b",
+      "type": "page",
+      "title": "Chart",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "e01374e2823946ca8d6e5065405d7172",
+        "c8d818f550e1427daaf998199a290210",
+        "d597e66b83544f94ac0cc1c726555cb2",
+        "f3d57948f3cd4e0e86934199b6692b0a",
+        "df3eac5603344dada1aba10201dc3823",
+        "53f0c7b2344a466f9900c07815f42d41"
+      ]
+    },
+    {
+      "id": "1f32452511c441a9abffc568f6aae3c8",
+      "type": "page",
+      "title": "Speech",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "aaacfbfaf4774fa48841732995d30ddb",
+        "4c29fa491ad945d8bac49759a68ab30a",
+        "b869c3e714204342963fcf4aa3d09ecb"
+      ]
+    },
+    {
+      "id": "30c239cf2aea42d3a7c6698e56ea8853",
+      "type": "page",
+      "title": "Image",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "289694d7c8464345912fcaec99aa1a6b",
+        "7db873ee016d43aeb80ef11a2f97168e",
+        "1d8f4aa9fa2580198869ebde55438712",
+        "f4c60af222b44d10822db9f466763d39",
+        "1d8f4aa9fa25800ca368d2ef4002638e",
+        "261f4aa9fa2580c28af1f301bcba51fb"
+      ]
+    },
+    {
+      "id": "0a9521c80d9b4f22bd1b668500f761c8",
+      "type": "page",
+      "title": "Lightbox",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "4128326cc64f4bd2b4c989fdf540b6c4",
+        "d066edaaa5df4ee19bb12bedd676a861",
+        "1e036ba172394bcda5eda84b3b6e29dd",
+        "af61d150c24345189435e6e1a8b32523"
+      ]
+    },
+    {
+      "id": "443b68519eeb4b089b5a0f56c1f51b08",
+      "type": "page",
+      "title": "Slider",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "430111fe0e85491992b349e7fde5e228",
+        "4ad4007619fe4767b55c98e34ccbf0e4"
+      ]
+    },
+    {
+      "id": "7b72b54d27c3440f8e34a5684a2b9143",
+      "type": "page",
+      "title": "Color",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "852bfb5616794063821aec20bf088c05",
+        "4e8f5021d83e4c74ac0374a0d3179da6",
+        "9a91cdb3cc014bb88b465dc81c03d11c"
+      ]
+    },
+    {
+      "id": "1785ecdd59304c13916bde12a78dbc2c",
+      "type": "page",
+      "title": "Calendar",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "b2e6b2b9a9754f7688383ff5eb361924",
+        "8d3bc92bbad141308b9a553b09cb7739",
+        "ef10ea3e464d4d5fba949bb07cc45cb3"
+      ]
+    },
+    {
+      "id": "a4b7b29906b04d7f95f318a84586a440",
+      "type": "page",
+      "title": "Audio",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "48538235a3aa4d49ad1b40ca8222948d",
+        "4f2689ece1a149eea6549b549832e619",
+        "e0e244e6cfa147229dd07d4861a72f07",
+        "22ff52069bf241a4b0843dcee5c0c256"
+      ]
+    },
+    {
+      "id": "cf0f50447bf74b30bd418fbf8a01b72f",
+      "type": "page",
+      "title": "glob",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "d2497d5d86ba47e1a1e23d4c611cade8",
+        "20700ffcf5044b45af85825896c511a6",
+        "f68bb5a4a88c4130958c237ab3392b3d"
+      ]
+    },
+    {
+      "id": "06ef5cb4c36841faa4e6fc6518e4e61c",
+      "type": "page",
+      "title": "Scrollbar",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "193c55a4cfc44fff898027e4b00c9c90",
+        "55d9f5a12eb74d49a42f1227c3a9edf2",
+        "dac8b0e7e56d4459831394f72add08cb"
+      ]
+    },
+    {
+      "id": "3b51f8d9598e40bb95770ba64f101bd4",
+      "type": "page",
+      "title": "Rich Editor",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "abcd0e71eaee4dfba61724d4b497780b",
+        "25795300954b4e849b367c10091a4d0d",
+        "5ca2de4e93144545ae02d0614b3a212e",
+        "e69b5ea86ae4497385dc401a6811eb28",
+        "0e76d4cacdc84e4aa74bf0dc792b09b4"
+      ]
+    },
+    {
+      "id": "d06645fe11e44eeaab4b910706c74749",
+      "type": "page",
+      "title": "Tour/Onboarding",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "846e3f038fdc4be59b64ce67699df5ae",
+        "5d490535127c4efaae79081ca484ddec",
+        "4619a6ba04fb429ebae6f775825c7cff",
+        "dcd5073dce8a4e269acc8c84044ef515",
+        "1fbd4be056674272a4c476b6c22f822f"
+      ]
+    },
+    {
+      "id": "a4b227eee81c41b4a4018938dc73772d",
+      "type": "page",
+      "title": "Emoji",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "72aaef15361e44698e4764471eed876a",
+        "ae4a3563190b4e6fa047562c9b764ac0",
+        "741a3952bca44124a7c75491f716ab4f",
+        "318cfef5d84244bd96fefabf4914803b",
+        "df5b8f17cece412d86405045df8b099c"
+      ]
+    },
+    {
+      "id": "f9b9af50dd9e441ea5b99124d5495703",
+      "type": "page",
+      "title": "Search/Fuzzy-match",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "68c9bba2846d4649a79edc9078638fb9",
+        "71170352560042849d94a6d30708036e",
+        "4a73a7533477474c90e8630551c2fc06",
+        "b5bf8854579146e8b509180f934f29ed",
+        "6e2a03a09e44402db3486415128b2688",
+        "ee060c417e664fd9a7255e965b88b811",
+        "261f4aa9fa25806d95a0d6ce1323e3d7",
+        "261f4aa9fa258064b3a0d793b6a60c4f",
+        "2f0f4aa9fa258050b4f4e7b01ad0f05d",
+        "2f0f4aa9fa2580b3a6c6ec549356d61a",
+        "2f0f4aa9fa258096ac38cc9e5674828a"
+      ]
+    },
+    {
+      "id": "109a2da9f0224a1f9ac2554d74075c7f",
+      "type": "page",
+      "title": "Utility",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "5c4f9dfaad204b6da9d54f3a1b3099e1",
+        "04ed9c21effa4078a5da086e9b93379a",
+        "91bace92b5154c3699e561fcad16f9d2",
+        "c63142d245c54fb89971bfdb88e3db8a",
+        "b915d49974b140579cb49a6ba2c58993",
+        "cd26316ec34849ea8b0f4961c6a090e6",
+        "917b696ff9734a25a8b9d79af7fe42f9",
+        "26b3a5bd03114905b78755dba2ac406d",
+        "292f4aa9fa258096ac91d2a900f76693",
+        "292f4aa9fa2580128228cf2f5b5e4e73",
+        "292f4aa9fa2580c1b938c9ef7249b5be"
+      ]
+    },
+    {
+      "id": "96fb810ca2e84bc1be95d307b82150e6",
+      "type": "page",
+      "title": "Security",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "ce3722af160e415db630a34a7134557d",
+        "65730f6b24134b5faf8c1bfde980193d",
+        "521159047e744193bea5a99a510e1fd5",
+        "271f4aa9fa2580bd8205e7833a870e1a",
+        "273f4aa9fa25803ca4bbf9b0a9fabd94"
+      ]
+    },
+    {
+      "id": "1c2a0fe5aeb94a5692230937d3802158",
+      "type": "page",
+      "title": "user agent",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "9ca3a689e12c417a850d371e1fcabab0",
+        "22bf4aa9fa258033809ae9630f15768f",
+        "9f8aa825c6fd4377bef7811c200347ee",
+        "22af4aa9fa2580fdb831e8cf6786ca6f",
+        "22af4aa9fa258074aa8ac538b4e22b49"
+      ]
+    },
+    {
+      "id": "e64d6c9e00ef4127a91e0fa9365ab10f",
+      "type": "page",
+      "title": "Speech",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "9f5f217b0cbc4107920ed3db2aecf662",
+        "735d489df34c468688913778f7147b6b",
+        "e396082be7024408b27b6fab1df25d28"
+      ]
+    },
+    {
+      "id": "36378a589e8844bb9cf996f430cb6482",
+      "type": "page",
+      "title": "Cron",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "f3bf665ec5a64fa78e561cb6ff4596c3",
+        "e181c1bdc7f448b390741596194938f4",
+        "20c24f3263914fe19b98ec4a5b80ecb0"
+      ]
+    },
+    {
+      "id": "8687082fafda49a7aa1b33f55f1b6a8f",
+      "type": "page",
+      "title": "LocalStorage",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "42b456a894aa4be5b8557fe22a181ac0",
+        "4e5a3aac71624ab2a4f3a87a01e15dde",
+        "0d2a520f71ab4b5da53631a4456e65df"
+      ]
+    },
+    {
+      "id": "9db7a85dec0d4832ad09c4027da21cef",
+      "type": "page",
+      "title": "Encryption",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "e990789cae0a4f18814a2ac312e6f642",
+        "a8c13993fefc4f39b79a280604ba1cfb",
+        "0b1bc578aad24895a0e7cad90d824817"
+      ]
+    },
+    {
+      "id": "cd5761c17ba0496c94771d42e77d9502",
+      "type": "page",
+      "title": "Canvas",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "bff8cd63bd9345a3ac5fc85fe680b174",
+        "fdb0b5c6215747619cd8561bec53943c",
+        "33ef4aa9fa2580c0b21ef9ca0c40c482",
+        "33ef4aa9fa258018890df8a8cde8e574"
+      ]
+    },
+    {
+      "id": "dcb57d60b16f42eca3933a6d5ff60da7",
+      "type": "page",
+      "title": "CSV",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "edd5ad95d04d422d9bc5b485e03669e5",
+        "aeb588d988e14c91a3987df88e2449b6",
+        "516d31ab486e47b6b22d2912ba5154f8",
+        "1f6f4aa9fa25807a8db8e0f2717a55f5"
+      ]
+    },
+    {
+      "id": "1f3f4aa9fa258090aee5c4d584719d77",
+      "type": "page",
+      "title": "File Download",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1f3f4aa9fa2580d4b06cdfbb8a0f3c33",
+        "1f3f4aa9fa25803585b5efe81b467727",
+        "1f3f4aa9fa25805295ecc9a21d2138f4",
+        "1f4f4aa9fa258023ad9bf41c8dcf82a2",
+        "1f4f4aa9fa2580198e09d4015c60ab6b",
+        "1f4f4aa9fa2580a5a060e49a14506ab6"
+      ]
+    },
+    {
+      "id": "1f6f4aa9fa2580b394cac20fa552e1af",
+      "type": "page",
+      "title": "Diff",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1f6f4aa9fa2580bdae55d8cb1ac7f30f",
+        "1f6f4aa9fa2580cf8b4ee933164667a9",
+        "1f6f4aa9fa258005948ad146b5a1db34"
+      ]
+    },
+    {
+      "id": "1f6f4aa9fa25803683fadd694019131a",
+      "type": "page",
+      "title": "RSS Feed",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1f6f4aa9fa2580189d1bff8b4e6fb03a",
+        "1f6f4aa9fa25806abd01e57fa8f88858"
+      ]
+    },
+    {
+      "id": "20cf4aa9fa25808da2f8f348fb04cdfc",
+      "type": "page",
+      "title": "Data Fetch / XHR",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "20cf4aa9fa25806e985fc6d45322f789",
+        "20cf4aa9fa2580809092e6c15a79537c",
+        "20cf4aa9fa25804c92d4f86469a27780",
+        "20cf4aa9fa258095bb0ec637ab83f02e",
+        "20cf4aa9fa2580cab923c589ba0ccb9d",
+        "20cf4aa9fa25805c85a3c6e0c1f3cc3e",
+        "20cf4aa9fa2580a4af78d6a7bba43991",
+        "20cf4aa9fa258013892fd566b6f7242e",
+        "21ff4aa9fa25806db982d724daee24c9",
+        "21ff4aa9fa258057b536d34a4fd5537f",
+        "309f4aa9fa258011a863fd8079e0e129",
+        "309f4aa9fa258005b9a1d8d6a6de7ab0",
+        "309f4aa9fa2580638242ca9ca1c0a78a"
+      ]
+    },
+    {
+      "id": "212f4aa9fa25808f9b4fda293a3d8efa",
+      "type": "page",
+      "title": "Other",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "212f4aa9fa2580298508c8360732469f",
+        "212f4aa9fa2580b4a5b9e946ee77ae19"
+      ]
+    },
+    {
+      "id": "234f4aa9fa2580909283cabb164d4ce7",
+      "type": "page",
+      "title": "String",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "234f4aa9fa2580ac8df4e051b21c7f77",
+        "234f4aa9fa2580a688fcdc11226ec022",
+        "234f4aa9fa25800699e5de2449c06763"
+      ]
+    },
+    {
+      "id": "292f4aa9fa2580829727f642b8ee7e35",
+      "type": "page",
+      "title": "Visual Effect",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "292f4aa9fa25807c8295cc52602ae635",
+        "292f4aa9fa25806a9c89c1ddcb2d637f",
+        "292f4aa9fa2580fcb030ffe56acfed99"
+      ]
+    },
+    {
+      "id": "2c4f4aa9fa2580678932d058c6243641",
+      "type": "page",
+      "title": "Markdown",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "2c4f4aa9fa2580748d51ec1fb7d57d26",
+        "2c4f4aa9fa2580c5b114dbaaae292b3e"
+      ]
+    },
+    {
+      "id": "2d2f4aa9fa2580069a07ce40d4e56704",
+      "type": "page",
+      "title": "Json",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "2d2f4aa9fa2580b3929dd4156d35cf9f",
+        "2d2f4aa9fa2580baac3fc341f5699518"
+      ]
+    },
+    {
+      "id": "309f4aa9fa258056b9a5e70f7d2f600c",
+      "type": "page",
+      "title": "Service Worker",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "309f4aa9fa2580279fdcc84e1a6d160c",
+        "309f4aa9fa25800ebfcbe2ecd4486d33",
+        "309f4aa9fa2580b38d77fab2e74a8ce1"
+      ]
+    },
+    {
+      "id": "38bf4aa9fa258078b2fae5b40e3cd793",
+      "type": "page",
+      "title": "CSS",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "38bf4aa9fa258010a23ee1f2027ce9cd",
+        "38bf4aa9fa2580fa8105e7131c9d9361",
+        "38bf4aa9fa25801a883bdde440e2efaa"
+      ]
+    }
+  ]
+}

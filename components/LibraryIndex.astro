@@ -1,0 +1,13 @@
+---
+import { libraries } from "../content/catalog.ts";
+interface Props { category: string; }
+const entries = libraries.filter((library) => library.category === Astro.props.category);
+---
+{entries.length >= 12 && (
+  <details class="library-index not-prose" data-pagefind-ignore>
+    <summary>Jump to a library or tool <span>({entries.length})</span></summary>
+    <nav aria-label="Libraries in this category">
+      {entries.map((library) => <a href={`#library-${library.id}`}>{library.name}</a>)}
+    </nav>
+  </details>
+)}

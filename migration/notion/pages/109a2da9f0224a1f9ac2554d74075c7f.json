@@ -1,0 +1,14 @@
+{
+  "id": "109a2da9f0224a1f9ac2554d74075c7f",
+  "parent": "a1c7b0f128aa4a9685b4d1848d0800b5",
+  "sourceUrl": "https://laststance.notion.site/109a2da9f0224a1f9ac2554d74075c7f",
+  "title": "Utility",
+  "content": "\n### Lodash\n\n<bookmark source=\"https://lodash.com/\" />\n\n### Deep-equal-json\n\n<unknown url=\"https://app.notion.com/p/109a2da9f0224a1f9ac2554d74075c7f#c63142d245c54fb89971bfdb88e3db8a\" alt=\"external_object_instance\" />\n\n### fast-json-stringify\n\n<unknown url=\"https://app.notion.com/p/109a2da9f0224a1f9ac2554d74075c7f#cd26316ec34849ea8b0f4961c6a090e6\" alt=\"external_object_instance\" />\n\n### cva\n\n<bookmark source=\"https://cva.style/docs\" />\n\n### Tailwind-Variants\n\n<bookmark source=\"https://www.tailwind-variants.org/\" />\n\n<p />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-11-14T11:09:45.728Z",
+    "truncated": true,
+    "unknownBlockCount": 2
+  }
+}

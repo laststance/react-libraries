@@ -1,0 +1,45 @@
+{
+  "id": "950be224ec0f4a8f9d30bcd7f500ca7b",
+  "parent": "e08f822cf74a4a3aa9f50c2fcb2874a9",
+  "sourceUrl": "https://laststance.notion.site/950be224ec0f4a8f9d30bcd7f500ca7b",
+  "title": "Learning",
+  "content": "\n<page url=\"https://app.notion.com/p/748e5d6fa8504bda810afecd098c893d\">\nGeneral Web Dev Resource\n</page>\n\n<page url=\"https://app.notion.com/p/c727aa55c40d45b89e56e938f23dec73\">\nReact knowledge\n</page>\n\n<page url=\"https://app.notion.com/p/4afa99965c7343178caa72adb2dd4c19\">\nNode.js knowledge\n</page>\n\n<page url=\"https://app.notion.com/p/f75c86e56ae64b90b1778fa80fb6b259\">\nTypeScirpt knowledge\n</page>\n\n<page url=\"https://app.notion.com/p/2cb556848d5c49529ce8e9f66d909940\">\nDesign System\n</page>\n\n<page url=\"https://app.notion.com/p/ac12e2403eae4c2fb8a6ee3cdbdbcdcf\">\nComputer Science\n</page>\n\n<page url=\"https://app.notion.com/p/9844aaa9c5ff4ce1aee2f791eea7dd54\">\nBlogs\n</page>\n\n<page url=\"https://app.notion.com/p/a6efaa0510024318b6a06d89e382aa82\">\nNews Letter\n</page>\n\n<p />\n",
+  "children": [
+    {
+      "id": "748e5d6fa8504bda810afecd098c893d",
+      "title": "General Web Dev Resource"
+    },
+    {
+      "id": "c727aa55c40d45b89e56e938f23dec73",
+      "title": "React knowledge"
+    },
+    {
+      "id": "4afa99965c7343178caa72adb2dd4c19",
+      "title": "Node.js knowledge"
+    },
+    {
+      "id": "f75c86e56ae64b90b1778fa80fb6b259",
+      "title": "TypeScirpt knowledge"
+    },
+    {
+      "id": "2cb556848d5c49529ce8e9f66d909940",
+      "title": "Design System"
+    },
+    {
+      "id": "ac12e2403eae4c2fb8a6ee3cdbdbcdcf",
+      "title": "Computer Science"
+    },
+    {
+      "id": "9844aaa9c5ff4ce1aee2f791eea7dd54",
+      "title": "Blogs"
+    },
+    {
+      "id": "a6efaa0510024318b6a06d89e382aa82",
+      "title": "News Letter"
+    }
+  ],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-12-17T04:25:50.748Z"
+  }
+}

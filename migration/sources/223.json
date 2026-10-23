@@ -1,0 +1,10 @@
+{
+  "number": 223,
+  "originalUrl": "https://www.npmjs.com/package/rimraf",
+  "requestUrl": "https://registry.npmjs.org/rimraf/latest",
+  "finalUrl": "https://registry.npmjs.org/rimraf/latest",
+  "status": 200,
+  "title": "rimraf",
+  "description": "A deep deletion module for node (like `rm -rf`)",
+  "checkedAt": "2026-10-23T20:10:10.667Z"
+}

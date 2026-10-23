@@ -1,0 +1,12 @@
+{
+  "id": "748e5d6fa8504bda810afecd098c893d",
+  "parent": "950be224ec0f4a8f9d30bcd7f500ca7b",
+  "sourceUrl": "https://laststance.notion.site/748e5d6fa8504bda810afecd098c893d",
+  "title": "General Web Dev Resource",
+  "content": "\n### FreeCodeCamp\n\n<bookmark source=\"https://www.freecodecamp.org/\" />\n\n## W3Shools\n\n<bookmark source=\"https://www.w3schools.com/\" />\n\n<p />\n\n## HTML Tutorial\n\n<bookmark source=\"https://www.w3schools.com/html/default.asp\" />\n\n## CSS Tutorial\n\n<bookmark source=\"https://www.w3schools.com/css/default.asp\" />\n\n## JavaScript Tutorial\n\n<bookmark source=\"https://www.w3schools.com/js/default.asp\" />\n\n### SQL Tutorial\n\n<bookmark source=\"https://www.w3schools.com/\" />\n\n## MDN Web Docs\n\n<bookmark source=\"https://developer.mozilla.org/\" />\n\n### HTTP\n\n<bookmark source=\"https://developer.mozilla.org/en-US/docs/Web/HTTP\" />\n\n### WebDev\n\n<bookmark source=\"https://web.dev/\" />\n\n### ByteByteGo Newsletter\n\n<bookmark source=\"https://blog.bytebytego.com/\" />\n\n<p />\n\n### <b>Mastering DOM manipulation with vanilla JavaScript</b>\n\n<bookmark source=\"https://phuoc.ng/collection/html-dom/\" />\n\n<p />\n\n## leetcode\n\n<bookmark source=\"https://leetcode.com/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-12-17T04:26:04.087Z"
+  }
+}

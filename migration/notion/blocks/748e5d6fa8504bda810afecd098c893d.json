@@ -1,0 +1,254 @@
+{
+  "id": "748e5d6fa8504bda810afecd098c893d",
+  "title": "General Web Dev Resource",
+  "sourceUrl": "https://laststance.notion.site/748e5d6fa8504bda810afecd098c893d",
+  "fetchedAt": "2026-10-23T20:07:15.030Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "23bc1c9a272a47afb736ca2d3beb23dc",
+      "type": "sub_sub_header",
+      "title": "FreeCodeCamp",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8dfe68b053b24a67a9ed42dec6329e57",
+      "type": "bookmark",
+      "title": "freeCodeCamp.org",
+      "description": "Learn to Code — For Free",
+      "url": "https://www.freecodecamp.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fa55869dba7549138c9cd01475fccde7",
+      "type": "sub_header",
+      "title": "W3Shools",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b493561fdfb946f48ee76ff466b68fa5",
+      "type": "bookmark",
+      "title": "W3Schools Online Web Tutorials",
+      "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+      "url": "https://www.w3schools.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5469b41a2e9c4801a0b582bd20372792",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f7bda77cde694b29a102afac28c68361",
+      "type": "sub_header",
+      "title": "HTML Tutorial",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "82fe081b6f464e40bbf3df6855c9c0df",
+      "type": "bookmark",
+      "title": "HTML Tutorial",
+      "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+      "url": "https://www.w3schools.com/html/default.asp",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "61e845adad3d4f6ea5ec7874aa51bf17",
+      "type": "sub_header",
+      "title": "CSS Tutorial",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a9df0e30f63e4736b06705587a3abe1a",
+      "type": "bookmark",
+      "title": "CSS Tutorial",
+      "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+      "url": "https://www.w3schools.com/css/default.asp",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22ee2fa61f9147a8a1fc1a7f7c3c8e7d",
+      "type": "sub_header",
+      "title": "JavaScript Tutorial",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "50e4528d9c6e4b709a110b9ca229dc6d",
+      "type": "bookmark",
+      "title": "JavaScript Tutorial",
+      "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+      "url": "https://www.w3schools.com/js/default.asp",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2b1b34338ab849cd801364f2bc669d9d",
+      "type": "sub_sub_header",
+      "title": "SQL Tutorial",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3cc1aa10606740fdabc1f2b9c0ee1654",
+      "type": "bookmark",
+      "title": "W3Schools Online Web Tutorials",
+      "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+      "url": "https://www.w3schools.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3a490f4063f1488c9dd7f283754b8203",
+      "type": "sub_header",
+      "title": "MDN Web Docs",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c5df74f5255b49708c12bf1ec2dea954",
+      "type": "bookmark",
+      "title": "MDN Web Docs",
+      "description": "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.",
+      "url": "https://developer.mozilla.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4f38c248fe90488faae87e967ade8f49",
+      "type": "sub_sub_header",
+      "title": "HTTP",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e8db4854e19842cd8930c71ebdb94482",
+      "type": "bookmark",
+      "title": "HTTP | MDN",
+      "description": "Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. HTTP follows a classical client-server model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ccaf1d93943149df97891d499242483c",
+      "type": "sub_sub_header",
+      "title": "WebDev",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f266284c60194323a8db4ee7e02b672f",
+      "type": "bookmark",
+      "title": "web.dev",
+      "description": "Keep up to date with the latest news from the major browser engines.",
+      "url": "https://web.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3f384ac843a94651938715e8561432ba",
+      "type": "sub_sub_header",
+      "title": "ByteByteGo Newsletter",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "85ac99cee0f94283975d03b5159d8d13",
+      "type": "bookmark",
+      "title": "ByteByteGo Newsletter | Alex Xu | Substack",
+      "description": "Explain complex systems with simple terms, from the authors of the best-selling system design book series. Join over 500,000 friendly readers. Click to read ByteByteGo Newsletter, a Substack publication.",
+      "url": "https://blog.bytebytego.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "06e4232253fe42b7a365042d5f358767",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e4d6e93df1ab4535b872564fef87b555",
+      "type": "sub_sub_header",
+      "title": "Mastering DOM manipulation with vanilla JavaScript",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "49f872d2255c470188a06605ee88510a",
+      "type": "bookmark",
+      "title": "HTML DOM — Phuoc Nguyen",
+      "description": "",
+      "url": "https://phuoc.ng/collection/html-dom/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2ccf4aa9fa25804196d8ea97ab704653",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2ccf4aa9fa258033939cd8719b49d76c",
+      "type": "sub_header",
+      "title": "leetcode",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2ccf4aa9fa25807a9576d54b0ff9513c",
+      "type": "bookmark",
+      "title": "LeetCode - The World's Leading Online Programming Learning Platform",
+      "description": "Level up your coding skills and quickly land a job. This is the best place to expand your knowledge and get prepared for your next interview.",
+      "url": "https://leetcode.com/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

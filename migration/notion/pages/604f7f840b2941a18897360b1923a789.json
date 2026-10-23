@@ -1,0 +1,12 @@
+{
+  "id": "604f7f840b2941a18897360b1923a789",
+  "parent": "4e1053bcac264e069514747acbac6216",
+  "sourceUrl": "https://laststance.notion.site/604f7f840b2941a18897360b1923a789",
+  "title": "Web Server",
+  "content": "\n### Hono\n\n<bookmark source=\"https://hono.dev/\" />\n\n### AdonisJS\n\n<bookmark source=\"https://docs.adonisjs.com/guides/introduction\" />\n\n<p />\n\nH3\n\n<bookmark source=\"https://h3.dev/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-06-14T09:04:05.199Z"
+  }
+}

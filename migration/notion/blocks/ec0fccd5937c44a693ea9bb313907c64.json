@@ -1,0 +1,116 @@
+{
+  "id": "ec0fccd5937c44a693ea9bb313907c64",
+  "title": "Cloud Infrastructure",
+  "sourceUrl": "https://laststance.notion.site/ec0fccd5937c44a693ea9bb313907c64",
+  "fetchedAt": "2026-10-23T20:07:19.220Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "59388abee53241b5bda5331f7e8d4f79",
+      "type": "page",
+      "title": "Big 3",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "c5c750ae2e014320b90d3e23af5e6d4e",
+        "7f5603c1496746aaba505ead1fc472cf",
+        "632bf470b5b04fcd8fbf5b551dd36ec0",
+        "f4d3b636545d4192a8ac2b3f74b119d4",
+        "1e54e101596b4d13b3f80efad77d2bf7",
+        "d956e2a9125c407e9fe0e3a3cab8807b",
+        "c7da475a8cc04836aa5692b1217e0c2b"
+      ]
+    },
+    {
+      "id": "819abd1825b44b5081ad5450bd07348c",
+      "type": "page",
+      "title": "Cloud Platform",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "220fae654c2b4c2f866b221a7d2986da",
+        "fdeb016a8081479d9a9c74d3b4bb9bbb",
+        "742a24baf8dc48b68aa61668d9c1b378",
+        "c200c2caba9d44528f6aa920b0999330",
+        "3bdffbf40ba541dfa8d929aef912a7e5",
+        "7ce87925be414659b3a2b0275448de08",
+        "35617c45437c4639a2e16bf0b551f3e3",
+        "006bb160f6e24cbb80cc462b37b1e613",
+        "a88190eede3d482eaf43c1d4218d3c9d",
+        "748d0b42c5d646569c52c1e8c3962683",
+        "5fce1f1b7e094bb0b042918c1731e6e3",
+        "878362acbbb84b5a9cc57818dae169a8",
+        "f0661b82116d4d68acfc0b021dd74c89",
+        "abf81afdbab940e182f782856fc506a8"
+      ]
+    },
+    {
+      "id": "aeeca804a8d74f5785a60eef939073ef",
+      "type": "page",
+      "title": "Backend as a Service",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "dde85959984f4458b78a87757350f6b2",
+        "244ff0725dfb4509aa1695323e1635ff",
+        "44a00b484b904af5b84fbc87820c9db3",
+        "9f7de7daf19945e990bbcf412a037854",
+        "6d4ee239e22242a2b34a025f38fd5ad1",
+        "cd59947cf005418f887d1b87e98f8b4e",
+        "dcbea3581f2b42f09f0c302f6c495999",
+        "dfd7dd7efb694483907d31b42d8a6007",
+        "a3333baf01474dd6a5457279d0f2bc81",
+        "bd45cd7822984c27b777829119114b5f",
+        "5dc010ebfcbe4331a06ede757320d083",
+        "349d4144a4734a8381563c4e25683f95",
+        "518f74740397432caddde29616a3bb81",
+        "7b2117163e1f4ee7971b1f70437c9490",
+        "d8ec8645f5cc455196d67794c888470a",
+        "9c144c1e83ab40ada1f321dfb94c5513",
+        "c225e074b7124b7fb20e3e4c466e51a4",
+        "5b7f6164794c4467beca68cd6a6c87d4",
+        "f3a5bd13998748aa99c3f2292d59f3ae",
+        "643a5d2281334812ad5d70125cacbb3c",
+        "f3a5e1e51ed745e1ab85b903992db1b8",
+        "4809fc71e9ec4ad48a343821b26f5a9d"
+      ]
+    },
+    {
+      "id": "13b0a33a2c2f4a92aff6726a736d1c1f",
+      "type": "page",
+      "title": "Auth",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "9895f656fb474d18856ec86175d8aa00",
+        "90654f7df3b64aaf86ae1b62940dd378",
+        "8e8033cf86ab4599897940bbac39b559",
+        "58148b5d19fa4505947fc740c43ae8d7",
+        "35e3746c2af249a59825eeb93d079ce3",
+        "7c38017608cf4423a559a5a326594555",
+        "df39c079e07c458388da08ff299fcccb",
+        "7159321aeb8e4a9da14bc33fb792592d",
+        "5cca6cc53fd844548984b563ab183948",
+        "59bdb89534f54ef0aff5335d06bfd2e0",
+        "f8b2b132b5fc46e2a22ceed256daf6d7",
+        "d609c53f5cd74389904da25bcf8219fc",
+        "94a3cd5ba6e1407cb6a208420858a99d"
+      ]
+    },
+    {
+      "id": "b34416d33b32467b830b4c8bcc9d78e8",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

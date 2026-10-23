@@ -1,0 +1,161 @@
+{
+  "id": "4e1053bcac264e069514747acbac6216",
+  "parent": "e08f822cf74a4a3aa9f50c2fcb2874a9",
+  "sourceUrl": "https://laststance.notion.site/4e1053bcac264e069514747acbac6216",
+  "title": "🟢 Node.js Library",
+  "content": "\n<page url=\"https://app.notion.com/p/ecbd5d56ebab4974bbf7d68bbf0f1d92\">\nTime\n</page>\n\n<page url=\"https://app.notion.com/p/336e8c4801da45af84efb0d9c3442810\">\nColor\n</page>\n\n<page url=\"https://app.notion.com/p/7448bd3b4b8c4ddbaffa2c3aa31ae3c7\">\nCLI\n</page>\n\n<page url=\"https://app.notion.com/p/e83da83f235a4f95963192985a7249f3\">\nCreate CLI Application\n</page>\n\n<page url=\"https://app.notion.com/p/8a47fbcc2f704a539a5dbb7fd2a771ae\">\nMock Data\n</page>\n\n<page url=\"https://app.notion.com/p/3d86c4594c8846d9a61c99001e2d1066\">\nORM\n</page>\n\n<page url=\"https://app.notion.com/p/be20fb7053aa4ab3934dbfe1b51d6989\">\nCron\n</page>\n\n<page url=\"https://app.notion.com/p/2e37b00596164c64a339b835f49af4d3\">\nMock Server\n</page>\n\n<page url=\"https://app.notion.com/p/604f7f840b2941a18897360b1923a789\">\nWeb Server\n</page>\n\n<page url=\"https://app.notion.com/p/945ee3ee5e8644d897ca87944c04c6da\">\nFile System\n</page>\n\n<page url=\"https://app.notion.com/p/34d41411d25a40d69c0a3581a11252ad\">\nS<b>ecurity</b>\n</page>\n\n<page url=\"https://app.notion.com/p/fb24b661786047d690d4f4931be78192\">\nAuth\n</page>\n\n<page url=\"https://app.notion.com/p/d07775e584854dcf812f9dff53304673\">\nBenchmark\n</page>\n\n<page url=\"https://app.notion.com/p/4bcd653d823c4a32a63ec657097a9b17\">\nValidator\n</page>\n\n<page url=\"https://app.notion.com/p/1941ec4eaf08410d94c9009bfd1a5a23\">\nLinter, Formatter\n</page>\n\n<page url=\"https://app.notion.com/p/9d4e8aaf839b4543b0da0e8f63161dd9\">\nForm Data\n</page>\n\n<page url=\"https://app.notion.com/p/1cdfb96869d64db0824bc21d8c74b311\">\nWebhook\n</page>\n\n<page url=\"https://app.notion.com/p/9e3b76b75f914e6eaca1b6f504adec76\">\nCode Health\n</page>\n\n<page url=\"https://app.notion.com/p/879fa68ef050477cb41861128511a1a4\">\nGeneral\n</page>\n\n<page url=\"https://app.notion.com/p/85bc69fc6bcc4f51af28492877a240e6\">\nAST\n</page>\n\n<page url=\"https://app.notion.com/p/d31b3aaab6b347579125ff9e5948f24e\">\nWebSocket\n</page>\n\n<page url=\"https://app.notion.com/p/271bc07208194cf98c91efcdf060dfd9\">\nUTF-8\n</page>\n\n<page url=\"https://app.notion.com/p/66b60fe7c4f14e8e945bf8745137b6e6\">\nLogger\n</page>\n\n<page url=\"https://app.notion.com/p/015eb4eb872b425c92a415879f6778e6\">\nCrawler\n</page>\n\n<page url=\"https://app.notion.com/p/4396907e7fa1491ebbf2a4d74ad40a2c\">\nTask Runner\n</page>\n\n<page url=\"https://app.notion.com/p/04699a167be647df98c65a5b018c680b\">\nRun Shell Script\n</page>\n\n<page url=\"https://app.notion.com/p/42362f445b094e19a595118e3c6d44a1\">\nPackage Manager\n</page>\n\n<page url=\"https://app.notion.com/p/eedc128b62fa4e83999a4dc8df08293f\">\nTemplate Generation\n</page>\n\n<page url=\"https://app.notion.com/p/1ffddde2842e4715b15463541d3c3db9\">\n Mainly for Terminal\n</page>\n\n<page url=\"https://app.notion.com/p/21b8e1e684fc438b862844e72121f0da\">\nProject maintainance\n</page>\n\n<page url=\"https://app.notion.com/p/97692647159a4a5d952b43f65ca0a298\">\nUUID\n</page>\n\n<page url=\"https://app.notion.com/p/1caf4aa9fa258025b349cb0e21d0bf9c\">\nWeb Push\n</page>\n\n<page url=\"https://app.notion.com/p/1caf4aa9fa25805ca99ad0850f427be0\">\nBundler\n</page>\n\n<page url=\"https://app.notion.com/p/1ebf4aa9fa25806fa91bd32eacd805ab\">\nDesktop Notification\n</page>\n\n<page url=\"https://app.notion.com/p/1fff4aa9fa25807ab475e7ed708a0df8\">\nAnalysis\n</page>\n\n<page url=\"https://app.notion.com/p/261f4aa9fa258095b3bcc2aa2a72dbbd\">\nqueue\n</page>\n\n<page url=\"https://app.notion.com/p/2b1f4aa9fa2580ef9a32f87fc0678120\">\nOpenAPI\n</page>\n",
+  "children": [
+    {
+      "id": "ecbd5d56ebab4974bbf7d68bbf0f1d92",
+      "title": "Time"
+    },
+    {
+      "id": "336e8c4801da45af84efb0d9c3442810",
+      "title": "Color"
+    },
+    {
+      "id": "7448bd3b4b8c4ddbaffa2c3aa31ae3c7",
+      "title": "CLI"
+    },
+    {
+      "id": "e83da83f235a4f95963192985a7249f3",
+      "title": "Create CLI Application"
+    },
+    {
+      "id": "8a47fbcc2f704a539a5dbb7fd2a771ae",
+      "title": "Mock Data"
+    },
+    {
+      "id": "3d86c4594c8846d9a61c99001e2d1066",
+      "title": "ORM"
+    },
+    {
+      "id": "be20fb7053aa4ab3934dbfe1b51d6989",
+      "title": "Cron"
+    },
+    {
+      "id": "2e37b00596164c64a339b835f49af4d3",
+      "title": "Mock Server"
+    },
+    {
+      "id": "604f7f840b2941a18897360b1923a789",
+      "title": "Web Server"
+    },
+    {
+      "id": "945ee3ee5e8644d897ca87944c04c6da",
+      "title": "File System"
+    },
+    {
+      "id": "34d41411d25a40d69c0a3581a11252ad",
+      "title": "Security"
+    },
+    {
+      "id": "fb24b661786047d690d4f4931be78192",
+      "title": "Auth"
+    },
+    {
+      "id": "d07775e584854dcf812f9dff53304673",
+      "title": "Benchmark"
+    },
+    {
+      "id": "4bcd653d823c4a32a63ec657097a9b17",
+      "title": "Validator"
+    },
+    {
+      "id": "1941ec4eaf08410d94c9009bfd1a5a23",
+      "title": "Linter, Formatter"
+    },
+    {
+      "id": "9d4e8aaf839b4543b0da0e8f63161dd9",
+      "title": "Form Data"
+    },
+    {
+      "id": "1cdfb96869d64db0824bc21d8c74b311",
+      "title": "Webhook"
+    },
+    {
+      "id": "9e3b76b75f914e6eaca1b6f504adec76",
+      "title": "Code Health"
+    },
+    {
+      "id": "879fa68ef050477cb41861128511a1a4",
+      "title": "General"
+    },
+    {
+      "id": "85bc69fc6bcc4f51af28492877a240e6",
+      "title": "AST"
+    },
+    {
+      "id": "d31b3aaab6b347579125ff9e5948f24e",
+      "title": "WebSocket"
+    },
+    {
+      "id": "271bc07208194cf98c91efcdf060dfd9",
+      "title": "UTF-8"
+    },
+    {
+      "id": "66b60fe7c4f14e8e945bf8745137b6e6",
+      "title": "Logger"
+    },
+    {
+      "id": "015eb4eb872b425c92a415879f6778e6",
+      "title": "Crawler"
+    },
+    {
+      "id": "4396907e7fa1491ebbf2a4d74ad40a2c",
+      "title": "Task Runner"
+    },
+    {
+      "id": "04699a167be647df98c65a5b018c680b",
+      "title": "Run Shell Script"
+    },
+    {
+      "id": "42362f445b094e19a595118e3c6d44a1",
+      "title": "Package Manager"
+    },
+    {
+      "id": "eedc128b62fa4e83999a4dc8df08293f",
+      "title": "Template Generation"
+    },
+    {
+      "id": "1ffddde2842e4715b15463541d3c3db9",
+      "title": "Mainly for Terminal"
+    },
+    {
+      "id": "21b8e1e684fc438b862844e72121f0da",
+      "title": "Project maintainance"
+    },
+    {
+      "id": "97692647159a4a5d952b43f65ca0a298",
+      "title": "UUID"
+    },
+    {
+      "id": "1caf4aa9fa258025b349cb0e21d0bf9c",
+      "title": "Web Push"
+    },
+    {
+      "id": "1caf4aa9fa25805ca99ad0850f427be0",
+      "title": "Bundler"
+    },
+    {
+      "id": "1ebf4aa9fa25806fa91bd32eacd805ab",
+      "title": "Desktop Notification"
+    },
+    {
+      "id": "1fff4aa9fa25807ab475e7ed708a0df8",
+      "title": "Analysis"
+    },
+    {
+      "id": "261f4aa9fa258095b3bcc2aa2a72dbbd",
+      "title": "queue"
+    },
+    {
+      "id": "2b1f4aa9fa2580ef9a32f87fc0678120",
+      "title": "OpenAPI"
+    }
+  ],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-11-20T12:44:31.914Z"
+  }
+}

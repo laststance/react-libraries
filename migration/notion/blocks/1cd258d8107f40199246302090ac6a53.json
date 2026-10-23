@@ -1,0 +1,92 @@
+{
+  "id": "1cd258d8107f40199246302090ac6a53",
+  "title": "Editor",
+  "sourceUrl": "https://laststance.notion.site/1cd258d8107f40199246302090ac6a53",
+  "fetchedAt": "2026-10-23T20:07:09.262Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "982be63e5fc54ef3ab512c7ed76ae6bd",
+      "type": "sub_sub_header",
+      "title": "Mark down Editor React",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b70e61e022474ce0b5bf4377ef5bbf4b",
+      "type": "bookmark",
+      "title": "Markdown Editor for React.",
+      "description": "A simple markdown editor with preview, implemented with React.js and TypeScript. This React Component aims to provide a simple Markdown editor with syntax highlighting support. This is based on `textarea` encapsulation, so it does not depend on any modern code editors such as Acs, CodeMirror, Monaco etc..",
+      "url": "https://uiwjs.github.io/react-md-editor/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "28082db1dc4b4ec7af528e1c4b8081c9",
+      "type": "sub_sub_header",
+      "title": "Plate",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6834b8ba674b4361b42e8dc7cd14ef63",
+      "type": "bookmark",
+      "title": "Plate",
+      "description": "The rich-text editor framework for React.",
+      "url": "https://platejs.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6cd1bb5edc1a44a2ace9bf361f3b2abc",
+      "type": "sub_sub_header",
+      "title": "BlockNote",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4286ad1544ad46deab6f3bc72127effa",
+      "type": "bookmark",
+      "title": "BlockNote - BlockNote - Javascript Block-Based text editor",
+      "description": "A beautiful text editor that just works. Easily add an editor to your app that users will love. Customize it with your own functionality like custom blocks or AI tooling.",
+      "url": "https://www.blocknotejs.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c23638ec6ccc490dada8704ff1332b97",
+      "type": "sub_sub_header",
+      "title": "Lexical",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3bfc3bdb6bb24f189b761c82e4b84ea8",
+      "type": "bookmark",
+      "title": "Lexical",
+      "description": "An extensible text editor framework that does things differently",
+      "url": "https://lexical.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa2580be948aeef9ccff61ef",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

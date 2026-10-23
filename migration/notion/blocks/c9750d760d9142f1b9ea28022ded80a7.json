@@ -1,0 +1,101 @@
+{
+  "id": "c9750d760d9142f1b9ea28022ded80a7",
+  "title": "Icons",
+  "sourceUrl": "https://laststance.notion.site/c9750d760d9142f1b9ea28022ded80a7",
+  "fetchedAt": "2026-10-23T20:07:18.401Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "0a3c5dcb78a2433ca0126d7bc8edcaf0",
+      "type": "sub_sub_header",
+      "title": "Iconify",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4d60567b3c7948b7bc48214171d2728b",
+      "type": "bookmark",
+      "title": "Iconify",
+      "description": "All popular icon sets, one framework",
+      "url": "https://iconify.design/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2a50ac58d34640d88be2a812ed60f0b4",
+      "type": "sub_sub_header",
+      "title": "Lucide React",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d86da435284d4fbfba9d15661465cbba",
+      "type": "bookmark",
+      "title": "Lucide Icons",
+      "description": "Beautiful & consistent icon toolkit made by the community.",
+      "url": "https://lucide.dev/guide/packages/lucide-react",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0d794dba318c4d72beafc67eabb35d50",
+      "type": "sub_sub_header",
+      "title": "React-Icons",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b8973f2c09ba46639bc4aa1f98582150",
+      "type": "bookmark",
+      "title": "React Icons",
+      "description": "Include popular icons in your React projects easly with react-icons.",
+      "url": "https://react-icons.github.io/react-icons/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3fcaf712dd81433ca62069daf9f34711",
+      "type": "sub_sub_header",
+      "title": "Heroicons",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d89705dbef664fa5a4af1822ba3c4e4e",
+      "type": "bookmark",
+      "title": "Heroicons",
+      "description": "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
+      "url": "https://heroicons.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1faf4aa9fa258056a36ef6ff7f7c567b",
+      "type": "sub_sub_header",
+      "title": "react-file-icon",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1faf4aa9fa2580eeb98ad0e40e9a8d0f",
+      "type": "bookmark",
+      "title": "npm: react-file-icon",
+      "description": "React component to render svg file icons. Latest version: 1.6.0, last published: 3 months ago. Start using react-file-icon in your project by running `npm i react-file-icon`. There are 68 other projects in the npm registry using react-file-icon.",
+      "url": "https://www.npmjs.com/package/react-file-icon",
+      "links": [],
+      "children": []
+    }
+  ]
+}

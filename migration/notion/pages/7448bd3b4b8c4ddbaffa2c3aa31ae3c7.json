@@ -1,0 +1,21 @@
+{
+  "id": "7448bd3b4b8c4ddbaffa2c3aa31ae3c7",
+  "parent": "4e1053bcac264e069514747acbac6216",
+  "sourceUrl": "https://laststance.notion.site/7448bd3b4b8c4ddbaffa2c3aa31ae3c7",
+  "title": "CLI",
+  "content": "\n<p />\n\n<p />\n\n### progress-estimator\n\n<unknown url=\"https://app.notion.com/p/7448bd3b4b8c4ddbaffa2c3aa31ae3c7#adb46188d54b44228587e508f37008c2\" alt=\"external_object_instance\" />\n\n### Clipboardy\n\n<unknown url=\"https://app.notion.com/p/7448bd3b4b8c4ddbaffa2c3aa31ae3c7#c3d9e8cc234e413391e88a1f1d5172f4\" alt=\"external_object_instance\" />\n\n### wireit\n\n<unknown url=\"https://app.notion.com/p/7448bd3b4b8c4ddbaffa2c3aa31ae3c7#68f169fc002d4b2986d55a22cb11983b\" alt=\"external_object_instance\" />\n\n### rimraf\n\n<bookmark source=\"https://www.npmjs.com/package/rimraf\" />\n\n<p />\n\n### chrma.js\n\n<bookmark source=\"https://www.vis4.net/chromajs/\" />\n\n### cli-spinners\n\n<bookmark source=\"https://www.npmjs.com/package/cli-spinners\" />\n\n<p />\n\n### cli-cursor\n\n<bookmark source=\"https://www.npmjs.com/package/cli-cursor\" />\n\n<p />\n\n### is-interactive\n\n<bookmark source=\"https://www.npmjs.com/package/is-interactive\" />\n\n### is-unicord-support\n\n<bookmark source=\"https://www.npmjs.com/package/is-unicode-supported\" />\n\n### log-symbols\n\n<bookmark source=\"https://www.npmjs.com/package/log-symbols\" />\n\n<p />\n\n### Prompts\n\n<bookmark source=\"https://www.npmjs.com/package/prompts\" />\n\n### ora\n\n<unknown url=\"https://app.notion.com/p/7448bd3b4b8c4ddbaffa2c3aa31ae3c7#4795be42cb1e437a8f170df6482f0192\" alt=\"external_object_instance\" />\n\n<p />\n\nmeow\n\n<unknown url=\"https://app.notion.com/p/7448bd3b4b8c4ddbaffa2c3aa31ae3c7#1eff4aa9fa2580308106da9cec30ea63\" alt=\"external_object_instance\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-05-10T10:23:02.462Z",
+    "truncated": true,
+    "unknownBlockCount": 5,
+    "unknownBlockIds": [
+      "adb46188-d54b-4422-8587-e508f37008c2",
+      "c3d9e8cc-234e-4133-91e8-8a1f1d5172f4",
+      "68f169fc-002d-4b29-86d5-5a22cb11983b",
+      "4795be42-cb1e-437a-8f17-0df6482f0192",
+      "1eff4aa9-fa25-8030-8106-da9cec30ea63"
+    ]
+  }
+}

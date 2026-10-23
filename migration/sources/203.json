@@ -1,0 +1,10 @@
+{
+  "number": 203,
+  "originalUrl": "https://vercel.com/docs/functions/edge-functions/og-image-generation",
+  "requestUrl": "https://vercel.com/docs/functions/edge-functions/og-image-generation",
+  "finalUrl": "https://vercel.com/docs/og-image-generation",
+  "status": 200,
+  "title": "Open Graph (OG) Image Generation",
+  "description": "Learn how to optimize social media image generation through the Open Graph Protocol and @vercel/og library.",
+  "checkedAt": "2026-10-23T20:10:08.813Z"
+}

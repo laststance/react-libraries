@@ -1,0 +1,12 @@
+{
+  "id": "1cef4aa9fa2580d0942eea969edddb13",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/1cef4aa9fa2580d0942eea969edddb13",
+  "title": "Debug",
+  "content": "\n### code-inspector-plugin\n\n<bookmark source=\"https://www.npmjs.com/package/code-inspector-plugin\" />\n\n<p />\n\n### React Scan\n\n<bookmark source=\"https://react-scan.com/\" />\n\n### Bippy\n\n<bookmark source=\"https://www.bippy.dev/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-05-18T22:37:25.695Z"
+  }
+}

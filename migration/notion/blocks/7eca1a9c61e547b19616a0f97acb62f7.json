@@ -1,0 +1,56 @@
+{
+  "id": "7eca1a9c61e547b19616a0f97acb62f7",
+  "title": "Payment",
+  "sourceUrl": "https://laststance.notion.site/7eca1a9c61e547b19616a0f97acb62f7",
+  "fetchedAt": "2026-10-23T20:07:15.551Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "06d8a55b9cc245f587d6ef41b41b950f",
+      "type": "sub_sub_header",
+      "title": "React Stripe.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8dad6e8b682745dc897c34b27bd4ac53",
+      "type": "bookmark",
+      "title": "React Stripe.js reference",
+      "description": "Learn about React components for Stripe.js and Stripe Elements.",
+      "url": "https://stripe.com/docs/stripe-js/react",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa2580988102d4726c70195b",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "baf65014d15742dfb5c8a3b56a4d8b34",
+      "type": "sub_sub_header",
+      "title": "Clerk Billing",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa2580d1943ec1265c44c3e8",
+      "type": "bookmark",
+      "title": "Clerk Billing",
+      "description": "Clerk Billing is the easiest way to implement subscriptions for B2C and B2B applications.",
+      "url": "https://clerk.com/billing",
+      "links": [],
+      "children": []
+    }
+  ]
+}

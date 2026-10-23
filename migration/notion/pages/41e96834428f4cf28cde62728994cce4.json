@@ -1,0 +1,12 @@
+{
+  "id": "41e96834428f4cf28cde62728994cce4",
+  "parent": "295f4aa9fa2580a59672d034c8843f78",
+  "sourceUrl": "https://laststance.notion.site/41e96834428f4cf28cde62728994cce4",
+  "title": "Docs / Static Site Generator",
+  "content": "\n### Docusaurus\n\n<bookmark source=\"https://docusaurus.io/\" />\n\n### Next Docs\n\n<bookmark source=\"https://next-docs-zeta.vercel.app/\" />\n\n### Nextra\n\n<bookmark source=\"https://nextra.site/\" />\n\n<p />\n\n### Astro\n\n<bookmark source=\"https://astro.build/\" />\n\n### Gatsby\n\n<bookmark source=\"http://react-component.github.io/badgeboard/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-11-09T00:00:42.436Z"
+  }
+}

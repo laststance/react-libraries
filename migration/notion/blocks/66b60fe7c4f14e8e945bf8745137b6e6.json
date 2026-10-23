@@ -1,0 +1,92 @@
+{
+  "id": "66b60fe7c4f14e8e945bf8745137b6e6",
+  "title": "Logger",
+  "sourceUrl": "https://laststance.notion.site/66b60fe7c4f14e8e945bf8745137b6e6",
+  "fetchedAt": "2026-10-23T20:07:14.666Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "3297700d366f4ad2b42af39b2374eb23",
+      "type": "sub_sub_header",
+      "title": "Pino",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "454c9032220a45f892bd0c916709aa54",
+      "type": "bookmark",
+      "title": "Pino - Super fast, all natural JSON logger for Node.js",
+      "description": "Super fast, all natural JSON logger for Node.js",
+      "url": "https://getpino.io/#/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f7673133d69740beb57c32a5e7c2f441",
+      "type": "sub_sub_header",
+      "title": "Buyan",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa2580e7aeade8661b79584f",
+      "type": "bookmark",
+      "title": "npm: bunyan",
+      "description": "a JSON logging library for node.js services. Latest version: 1.8.15, last published: 4 years ago. Start using bunyan in your project by running `npm i bunyan`. There are 4981 other projects in the npm registry using bunyan.",
+      "url": "https://www.npmjs.com/package/bunyan",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa2580168d2afa6a6b8dac72",
+      "type": "sub_sub_header",
+      "title": "morgan",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa25809cbe66c48ab425c03b",
+      "type": "bookmark",
+      "title": "npm: morgan",
+      "description": "HTTP request logger middleware for node.js. Latest version: 1.10.0, last published: 5 years ago. Start using morgan in your project by running `npm i morgan`. There are 9579 other projects in the npm registry using morgan.",
+      "url": "https://www.npmjs.com/package/morgan",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "220f4aa9fa258082a3a5ce008f3ea16e",
+      "type": "sub_sub_header",
+      "title": "LogTape",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "220f4aa9fa258083841acd52582eee34",
+      "type": "bookmark",
+      "title": "LogTape",
+      "description": "Simple logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions",
+      "url": "https://logtape.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "220f4aa9fa2580ac971cf4cc03beb1a6",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

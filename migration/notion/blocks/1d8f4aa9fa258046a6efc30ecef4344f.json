@@ -1,0 +1,38 @@
+{
+  "id": "1d8f4aa9fa258046a6efc30ecef4344f",
+  "title": "Parallax",
+  "sourceUrl": "https://laststance.notion.site/1d8f4aa9fa258046a6efc30ecef4344f",
+  "fetchedAt": "2026-10-23T20:07:09.472Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "1d8f4aa9fa2580fc86b2fdfa2b583e42",
+      "type": "sub_sub_header",
+      "title": "simpleParallax",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d8f4aa9fa2580a2bde3dd3b2e2c0c39",
+      "type": "bookmark",
+      "title": "simpleParallax.js - Easy Parallax Effect for React & JavaScript",
+      "description": "simpleParallax.js is a lightweight and easy-to-use JS & React library that adds parallax animations to any image.",
+      "url": "https://simpleparallax.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d8f4aa9fa25808e925bf77e128a2a68",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

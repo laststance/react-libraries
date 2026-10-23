@@ -1,0 +1,29 @@
+{
+  "id": "9e3b76b75f914e6eaca1b6f504adec76",
+  "title": "Code Health",
+  "sourceUrl": "https://laststance.notion.site/9e3b76b75f914e6eaca1b6f504adec76",
+  "fetchedAt": "2026-10-23T20:07:17.283Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "f5d909510b6d430c85b76512327a71d1",
+      "type": "sub_sub_header",
+      "title": "Dependency Cruiser",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3dba43282d2a40d184417c197dd064a8",
+      "type": "external_object_instance",
+      "title": "dependency-cruiser",
+      "description": "",
+      "url": "https://github.com/sverweij/dependency-cruiser",
+      "links": [],
+      "children": []
+    }
+  ]
+}

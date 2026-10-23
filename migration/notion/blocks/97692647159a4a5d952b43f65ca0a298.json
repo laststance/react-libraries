@@ -1,0 +1,47 @@
+{
+  "id": "97692647159a4a5d952b43f65ca0a298",
+  "title": "UUID",
+  "sourceUrl": "https://laststance.notion.site/97692647159a4a5d952b43f65ca0a298",
+  "fetchedAt": "2026-10-23T20:07:16.787Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "ce03f95b27d648eab481bee4be019992",
+      "type": "sub_sub_header",
+      "title": "uuidv4",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "81409ee9eb5447fc9adde179b2fc4a3f",
+      "type": "bookmark",
+      "title": "npm: uuidv4",
+      "description": "uuidv4 creates v4 UUIDs.. Latest version: 6.2.13, last published: 2 years ago. Start using uuidv4 in your project by running `npm i uuidv4`. There are 914 other projects in the npm registry using uuidv4.",
+      "url": "https://www.npmjs.com/package/uuidv4",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2213efc1d55e4b6293b44171c7862e34",
+      "type": "sub_sub_header",
+      "title": "Nano ID",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a6035a8b4fb04dafa3689a0fe1e23e41",
+      "type": "bookmark",
+      "title": "npm: nanoid",
+      "description": "A tiny (116 bytes), secure URL-friendly unique string ID generator. Latest version: 5.0.7, last published: 4 months ago. Start using nanoid in your project by running `npm i nanoid`. There are 10113 other projects in the npm registry using nanoid.",
+      "url": "https://www.npmjs.com/package/nanoid",
+      "links": [],
+      "children": []
+    }
+  ]
+}

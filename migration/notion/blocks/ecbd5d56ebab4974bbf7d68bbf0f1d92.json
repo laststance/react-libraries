@@ -1,0 +1,38 @@
+{
+  "id": "ecbd5d56ebab4974bbf7d68bbf0f1d92",
+  "title": "Time",
+  "sourceUrl": "https://laststance.notion.site/ecbd5d56ebab4974bbf7d68bbf0f1d92",
+  "fetchedAt": "2026-10-23T20:07:19.378Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "7887bb1734a542c088c722096e5cf2cf",
+      "type": "sub_sub_header",
+      "title": "Pretty ms",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ab735d1459fa4e2bb813e68d26d7dfc5",
+      "type": "external_object_instance",
+      "title": "pretty-ms",
+      "description": "",
+      "url": "https://github.com/sindresorhus/pretty-ms",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "518130fc87324a458cab561eb395838d",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

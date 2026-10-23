@@ -1,0 +1,38 @@
+{
+  "id": "5fd5bad05ba84fd3b5a903f671f924e4",
+  "title": "Progress",
+  "sourceUrl": "https://laststance.notion.site/5fd5bad05ba84fd3b5a903f671f924e4",
+  "fetchedAt": "2026-10-23T20:07:14.502Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "4823e2d01c254bc7bbbf75c4bc688415",
+      "type": "sub_sub_header",
+      "title": "NProgress",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3bacca85f47f43f89201dd125deadf41",
+      "type": "bookmark",
+      "title": "NProgress: slim progress bars in JavaScript",
+      "description": "",
+      "url": "https://rstacruz.github.io/nprogress/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5433a82ff2bf4e35ba0bddbe96df6ccb",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

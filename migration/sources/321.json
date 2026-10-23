@@ -1,0 +1,10 @@
+{
+  "number": 321,
+  "originalUrl": "https://swr.vercel.app/",
+  "requestUrl": "https://swr.vercel.app/",
+  "finalUrl": "https://vercel.com/oss/swr",
+  "status": 200,
+  "title": "SWR: React Hooks for Data Fetching - Vercel",
+  "description": "SWR provides modern data fetching with a single React hook. Built-in caching, revalidation, and request deduplication keep your UI fast and up to date.",
+  "checkedAt": "2026-10-23T20:10:18.007Z"
+}

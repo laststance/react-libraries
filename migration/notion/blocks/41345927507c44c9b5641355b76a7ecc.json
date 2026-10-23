@@ -1,0 +1,128 @@
+{
+  "id": "41345927507c44c9b5641355b76a7ecc",
+  "title": "Animation",
+  "sourceUrl": "https://laststance.notion.site/41345927507c44c9b5641355b76a7ecc",
+  "fetchedAt": "2026-10-23T20:07:13.106Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "de1901056b0342c2bc6880a47ef773b9",
+      "type": "sub_sub_header",
+      "title": "React Simple Animate",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2d71e271fae14993a97837af39963555",
+      "type": "bookmark",
+      "title": "React Simple Animate - UI Animation made simple",
+      "description": "Aim to be the most developer-friendly React animation library.",
+      "url": "https://react-simple-animate.vercel.app/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a9e87100d5584044a2a22f835d216c11",
+      "type": "sub_sub_header",
+      "title": "Framer Motion",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fa63efcd6b644ef9b31b8242f92e62f8",
+      "type": "bookmark",
+      "title": "Documentation | Framer for Developers",
+      "description": "An open source, production-ready motion library for React on the web.",
+      "url": "https://www.framer.com/motion/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c6fa9512442747d6b426e34b8aaf34b1",
+      "type": "sub_sub_header",
+      "title": "react-magic-motion",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "88fa41ab4edb4984abdba2087b37898a",
+      "type": "bookmark",
+      "title": "Introduction 👉 react-magic-motion",
+      "description": "react-magic-motion is a react.js library that magically animates your components.",
+      "url": "https://www.react-magic-motion.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "657498d664fa415f8d4c81d7d3cae56f",
+      "type": "sub_sub_header",
+      "title": "react-grow",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22bf4aa9fa2580aab608c091ada5e7e1",
+      "type": "external_object_instance",
+      "title": "react-glow",
+      "description": "",
+      "url": "https://github.com/codaworks/react-glow",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22bf4aa9fa25808c8337e09c4c3ce8e3",
+      "type": "sub_header",
+      "title": "React Bits",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22bf4aa9fa2580419ccbe8e7fe0b6fd6",
+      "type": "bookmark",
+      "title": "React Bits",
+      "description": "An open source collection of high quality, animated, interactive & fully customizable React components for building stunning, memorable user interfaces.",
+      "url": "https://www.reactbits.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2aaf4aa9fa2580fdba39ef1969838ede",
+      "type": "sub_header",
+      "title": "motion",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2aaf4aa9fa25802e97c2d868a19b3b1c",
+      "type": "bookmark",
+      "title": "Motion — JavaScript & React animation library",
+      "description": "Motion (prev Framer Motion) is a fast, production-grade web animation library for React, JavaScript and Vue. Build smooth UI animations with examples, tutorials, and a tiny footprint.",
+      "url": "https://motion.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "34bf4aa9fa25804b8728d262fd738636",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

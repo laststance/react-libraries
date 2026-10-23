@@ -1,0 +1,128 @@
+{
+  "id": "13b0a33a2c2f4a92aff6726a736d1c1f",
+  "title": "Auth",
+  "sourceUrl": "https://laststance.notion.site/13b0a33a2c2f4a92aff6726a736d1c1f",
+  "fetchedAt": "2026-10-23T20:07:08.375Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "9895f656fb474d18856ec86175d8aa00",
+      "type": "sub_sub_header",
+      "title": "Clerk",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "90654f7df3b64aaf86ae1b62940dd378",
+      "type": "bookmark",
+      "title": "Clerk | Authentication and User Management",
+      "description": "The easiest way to add authentication and user management to your application.  Purpose-built for React, Next.js, Remix, and “The Modern Web”.",
+      "url": "https://clerk.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8e8033cf86ab4599897940bbac39b559",
+      "type": "sub_sub_header",
+      "title": "propelauth",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "58148b5d19fa4505947fc740c43ae8d7",
+      "type": "bookmark",
+      "title": "PropelAuth - Authentication for B2B products",
+      "description": "Onboard companies of any size in just a few lines of code.",
+      "url": "https://www.propelauth.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "35e3746c2af249a59825eeb93d079ce3",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7c38017608cf4423a559a5a326594555",
+      "type": "sub_sub_header",
+      "title": "Work OS",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "df39c079e07c458388da08ff299fcccb",
+      "type": "bookmark",
+      "title": "WorkOS — Your app, Enterprise Ready.",
+      "description": "Developer APIs / SDKs for enterprise-ready features like Single Sign-On (SSO/SAML), Passwordless Authentication, Directory Sync (SCIM), Audit Trail (SIEM), and more. Get started for free.",
+      "url": "https://workos.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7159321aeb8e4a9da14bc33fb792592d",
+      "type": "sub_sub_header",
+      "title": "Auth0",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5cca6cc53fd844548984b563ab183948",
+      "type": "bookmark",
+      "title": "Auth0: Secure access for everyone. But not just anyone.",
+      "description": "Rapidly integrate authentication and authorization for web, mobile, and legacy applications so you can focus on your core business.",
+      "url": "https://auth0.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "59bdb89534f54ef0aff5335d06bfd2e0",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f8b2b132b5fc46e2a22ceed256daf6d7",
+      "type": "sub_sub_header",
+      "title": "Fusion Auth",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d609c53f5cd74389904da25bcf8219fc",
+      "type": "bookmark",
+      "title": "FusionAuth: Auth. Built for Devs, by Devs",
+      "description": "The easiest way to add authentication and user management to your application. API-first & purpose-built for developers. Get started for free.",
+      "url": "https://fusionauth.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "94a3cd5ba6e1407cb6a208420858a99d",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "22bf4aa9fa258055bab4c24a865658dc",
+  "title": "Browser Extension",
+  "sourceUrl": "https://laststance.notion.site/22bf4aa9fa258055bab4c24a865658dc",
+  "fetchedAt": "2026-10-23T20:07:10.629Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "22bf4aa9fa25807d8395c427b3857304",
+      "type": "sub_header",
+      "title": "WXT",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22bf4aa9fa25804998d5d87ad4f3c4d6",
+      "type": "bookmark",
+      "title": "Next-gen Web Extension Framework – WXT",
+      "description": "WXT provides the best developer experience, making it quick, easy, and fun to develop web extensions. With built-in utilities for building, zipping, and publishing your extension, it's easy to get started.",
+      "url": "https://wxt.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22bf4aa9fa25809c8360e40a43663b74",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

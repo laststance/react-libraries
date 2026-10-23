@@ -1,0 +1,38 @@
+{
+  "id": "295f4aa9fa258063b868f15f5413ff7f",
+  "title": "Navigation",
+  "sourceUrl": "https://laststance.notion.site/295f4aa9fa258063b868f15f5413ff7f",
+  "fetchedAt": "2026-10-23T20:07:11.033Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "295f4aa9fa25809c8bd5d6bec503b5f9",
+      "type": "sub_header",
+      "title": "Solito",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "295f4aa9fa2580199344dc92eaa57ff5",
+      "type": "bookmark",
+      "title": "Upgrade to Solito 5 | Solito",
+      "description": "Solito 5 drops react-native-web as a dependency. It now works with zero special configuration on Web. On iOS and Android, nothing has changed.",
+      "url": "https://solito.dev/v5",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "295f4aa9fa2580989d04c0ddd438784c",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "5d5b62c6a71c4d64b3425591d63b2cc4",
+  "title": "Open Graph",
+  "sourceUrl": "https://laststance.notion.site/5d5b62c6a71c4d64b3425591d63b2cc4",
+  "fetchedAt": "2026-10-23T20:07:14.176Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "c13f358281274c73b49e2e021fe2fa05",
+      "type": "sub_sub_header",
+      "title": "OG Image Generation",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f32ec545086542b3bd7b7adbd567dfc8",
+      "type": "bookmark",
+      "title": "Open Graph (OG) Image Generation",
+      "description": "Learn how to optimize social media image generation through the Open Graph Protocol and @vercel/og library.",
+      "url": "https://vercel.com/docs/functions/edge-functions/og-image-generation",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a04a023916234c88937f6303296fbcfc",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

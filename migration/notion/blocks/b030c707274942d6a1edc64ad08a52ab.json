@@ -1,0 +1,47 @@
+{
+  "id": "b030c707274942d6a1edc64ad08a52ab",
+  "title": "Image",
+  "sourceUrl": "https://laststance.notion.site/b030c707274942d6a1edc64ad08a52ab",
+  "fetchedAt": "2026-10-23T20:07:17.854Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "ac922a51ef9345cc9cb36450376013f7",
+      "type": "sub_sub_header",
+      "title": "Background Removal",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0ee06f78e1704f0499143e0ca4fce36f",
+      "type": "bookmark",
+      "title": "Background Removal",
+      "description": "Effortlessly remove background from images directly in the browser with no additional costs and privacy concerns.",
+      "url": "https://img.ly/showcases/cesdk/background-removal/web",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "75029cc4100b490f8da23ac49fd6ac0b",
+      "type": "sub_header",
+      "title": "html-to-image",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "295eae378f84455488b4a47dd8b13ce3",
+      "type": "bookmark",
+      "title": "npm: html-to-image",
+      "description": "Generates an image from a DOM node using HTML5 canvas and SVG.. Latest version: 1.11.11, last published: 9 months ago. Start using html-to-image in your project by running `npm i html-to-image`. There are 191 other projects in the npm registry using html-to-image.",
+      "url": "https://www.npmjs.com/package/html-to-image",
+      "links": [],
+      "children": []
+    }
+  ]
+}

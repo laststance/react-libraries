@@ -1,0 +1,564 @@
+{
+  "id": "4e1053bcac264e069514747acbac6216",
+  "title": "Node.js Library",
+  "sourceUrl": "https://laststance.notion.site/4e1053bcac264e069514747acbac6216",
+  "fetchedAt": "2026-10-23T20:07:13.982Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "ecbd5d56ebab4974bbf7d68bbf0f1d92",
+      "type": "page",
+      "title": "Time",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "7887bb1734a542c088c722096e5cf2cf",
+        "ab735d1459fa4e2bb813e68d26d7dfc5",
+        "518130fc87324a458cab561eb395838d"
+      ]
+    },
+    {
+      "id": "336e8c4801da45af84efb0d9c3442810",
+      "type": "page",
+      "title": "Color",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "21f5daf017ad469b8a5082c12b4939b0",
+        "ad1aa9dbf46a48188e792db6adf7532f",
+        "3367c97009694f079c98f692f231b8d6",
+        "1fc641e739c541a38dc9745735770e58",
+        "1f6f4aa9fa25808e80efc9756a435143",
+        "1f6f4aa9fa2580f5b500c9bd36d499f1"
+      ]
+    },
+    {
+      "id": "7448bd3b4b8c4ddbaffa2c3aa31ae3c7",
+      "type": "page",
+      "title": "CLI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "9e28ffb7460046269d0f3df974cfc5e3",
+        "47464b06ebef476bb380f68c45cdf4be",
+        "d7bda873c93a4e62819212bc0582403e",
+        "adb46188d54b44228587e508f37008c2",
+        "eac8de1d88c345339dfb5da5a0a72fc8",
+        "c3d9e8cc234e413391e88a1f1d5172f4",
+        "72a5511ee16c40f3b4bad4bdc7f38f18",
+        "68f169fc002d4b2986d55a22cb11983b",
+        "5a7c29a3f84249d083b96c0851b8ed8a",
+        "d6bb21584a8348719039a191773ef131",
+        "c9c9828b6b8d4ef7a3ae6854f4a2eee2",
+        "4204e849a3f242b98470e8ec329fa7d7",
+        "384c740223be486eae745aae8d6f76d5",
+        "fc6acfaf81c44cbe9d49e29c92ff3b56",
+        "c6a99b56b0cf4b7a849d8afd370e2c22",
+        "b845a5f587a84c1181d4c13dc5963e40",
+        "4722d4eea84e47c29d2b69b1786df155",
+        "515b27ad41fa4215878a91149c9662fe",
+        "5114bf0884f649c1bb8c408aa76413f1",
+        "747fc01a7d334066b2acee2e0e836d54",
+        "f2fb580a624d418a8fb4476a78f1c03e",
+        "f60a71505f994df390829187aefd4d9a",
+        "bd9c419cbd0d4a6890f170f7a77d78e0",
+        "19b6bc6f666349a8a054cf9ecd08a7aa",
+        "ef716e7d0ed54580b44a35af4cf75d97",
+        "82905aaa0eed4767aa8c900d0f2b88de",
+        "edd77966517d4555953196198d33c4a0",
+        "fa34a88ac92a4cd9880ab8acb510f610",
+        "15ef6a314b064180bd60099c5fa8c436",
+        "4795be42cb1e437a8f170df6482f0192",
+        "1eff4aa9fa25809ab234e71c90c5dc64",
+        "1eff4aa9fa258001b894ca1473723cf2",
+        "1eff4aa9fa2580308106da9cec30ea63"
+      ]
+    },
+    {
+      "id": "e83da83f235a4f95963192985a7249f3",
+      "type": "page",
+      "title": "Create CLI Application",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "c142a81a2232439d9568baa25b95da09",
+        "2e22671666a5486580d51122037405e6",
+        "0db8079d42434be78c86468a88174363",
+        "31405abdb09d44768b92a7a643a2c15b",
+        "a78163f8c3b84ee8918ec7586d839639",
+        "bf0276a7ac874d79b27086c40e1e73aa",
+        "3823900ffc2d4d0f95a1bf4cb17a92ce",
+        "fffca736072b48598f0d2b5c27a38730",
+        "cf26b5738a044ad0aac56df071e6135d"
+      ]
+    },
+    {
+      "id": "8a47fbcc2f704a539a5dbb7fd2a771ae",
+      "type": "page",
+      "title": "Mock Data",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "0111afcce67d421b8377cc3b83662539",
+        "fdde43099f41433da823c5c75f8a3ebd",
+        "58c8877b713147968da106ab4f90b5c8",
+        "aba2d4fd053841daa134b89616de0330",
+        "07294266215546899fc9e6f691947d50",
+        "c6452edfc81341b98dbbfe471e717ddf",
+        "6384f85adade4883aa156beeb10361e1",
+        "21fb42dfc00a4fdcacc1e811daa96c94",
+        "4bf4bef019584b8880a4ea917ae7f624",
+        "d67df38eff074d45be8ec8821819f6ec",
+        "80f33149d142477fb757759d5094fbcc",
+        "71120e1978bc4fca801016136ffa2173",
+        "cf2933f975fe4d1bbb18e880955b46d7",
+        "9892f17c81174a8e8bc6395dbbb623bb"
+      ]
+    },
+    {
+      "id": "3d86c4594c8846d9a61c99001e2d1066",
+      "type": "page",
+      "title": "ORM",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "cfcab08a1748471bb6d98581021aa89f",
+        "c2a646c070a24f319bfeafdb10354c73",
+        "015fec2f56ff4e86823b462bf58d3eef",
+        "785b9a48c2b9491fb46747ae1beecd95",
+        "39be64d6890645b2a109c27da8890086",
+        "994f55154dfd4c52a95ee918894c2b49",
+        "69b758dc1c0e46f3aa6286cb5c8618d7",
+        "ede4399cd9ce467cb3a634330cdcf9b3",
+        "5257b8ecb75b47c580cf7b18d43c12c1",
+        "3a7952da5eea4ca38d9ea950d6e2e5b7",
+        "c12950e9a28745febe51f7d3c9fc254f",
+        "377c1667ddef449ca483e312656ea96a",
+        "212f4aa9fa25802da70bf1155b124c9f",
+        "212f4aa9fa2580bcb6fcc3bcbbd5faf2"
+      ]
+    },
+    {
+      "id": "be20fb7053aa4ab3934dbfe1b51d6989",
+      "type": "page",
+      "title": "Cron",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "c68fab35c09e44ad9a781eadafd07aba",
+        "db9110e69bcb402dbdc99e4abe1354a6",
+        "e21baf2f2bb94e9aaf8c3180273f22ff"
+      ]
+    },
+    {
+      "id": "2e37b00596164c64a339b835f49af4d3",
+      "type": "page",
+      "title": "Mock Server",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "2cd52d1b7ffc4ef7b0f4cfd75fd9ae7b",
+        "eb325df332ee44bb8154314d56fc328e"
+      ]
+    },
+    {
+      "id": "604f7f840b2941a18897360b1923a789",
+      "type": "page",
+      "title": "Web Server",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1cff87f966ff4e9e830328aeaad7bb2d",
+        "b1a0beb19f384c05985e90ab633f9f96",
+        "2654d6b9f12448c4bc264fd6fd79e92f",
+        "34eb5e5757934f6eb0a5773c3c275bde",
+        "212f4aa9fa2580c1a66fc5d66cf1e55f",
+        "212f4aa9fa25807bb2a1d4948651fc0a",
+        "212f4aa9fa2580dca82ac60504a8adcb"
+      ]
+    },
+    {
+      "id": "945ee3ee5e8644d897ca87944c04c6da",
+      "type": "page",
+      "title": "File System",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "b1ea862eeb204aedb60a3e5270772444",
+        "d6143d05defb4560b1e7409ca0356ea3",
+        "cbe29f7a0938403686613ac585fe1f81"
+      ]
+    },
+    {
+      "id": "34d41411d25a40d69c0a3581a11252ad",
+      "type": "page",
+      "title": "Security",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1826b3ac74e34887bfcb2e8badced4a8",
+        "e83e8566fa2448339b1011d166968c2f"
+      ]
+    },
+    {
+      "id": "fb24b661786047d690d4f4931be78192",
+      "type": "page",
+      "title": "Auth",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "0d4eaf4f92a04acfb7373c286603750d"
+      ]
+    },
+    {
+      "id": "d07775e584854dcf812f9dff53304673",
+      "type": "page",
+      "title": "Benchmark",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "9a4ef023f7f54f1bae9e78276869e6f5",
+        "db0d10485cd84de5b5331749d1fe811c"
+      ]
+    },
+    {
+      "id": "4bcd653d823c4a32a63ec657097a9b17",
+      "type": "page",
+      "title": "Validator",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1cbf4aa9fa25807d850bcf07e4fff620"
+      ]
+    },
+    {
+      "id": "1941ec4eaf08410d94c9009bfd1a5a23",
+      "type": "page",
+      "title": "Linter, Formatter",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "af852371c18b4dbd90eaeb5b5d57fd80",
+        "da57ede2d2954f15b3cd31c7941e2afd",
+        "74908c002e3542698d7ea3c69922cafe",
+        "26ef4aa9fa258010924bf0fa75978ed8"
+      ]
+    },
+    {
+      "id": "9d4e8aaf839b4543b0da0e8f63161dd9",
+      "type": "page",
+      "title": "Form Data",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "b2924de6d19443a988bc4a9987ede7f8",
+        "90ada050a9744b7f9f5faefde6489a22",
+        "f43f53db2c954233a0d73b062b28c913"
+      ]
+    },
+    {
+      "id": "1cdfb96869d64db0824bc21d8c74b311",
+      "type": "page",
+      "title": "Webhook",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "a3bcf336624c4bc6beedf6b8710a0ccf",
+        "f7f764c575734f77b563aeb3a096ec09"
+      ]
+    },
+    {
+      "id": "9e3b76b75f914e6eaca1b6f504adec76",
+      "type": "page",
+      "title": "Code Health",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "f5d909510b6d430c85b76512327a71d1",
+        "3dba43282d2a40d184417c197dd064a8"
+      ]
+    },
+    {
+      "id": "879fa68ef050477cb41861128511a1a4",
+      "type": "page",
+      "title": "General",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "35529c78db6e41938eb646c364612af0",
+        "7d4248977b1b443c9f1c608d25e5b390",
+        "8cb7d072f454426f8ffe23cf40c870ff",
+        "0d894ad325164016a9b1d31abff1190f",
+        "dd950e0db784444db34c828f6cd4236b",
+        "20a6b6b05db346c99a6ae11e76df7d7e",
+        "81de21d50b0f4c159902a99e515afc5c",
+        "245c6161b6b74ef6885410113d7c53c2"
+      ]
+    },
+    {
+      "id": "85bc69fc6bcc4f51af28492877a240e6",
+      "type": "page",
+      "title": "AST",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "4ae25d5a5ab040509fba356e06ed2a0b",
+        "b6adbaafeb14400d9a73c62b175b01fb"
+      ]
+    },
+    {
+      "id": "d31b3aaab6b347579125ff9e5948f24e",
+      "type": "page",
+      "title": "WebSocket",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "37066f1e2a524ed88fa85ab5d0a769c2",
+        "48b66457cb034953bfd6b70aee4ee2c1",
+        "07337f9020924520a94175d977835de6"
+      ]
+    },
+    {
+      "id": "271bc07208194cf98c91efcdf060dfd9",
+      "type": "page",
+      "title": "UTF-8",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "7a0e8afba0514d77b4208dbf95197fee",
+        "b954658f08cf4b52847781f5c4fa63d2",
+        "3dc1f0cc0f214c259cead83ffad4485a"
+      ]
+    },
+    {
+      "id": "66b60fe7c4f14e8e945bf8745137b6e6",
+      "type": "page",
+      "title": "Logger",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "3297700d366f4ad2b42af39b2374eb23",
+        "454c9032220a45f892bd0c916709aa54",
+        "f7673133d69740beb57c32a5e7c2f441",
+        "1f7f4aa9fa2580e7aeade8661b79584f",
+        "1f7f4aa9fa2580168d2afa6a6b8dac72",
+        "1f7f4aa9fa25809cbe66c48ab425c03b",
+        "220f4aa9fa258082a3a5ce008f3ea16e",
+        "220f4aa9fa258083841acd52582eee34",
+        "220f4aa9fa2580ac971cf4cc03beb1a6"
+      ]
+    },
+    {
+      "id": "015eb4eb872b425c92a415879f6778e6",
+      "type": "page",
+      "title": "Crawler",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "8e03170d4e4d4feaaadfebb591fa5b97",
+        "0a3521ee2d2145829241c08a12390bdd",
+        "84ce721ef3c24917b7bb2e24605421a0"
+      ]
+    },
+    {
+      "id": "4396907e7fa1491ebbf2a4d74ad40a2c",
+      "type": "page",
+      "title": "Task Runner",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1b3d19697e2c412e81f56b03ad75d7b4",
+        "a692c039be8e4fc09055f5539a29708b",
+        "0f10ce77b48a431ab391f9fde7cbdea7",
+        "e30457f98dce419d88cbd67b4f4f8c8f",
+        "ee9a82cef61d4907b95054dfaa21c6a8"
+      ]
+    },
+    {
+      "id": "04699a167be647df98c65a5b018c680b",
+      "type": "page",
+      "title": "Run Shell Script",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "f03291800cf045d68549cff36132ea88",
+        "38edc9d20169478abf458745793e322f"
+      ]
+    },
+    {
+      "id": "42362f445b094e19a595118e3c6d44a1",
+      "type": "page",
+      "title": "Package Manager",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "2e735c807b134cb491f61a813b0009e0",
+        "3d9eab0f7b8e47d1b145fa159beeb8ce"
+      ]
+    },
+    {
+      "id": "eedc128b62fa4e83999a4dc8df08293f",
+      "type": "page",
+      "title": "Template Generation",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "b54998fc22b74041837dbe89a1d5cffd",
+        "d85f8455d6384fe7a2bc32976b12bb69",
+        "00414b8eb79c4c09b3de4c5ed8651945"
+      ]
+    },
+    {
+      "id": "1ffddde2842e4715b15463541d3c3db9",
+      "type": "page",
+      "title": " Mainly for Terminal",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "857b2c895dc64726ab8eb2ffd95b1e4d",
+        "c7baa6aae29e49f7acc7c68a9632da8d",
+        "ae59030a30bf4060a75c80e921ffeffe",
+        "241697837c7b489b85c75f6a3e07454c",
+        "1d8f4aa9fa2580b78583e8b2093ceac0",
+        "1d8f4aa9fa25808d8198f5e1d5b6b838",
+        "1d8f4aa9fa2580e4897fe1dce806b765"
+      ]
+    },
+    {
+      "id": "21b8e1e684fc438b862844e72121f0da",
+      "type": "page",
+      "title": "Project maintainance",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "0aff87b010e04f65893454e73da6b6b8",
+        "53888157ca5f4c308df55abe1d0a41f9",
+        "17c94582a6da4903871dffee61172cf5"
+      ]
+    },
+    {
+      "id": "97692647159a4a5d952b43f65ca0a298",
+      "type": "page",
+      "title": "UUID",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "ce03f95b27d648eab481bee4be019992",
+        "81409ee9eb5447fc9adde179b2fc4a3f",
+        "2213efc1d55e4b6293b44171c7862e34",
+        "a6035a8b4fb04dafa3689a0fe1e23e41"
+      ]
+    },
+    {
+      "id": "1caf4aa9fa258025b349cb0e21d0bf9c",
+      "type": "page",
+      "title": "Web Push",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1caf4aa9fa258059810dff4cbe955f40",
+        "1caf4aa9fa2580a3833bda022f7cd6a9",
+        "1caf4aa9fa25803b8bece7569a4a6520"
+      ]
+    },
+    {
+      "id": "1caf4aa9fa25805ca99ad0850f427be0",
+      "type": "page",
+      "title": "Bundler",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1caf4aa9fa2580a1bf92e07233a0d069",
+        "1caf4aa9fa25801e872cebb5eaedee88",
+        "212f4aa9fa2580b5a94ec5ad16169601",
+        "212f4aa9fa25804e8a4af3e661ba31e5"
+      ]
+    },
+    {
+      "id": "1ebf4aa9fa25806fa91bd32eacd805ab",
+      "type": "page",
+      "title": "Desktop Notification",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1ebf4aa9fa2580d98a26d7c10677b5a3",
+        "1ebf4aa9fa25805ab9bcc54c0346abbb",
+        "1ebf4aa9fa25802ca358f3fc03445538"
+      ]
+    },
+    {
+      "id": "1fff4aa9fa25807ab475e7ed708a0df8",
+      "type": "page",
+      "title": "Analysis",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "1fff4aa9fa2580659fe5dc196d1f4289",
+        "1fff4aa9fa2580099a1de8a9005785f9",
+        "200f4aa9fa2580369e23d393e632f153",
+        "202f4aa9fa2580899fd5d3b508803aba"
+      ]
+    },
+    {
+      "id": "261f4aa9fa258095b3bcc2aa2a72dbbd",
+      "type": "page",
+      "title": "queue",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "261f4aa9fa258062b3ccc6a48a772292",
+        "261f4aa9fa2580699052f0ff9cfc95a9"
+      ]
+    },
+    {
+      "id": "2b1f4aa9fa2580ef9a32f87fc0678120",
+      "type": "page",
+      "title": "OpenAPI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "2b1f4aa9fa2580eabf60cb70ad02ae0c",
+        "2b1f4aa9fa25802eb2fcdb7f068381d0"
+      ]
+    }
+  ]
+}

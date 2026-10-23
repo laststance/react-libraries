@@ -1,0 +1,65 @@
+{
+  "id": "0a36b8cd7ce54dd89a32da771112c415",
+  "title": "HeatMap",
+  "sourceUrl": "https://laststance.notion.site/0a36b8cd7ce54dd89a32da771112c415",
+  "fetchedAt": "2026-10-23T20:07:07.867Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "d64c13f3670e4fa7abf0fb6945a2a778",
+      "type": "sub_sub_header",
+      "title": "Heat.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d6afb294c59b48469cbf55e89f27b446",
+      "type": "bookmark",
+      "title": "Heat.js - JavaScript Heat Map",
+      "description": "A powerful Heat Map. With tons of settings, Heat.js can be tailored to suit your every need. Lightweight. Learn more.",
+      "url": "https://www.william-troup.com/heat-js/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c8935cf9728e43ea8d50d2d012b2978b",
+      "type": "sub_sub_header",
+      "title": "React Calendar Heatmap",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c0def36788b8409aa86ca1e86320e828",
+      "type": "external_object_instance",
+      "title": "react-calendar-heatmap",
+      "description": "",
+      "url": "https://github.com/kevinsqi/react-calendar-heatmap",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d9c9c91f48c74857b11fb719efe9a137",
+      "type": "sub_sub_header",
+      "title": "Cal-Heatmap",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bfd47603802f441dbf8495d25800ded3",
+      "type": "bookmark",
+      "title": "Cal-Heatmap | Cal-Heatmap",
+      "description": "Cal-Heatmap is a javascript charting library to create a time-series calendar heatmap",
+      "url": "https://cal-heatmap.com/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

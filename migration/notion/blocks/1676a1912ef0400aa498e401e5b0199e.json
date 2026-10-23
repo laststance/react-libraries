@@ -1,0 +1,38 @@
+{
+  "id": "1676a1912ef0400aa498e401e5b0199e",
+  "title": "Cross Platform",
+  "sourceUrl": "https://laststance.notion.site/1676a1912ef0400aa498e401e5b0199e",
+  "fetchedAt": "2026-10-23T20:07:08.382Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "6e6c3bc55e5c47ddb461217977eee0df",
+      "type": "sub_sub_header",
+      "title": "neutralino.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "54bbfa315cfc439f95c2efaa7317bdd1",
+      "type": "bookmark",
+      "title": "Build lightweight cross-platform desktop apps with JavaScript, HTML, and CSS | Neutralinojs",
+      "description": "Neutralinojs is a framework for building lightweight cross-platform desktop apps with JavaScript, HTML, and CSS.",
+      "url": "https://neutralino.js.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "914befb421014e1bbc0b9e6cafd0f59f",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

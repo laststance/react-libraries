@@ -1,0 +1,29 @@
+{
+  "id": "acde07ca1fa4463e9595e63e9ee0ad7d",
+  "title": "Syntax Highlight",
+  "sourceUrl": "https://laststance.notion.site/acde07ca1fa4463e9595e63e9ee0ad7d",
+  "fetchedAt": "2026-10-23T20:07:17.847Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "b76aaba50db44edf94ce1c0e3e8b4e4f",
+      "type": "sub_sub_header",
+      "title": "Speed-highlight",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8783a5aae32845e8983e37b9e6d9c719",
+      "type": "bookmark",
+      "title": "Languages | Speed-highlight JS",
+      "description": "Showcase of all supported languages by Speed-highlight JS",
+      "url": "https://speed-highlight.github.io/core/examples/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

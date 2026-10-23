@@ -1,0 +1,317 @@
+{
+  "id": "99284cc07c4a4876b55a5ebfa660f7e5",
+  "title": "Tailwind CSS based UI Library",
+  "sourceUrl": "https://laststance.notion.site/99284cc07c4a4876b55a5ebfa660f7e5",
+  "fetchedAt": "2026-10-23T20:07:16.991Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "98b298ca34564005859f2a17e436698b",
+      "type": "sub_header",
+      "title": "UI Component Library",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5a68b86cab764ce1ac22dc9b2af0b412",
+      "type": "sub_header",
+      "title": "shadcn/UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ae9d7077414d462a86ec026e3ec86c52",
+      "type": "bookmark",
+      "title": "shadcn/ui",
+      "description": "Beautifully designed components built with Radix UI and Tailwind CSS.",
+      "url": "https://ui.shadcn.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "041a8f621ecb4f29933102d93110bfc9",
+      "type": "sub_sub_header",
+      "title": "Tailwind UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c47c79e21fda4cd783025af95c3d5fc1",
+      "type": "bookmark",
+      "title": "Tailwind UI - Official Tailwind CSS Components & Templates",
+      "description": "Beautiful UI components and templates by the creators of Tailwind CSS.",
+      "url": "https://tailwindui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1bb82de14fe94a95b49e0f290babb882",
+      "type": "sub_sub_header",
+      "title": "Headless UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fefc47a86a9d42ecbc6773f5cb4833e2",
+      "type": "bookmark",
+      "title": "Headless UI",
+      "description": "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
+      "url": "https://headlessui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "188f7f1cc804415abfe2df10e988c62f",
+      "type": "sub_sub_header",
+      "title": "Draft UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9c8afd42d6364b749260cde72b55077e",
+      "type": "bookmark",
+      "title": "Draft UI",
+      "description": "A collection of simply designed React components focused on making web accessibility as easy as copy & paste",
+      "url": "https://draft-ui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1a3a3fa8dfd44fe1a05d1a937d1007df",
+      "type": "sub_sub_header",
+      "title": "Daisy UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e6188fd2e2f54913ac84fd12c65f5bf3",
+      "type": "bookmark",
+      "title": "daisyUI — Tailwind CSS Components",
+      "description": "Tailwind Components Library - Free components for Tailwind CSS",
+      "url": "https://daisyui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e45a2b9330cd4c3dab334ea56fd0abe3",
+      "type": "sub_sub_header",
+      "title": "Flowbite React",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3952a39bacbd45a2bf5ec2df4b3c401f",
+      "type": "bookmark",
+      "title": "Flowbite React - UI component library",
+      "description": "Flowbite React is an open-source UI component library built with React components, Tailwind CSS utility classes and based on the Flowbite design system and components.",
+      "url": "https://www.flowbite-react.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "43bfbf8189bb4963823b91c5eb049d5f",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a6606a716c134fa38b2e911123fb6b3d",
+      "type": "sub_sub_header",
+      "title": "Luxe",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "82b126b15bff47f18c0bdd828e0cf125",
+      "type": "bookmark",
+      "title": "Luxe",
+      "description": "Library of dark mode components to illuminate your applications with elegance and sophistication.",
+      "url": "https://luxe.guhrodrigues.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5c0e307350cd4053be262cbd236a0b79",
+      "type": "sub_sub_header",
+      "title": "JollyUI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e3a219226fa740f5a45decbedc094403",
+      "type": "bookmark",
+      "title": "JollyUI",
+      "description": "shadcn/ui compatible react aria components that you can copy and paste into your apps. Accessible. Customizable. Open Source. Formerly known as shadcn-aria.",
+      "url": "https://www.jollyui.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1caf4aa9fa25806da58cf69b6ab224bc",
+      "type": "sub_header",
+      "title": "Universe",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1caf4aa9fa2580dd9298f0e41253a4aa",
+      "type": "bookmark",
+      "title": "Uiverse | The Largest Library of Open-Source UI elements",
+      "description": "Community-made library of free and customizable UI elements made with CSS or Tailwind. It's all free to copy and use in your projects. Uiverse can save you many hours spent on building & customizing UI components for your next project.",
+      "url": "https://uiverse.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "234f4aa9fa2580b0ae41cb2cd7618088",
+      "type": "sub_header",
+      "title": "Preline UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "234f4aa9fa2580be9daec117812bd2fa",
+      "type": "bookmark",
+      "title": "FlyonUI - Free Tailwind CSS Components Library",
+      "description": "FlyonUI is the easiest, free and open-source Tailwind CSS components library with semantic classes.",
+      "url": "https://flyonui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "234f4aa9fa25806e947bf16e8da28608",
+      "type": "sub_header",
+      "title": "FlyonUI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "234f4aa9fa25808ea8a6d44cd4ab624b",
+      "type": "bookmark",
+      "title": "FlyonUI - Free Tailwind CSS Components Library",
+      "description": "FlyonUI is the easiest, free and open-source Tailwind CSS components library with semantic classes.",
+      "url": "https://flyonui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "234f4aa9fa25807b93fbe0eb1f83e24b",
+      "type": "sub_header",
+      "title": "HeroUI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "234f4aa9fa2580029fa9d633e5651dc3",
+      "type": "bookmark",
+      "title": "HeroUI (Previously NextUI) - Beautiful, fast and modern React UI Library",
+      "description": "Make beautiful websites regardless of your design experience.",
+      "url": "https://www.heroui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "952069f926434bf59bf9be8d87626afa",
+      "type": "sub_header",
+      "title": "Dashboard UI Kit",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "60fe830fdcf24ba78618b347e90a7ee5",
+      "type": "sub_sub_header",
+      "title": "Tremor",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5baf4a67fb0b46ab9497bf5a41b2c80a",
+      "type": "bookmark",
+      "title": "Tremor – The React library to build dashboards fast",
+      "description": "Modular components to build insightful dashboards in a breeze.",
+      "url": "https://www.tremor.so/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5425c59c4cec4dd5b2da5f76b50533af",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "01c59e33307546238cb9313fe7964fd6",
+      "type": "sub_sub_header",
+      "title": "Material Tailwind",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9cde7b4cf62e48349ed384f0c6ad9a64",
+      "type": "bookmark",
+      "title": "Material Tailwind - Easy-to-use Tailwind CSS components library with React and Material Design",
+      "description": "Material Tailwind is a components library that features multiple React & HTML components, all written with Tailwind CSS classes and Material Design guidelines.",
+      "url": "https://www.material-tailwind.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "951490eed4974415bf4ef77fc83cf455",
+      "type": "sub_sub_header",
+      "title": "react-daisyUI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d55c77e835994a8a82ba18d356b56e65",
+      "type": "bookmark",
+      "title": "@storybook/cli - Storybook",
+      "description": "",
+      "url": "https://react.daisyui.com/?path=/docs/welcome--docs",
+      "links": [],
+      "children": []
+    }
+  ]
+}

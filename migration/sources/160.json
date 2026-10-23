@@ -1,0 +1,10 @@
+{
+  "number": 160,
+  "originalUrl": "https://publint.dev/",
+  "requestUrl": "https://publint.dev/",
+  "finalUrl": "https://publint.dev/",
+  "status": 200,
+  "title": "publint",
+  "description": "Lint npm packages to ensure the widest compatibility across environments",
+  "checkedAt": "2026-10-23T20:10:05.567Z"
+}

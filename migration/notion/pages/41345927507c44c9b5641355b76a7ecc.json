@@ -1,0 +1,17 @@
+{
+  "id": "41345927507c44c9b5641355b76a7ecc",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/41345927507c44c9b5641355b76a7ecc",
+  "title": "Animation",
+  "content": "\n### React Simple Animate\n\n<bookmark source=\"https://react-simple-animate.vercel.app/\" />\n\n### Framer Motion\n\n<bookmark source=\"https://www.framer.com/motion/\" />\n\n### react-magic-motion\n\n<bookmark source=\"https://www.react-magic-motion.com/\" />\n\n### react-grow\n\n<unknown url=\"https://app.notion.com/p/41345927507c44c9b5641355b76a7ecc#22bf4aa9fa2580aab608c091ada5e7e1\" alt=\"external_object_instance\" />\n\n## React Bits\n\n<bookmark source=\"https://www.reactbits.dev/\" />\n\n## motion\n\n<bookmark source=\"https://motion.dev/\" />\n\n<p />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2026-04-23T07:34:31.035Z",
+    "truncated": true,
+    "unknownBlockCount": 1,
+    "unknownBlockIds": [
+      "22bf4aa9-fa25-80aa-b608-c091ada5e7e1"
+    ]
+  }
+}

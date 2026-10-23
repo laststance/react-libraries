@@ -1,0 +1,192 @@
+{
+  "libraries": [
+    {
+      "id": "date-fns",
+      "name": "date-fns",
+      "monogram": "df",
+      "category": "dates",
+      "kind": "Date utilities",
+      "description": "Functions for formatting, parsing, and manipulating JavaScript dates.",
+      "goodFor": "Picking individual functions for the date operations you need.",
+      "caveat": "Date calculations and formatting, rather than a date picker UI.",
+      "implementation": "Call the date functions from your application code. Choose formatting patterns and locale behavior explicitly; build or add a separate calendar UI when users need to select a date.",
+      "official": "https://date-fns.org/",
+      "keywords": [
+        "format a date",
+        "parse a timestamp",
+        "date arithmetic",
+        "functional"
+      ]
+    },
+    {
+      "id": "dayjs",
+      "name": "Day.js",
+      "monogram": "D",
+      "category": "dates",
+      "kind": "Date utilities",
+      "description": "A compact date library with a chainable API.",
+      "goodFor": "Working with dates through a familiar, chainable API.",
+      "caveat": "Add plugins for capabilities beyond the core.",
+      "implementation": "Use Day.js objects for parsing, manipulation, and display. Enable the plugins and locales your application needs, and check their behavior against your date formats.",
+      "official": "https://day.js.org/",
+      "keywords": [
+        "format a date",
+        "parse a timestamp",
+        "chainable",
+        "moment"
+      ]
+    },
+    {
+      "id": "dnd-kit",
+      "name": "dnd kit",
+      "monogram": "dk",
+      "category": "drag-and-drop",
+      "kind": "Interaction toolkit",
+      "description": "Composable building blocks for dragging, dropping, sorting, and reordering.",
+      "goodFor": "Custom sortable lists and drag-and-drop interfaces in React.",
+      "caveat": "You still design the interface, interaction rules, and feedback.",
+      "implementation": "Connect draggable and droppable elements to your application state. Choose sensors, sorting behavior, and visual feedback; test pointer and keyboard interactions in your actual layout.",
+      "official": "https://dndkit.com/",
+      "keywords": [
+        "reorder list",
+        "sortable",
+        "kanban board",
+        "drag cards",
+        "sensors"
+      ]
+    },
+    {
+      "id": "pragmatic-drag-and-drop",
+      "name": "Pragmatic drag and drop",
+      "monogram": "pd",
+      "category": "drag-and-drop",
+      "kind": "Low-level toolkit",
+      "description": "Atlassian's drag-and-drop building blocks based on the browser's native capabilities.",
+      "goodFor": "Fine-grained control over drop targets and custom interactions.",
+      "caveat": "A toolkit to assemble; accessible controls and UI need deliberate design.",
+      "implementation": "Wire adapters and drop-target behavior into your existing UI. Add appropriate visual feedback and accessible alternatives for actions that would otherwise require dragging.",
+      "official": "https://atlassian.design/components/pragmatic-drag-and-drop/",
+      "keywords": [
+        "native drag and drop",
+        "drop target",
+        "kanban",
+        "reorder list"
+      ]
+    },
+    {
+      "id": "tanstack-table",
+      "name": "TanStack Table",
+      "monogram": "T",
+      "category": "data-tables",
+      "kind": "Headless table",
+      "description": "Table logic for sorting, filtering, and pagination, with complete control over your UI.",
+      "goodFor": "A custom table that fits your existing design system.",
+      "caveat": "You build the markup and controls; virtualization is a separate concern.",
+      "implementation": "Render rows and cells using your own components. Connect search, sort, and filter controls to table state. For large datasets, decide between client-side data, server-side operations, and a separate virtualization layer.",
+      "official": "https://tanstack.com/table/latest",
+      "keywords": [
+        "search sort filter",
+        "large dataset",
+        "headless",
+        "custom table",
+        "pagination"
+      ]
+    },
+    {
+      "id": "ag-grid",
+      "name": "AG Grid",
+      "monogram": "AG",
+      "category": "data-tables",
+      "kind": "Data grid",
+      "description": "A ready-made grid for interactive data-heavy applications.",
+      "goodFor": "Rich table interactions with an integrated grid UI.",
+      "caveat": "Some advanced features require an Enterprise license.",
+      "implementation": "Configure columns, data, and the grid theme, then connect the row model and events to your app. Check the Community and Enterprise feature boundaries for the interactions you need.",
+      "official": "https://www.ag-grid.com/react-data-grid/getting-started/",
+      "keywords": [
+        "search sort filter",
+        "large dataset",
+        "data grid",
+        "spreadsheet",
+        "editing"
+      ]
+    },
+    {
+      "id": "mui-data-grid",
+      "name": "MUI X Data Grid",
+      "monogram": "M",
+      "category": "data-tables",
+      "kind": "Data grid",
+      "description": "A feature-rich data grid in the MUI component ecosystem.",
+      "goodFor": "Data tables in an application already using Material UI.",
+      "caveat": "Feature availability differs between Community, Pro, and Premium.",
+      "implementation": "Define rows and columns, configure grid features, and apply your MUI theme. Confirm the required plan for advanced interactions before settling on the component.",
+      "official": "https://mui.com/x/react-data-grid/",
+      "keywords": [
+        "search sort filter",
+        "large dataset",
+        "material ui",
+        "data grid",
+        "editing"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "dates",
+      "title": "Dates & time",
+      "icon": "calendar",
+      "description": "Format, parse, and work with dates. Find the right utilities for the way you build.",
+      "noteTitle": "Working with dates, or choosing a date?",
+      "note": "These libraries handle date values. A date picker is a separate UI component you can use alongside them.",
+      "task": "Format a date",
+      "taskId": "format-a-date",
+      "taskDescription": "Format a date, parse a timestamp, or calculate the time between two dates.",
+      "keywords": [
+        "date formatting",
+        "parse dates",
+        "time",
+        "calendar",
+        "timestamp"
+      ]
+    },
+    {
+      "id": "drag-and-drop",
+      "title": "Drag & drop",
+      "icon": "move",
+      "description": "Reorder a list, move cards between columns, or build your own drag-and-drop interaction.",
+      "noteTitle": "Start with the interaction you need.",
+      "note": "Sortable lists and custom drop targets need different building blocks. Plan keyboard interaction and an alternative to dragging from the start.",
+      "task": "Build a sortable list",
+      "taskId": "build-a-sortable-list",
+      "taskDescription": "Drag items to reorder a sortable list, move cards on a kanban board, or drop files into an app.",
+      "keywords": [
+        "reorder",
+        "sortable",
+        "kanban",
+        "drag and drop",
+        "drop target"
+      ]
+    },
+    {
+      "id": "data-tables",
+      "title": "Data tables",
+      "icon": "table",
+      "description": "Search, sort, and filter a large dataset. Choose the right balance of ready-made UI and control.",
+      "noteTitle": "Table logic, or a complete grid?",
+      "note": "A headless table gives you the behavior while you build the interface. A data grid provides a UI with a different set of customization and licensing tradeoffs.",
+      "task": "Explore a large dataset",
+      "taskId": "explore-a-large-dataset",
+      "taskDescription": "I want to display a large dataset in a table with search, sorting, and filtering.",
+      "keywords": [
+        "search sort filter",
+        "large dataset",
+        "table",
+        "grid",
+        "spreadsheet",
+        "pagination",
+        "virtualization"
+      ]
+    }
+  ]
+}

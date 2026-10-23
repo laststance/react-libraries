@@ -1,0 +1,101 @@
+{
+  "id": "e9ccbcedaaf14bceb162f3f9f215dcb8",
+  "title": "Search / Suggest / Auto Complete",
+  "sourceUrl": "https://laststance.notion.site/e9ccbcedaaf14bceb162f3f9f215dcb8",
+  "fetchedAt": "2026-10-23T20:07:18.982Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "9f6332a425294235b926be9974728ad6",
+      "type": "sub_sub_header",
+      "title": "JS Search",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a0fe0691d256483aad899181d968f10a",
+      "type": "bookmark",
+      "title": "JS Search",
+      "description": "",
+      "url": "https://bvaughn.github.io/js-search/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c30790e873c8430fbd43d2409f7a93e3",
+      "type": "sub_sub_header",
+      "title": "React Autosuggest",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0c5be59d87194f76b13b443d0e521b22",
+      "type": "bookmark",
+      "title": "React Autosuggest",
+      "description": "Accessible, mobile friendly, and customizable React autosuggest component",
+      "url": "https://react-autosuggest.js.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "99a73da0a22a4d33a9ffae6cc13320c1",
+      "type": "sub_sub_header",
+      "title": "Downshift",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "cf0096ff249e49f2952c177d9b403e28",
+      "type": "bookmark",
+      "title": "Introduction | Downshift",
+      "description": "Downshift Library Documentation",
+      "url": "https://www.downshift-js.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "98988b1114dc4ed597ace6c96c3c81dc",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c28bd11a76844cafaa596299797c6a22",
+      "type": "sub_sub_header",
+      "title": "Autocompilte",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d23c6be609984925a070623c9ce031f2",
+      "type": "bookmark",
+      "title": "GitHub - algolia/autocomplete: 🔮 Fast and full-featured autocomplete library",
+      "description": "🔮 Fast and full-featured autocomplete library. Contribute to algolia/autocomplete development by creating an account on GitHub.",
+      "url": "https://github.com/algolia/autocomplete#readme",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "44d2d0c168ab445bb19dc0949d613421",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

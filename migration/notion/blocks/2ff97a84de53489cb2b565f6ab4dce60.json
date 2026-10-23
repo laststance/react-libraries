@@ -1,0 +1,38 @@
+{
+  "id": "2ff97a84de53489cb2b565f6ab4dce60",
+  "title": "Tooltip",
+  "sourceUrl": "https://laststance.notion.site/2ff97a84de53489cb2b565f6ab4dce60",
+  "fetchedAt": "2026-10-23T20:07:11.879Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "21194540e6d64df985ed66e32ce232a6",
+      "type": "sub_sub_header",
+      "title": "Floating UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "aa2fd92358c4461a868a66b1be28795e",
+      "type": "bookmark",
+      "title": "Floating UI - Create tooltips, popovers, dropdowns, and more",
+      "description": "A JavaScript library to position floating elements and create interactions for them.",
+      "url": "https://floating-ui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8536ddcea48e4e8cac9b8343e1523bc5",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

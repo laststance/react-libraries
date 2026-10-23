@@ -1,0 +1,14 @@
+{
+  "id": "eeef3090a0044ed58dc8eff23f154bc6",
+  "parent": "e08f822cf74a4a3aa9f50c2fcb2874a9",
+  "sourceUrl": "https://laststance.notion.site/eeef3090a0044ed58dc8eff23f154bc6",
+  "title": "NPM package tool",
+  "content": "\n<p>\n <b>API Extractor</b>\n</p>\n\n<bookmark source=\"https://api-extractor.com/pages/overview/intro/\" />\n\n## Bundler\n\n### tshy\n\n<unknown url=\"https://app.notion.com/p/eeef3090a0044ed58dc8eff23f154bc6#b5c105cd729048b08ddad4289cd8586b\" alt=\"external_object_instance\" />\n\n### tsup\n\n<bookmark source=\"https://tsup.egoist.dev/\" />\n\n### pkgroll\n\n<unknown url=\"https://app.notion.com/p/eeef3090a0044ed58dc8eff23f154bc6#c24b7f89b6e640ac95959adc01bfba08\" alt=\"external_object_instance\" />\n\n### Preconstruct\n\n<bookmark source=\"https://preconstruct.tools/\" />\n\n## Package Release Things\n\n### Yalc\n\n<bookmark source=\"https://www.npmjs.com/package/yalc\" />\n\n### Release It\n\n<unknown url=\"https://app.notion.com/p/eeef3090a0044ed58dc8eff23f154bc6#f5643bcbf2e74fbf95b94276f3da162f\" alt=\"external_object_instance\" />\n\n### PubLint\n\n<bookmark source=\"https://publint.dev/\" />\n\n### Size Limit\n\n<unknown url=\"https://app.notion.com/p/eeef3090a0044ed58dc8eff23f154bc6#59d4966e5b84408d82b0d41107b1b383\" alt=\"external_object_instance\" />\n\n### NCC\n\n[https://www.npmjs.com/package/@vercel/ncc](https://www.npmjs.com/package/@vercel/ncc)\n\n<p />\n\n### npmgraph\n\n<bookmark source=\"https://npmgraph.js.org/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-11-19T23:43:56.080Z",
+    "truncated": true,
+    "unknownBlockCount": 4
+  }
+}

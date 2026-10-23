@@ -1,0 +1,33 @@
+{
+  "id": "7de7afebe2ac42019d56ffcac6467369",
+  "parent": "e08f822cf74a4a3aa9f50c2fcb2874a9",
+  "sourceUrl": "https://laststance.notion.site/7de7afebe2ac42019d56ffcac6467369",
+  "title": "⚫ Next.js/Vercel",
+  "content": "\n<p />\n\n<page url=\"https://app.notion.com/p/5d5b62c6a71c4d64b3425591d63b2cc4\">\nOpen Graph\n</page>\n\n<page url=\"https://app.notion.com/p/dd8b0a8a6af34f92b3fe0e87533cb8fd\">\nNext.js Library\n</page>\n\n<page url=\"https://app.notion.com/p/abef73b97bd04844919451105c989b89\">\nLearning\n</page>\n\n<page url=\"https://app.notion.com/p/0d2bf5c330ca45d88c7868c3476a4a80\">\nOSS Next App\n</page>\n\n<page url=\"https://app.notion.com/p/21af4aa9fa25802c9728c8363088ed26\">\nStack\n</page>\n\n<p />\n",
+  "children": [
+    {
+      "id": "5d5b62c6a71c4d64b3425591d63b2cc4",
+      "title": "Open Graph"
+    },
+    {
+      "id": "dd8b0a8a6af34f92b3fe0e87533cb8fd",
+      "title": "Next.js Library"
+    },
+    {
+      "id": "abef73b97bd04844919451105c989b89",
+      "title": "Learning"
+    },
+    {
+      "id": "0d2bf5c330ca45d88c7868c3476a4a80",
+      "title": "OSS Next App"
+    },
+    {
+      "id": "21af4aa9fa25802c9728c8363088ed26",
+      "title": "Stack"
+    }
+  ],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-11-19T23:44:43.298Z"
+  }
+}

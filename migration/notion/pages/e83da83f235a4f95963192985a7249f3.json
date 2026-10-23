@@ -1,0 +1,12 @@
+{
+  "id": "e83da83f235a4f95963192985a7249f3",
+  "parent": "4e1053bcac264e069514747acbac6216",
+  "sourceUrl": "https://laststance.notion.site/e83da83f235a4f95963192985a7249f3",
+  "title": "Create CLI Application",
+  "content": "\n### Cac\n\n<bookmark source=\"https://www.npmjs.com/package/cac\" />\n\n### Clack\n\n<bookmark source=\"https://www.clack.cc/\" />\n\n### Execa\n\n<bookmark source=\"https://github.com/sindresorhus/execa#readme\" />\n\n### Sly CLI\n\n<bookmark source=\"https://sly-cli.fly.dev/\" />\n\n<p />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-05-30T00:48:00.142Z"
+  }
+}

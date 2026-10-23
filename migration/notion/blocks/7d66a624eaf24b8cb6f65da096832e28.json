@@ -1,0 +1,137 @@
+{
+  "id": "7d66a624eaf24b8cb6f65da096832e28",
+  "title": "Hooks",
+  "sourceUrl": "https://laststance.notion.site/7d66a624eaf24b8cb6f65da096832e28",
+  "fetchedAt": "2026-10-23T20:07:15.222Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "a5bb689f9bb445d0b21ed7c41e0d2ba8",
+      "type": "sub_sub_header",
+      "title": "use-debounce",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3f34c2e019854b3c8fe2ccb4804f5172",
+      "type": "external_object_instance",
+      "title": "use-debounce",
+      "description": "",
+      "url": "https://github.com/xnimorz/use-debounce",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "95236b90685b495e94ebfceabf99eb80",
+      "type": "sub_sub_header",
+      "title": "its-fine",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d2de73e10cbe403aa6a96e784ce838f1",
+      "type": "bookmark",
+      "title": "npm: its-fine",
+      "description": "A collection of escape hatches for React.. Latest version: 1.1.1, last published: a year ago. Start using its-fine in your project by running `npm i its-fine`. There are 13 other projects in the npm registry using its-fine.",
+      "url": "https://www.npmjs.com/package/its-fine",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3fdbb39d61b747c99917ef8b4254a57a",
+      "type": "sub_sub_header",
+      "title": "usehooks-ts",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f925680835fe443eb234097976d2f82b",
+      "type": "external_object_instance",
+      "title": "usehooks-ts",
+      "description": "",
+      "url": "https://github.com/juliencrn/usehooks-ts",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "602b9656eacf46fb8a1418667c30b2c7",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "15677ef116b14be285841877317fa4c1",
+      "type": "sub_sub_header",
+      "title": "usehooks",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c40788225f5847b2b1ba5a726c7fb7f1",
+      "type": "external_object_instance",
+      "title": "usehooks",
+      "description": "",
+      "url": "https://github.com/uidotdev/usehooks",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "506efe5b5bfe4af48f23cb8d154658b0",
+      "type": "sub_sub_header",
+      "title": "react-use",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8a083f9bb6474daeaa7cefb34b5960d6",
+      "type": "external_object_instance",
+      "title": "react-use",
+      "description": "",
+      "url": "https://github.com/streamich/react-use",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2cc10bfe8bad4c75bb7b5e4b9e2a41da",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3408154331ab4f5795b601eb3c85cda2",
+      "type": "sub_sub_header",
+      "title": "bueatiful-react-hooks",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "11704f10c7bf4ef0840c5ec5f4b15844",
+      "type": "bookmark",
+      "title": "GitHub - antonioru/beautiful-react-hooks: 🔥 A collection of beautiful and (hopefully) useful React hooks to speed-up your components and hooks development 🔥",
+      "description": "🔥 A collection of beautiful and (hopefully) useful React hooks to speed-up your components and hooks development 🔥 - antonioru/beautiful-react-hooks",
+      "url": "https://github.com/antonioru/beautiful-react-hooks?tab=readme-ov-file",
+      "links": [],
+      "children": []
+    }
+  ]
+}

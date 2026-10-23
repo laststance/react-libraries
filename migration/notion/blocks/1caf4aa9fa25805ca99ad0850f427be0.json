@@ -1,0 +1,47 @@
+{
+  "id": "1caf4aa9fa25805ca99ad0850f427be0",
+  "title": "Bundler",
+  "sourceUrl": "https://laststance.notion.site/1caf4aa9fa25805ca99ad0850f427be0",
+  "fetchedAt": "2026-10-23T20:07:08.898Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "1caf4aa9fa2580a1bf92e07233a0d069",
+      "type": "sub_sub_header",
+      "title": "Rsdoctor",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1caf4aa9fa25801e872cebb5eaedee88",
+      "type": "bookmark",
+      "title": "Rsdoctor",
+      "description": "Build analyzer for Rspack and webpack",
+      "url": "https://rsdoctor.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa2580b5a94ec5ad16169601",
+      "type": "sub_sub_header",
+      "title": "Rolldown",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa25804e8a4af3e661ba31e5",
+      "type": "bookmark",
+      "title": "Rolldown | Rust bundler for JavaScript",
+      "description": "Fast Rust-based bundler for JavaScript with Rollup-compatible API",
+      "url": "https://rolldown.rs/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

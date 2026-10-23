@@ -1,0 +1,52 @@
+{
+  "id": "1cbf4aa9fa2580639042d60370ef488e",
+  "title": "shadcn Ecosystem",
+  "sourceUrl": "https://laststance.notion.site/1cbf4aa9fa2580639042d60370ef488e",
+  "fetchedAt": "2026-10-23T20:07:09.262Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "1cbf4aa9fa2580d6ba66d9be935d4cac",
+      "type": "sub_sub_header",
+      "title": "Supabase UI Library",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1cbf4aa9fa25804b84a6dc259cca4b1e",
+      "type": "bookmark",
+      "title": "Supabase UI Library",
+      "description": "Provides a library of components for your project",
+      "url": "https://supabase.com/ui",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3a6f4aa9fa25802b8626e86f1ab669a9",
+      "type": "sub_header",
+      "title": "Canvas UI\nhttps://canvasui.dev/",
+      "description": "",
+      "url": "",
+      "links": [
+        {
+          "text": "https://canvasui.dev/",
+          "url": "https://canvasui.dev/"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3a6f4aa9fa258085bde6c6ffd06e4b7b",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

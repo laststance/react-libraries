@@ -1,0 +1,10 @@
+{
+  "number": 60,
+  "originalUrl": "https://www.npmjs.com/package/select-dom",
+  "requestUrl": "https://registry.npmjs.org/select-dom/latest",
+  "finalUrl": "https://registry.npmjs.org/select-dom/latest",
+  "status": 200,
+  "title": "select-dom",
+  "description": "Lightweight querySelector/All/closest wrapper that returns an array and optionally throws if elements are not found",
+  "checkedAt": "2026-10-23T20:09:52.204Z"
+}

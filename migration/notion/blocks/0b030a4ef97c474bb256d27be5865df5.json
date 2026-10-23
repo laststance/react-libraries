@@ -1,0 +1,101 @@
+{
+  "id": "0b030a4ef97c474bb256d27be5865df5",
+  "title": "Data Fetch / XHR Client",
+  "sourceUrl": "https://laststance.notion.site/0b030a4ef97c474bb256d27be5865df5",
+  "fetchedAt": "2026-10-23T20:07:07.878Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "d4d2c1bdc55c41868b253a60c797672e",
+      "type": "sub_sub_header",
+      "title": "SWR",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4b33c14c1c5d408a820841ad9147a870",
+      "type": "bookmark",
+      "title": "React Hooks for Data Fetching – SWR",
+      "description": "SWR is a React Hooks library for data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again.",
+      "url": "https://swr.vercel.app/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f01c44dd4cdd40fbb9ee193e672b4493",
+      "type": "sub_sub_header",
+      "title": "react-query",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "722d17b37dd04378b90209b50a0b4854",
+      "type": "bookmark",
+      "title": "TanStack | High Quality Open-Source Software for Web Developers",
+      "description": "Headless, type-safe, powerful utilities for complex workflows like Data Management, Data Visualization, Charts, Tables, and UI Components.",
+      "url": "https://tanstack.com/query/latest",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa2580168a0df33c5da4404b",
+      "type": "sub_sub_header",
+      "title": "RTK-Query",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa258096ba70f5801788910d",
+      "type": "bookmark",
+      "title": "RTK Query Overview | Redux Toolkit",
+      "description": "RTK Query > Overview: a summary of the RTK Query data caching API for Redux Toolkit",
+      "url": "https://redux-toolkit.js.org/rtk-query/overview",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa2580b59c8cf021151d5623",
+      "type": "sub_sub_header",
+      "title": "Suspensive",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa2580dd934ad0883812bedf",
+      "type": "bookmark",
+      "title": "All in one for Suspense | Suspensive",
+      "description": "All in one for React Suspense",
+      "url": "https://suspensive.org/en",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa25808589c0fccf837007f9",
+      "type": "sub_sub_header",
+      "title": "axios-hooks",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa2580448fe2f961e47eddfd",
+      "type": "external_object_instance",
+      "title": "axios-hooks",
+      "description": "",
+      "url": "https://github.com/simoneb/axios-hooks",
+      "links": [],
+      "children": []
+    }
+  ]
+}

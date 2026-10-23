@@ -1,0 +1,29 @@
+{
+  "id": "f75c86e56ae64b90b1778fa80fb6b259",
+  "title": "TypeScirpt knowledge",
+  "sourceUrl": "https://laststance.notion.site/f75c86e56ae64b90b1778fa80fb6b259",
+  "fetchedAt": "2026-10-23T20:07:19.750Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "995279f3589c4349aa81c515c413ca02",
+      "type": "sub_sub_header",
+      "title": "Advanced TypeScript",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fe99e0df5c484ee6bbbcd55ef566689c",
+      "type": "bookmark",
+      "title": "Advanced TypeScript",
+      "description": "You rarely learn Advanced TypeScript features just by themselves. Only when combined with other parts of the language and put in context they reveal their true power. And this is the focus of this guide.",
+      "url": "https://fettblog.eu/advanced-typescript-guide/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

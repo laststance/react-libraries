@@ -1,0 +1,17 @@
+---
+import { categories, libraries } from "../content/catalog.ts";
+import Icon from "blume/components/Icon.astro";
+interface Props { exclude?: string; group?: string; limit?: number; }
+const { exclude, group, limit } = Astro.props;
+const visible = categories.filter((category) => category.id !== exclude && (!group || category.group === group)).slice(0, limit);
+---
+<div class="category-grid not-prose">
+  {visible.map((category) => (
+    <a class="category-card" href={`/${category.id}`}>
+      <Icon name={category.icon} size={21} />
+      <div><strong>{category.title}</strong><p>{category.task}</p></div>
+      <span class="category-count">{libraries.filter((library) => library.category === category.id).length}</span>
+      <span aria-hidden="true">→</span>
+    </a>
+  ))}
+</div>

@@ -1,0 +1,75 @@
+{
+  "id": "4b04d3d57a2f4e638b34ff3b5fb8021b",
+  "title": "Chart",
+  "sourceUrl": "https://laststance.notion.site/4b04d3d57a2f4e638b34ff3b5fb8021b",
+  "fetchedAt": "2026-10-23T20:07:13.981Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "e01374e2823946ca8d6e5065405d7172",
+      "type": "sub_sub_header",
+      "title": "Plotteus",
+      "description": "",
+      "url": "",
+      "links": [
+        {
+          "text": "Plotteus",
+          "url": "https://www.plotteus.dev/"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c8d818f550e1427daaf998199a290210",
+      "type": "bookmark",
+      "title": "Plotteus | The JavaScript library for data storytelling",
+      "description": "Plotteus is an open-source JavaScript data visualization library designed for better storytelling. Take your data-driven stories to the next level today.",
+      "url": "https://www.plotteus.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d597e66b83544f94ac0cc1c726555cb2",
+      "type": "sub_sub_header",
+      "title": "Ploty",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f3d57948f3cd4e0e86934199b6692b0a",
+      "type": "bookmark",
+      "title": "Plotly",
+      "description": "A",
+      "url": "https://plotly.com/javascript/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "df3eac5603344dada1aba10201dc3823",
+      "type": "sub_sub_header",
+      "title": "canvasJS",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "53f0c7b2344a466f9900c07815f42d41",
+      "type": "text",
+      "title": "https://canvasjs.com/",
+      "description": "",
+      "url": "",
+      "links": [
+        {
+          "text": "https://canvasjs.com/",
+          "url": "https://canvasjs.com/"
+        }
+      ],
+      "children": []
+    }
+  ]
+}

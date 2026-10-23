@@ -1,0 +1,17 @@
+{
+  "id": "ebe38ddcfffb4d35ba0c663868e32cfa",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/ebe38ddcfffb4d35ba0c663868e32cfa",
+  "title": "Drag & Drop",
+  "content": "\n### React DnD\n\n<bookmark source=\"https://react-dnd.github.io/react-dnd/about\" />\n\n### React DropZone\n\n<bookmark source=\"https://react-dropzone.js.org/\" />\n\n### DnD Kit\n\n<bookmark source=\"https://dndkit.com/\" />\n\n### Hellopanga/dnd\n\n<bookmark source=\"https://dnd.hellopangea.com/?path=/story/examples-single-vertical-list--basic\" />\n\n### <b>Pragmatic drag and drop</b>\n\n<bookmark source=\"https://atlassian.design/components/pragmatic-drag-and-drop/about\" />\n\n<unknown url=\"https://app.notion.com/p/ebe38ddcfffb4d35ba0c663868e32cfa#a0099eaba16b4ed58da742c8e079a4db\" alt=\"external_object_instance\" />\n\n## <b>React Drag and Drop Files</b>\n\n<bookmark source=\"https://www.npmjs.com/package/react-drag-drop-files\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-07-21T08:30:26.738Z",
+    "truncated": true,
+    "unknownBlockCount": 1,
+    "unknownBlockIds": [
+      "a0099eab-a16b-4ed5-8da7-42c8e079a4db"
+    ]
+  }
+}

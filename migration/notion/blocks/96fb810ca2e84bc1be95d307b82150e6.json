@@ -1,0 +1,56 @@
+{
+  "id": "96fb810ca2e84bc1be95d307b82150e6",
+  "title": "Security",
+  "sourceUrl": "https://laststance.notion.site/96fb810ca2e84bc1be95d307b82150e6",
+  "fetchedAt": "2026-10-23T20:07:16.761Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "ce3722af160e415db630a34a7134557d",
+      "type": "sub_sub_header",
+      "title": "DOMPurify",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "65730f6b24134b5faf8c1bfde980193d",
+      "type": "bookmark",
+      "title": "DOMPurify 3.1.5 \"Crowbar\"",
+      "description": "This is the demo for DOMPurify, a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, SVG and MathML. \n        The textarea below contains sample-payload - you can also add your own. Watch it sanitize on the console or in the Iframe below.",
+      "url": "https://cure53.de/purify",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "521159047e744193bea5a99a510e1fd5",
+      "type": "sub_header",
+      "title": "DOMPurfiy Isomophic",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "271f4aa9fa2580bd8205e7833a870e1a",
+      "type": "external_object_instance",
+      "title": "isomorphic-dompurify",
+      "description": "",
+      "url": "https://github.com/kkomelin/isomorphic-dompurify",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "273f4aa9fa25803ca4bbf9b0a9fabd94",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

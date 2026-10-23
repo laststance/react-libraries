@@ -1,0 +1,29 @@
+{
+  "id": "443b68519eeb4b089b5a0f56c1f51b08",
+  "title": "Slider",
+  "sourceUrl": "https://laststance.notion.site/443b68519eeb4b089b5a0f56c1f51b08",
+  "fetchedAt": "2026-10-23T20:07:13.457Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "430111fe0e85491992b349e7fde5e228",
+      "type": "bookmark",
+      "title": "Flickity",
+      "description": "Touch, responsive, flickable carousels",
+      "url": "https://flickity.metafizzy.co/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4ad4007619fe4767b55c98e34ccbf0e4",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

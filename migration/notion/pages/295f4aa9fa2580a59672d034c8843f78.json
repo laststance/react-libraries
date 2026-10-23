@@ -1,0 +1,17 @@
+{
+  "id": "295f4aa9fa2580a59672d034c8843f78",
+  "parent": "e08f822cf74a4a3aa9f50c2fcb2874a9",
+  "sourceUrl": "https://laststance.notion.site/295f4aa9fa2580a59672d034c8843f78",
+  "title": "Tools that using React",
+  "content": "\n<p />\n\n<page url=\"https://app.notion.com/p/41e96834428f4cf28cde62728994cce4\">\nDocs / Static Site Generator\n</page>\n",
+  "children": [
+    {
+      "id": "41e96834428f4cf28cde62728994cce4",
+      "title": "Docs / Static Site Generator"
+    }
+  ],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-11-09T00:00:42.436Z"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "5da66a9b1d1b4658ba2125460793fd2e",
+  "title": "Web Worker",
+  "sourceUrl": "https://laststance.notion.site/5da66a9b1d1b4658ba2125460793fd2e",
+  "fetchedAt": "2026-10-23T20:07:14.503Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "e9f12cea855a478ab4aafecc96ff233b",
+      "type": "sub_sub_header",
+      "title": "workerpool",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1c8a1f73200c4a3db19f2e1a05c8fda2",
+      "type": "bookmark",
+      "title": "GitHub - josdejong/workerpool: Offload tasks to a pool of workers on node.js and in the browser",
+      "description": "Offload tasks to a pool of workers on node.js and in the browser - GitHub - josdejong/workerpool: Offload tasks to a pool of workers on node.js and in the browser",
+      "url": "https://github.com/josdejong/workerpool?tab=readme-ov-file",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "36238d6064414484a2c2798cd20bff66",
+      "type": "sub_sub_header",
+      "title": "Partytown",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e96f198f27d048eabd347f98be54d63d",
+      "type": "bookmark",
+      "title": "Introduction - Partytown",
+      "description": "Partytown - Run third-party scripts from a web worker",
+      "url": "https://partytown.builder.io/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

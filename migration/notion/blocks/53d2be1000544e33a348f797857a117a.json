@@ -1,0 +1,38 @@
+{
+  "id": "53d2be1000544e33a348f797857a117a",
+  "title": "Dashbord",
+  "sourceUrl": "https://laststance.notion.site/53d2be1000544e33a348f797857a117a",
+  "fetchedAt": "2026-10-23T20:07:14.148Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "ca0967725a8f41239594eaf0f4cb33c6",
+      "type": "sub_sub_header",
+      "title": "Tremor",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f5e824667f05419f93daefee15227aac",
+      "type": "bookmark",
+      "title": "Tremor – The React library to build dashboards fast",
+      "description": "Modular components to build insightful dashboards in a breeze.",
+      "url": "https://www.tremor.so/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "73ad5bd27a5d457eb0661450e745cf20",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "879fa68ef050477cb41861128511a1a4",
+  "parent": "4e1053bcac264e069514747acbac6216",
+  "sourceUrl": "https://laststance.notion.site/879fa68ef050477cb41861128511a1a4",
+  "title": "General",
+  "content": "\n### minimatch\n\n<bookmark source=\"https://www.npmjs.com/package/minimatch\" />\n\n### Globby\n\n<bookmark source=\"https://www.npmjs.com/package/globby\" />\n\n### concurrently\n\n<bookmark source=\"https://www.npmjs.com/package/concurrently\" />\n\n### Glob\n\n<bookmark source=\"https://www.npmjs.com/package/glob\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-02-10T01:10:41.127Z"
+  }
+}

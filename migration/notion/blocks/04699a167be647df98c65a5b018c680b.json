@@ -1,0 +1,29 @@
+{
+  "id": "04699a167be647df98c65a5b018c680b",
+  "title": "Run Shell Script",
+  "sourceUrl": "https://laststance.notion.site/04699a167be647df98c65a5b018c680b",
+  "fetchedAt": "2026-10-23T20:07:07.367Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "f03291800cf045d68549cff36132ea88",
+      "type": "sub_sub_header",
+      "title": "ZX",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "38edc9d20169478abf458745793e322f",
+      "type": "bookmark",
+      "title": "npm: zx",
+      "description": "A tool for writing better scripts. Latest version: 7.2.3, last published: a month ago. Start using zx in your project by running `npm i zx`. There are 369 other projects in the npm registry using zx.",
+      "url": "https://www.npmjs.com/package/zx",
+      "links": [],
+      "children": []
+    }
+  ]
+}

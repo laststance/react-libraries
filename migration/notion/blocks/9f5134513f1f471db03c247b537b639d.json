@@ -1,0 +1,119 @@
+{
+  "id": "9f5134513f1f471db03c247b537b639d",
+  "title": "Validation",
+  "sourceUrl": "https://laststance.notion.site/9f5134513f1f471db03c247b537b639d",
+  "fetchedAt": "2026-10-23T20:07:17.288Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "487d2c4dc7df47b78789ddb860eca36e",
+      "type": "sub_sub_header",
+      "title": "joi",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ae96d29e8d744dde852d6b8551108402",
+      "type": "bookmark",
+      "title": "npm: joi",
+      "description": "Object schema validation. Latest version: 17.11.0, last published: a month ago. Start using joi in your project by running `npm i joi`. There are 10475 other projects in the npm registry using joi.",
+      "url": "https://www.npmjs.com/package/joi",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7dfa2494ff624bba822ef5fa7387e4ff",
+      "type": "sub_sub_header",
+      "title": "Yup",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6f3d538577544028bd5044e651c16113",
+      "type": "bookmark",
+      "title": "npm: yup",
+      "description": "Dead simple Object schema validation. Latest version: 1.3.2, last published: a month ago. Start using yup in your project by running `npm i yup`. There are 5036 other projects in the npm registry using yup.",
+      "url": "https://www.npmjs.com/package/yup",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fc5c9e466cf5409f9258a2d48b84375a",
+      "type": "sub_sub_header",
+      "title": "Zod",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bec91b7952db456db2c9451ca98d5743",
+      "type": "bookmark",
+      "title": "TypeScript-first schema validation with static type inference",
+      "description": "",
+      "url": "https://zod.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "886ee35eec6b407ba34e41156d5e6398",
+      "type": "sub_sub_header",
+      "title": "io-ts",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9ddba66819c94f738ac5e7dd9362d670",
+      "type": "bookmark",
+      "title": "npm: io-ts",
+      "description": "TypeScript runtime type system for IO decoding/encoding. Latest version: 2.2.20, last published: a year ago. Start using io-ts in your project by running `npm i io-ts`. There are 1610 other projects in the npm registry using io-ts.",
+      "url": "https://www.npmjs.com/package/io-ts",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7475369a6aaf4bbc96b62706ab4422b5",
+      "type": "sub_sub_header",
+      "title": "Superstruct",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3222d98a255646dd89ce3cd859f0df48",
+      "type": "bookmark",
+      "title": "Introduction",
+      "description": "",
+      "url": "https://docs.superstructjs.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1cbf4aa9fa2580c6b186ee36d433f4e7",
+      "type": "sub_sub_header",
+      "title": "ArkType",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1cbf4aa9fa25804799a8fd43af206d0a",
+      "type": "bookmark",
+      "title": "ArkType Docs",
+      "description": "TypeScript's 1:1 validator, optimized from editor to runtime",
+      "url": "https://arktype.io/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

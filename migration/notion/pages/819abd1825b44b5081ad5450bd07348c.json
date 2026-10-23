@@ -1,0 +1,12 @@
+{
+  "id": "819abd1825b44b5081ad5450bd07348c",
+  "parent": "ec0fccd5937c44a693ea9bb313907c64",
+  "sourceUrl": "https://laststance.notion.site/819abd1825b44b5081ad5450bd07348c",
+  "title": "Cloud Platform",
+  "content": "\n### Vercel\n\n<bookmark source=\"https://vercel.com/\" />\n\n### Fly.io\n\n<bookmark source=\"https://fly.io/\" />\n\n### Digital Ocean\n\n<bookmark source=\"https://www.digitalocean.com/\" />\n\n### Heroku\n\n<bookmark source=\"https://www.heroku.com/platform\" />\n\n### Render\n\n<bookmark source=\"https://render.com/\" />\n\n### Cloudflare\n\n<bookmark source=\"https://developers.cloudflare.com/\" />\n\n### Cuber\n\n<bookmark source=\"https://cuber.cloud/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-08-13T23:57:41.055Z"
+  }
+}

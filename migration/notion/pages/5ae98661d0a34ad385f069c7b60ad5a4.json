@@ -1,0 +1,17 @@
+{
+  "id": "5ae98661d0a34ad385f069c7b60ad5a4",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/5ae98661d0a34ad385f069c7b60ad5a4",
+  "title": "State Management",
+  "content": "\n### <b>Redux Toolkit</b>\n\n<bookmark source=\"https://redux-toolkit.js.org/\" />\n\n### Zustand\n\n<bookmark source=\"https://docs.pmnd.rs/zustand/getting-started/introduction\" />\n\n### Jotai\n\n<bookmark source=\"https://jotai.org/\" />\n\n### Valio\n\n<bookmark source=\"https://valtio.pmnd.rs/\" />\n\n### Mobx-state-tree\n\n<bookmark source=\"https://mobx-state-tree.js.org/intro/welcome\" />\n\n### Mobx\n\n<bookmark source=\"https://mobx.js.org/README.html\" />\n\n<p />\n\n### XState Store\n\n<bookmark source=\"https://stately.ai/blog/2024-04-10-xstate-store\" />\n\n### Nano Stores\n\n<unknown url=\"https://app.notion.com/p/5ae98661d0a34ad385f069c7b60ad5a4#5d68c633aad1452eb1921f69019df29c\" alt=\"external_object_instance\" />\n\n### Recoil\n\n<bookmark source=\"https://recoiljs.org/\" />\n\n### TinyBase\n\n<bookmark source=\"https://tinybase.org/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-04-03T11:07:20.339Z",
+    "truncated": true,
+    "unknownBlockCount": 1,
+    "unknownBlockIds": [
+      "5d68c633-aad1-452e-b192-1f69019df29c"
+    ]
+  }
+}

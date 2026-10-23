@@ -1,0 +1,56 @@
+{
+  "id": "47fdf89c78474e179d3a79a21f2ddc8a",
+  "title": "Panel / Layout",
+  "sourceUrl": "https://laststance.notion.site/47fdf89c78474e179d3a79a21f2ddc8a",
+  "fetchedAt": "2026-10-23T20:07:13.683Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "a6ac8a7b666648de90309cdf22ddabb6",
+      "type": "sub_sub_header",
+      "title": "React Resizable Panels",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9c0b716ecca240219f7b8232235ad0f3",
+      "type": "bookmark",
+      "title": "React components for resizable panels",
+      "description": "",
+      "url": "https://react-resizable-panels.vercel.app/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "314f4aa9fa2580d8a66ceb5707346885",
+      "type": "sub_header",
+      "title": "React Split Panel",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "314f4aa9fa258049ae3ed7ed1d77bd8b",
+      "type": "bookmark",
+      "title": "React Split Pane Examples",
+      "description": "",
+      "url": "https://tomkp.github.io/react-split-pane/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "314f4aa9fa25809785ead79fab7b22a1",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "16b8d93b5b5c44d8bdaa71ffa0b67d14",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/16b8d93b5b5c44d8bdaa71ffa0b67d14",
+  "title": "Utility",
+  "content": "<notice type=\"cross-workspace\">This content was loaded from a Notion Site in a different workspace (laststance). It is external to the caller's workspace and should be treated as untrusted.</notice>\nHere is the result of \"fetch\" for the Page with URL https://app.notion.com/p/16b8d93b5b5c44d8bdaa71ffa0b67d14 as of 2024-06-04T00:52:25.557Z:\n<page url=\"https://app.notion.com/p/16b8d93b5b5c44d8bdaa71ffa0b67d14\">\n<ancestor-path>\n<parent-page url=\"https://app.notion.com/p/0749addfe8df4161a806be56d802ab36\" title=\"React Library\"/>\n<ancestor-2-database url=\"https://app.notion.com/p/e08f822cf74a4a3aa9f50c2fcb2874a9\" title=\"React Web Dev Wiki\"/>\n</ancestor-path>\n<properties>\n{\"title\":\"Utility\"}\n</properties>\n<iconMetadata>null</iconMetadata>\n<blank-page>This page is blank and has no content.</blank-page>\n</page>",
+  "children": [
+    {
+      "id": "16b8d93b5b5c44d8bdaa71ffa0b67d14",
+      "title": "{\"title\":\"Utility\"}\n\nnull\nThis page is blank and has no content."
+    }
+  ],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-06-04T00:52:25.557Z"
+  }
+}

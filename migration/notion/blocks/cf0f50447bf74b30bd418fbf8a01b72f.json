@@ -1,0 +1,38 @@
+{
+  "id": "cf0f50447bf74b30bd418fbf8a01b72f",
+  "title": "glob",
+  "sourceUrl": "https://laststance.notion.site/cf0f50447bf74b30bd418fbf8a01b72f",
+  "fetchedAt": "2026-10-23T20:07:18.395Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "d2497d5d86ba47e1a1e23d4c611cade8",
+      "type": "sub_sub_header",
+      "title": "minimatch",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20700ffcf5044b45af85825896c511a6",
+      "type": "external_object_instance",
+      "title": "minimatch",
+      "description": "",
+      "url": "https://github.com/isaacs/minimatch",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f68bb5a4a88c4130958c237ab3392b3d",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

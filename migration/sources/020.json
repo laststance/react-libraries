@@ -1,0 +1,10 @@
+{
+  "number": 20,
+  "originalUrl": "https://trigger.dev/",
+  "requestUrl": "https://trigger.dev/",
+  "finalUrl": "https://trigger.dev/",
+  "status": 200,
+  "title": "Trigger.dev | The open source platform for durable AI agents",
+  "description": "Trigger.dev is the open source platform for durable AI agents and workflows in TypeScript. Long-running tasks with retries, queues, and LLM observability.",
+  "checkedAt": "2026-10-23T20:09:49.404Z"
+}

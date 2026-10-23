@@ -1,0 +1,17 @@
+{
+  "id": "0b030a4ef97c474bb256d27be5865df5",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/0b030a4ef97c474bb256d27be5865df5",
+  "title": "Data Fetch / XHR Client",
+  "content": "\n### SWR\n\n<bookmark source=\"https://swr.vercel.app/\" />\n\n### react-query\n\n<bookmark source=\"https://tanstack.com/query/latest\" />\n\n### RTK-Query\n\n<bookmark source=\"https://redux-toolkit.js.org/rtk-query/overview\" />\n\n### Suspensive\n\n<bookmark source=\"https://suspensive.org/en\" />\n\n### axios-hooks\n\n<unknown url=\"https://app.notion.com/p/0b030a4ef97c474bb256d27be5865df5#20cf4aa9fa2580448fe2f961e47eddfd\" alt=\"external_object_instance\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-06-08T08:00:44.420Z",
+    "truncated": true,
+    "unknownBlockCount": 1,
+    "unknownBlockIds": [
+      "20cf4aa9-fa25-8044-8fe2-f961e47eddfd"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "21b8e1e684fc438b862844e72121f0da",
+  "title": "Project maintainance",
+  "sourceUrl": "https://laststance.notion.site/21b8e1e684fc438b862844e72121f0da",
+  "fetchedAt": "2026-10-23T20:07:10.637Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "0aff87b010e04f65893454e73da6b6b8",
+      "type": "sub_sub_header",
+      "title": "npm-check-updates",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "53888157ca5f4c308df55abe1d0a41f9",
+      "type": "bookmark",
+      "title": "npm: npm-check-updates",
+      "description": "Find newer versions of dependencies than what your package.json allows. Latest version: 16.14.20, last published: 3 months ago. Start using npm-check-updates in your project by running `npm i npm-check-updates`. There are 568 other projects in the npm registry using npm-check-updates.",
+      "url": "https://www.npmjs.com/package/npm-check-updates",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "17c94582a6da4903871dffee61172cf5",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

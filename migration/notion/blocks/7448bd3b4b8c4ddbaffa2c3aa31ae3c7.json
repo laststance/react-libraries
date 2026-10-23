@@ -1,0 +1,308 @@
+{
+  "id": "7448bd3b4b8c4ddbaffa2c3aa31ae3c7",
+  "title": "CLI",
+  "sourceUrl": "https://laststance.notion.site/7448bd3b4b8c4ddbaffa2c3aa31ae3c7",
+  "fetchedAt": "2026-10-23T20:07:15.031Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "9e28ffb7460046269d0f3df974cfc5e3",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "47464b06ebef476bb380f68c45cdf4be",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d7bda873c93a4e62819212bc0582403e",
+      "type": "sub_sub_header",
+      "title": "progress-estimator",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "adb46188d54b44228587e508f37008c2",
+      "type": "external_object_instance",
+      "title": "progress-estimator",
+      "description": "",
+      "url": "https://github.com/bvaughn/progress-estimator",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "eac8de1d88c345339dfb5da5a0a72fc8",
+      "type": "sub_sub_header",
+      "title": "Clipboardy",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c3d9e8cc234e413391e88a1f1d5172f4",
+      "type": "external_object_instance",
+      "title": "clipboardy",
+      "description": "",
+      "url": "https://github.com/sindresorhus/clipboardy",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "72a5511ee16c40f3b4bad4bdc7f38f18",
+      "type": "sub_sub_header",
+      "title": "wireit",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "68f169fc002d4b2986d55a22cb11983b",
+      "type": "external_object_instance",
+      "title": "wireit",
+      "description": "",
+      "url": "https://github.com/google/wireit",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5a7c29a3f84249d083b96c0851b8ed8a",
+      "type": "sub_sub_header",
+      "title": "rimraf",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d6bb21584a8348719039a191773ef131",
+      "type": "bookmark",
+      "title": "npm: rimraf",
+      "description": "A deep deletion module for node (like `rm -rf`). Latest version: 5.0.5, last published: 4 months ago. Start using rimraf in your project by running `npm i rimraf`. There are 20851 other projects in the npm registry using rimraf.",
+      "url": "https://www.npmjs.com/package/rimraf",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c9c9828b6b8d4ef7a3ae6854f4a2eee2",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4204e849a3f242b98470e8ec329fa7d7",
+      "type": "sub_sub_header",
+      "title": "chrma.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "384c740223be486eae745aae8d6f76d5",
+      "type": "bookmark",
+      "title": "chroma.js api docs!",
+      "description": "chroma.js is a small-ish zero-dependency JavaScript library (13.5kB) for all kinds of color conversions and color scales.",
+      "url": "https://www.vis4.net/chromajs/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fc6acfaf81c44cbe9d49e29c92ff3b56",
+      "type": "sub_sub_header",
+      "title": "cli-spinners",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c6a99b56b0cf4b7a849d8afd370e2c22",
+      "type": "bookmark",
+      "title": "npm: cli-spinners",
+      "description": "Spinners for use in the terminal. Latest version: 2.9.2, last published: 3 months ago. Start using cli-spinners in your project by running `npm i cli-spinners`. There are 1548 other projects in the npm registry using cli-spinners.",
+      "url": "https://www.npmjs.com/package/cli-spinners",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b845a5f587a84c1181d4c13dc5963e40",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4722d4eea84e47c29d2b69b1786df155",
+      "type": "sub_sub_header",
+      "title": "cli-cursor",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "515b27ad41fa4215878a91149c9662fe",
+      "type": "bookmark",
+      "title": "npm: cli-cursor",
+      "description": "Toggle the CLI cursor. Latest version: 4.0.0, last published: 3 years ago. Start using cli-cursor in your project by running `npm i cli-cursor`. There are 1198 other projects in the npm registry using cli-cursor.",
+      "url": "https://www.npmjs.com/package/cli-cursor",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5114bf0884f649c1bb8c408aa76413f1",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "747fc01a7d334066b2acee2e0e836d54",
+      "type": "sub_sub_header",
+      "title": "is-interactive",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f2fb580a624d418a8fb4476a78f1c03e",
+      "type": "bookmark",
+      "title": "npm: is-interactive",
+      "description": "Check if stdout or stderr is interactive. Latest version: 2.0.0, last published: 3 years ago. Start using is-interactive in your project by running `npm i is-interactive`. There are 579 other projects in the npm registry using is-interactive.",
+      "url": "https://www.npmjs.com/package/is-interactive",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f60a71505f994df390829187aefd4d9a",
+      "type": "sub_sub_header",
+      "title": "is-unicord-support",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bd9c419cbd0d4a6890f170f7a77d78e0",
+      "type": "bookmark",
+      "title": "npm: is-unicode-supported",
+      "description": "Detect whether the terminal supports Unicode. Latest version: 2.0.0, last published: 4 months ago. Start using is-unicode-supported in your project by running `npm i is-unicode-supported`. There are 673 other projects in the npm registry using is-unicode-supported.",
+      "url": "https://www.npmjs.com/package/is-unicode-supported",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "19b6bc6f666349a8a054cf9ecd08a7aa",
+      "type": "sub_sub_header",
+      "title": "log-symbols",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ef716e7d0ed54580b44a35af4cf75d97",
+      "type": "bookmark",
+      "title": "npm: log-symbols",
+      "description": "Colored symbols for various log levels. Example: `✔︎ Success`. Latest version: 6.0.0, last published: 4 months ago. Start using log-symbols in your project by running `npm i log-symbols`. There are 5028 other projects in the npm registry using log-symbols.",
+      "url": "https://www.npmjs.com/package/log-symbols",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "82905aaa0eed4767aa8c900d0f2b88de",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "edd77966517d4555953196198d33c4a0",
+      "type": "sub_sub_header",
+      "title": "Prompts",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fa34a88ac92a4cd9880ab8acb510f610",
+      "type": "bookmark",
+      "title": "npm: prompts",
+      "description": "Lightweight, beautiful and user-friendly prompts. Latest version: 2.4.2, last published: 3 years ago. Start using prompts in your project by running `npm i prompts`. There are 7953 other projects in the npm registry using prompts.",
+      "url": "https://www.npmjs.com/package/prompts",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "15ef6a314b064180bd60099c5fa8c436",
+      "type": "sub_sub_header",
+      "title": "ora",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4795be42cb1e437a8f170df6482f0192",
+      "type": "external_object_instance",
+      "title": "ora",
+      "description": "",
+      "url": "https://github.com/sindresorhus/ora",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1eff4aa9fa25809ab234e71c90c5dc64",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1eff4aa9fa258001b894ca1473723cf2",
+      "type": "text",
+      "title": "meow",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1eff4aa9fa2580308106da9cec30ea63",
+      "type": "external_object_instance",
+      "title": "meow",
+      "description": "",
+      "url": "https://github.com/sindresorhus/meow",
+      "links": [],
+      "children": []
+    }
+  ]
+}

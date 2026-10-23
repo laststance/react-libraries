@@ -1,0 +1,8 @@
+{
+  "number": 134,
+  "originalUrl": "https://blog.javascripttoday.com/",
+  "requestUrl": "https://blog.javascripttoday.com/",
+  "status": null,
+  "error": "TypeError: fetch failed",
+  "checkedAt": "2026-10-23T20:10:03.357Z"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "1ffddde2842e4715b15463541d3c3db9",
+  "title": " Mainly for Terminal",
+  "sourceUrl": "https://laststance.notion.site/1ffddde2842e4715b15463541d3c3db9",
+  "fetchedAt": "2026-10-23T20:07:10.306Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "857b2c895dc64726ab8eb2ffd95b1e4d",
+      "type": "sub_sub_header",
+      "title": "envinfo",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c7baa6aae29e49f7acc7c68a9632da8d",
+      "type": "bookmark",
+      "title": "npm: envinfo",
+      "description": "Info about your dev environment for debugging purposes. Latest version: 7.11.1, last published: 7 days ago. Start using envinfo in your project by running `npm i envinfo`. There are 1397 other projects in the npm registry using envinfo.",
+      "url": "https://www.npmjs.com/package/envinfo",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ae59030a30bf4060a75c80e921ffeffe",
+      "type": "sub_sub_header",
+      "title": "tldr",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "241697837c7b489b85c75f6a3e07454c",
+      "type": "bookmark",
+      "title": "tldr pages",
+      "description": "Simplified and community-driven man pages",
+      "url": "https://tldr.sh/#installation",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d8f4aa9fa2580b78583e8b2093ceac0",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d8f4aa9fa25808d8198f5e1d5b6b838",
+      "type": "text",
+      "title": "tiged",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d8f4aa9fa2580e4897fe1dce806b765",
+      "type": "external_object_instance",
+      "title": "tiged",
+      "description": "",
+      "url": "https://github.com/tiged/tiged",
+      "links": [],
+      "children": []
+    }
+  ]
+}

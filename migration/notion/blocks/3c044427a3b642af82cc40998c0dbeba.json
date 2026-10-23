@@ -1,0 +1,47 @@
+{
+  "id": "3c044427a3b642af82cc40998c0dbeba",
+  "title": "Perf",
+  "sourceUrl": "https://laststance.notion.site/3c044427a3b642af82cc40998c0dbeba",
+  "fetchedAt": "2026-10-23T20:07:12.928Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "642e355a01ee422a9bc84ad4792ff92d",
+      "type": "sub_sub_header",
+      "title": "React Geiger",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a93718e033694a92b7e5ba9628a189cd",
+      "type": "external_object_instance",
+      "title": "react-geiger",
+      "description": "",
+      "url": "https://github.com/kristiandupont/react-geiger",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "88228da61d2a4ef6b56c0ecba49a0998",
+      "type": "sub_sub_header",
+      "title": "React Fast Memo",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e6868d990eb649b889e19e5fb352d4a9",
+      "type": "external_object_instance",
+      "title": "react-fast-memo",
+      "description": "",
+      "url": "https://github.com/romgrk/react-fast-memo",
+      "links": [],
+      "children": []
+    }
+  ]
+}

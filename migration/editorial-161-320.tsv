@@ -1,0 +1,160 @@
+161|Preconstruct|packages|Build tooling for developing and packaging JavaScript libraries in monorepos.|Maintaining multiple packages with a shared development and release workflow.
+162|tshy|packages|A TypeScript package builder for ESM and CommonJS outputs.|Publishing a library that needs multiple module formats.
+163|pkgroll|packages|A package bundler that derives outputs from package metadata.|Building distributable JavaScript and TypeScript libraries.
+164|tsup|packages|A bundler for TypeScript libraries with a compact configuration surface.|Producing package bundles and type declarations from library source.
+165|release-it|packages|A command-line tool for automating software releases.|Coordinating version bumps, tags, and publishing steps.
+166|Next.js App Router Training|learning|A collection of examples demonstrating Next.js App Router patterns.|Learning routing and rendering concepts through simplified application code.
+167|Auth.js|auth|Authentication tooling with integrations for frameworks including Next.js.|Adding provider-based sign-in and session handling to a web application.
+168|OpenNext|hosting|Adapters for deploying Next.js applications outside a single hosting platform.|Packaging a Next.js application for supported serverless infrastructure.
+169|nuqs|state|Type-safe state management stored in URL search parameters.|Keeping filters, pagination, and shareable view state in the address bar.
+170|T3 Env|validation|Utilities for validating environment variables with typed schemas.|Failing early when server or client configuration is missing or invalid.
+171|next-lazy-hydration-on-scroll|performance|A helper for delaying hydration until content approaches the viewport.|Reducing initial client work for below-the-fold Next.js content.
+172|Nexfaster|frameworks|A template demonstrating React Router inside a Next.js application.|Exploring a hybrid routing setup through a minimal working example.
+173|next-themes|styling|Theme management for Next.js and React applications.|Adding persisted light, dark, and system theme selection.
+174|plok.sh|documentation|A tool for turning a GitHub repository into a blog.|Publishing repository-based content through a dedicated reading interface.
+175|next-image-s3-imgproxy-loader|media|A Next.js image loader for S3 and imgproxy-based image delivery.|Connecting image optimization to an existing storage and proxy setup.
+176|next-image-export-optimizer|media|Image optimization tooling for statically exported Next.js sites.|Preparing optimized images when no Next.js image server runs in production.
+177|next-international|i18n|Type-safe internationalization utilities for Next.js.|Organizing translated messages and localized routes in a Next.js application.
+178|next-logger|logging|A patcher that adds structured logging to Next.js output.|Collecting machine-readable logs from a Next.js server.
+179|next-video|media|A video component and workflow for Next.js applications.|Embedding video with storage, streaming, and player integration.
+180|Nexar|learning|An application-architecture reference for Next.js App Router projects.|Studying a structured approach to organizing a Next.js application.
+181|AI SDK|ai|TypeScript tools for working with AI models and streaming interfaces.|Building chat, text generation, and tool-using AI features.
+182|next-cache-toolbar|developer-tools|A development toolbar for inspecting Next.js caching behavior.|Debugging cache interactions while building a Next.js application.
+183|next-safe-action|data-fetching|Utilities for type-safe Next.js Server Actions with input validation.|Connecting form or UI actions to validated server operations.
+184|next-export-i18n|i18n|Internationalization helpers for statically exported Next.js applications.|Serving translated client interfaces from a static export.
+185|Dub|open-source-apps|An open-source link-management application.|Studying a production-style application for short links and link analytics.
+186|Argos|testing|An open-source visual testing platform.|Detecting interface changes by comparing screenshots in development workflows.
+187|RAG Web UI|open-source-apps|An open-source conversational application built around retrieval-augmented generation.|Exploring document-backed question answering through a complete application.
+188|DeepWiki Open|open-source-apps|An AI-assisted documentation generator for source-code repositories.|Generating navigable explanations of a repository's structure and behavior.
+189|Plane|open-source-apps|An open-source application for managing projects and work items.|Studying or self-hosting a collaborative project-management interface.
+190|GitBook|documentation|A platform for creating and publishing product documentation.|Maintaining a hosted documentation site with a collaborative editing workflow.
+191|LLM Stats|ai|A website comparing language models through published metrics and benchmarks.|Researching model options before testing them on your own workload.
+192|Morphic|open-source-apps|An open-source AI search interface.|Studying a search experience that combines retrieval with generated answers.
+193|Vercel AI Chatbot|open-source-apps|A reference chatbot application built with Vercel's AI tooling.|Starting from a complete example of streaming chat UI and server integration.
+194|Raycast Preset Explorer|open-source-apps|An application for browsing and sharing Raycast AI presets.|Exploring a searchable catalog implementation and reusable AI workflows.
+195|Vercel Book Inventory|open-source-apps|A sample application organized around a book inventory.|Studying data-driven application screens through a focused example project.
+196|Answer Overflow|community|Tools that make Discord support conversations discoverable on the web.|Turning community support discussions into searchable answers.
+197|Node.js Website|open-source-apps|The source repository for the Node.js project website.|Studying an established documentation and community website implementation.
+198|ray.so|open-source-apps|The source for Raycast's web-based developer utilities.|Exploring polished developer-tool interfaces and their implementation.
+199|Cap|open-source-apps|An open-source screen-recording and sharing application.|Studying or self-hosting a video-oriented productivity tool.
+200|Vercel Platforms Starter Kit|frameworks|A starter application demonstrating a multi-tenant platform.|Building separate customer sites or workspaces on one application.
+201|Noodle|open-source-apps|An open-source productivity application for notes and task management.|Studying a workspace interface that combines several productivity tools.
+202|GitBook|documentation|An open-source documentation platform and its application source.|Studying how a documentation publishing interface is implemented.
+203|Vercel OG|social-previews|Tools for generating Open Graph images from application code.|Creating social-sharing images dynamically for pages and content.
+204|Create T3 App|frameworks|A starter generator for type-safe full-stack applications.|Bootstrapping a Next.js project with an integrated TypeScript-oriented stack.
+205|Better-T-Stack|frameworks|A configurable starter generator for type-safe TypeScript application stacks.|Choosing compatible frontend, backend, and tooling options when starting a project.
+206|tiged|cli|A tool for downloading repository templates without their Git history.|Starting projects from a remote example or starter directory.
+207|tldr pages|cli|Community-written command examples that complement traditional manual pages.|Looking up practical terminal usage quickly.
+208|envinfo|developer-tools|A utility that reports development environment information.|Collecting reproducible environment details for debugging and issue reports.
+209|is-reference|developer-tools|A helper that identifies references in JavaScript syntax trees.|Writing code-analysis tools that distinguish references from other syntax nodes.
+210|Knip|developer-tools|A tool for finding unused files, exports, and dependencies.|Cleaning up a JavaScript or TypeScript project's unused code.
+211|Madge|developer-tools|A dependency-graph tool for JavaScript projects.|Finding circular dependencies and understanding module relationships.
+212|Rsdoctor|build-tools|A build-analysis tool for Rspack and webpack.|Investigating build behavior, module composition, and bundling problems.
+213|Rolldown|build-tools|A Rust-based JavaScript bundler with a Rollup-oriented API.|Building bundles with tooling designed around Rollup-style integration.
+214|meow|cli|A helper for creating command-line applications.|Parsing CLI flags and presenting concise command help.
+215|chroma.js|styling|A library for color conversions, scales, and manipulation.|Generating palettes and color scales for interfaces or charts.
+216|ora|cli|A terminal spinner for asynchronous command-line work.|Showing progress while a CLI waits for a task to finish.
+217|cli-cursor|cli|A utility for showing and hiding the terminal cursor.|Keeping animated terminal interfaces visually tidy.
+218|Wireit|build-tools|A task runner that enhances package scripts with dependency-aware execution.|Coordinating build steps and avoiding repeated work.
+219|progress-estimator|cli|A helper for estimating and displaying task progress.|Giving command-line users an indication of ongoing asynchronous work.
+220|is-unicode-supported|cli|A detector for terminal Unicode support.|Choosing compatible symbols when rendering command-line output.
+221|clipboardy|cli|A utility for reading and writing the system clipboard.|Adding copy and paste behavior to Node.js developer tools.
+222|cli-spinners|cli|A collection of animation frames for terminal spinners.|Building a custom command-line progress indicator.
+223|rimraf|files|A cross-platform utility for removing directory trees.|Cleaning generated files and build directories in development scripts.
+224|log-symbols|cli|Colored symbols for common log levels.|Making terminal success, warning, and error messages easy to scan.
+225|is-interactive|cli|A detector for interactive terminal output.|Choosing between interactive prompts and plain output in scripts.
+226|prompts|cli|A library for interactive command-line questions.|Collecting configuration and choices during a CLI workflow.
+227|dependency-cruiser|developer-tools|A dependency analysis tool with configurable architecture rules.|Detecting forbidden imports, cycles, and structural drift in a codebase.
+228|Ansis|cli|ANSI color and styling helpers for terminal text.|Formatting command-line output with composable styles.
+229|picocolors|cli|A small terminal color-formatting utility.|Adding colored output to lightweight developer tools.
+230|kleur|cli|Functions for formatting terminal text with ANSI styles.|Styling logs and status messages in Node.js commands.
+231|Crawlee|server|A framework for building web crawlers and scrapers.|Collecting webpage data with request management and browser integration.
+232|CAC|cli|A framework for defining command-line commands and options.|Building a small CLI with argument parsing and generated help.
+233|Clack|cli|Components for building interactive command-line experiences.|Creating guided setup flows with prompts and progress messages.
+234|Execa|cli|A process-execution library for Node.js.|Running external programs with structured input, output, and error handling.
+235|Sly|cli|A command-line tool for adding reusable components and utilities to a project.|Copying selected building blocks into an application codebase.
+236|Cronicle|background-jobs|A distributed task scheduler and runner with a web interface.|Operating recurring jobs across multiple machines.
+237|node-notifier|notifications|A Node.js wrapper for native desktop notifications.|Notifying developers when a local task completes or fails.
+238|npm-run-path|cli|A helper that resolves executable paths similarly to package scripts.|Running locally installed command-line tools from Node.js code.
+239|Formidable|files|A parser for multipart form submissions and uploaded files in Node.js.|Handling file-upload requests on a server.
+240|Globby|files|Convenience helpers for matching files with glob patterns.|Selecting project files for build scripts and code-processing tasks.
+241|concurrently|build-tools|A tool for running multiple commands together.|Starting a frontend, backend, and supporting processes in one workflow.
+242|glob|files|File matching using shell-style glob patterns.|Finding files that match a configured path pattern.
+243|minimatch|files|A matcher for shell-style glob patterns.|Checking file paths against include and exclude patterns.
+244|mdxlint|developer-tools|A command-line linter for MDX documents.|Checking documentation that combines Markdown and JSX.
+245|Biome|developer-tools|A formatter and linter for web-project source code.|Applying consistent formatting and automated code checks.
+246|Morgan|logging|HTTP request-logging middleware for Node.js servers.|Recording incoming requests in an Express-style application.
+247|Bunyan|logging|A JSON logging library for Node.js.|Producing structured application logs that external tools can process.
+248|LogTape|logging|A structured logging library for JavaScript runtimes.|Sharing logging conventions across server, browser, and edge code.
+249|Pino|logging|A structured JSON logger for Node.js.|Collecting application logs in latency-sensitive server workloads.
+250|Snaplet Generate|testing|Tools for generating realistic data from database schemas.|Populating development and test databases with representative fixtures.
+251|enforce-unique|testing|A helper for ensuring generated values remain unique.|Avoiding duplicate fixture values while creating test data.
+252|Falso|testing|A library for generating fake application data.|Creating typed fixtures such as names, addresses, and product details.
+253|Faker|testing|A library that generates realistic-looking fake data.|Creating sample users, records, and large development datasets.
+254|Zod Mock|testing|A generator for mock values derived from Zod schemas.|Creating fixtures that follow an existing validation schema.
+255|msw-auto-mock|testing|A generator for Mock Service Worker handlers from API descriptions.|Bootstrapping mocked API responses for frontend development.
+256|@mswjs/data|testing|Tools for modeling and querying data in tests.|Building a stateful mocked backend for application test scenarios.
+257|JSON Server|testing|A tool that exposes a JSON file through a mock REST API.|Prototyping a frontend before its real backend is available.
+258|Orange ORM|databases|An ORM for working with relational data from Node.js and TypeScript.|Querying related records through a higher-level data-access API.
+259|Sequelize|databases|An ORM for relational databases in Node.js.|Managing database models, relationships, and transactions.
+260|Mongoose|databases|A schema and modeling library for MongoDB.|Applying structured validation and model behavior to MongoDB documents.
+261|Drizzle ORM|databases|A TypeScript ORM with SQL-oriented query APIs.|Keeping database access close to SQL while benefiting from static types.
+262|Kysely|databases|A type-safe SQL query builder for TypeScript.|Writing composable SQL queries without adopting a full ORM model layer.
+263|Prisma|databases|Database tooling with a schema language and generated typed client.|Working with application data through generated query APIs and migrations.
+264|MikroORM|databases|A TypeScript ORM based on data-mapper and unit-of-work patterns.|Applications that need managed entities and explicit persistence boundaries.
+265|Orval|api-tools|A generator that turns OpenAPI descriptions into typed clients and related tooling.|Keeping frontend API calls aligned with an API specification.
+266|ni|packages|A command wrapper that chooses the project's package manager.|Running familiar install and script commands across different repositories.
+267|npm-check-updates|packages|A tool that finds dependency versions beyond current package ranges.|Reviewing and updating package.json dependency constraints.
+268|zx|cli|A toolkit for writing shell-oriented scripts in JavaScript.|Combining command execution with normal JavaScript control flow.
+269|bcrypt for Node.js|security|A Node.js binding for hashing and checking passwords with bcrypt.|Implementing password storage in a server-side authentication system.
+270|npm-run-all|build-tools|A runner for executing npm scripts sequentially or in parallel.|Organizing a development or build workflow across multiple package scripts.
+271|Hygen|developer-tools|A code generator that uses templates kept inside a project.|Creating consistent components and files from local conventions.
+272|pretty-ms|dates|A formatter that converts milliseconds into readable durations.|Showing elapsed time and task durations in interfaces or logs.
+273|utf-8-validate|utilities|A utility for checking whether a buffer contains valid UTF-8.|Validating incoming binary data before interpreting it as text.
+274|uuidv4|utilities|A utility for generating version-four UUIDs.|Creating identifiers for records and application objects.
+275|Nano ID|utilities|A generator for compact, URL-friendly random identifiers.|Creating short unique IDs for application records and shareable links.
+276|web-push|notifications|A Node.js library for sending Web Push messages.|Delivering push notifications to subscribed browsers.
+277|H3|server|A server framework built around web-standard HTTP primitives.|Writing composable request handlers across supported JavaScript runtimes.
+278|AdonisJS|server|A full-featured server framework for TypeScript applications.|Building a backend with established conventions and integrated tooling.
+279|Hono|server|A web framework for JavaScript runtimes and edge environments.|Implementing compact APIs with web-standard request and response objects.
+280|ws|server|A WebSocket client and server library for Node.js.|Adding bidirectional realtime communication to a server application.
+281|Hookdeck|background-jobs|Infrastructure and tooling for webhook and event delivery.|Managing retries, observability, and reliability for incoming events.
+282|Sidequest.js|background-jobs|A background-job library for running queued work.|Moving asynchronous tasks out of request handling into worker processes.
+283|pmndrs Timeline|graphics|Tools for describing composable behavior in three-dimensional scenes.|Coordinating animated 3D interactions through reusable sequences.
+284|nlux|ai|UI components for conversational AI interfaces in JavaScript and React.|Adding an AI chat experience connected to a model backend.
+285|Reachat|ai|React building blocks for chat and language-model interfaces.|Assembling a customized conversational UI from reusable components.
+286|Umami|analytics|A web analytics application for understanding site usage.|Tracking visits and events through a focused analytics dashboard.
+287|Microsoft Clarity|analytics|A user-behavior analytics service with session replay and heatmaps.|Investigating how people interact with a website.
+288|React Bits|animation|A collection of animated and interactive React components.|Adding expressive visual sections and effects to a website.
+289|react-glow|animation|React components for glow effects around interface elements.|Adding pointer-responsive highlights to cards and other UI surfaces.
+290|Motion|animation|An animation library for React and other web interfaces.|Building transitions, gestures, and coordinated layout animation.
+291|React Simple Animate|animation|A React library for declarative component animations.|Adding straightforward animation sequences without a large animation setup.
+292|react-magic-motion|animation|A React library for animating interface changes.|Adding automatic transitions as components and layouts change.
+293|Motion|animation|An animation library for React and other web interfaces.|Building transitions, gestures, and coordinated layout animation.
+294|Better Auth|auth|Authentication tooling for TypeScript applications.|Implementing accounts and sessions with an extensible application-owned auth layer.
+295|Lucia|auth|Educational material about implementing authentication and sessions.|Learning the underlying mechanics of an application-owned authentication system.
+296|Userfront|auth|Hosted authentication tooling with frontend integration guides.|Adding managed user sign-in to a React interface.
+297|Auth.js|auth|Authentication tooling with integrations for frameworks including Next.js.|Adding provider-based sign-in and session handling to a web application.
+298|SuperTokens|auth|Authentication tooling with open-source and hosted deployment options.|Adding login and session features with control over the backend deployment.
+299|IntegrationOS AuthKit|auth|A React integration interface for connecting external accounts.|Building an account-connection flow for third-party services.
+300|React OAuth for Google|auth|React components and hooks for Google Identity Services.|Adding Google sign-in to a React application.
+301|Logto|auth|An identity platform for application authentication and organization management.|Supporting login and identity features in a SaaS application.
+302|WXT|frameworks|A framework and build workflow for browser extensions.|Building and packaging an extension with modern web tooling.
+303|FullCalendar React|calendars|A React integration for the FullCalendar event-calendar library.|Displaying schedules with configurable calendar views and interactions.
+304|React Big Calendar|calendars|A React calendar for displaying and interacting with events.|Building an application schedule or appointment interface.
+305|Schedule-X|calendars|Calendar and date-selection components for web applications.|Adding a styled scheduling interface with configurable event views.
+306|Embla Carousel|media|A carousel engine with React integration.|Building a custom swipeable carousel while controlling its visual design.
+307|React Tech Radar|charts|A React visualization for technology-radar charts.|Showing technology adoption or assessment across rings and quadrants.
+308|Chart.js|charts|A canvas-based JavaScript charting library.|Adding common chart types to dashboards and reporting pages.
+309|CanvasJS React Charts|charts|React components for the CanvasJS charting library.|Integrating configurable interactive charts into a React application.
+310|Recharts|charts|Composable chart components for React.|Building charts from React components with custom presentation.
+311|React Tags|inputs|A React input for selecting and creating tags.|Editing labels, keywords, or token-like values in a form.
+312|React CodeJar|editors|A React wrapper around the CodeJar code editor.|Embedding a small editable code surface in a React interface.
+313|CodeJar|editors|A lightweight browser code editor.|Adding an editable code snippet with your choice of syntax highlighting.
+314|use-context-menu|overlays|A React hook for implementing context menus.|Showing custom actions when a user opens an element's context menu.
+315|Neutralinojs|mobile|A framework for desktop applications built with web technologies.|Packaging HTML, CSS, and JavaScript as a lightweight desktop application.
+316|Drift|commerce|A customer-conversation platform for sales and support experiences.|Adding business-oriented chat and customer-engagement workflows.
+317|Tremor|ui-kits|React components focused on dashboards and data presentation.|Assembling application dashboards from coordinated UI building blocks.
+318|axios-hooks|data-fetching|React hooks for managing Axios requests.|Connecting request status and responses to React component state.
+319|RTK Query|data-fetching|Data fetching and caching tools included with Redux Toolkit.|Managing server data in an application that uses Redux.
+320|Suspensive|data-fetching|Utilities and components for React Suspense workflows.|Organizing loading, error, and asynchronous rendering boundaries.

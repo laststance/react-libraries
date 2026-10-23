@@ -1,0 +1,209 @@
+{
+  "id": "aeeca804a8d74f5785a60eef939073ef",
+  "title": "Backend as a Service",
+  "sourceUrl": "https://laststance.notion.site/aeeca804a8d74f5785a60eef939073ef",
+  "fetchedAt": "2026-10-23T20:07:17.880Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "dde85959984f4458b78a87757350f6b2",
+      "type": "sub_sub_header",
+      "title": "Hasra",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "244ff0725dfb4509aa1695323e1635ff",
+      "type": "bookmark",
+      "title": "Instant GraphQL APIs on your data | Built-in Authz & Caching",
+      "description": "Hasura gives you instant GraphQL & REST APIs on new & existing data sources. Connect Hasura to your data & get APIs in under a minute.",
+      "url": "https://hasura.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "44a00b484b904af5b84fbc87820c9db3",
+      "type": "sub_sub_header",
+      "title": "Graphbase",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9f7de7daf19945e990bbcf412a037854",
+      "type": "bookmark",
+      "title": "Grafbase - Instant GraphQL APIs for your data",
+      "description": "Combine your data sources into a centralized GraphQL endpoint",
+      "url": "https://grafbase.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6d4ee239e22242a2b34a025f38fd5ad1",
+      "type": "sub_sub_header",
+      "title": "Supabase",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "cd59947cf005418f887d1b87e98f8b4e",
+      "type": "bookmark",
+      "title": "Supabase | The Open Source Firebase Alternative",
+      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+      "url": "https://supabase.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "dcbea3581f2b42f09f0c302f6c495999",
+      "type": "sub_sub_header",
+      "title": "Dirctus",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "dfd7dd7efb694483907d31b42d8a6007",
+      "type": "bookmark",
+      "title": "Directus: The Modern Data Stack, Democratized",
+      "description": "Directus is the world's first Open Data Platform for instantly turning any SQL database into an API and beautiful no-code app.",
+      "url": "https://directus.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a3333baf01474dd6a5457279d0f2bc81",
+      "type": "sub_sub_header",
+      "title": "Planet Scale",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bd45cd7822984c27b777829119114b5f",
+      "type": "bookmark",
+      "title": "PlanetScale: The world’s most advanced database platform",
+      "description": "PlanetScale is the most advanced MySQL platform.",
+      "url": "https://planetscale.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5dc010ebfcbe4331a06ede757320d083",
+      "type": "sub_sub_header",
+      "title": "TURSO",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "349d4144a4734a8381563c4e25683f95",
+      "type": "bookmark",
+      "title": "tursodatabase",
+      "description": "",
+      "url": "https://twitter.com/tursodatabase",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "518f74740397432caddde29616a3bb81",
+      "type": "sub_sub_header",
+      "title": "Triger.dev",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7b2117163e1f4ee7971b1f70437c9490",
+      "type": "bookmark",
+      "title": "Trigger.dev | The open source background jobs framework",
+      "description": "Create long-running jobs directly in your codebase with features like API integrations, webhooks, scheduling and delays.",
+      "url": "https://trigger.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d8ec8645f5cc455196d67794c888470a",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9c144c1e83ab40ada1f321dfb94c5513",
+      "type": "sub_sub_header",
+      "title": "upstash",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c225e074b7124b7fb20e3e4c466e51a4",
+      "type": "bookmark",
+      "title": "Upstash: Serverless Data Platform",
+      "description": "Designed for the serverless with per-request pricing and Redis®/Kafka® API.",
+      "url": "https://upstash.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5b7f6164794c4467beca68cd6a6c87d4",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f3a5bd13998748aa99c3f2292d59f3ae",
+      "type": "sub_sub_header",
+      "title": "Appwrite",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "643a5d2281334812ad5d70125cacbb3c",
+      "type": "bookmark",
+      "title": "Appwrite - Build like a team of hundreds",
+      "description": "Appwrite is an open-source platform for building applications at any scale, using your preferred programming languages and tools.",
+      "url": "https://appwrite.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f3a5e1e51ed745e1ab85b903992db1b8",
+      "type": "sub_sub_header",
+      "title": "PocketBase",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4809fc71e9ec4ad48a343821b26f5a9d",
+      "type": "bookmark",
+      "title": "PocketBase - Open Source backend in 1 file",
+      "description": "Open Source backend in 1 file with realtime database, authentication, file storage and admin dashboard",
+      "url": "https://pocketbase.io/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

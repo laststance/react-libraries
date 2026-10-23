@@ -1,0 +1,29 @@
+{
+  "id": "42362f445b094e19a595118e3c6d44a1",
+  "title": "Package Manager",
+  "sourceUrl": "https://laststance.notion.site/42362f445b094e19a595118e3c6d44a1",
+  "fetchedAt": "2026-10-23T20:07:13.458Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "2e735c807b134cb491f61a813b0009e0",
+      "type": "sub_sub_header",
+      "title": "ni",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3d9eab0f7b8e47d1b145fa159beeb8ce",
+      "type": "bookmark",
+      "title": "npm: @antfu/ni",
+      "description": "Use the right package manager. Latest version: 0.21.8, last published: 8 days ago. Start using @antfu/ni in your project by running `npm i @antfu/ni`. There are 44 other projects in the npm registry using @antfu/ni.",
+      "url": "https://www.npmjs.com/package/@antfu/ni",
+      "links": [],
+      "children": []
+    }
+  ]
+}

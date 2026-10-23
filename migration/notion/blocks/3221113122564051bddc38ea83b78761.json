@@ -1,0 +1,56 @@
+{
+  "id": "3221113122564051bddc38ea83b78761",
+  "title": "Slider",
+  "sourceUrl": "https://laststance.notion.site/3221113122564051bddc38ea83b78761",
+  "fetchedAt": "2026-10-23T20:07:12.054Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "02f5ecea6e96454caf75eea60348aede",
+      "type": "sub_sub_header",
+      "title": "rc-slider",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5e07d1240a004e94b03436ea418a5b82",
+      "type": "bookmark",
+      "title": "rc-slider - rc-slider",
+      "description": "",
+      "url": "https://slider-react-component.vercel.app/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6fe8f46d078241c5a04b85546babdaa2",
+      "type": "sub_sub_header",
+      "title": "React-slider",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "11e047840eba4d5aba14765ca28ea8f3",
+      "type": "bookmark",
+      "title": "npm: react-slider",
+      "description": "Slider component for React. Latest version: 2.0.5, last published: 21 days ago. Start using react-slider in your project by running `npm i react-slider`. There are 223 other projects in the npm registry using react-slider.",
+      "url": "https://www.npmjs.com/package/react-slider",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "afb80ffd5d6d4e96bb01fc19aecb3437",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

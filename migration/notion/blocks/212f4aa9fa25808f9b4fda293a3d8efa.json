@@ -1,0 +1,29 @@
+{
+  "id": "212f4aa9fa25808f9b4fda293a3d8efa",
+  "title": "Other",
+  "sourceUrl": "https://laststance.notion.site/212f4aa9fa25808f9b4fda293a3d8efa",
+  "fetchedAt": "2026-10-23T20:07:10.467Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "212f4aa9fa2580298508c8360732469f",
+      "type": "sub_sub_header",
+      "title": "jsBarcode",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa2580b4a5b9e946ee77ae19",
+      "type": "external_object_instance",
+      "title": "JsBarcode",
+      "description": "",
+      "url": "https://github.com/lindell/JsBarcode",
+      "links": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+---
+interface Props { title: string; }
+const { title } = Astro.props;
+---
+<aside class="purpose-note not-prose">
+  <span aria-hidden="true" class="purpose-icon">i</span>
+  <div><strong>{title}</strong><div class="purpose-copy"><slot /></div></div>
+</aside>

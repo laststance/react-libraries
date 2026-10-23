@@ -1,0 +1,26 @@
+{
+  "id": "25fee0689b844588bdb9ff311648d788",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/25fee0689b844588bdb9ff311648d788",
+  "title": "Styling",
+  "content": "\n### CSS Modules\n\n<unknown url=\"https://app.notion.com/p/25fee0689b844588bdb9ff311648d788#077195242a3e491e8be3a52d1fb5f244\" alt=\"external_object_instance\" />\n\n<unknown url=\"https://app.notion.com/p/25fee0689b844588bdb9ff311648d788#ffff4aa9fa258086b0e0de6a2f128b64\" alt=\"external_object_instance\" />\n\n# Tailwind CSS ecosystem\n\n<bookmark source=\"https://tailwindcss.com/\" />\n\n### Utility\n\n### clsx\n\n<unknown url=\"https://app.notion.com/p/25fee0689b844588bdb9ff311648d788#b1bd9707162448e89c6974e3b35ac389\" alt=\"external_object_instance\" />\n\n### tailwind-merge\n\n<bookmark source=\"https://www.npmjs.com/package/tailwind-merge\" />\n\n### CVA\n\n<bookmark source=\"https://cva.style/docs\" />\n\n### TWC\n\n<bookmark source=\"https://react-twc.vercel.app/\" />\n\n## UI Component Library\n\n### Tailwind UI\n\n<bookmark source=\"https://tailwindui.com/\" />\n\n### Daisy UI\n\n<bookmark source=\"https://daisyui.com/\" />\n\n## shadcn/UI\n\n<bookmark source=\"https://ui.shadcn.com/\" />\n\n## React Aria\n\n<bookmark source=\"https://react-spectrum.adobe.com/react-aria/index.html\" />\n\n### Draft UI\n\n<bookmark source=\"https://draft-ui.com/\" />\n\n### Catalyst\n\n<bookmark source=\"https://catalyst.tailwindui.com/\" />\n\n## Dashboard UI Kit\n\n### Tremor\n\n<bookmark source=\"https://www.tremor.so/\" />\n\n<p />\n\n<page url=\"https://app.notion.com/p/3b6f70ac3cfc4fc199b7a6c54d310a63\">\nCSS Modules\n</page>\n\n## Zero-runtime CSS in JS\n\n### Pigment CSS React\n\n<unknown url=\"https://app.notion.com/p/25fee0689b844588bdb9ff311648d788#264d410cf17842eea53d5d06e71e9725\" alt=\"external_object_instance\" />\n\n### linaria\n\n<bookmark source=\"https://linaria.dev/\" />\n\n### vanilla-extract\n\n<bookmark source=\"https://vanilla-extract.style/\" />\n\n### panda-css\n\n<bookmark source=\"https://panda-css.com/\" />\n\n### Kuma UI\n\n<bookmark source=\"https://www.kuma-ui.com/\" />\n\n### UnoCSS\n\n<bookmark source=\"https://unocss.dev/\" />\n\n## CSS in JS\n\n### StyleX\n\n<bookmark source=\"https://stylexjs.com/\" />\n\n## Emotion\n\n<bookmark source=\"https://emotion.sh/docs/introduction\" />\n\n### Styled-Components\n\n<bookmark source=\"https://styled-components.com/\" />\n\n### Reshadow\n\n<bookmark source=\"https://reshadow.dev/\" />\n\n<b>@artsy/fresnel</b>\n\n<unknown url=\"https://app.notion.com/p/25fee0689b844588bdb9ff311648d788#0a2460d1b904490e8173905574d5bd26\" alt=\"external_object_instance\" />\n\n<p />\n\n### polished\n\n<bookmark source=\"https://polished.js.org/\" />\n\n<p />\n\n### CSS from JS\n\n### MistCSS\n\n<bookmark source=\"https://typicode.github.io/mistcss/\" />\n\n[https://github.com/css-modules/css-modules](https://github.com/css-modules/css-modules)\n\n[https://github.com/mrmckeb/typescript-plugin-css-modules](https://github.com/mrmckeb/typescript-plugin-css-modules)\n",
+  "children": [
+    {
+      "id": "3b6f70ac3cfc4fc199b7a6c54d310a63",
+      "title": "CSS Modules"
+    }
+  ],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-08-13T23:48:02.861Z",
+    "truncated": true,
+    "unknownBlockCount": 5,
+    "unknownBlockIds": [
+      "07719524-2a3e-491e-8be3-a52d1fb5f244",
+      "ffff4aa9-fa25-8086-b0e0-de6a2f128b64",
+      "b1bd9707-1624-48e8-9c69-74e3b35ac389",
+      "264d410c-f178-42ee-a53d-5d06e71e9725",
+      "0a2460d1-b904-490e-8173-905574d5bd26"
+    ]
+  }
+}

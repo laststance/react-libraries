@@ -1,0 +1,74 @@
+{
+  "id": "604f7f840b2941a18897360b1923a789",
+  "title": "Web Server",
+  "sourceUrl": "https://laststance.notion.site/604f7f840b2941a18897360b1923a789",
+  "fetchedAt": "2026-10-23T20:07:14.502Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "1cff87f966ff4e9e830328aeaad7bb2d",
+      "type": "sub_sub_header",
+      "title": "Hono",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b1a0beb19f384c05985e90ab633f9f96",
+      "type": "bookmark",
+      "title": "Hono - Ultrafast web framework for the Edges",
+      "description": "Hono is a small, simple, and ultrafast web framework for the Edges. It works on Cloudflare Workers, Fastly Compute@Edge, Deno, Bun, Vercel, Netlify, Lagon, AWS Lambda, Lambda@Edge, and Node.js. Fast, but not only fast.",
+      "url": "https://hono.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2654d6b9f12448c4bc264fd6fd79e92f",
+      "type": "sub_sub_header",
+      "title": "AdonisJS",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "34eb5e5757934f6eb0a5773c3c275bde",
+      "type": "bookmark",
+      "title": "Introduction",
+      "description": "Technical introduction to the framework and documentation structure.",
+      "url": "https://docs.adonisjs.com/guides/introduction",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa2580c1a66fc5d66cf1e55f",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa25807bb2a1d4948651fc0a",
+      "type": "text",
+      "title": "H3",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa2580dca82ac60504a8adcb",
+      "type": "bookmark",
+      "title": "H3 - Universal, Tiny, and Fast Servers",
+      "description": "H(TTP) server framework built on top of web standards for high performance and composability.",
+      "url": "https://h3.dev/",
+      "links": [],
+      "children": []
+    }
+  ]
+}
