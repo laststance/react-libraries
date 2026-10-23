@@ -1,0 +1,10 @@
+{
+  "number": 577,
+  "originalUrl": "https://solito.dev/v5",
+  "requestUrl": "https://solito.dev/v5",
+  "finalUrl": "https://solito.dev/v5",
+  "status": 200,
+  "title": "Upgrade to Solito 5 | Solito",
+  "description": "Solito 5 drops react-native-web as a dependency. It now works with zero special configuration on Web. On iOS and Android, nothing has changed.",
+  "checkedAt": "2026-10-23T20:11:04.669Z"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "20cf4aa9fa25808da2f8f348fb04cdfc",
+  "title": "Data Fetch / XHR",
+  "sourceUrl": "https://laststance.notion.site/20cf4aa9fa25808da2f8f348fb04cdfc",
+  "fetchedAt": "2026-10-23T20:07:10.461Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "20cf4aa9fa25806e985fc6d45322f789",
+      "type": "sub_sub_header",
+      "title": "Axios",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa2580809092e6c15a79537c",
+      "type": "bookmark",
+      "title": "Getting Started | Axios Docs",
+      "description": "Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.",
+      "url": "https://axios-http.com/docs/intro",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa25804c92d4f86469a27780",
+      "type": "sub_sub_header",
+      "title": "ky",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa258095bb0ec637ab83f02e",
+      "type": "external_object_instance",
+      "title": "ky",
+      "description": "",
+      "url": "https://github.com/sindresorhus/ky",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa2580cab923c589ba0ccb9d",
+      "type": "sub_sub_header",
+      "title": "redaxios",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa25805c85a3c6e0c1f3cc3e",
+      "type": "external_object_instance",
+      "title": "redaxios",
+      "description": "",
+      "url": "https://github.com/developit/redaxios",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa2580a4af78d6a7bba43991",
+      "type": "sub_sub_header",
+      "title": "apisource",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20cf4aa9fa258013892fd566b6f7242e",
+      "type": "external_object_instance",
+      "title": "apisauce",
+      "description": "",
+      "url": "https://github.com/infinitered/apisauce",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21ff4aa9fa25806db982d724daee24c9",
+      "type": "sub_sub_header",
+      "title": "Better Fetch",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21ff4aa9fa258057b536d34a4fd5537f",
+      "type": "bookmark",
+      "title": "Better Fetch",
+      "description": "Advanced fetch wrapper for typescript.",
+      "url": "https://better-fetch.vercel.app/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "309f4aa9fa258011a863fd8079e0e129",
+      "type": "sub_header",
+      "title": "verifyfetch",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "309f4aa9fa258005b9a1d8d6a6de7ab0",
+      "type": "external_object_instance",
+      "title": "verifyfetch",
+      "description": "",
+      "url": "https://github.com/hamzaydia/verifyfetch",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "309f4aa9fa2580638242ca9ca1c0a78a",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

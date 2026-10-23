@@ -1,0 +1,12 @@
+{
+  "id": "aeeca804a8d74f5785a60eef939073ef",
+  "parent": "ec0fccd5937c44a693ea9bb313907c64",
+  "sourceUrl": "https://laststance.notion.site/aeeca804a8d74f5785a60eef939073ef",
+  "title": "Backend as a Service",
+  "content": "\n### Hasra\n\n<bookmark source=\"https://hasura.io/\" />\n\n### Graphbase\n\n<bookmark source=\"https://grafbase.com/\" />\n\n### Supabase\n\n<bookmark source=\"https://supabase.com/\" />\n\n### Dirctus\n\n<bookmark source=\"https://directus.io/\" />\n\n### Planet Scale\n\n<bookmark source=\"https://planetscale.com/\" />\n\n### TURSO\n\n<bookmark source=\"https://twitter.com/tursodatabase\" />\n\n### Triger.dev\n\n<bookmark source=\"https://trigger.dev/\" />\n\n<p />\n\n### upstash\n\n<bookmark source=\"https://upstash.com/\" />\n\n<p />\n\n### Appwrite\n\n<bookmark source=\"https://appwrite.io/\" />\n\n### PocketBase\n\n<bookmark source=\"https://pocketbase.io/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-08-13T23:52:24.151Z"
+  }
+}

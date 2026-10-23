@@ -1,0 +1,38 @@
+{
+  "id": "12de3ed99c394c5dbde3cced40640338",
+  "title": "Lazy loading",
+  "sourceUrl": "https://laststance.notion.site/12de3ed99c394c5dbde3cced40640338",
+  "fetchedAt": "2026-10-23T20:07:08.387Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "4b80fc8708554c958422ef03c78bcbb3",
+      "type": "sub_sub_header",
+      "title": "Loadable Component",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "971b46a92d4c434d85ae8a38472351be",
+      "type": "bookmark",
+      "title": "Loadable Components",
+      "description": "The recommended Code Splitting library for React.",
+      "url": "https://loadable-components.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "894dfc863d8e409ba606212dfb126dc7",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

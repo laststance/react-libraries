@@ -1,0 +1,20 @@
+---
+import Search from "blume/components/layout/Search.astro";
+---
+<div class="library-search">
+  <Search {...Astro.props} strings={{ ...Astro.props.strings, label: "Search libraries", placeholder: "Search a library or what you want to build…" }} />
+  <span class="search-field-label" aria-hidden="true">Search libraries… <kbd>⌘ K</kbd></span>
+</div>
+
+<script>
+  // Chromium consumes Escape to clear search inputs before the dialog can close.
+  // Handle it explicitly while keeping Blume's close event and scroll cleanup.
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || event.isComposing) return;
+    const dialog = document.querySelector<HTMLDialogElement>("[data-blume-search-dialog][open]");
+    if (!dialog) return;
+    event.preventDefault();
+    dialog.close();
+    document.querySelector<HTMLButtonElement>("[data-blume-search-open]")?.focus();
+  });
+</script>

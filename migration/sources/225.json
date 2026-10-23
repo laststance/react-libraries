@@ -1,0 +1,10 @@
+{
+  "number": 225,
+  "originalUrl": "https://www.npmjs.com/package/is-interactive",
+  "requestUrl": "https://registry.npmjs.org/is-interactive/latest",
+  "finalUrl": "https://registry.npmjs.org/is-interactive/latest",
+  "status": 200,
+  "title": "is-interactive",
+  "description": "Check if stdout or stderr is interactive",
+  "checkedAt": "2026-10-23T20:10:10.474Z"
+}

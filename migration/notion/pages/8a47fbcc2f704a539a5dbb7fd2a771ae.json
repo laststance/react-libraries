@@ -1,0 +1,17 @@
+{
+  "id": "8a47fbcc2f704a539a5dbb7fd2a771ae",
+  "parent": "4e1053bcac264e069514747acbac6216",
+  "sourceUrl": "https://laststance.notion.site/8a47fbcc2f704a539a5dbb7fd2a771ae",
+  "title": "Mock Data",
+  "content": "\n### mswjs@data\n\n<bookmark source=\"https://www.npmjs.com/package/@mswjs/data\" />\n\n### Faker\n\n<bookmark source=\"https://fakerjs.dev/\" />\n\n### Zod Mock\n\n<bookmark source=\"https://github.com/anatine/zod-plugins/tree/main/packages/zod-mock\" />\n\n### Snaplet Generate\n\n<bookmark source=\"https://docs.snaplet.dev/core-concepts/generate\" />\n\n### MSW-Auto-Mock\n\n<unknown url=\"https://app.notion.com/p/8a47fbcc2f704a539a5dbb7fd2a771ae#d67df38eff074d45be8ec8821819f6ec\" alt=\"external_object_instance\" />\n\n### Enforce Unique\n\n<bookmark source=\"https://www.npmjs.com/package/enforce-unique\" />\n\n### Falso\n\n<bookmark source=\"https://ngneat.github.io/falso/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-06-04T03:24:34.538Z",
+    "truncated": true,
+    "unknownBlockCount": 1,
+    "unknownBlockIds": [
+      "d67df38e-ff07-4d45-be8e-c8821819f6ec"
+    ]
+  }
+}

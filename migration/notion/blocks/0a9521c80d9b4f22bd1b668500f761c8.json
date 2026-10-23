@@ -1,0 +1,47 @@
+{
+  "id": "0a9521c80d9b4f22bd1b668500f761c8",
+  "title": "Lightbox",
+  "sourceUrl": "https://laststance.notion.site/0a9521c80d9b4f22bd1b668500f761c8",
+  "fetchedAt": "2026-10-23T20:07:07.874Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "4128326cc64f4bd2b4c989fdf540b6c4",
+      "type": "sub_sub_header",
+      "title": "LIGHTBOX",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d066edaaa5df4ee19bb12bedd676a861",
+      "type": "text",
+      "title": "The original lightbox script",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1e036ba172394bcda5eda84b3b6e29dd",
+      "type": "bookmark",
+      "title": "Lightbox2",
+      "description": "Lightbox is a script used to overlay images on the current page. It's a snap to setup and works on all modern browsers.",
+      "url": "https://lokeshdhakar.com/projects/lightbox2/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "af61d150c24345189435e6e1a8b32523",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

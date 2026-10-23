@@ -1,0 +1,10 @@
+{
+  "number": 146,
+  "originalUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+  "requestUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+  "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+  "status": 200,
+  "title": "HTTP: Hypertext Transfer Protocol | MDN",
+  "description": "HTTP is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes, such as machine-to-machine communication, programmatic access to APIs, and more.",
+  "checkedAt": "2026-10-23T20:10:04.453Z"
+}

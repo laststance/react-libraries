@@ -1,0 +1,110 @@
+{
+  "id": "41fcf591fc2f4cd2b03eb01c46de30f0",
+  "title": "Syntax Highlight",
+  "sourceUrl": "https://laststance.notion.site/41fcf591fc2f4cd2b03eb01c46de30f0",
+  "fetchedAt": "2026-10-23T20:07:13.113Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "e1ea6cb81975420cafab87723ccba9e0",
+      "type": "sub_sub_header",
+      "title": "Shiki",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9ecdc05a7e6c432ca649b30d8a58bda7",
+      "type": "bookmark",
+      "title": "npm: shiki",
+      "description": "shiki. Latest version: 0.14.3, last published: a month ago. Start using shiki in your project by running `npm i shiki`. There are 235 other projects in the npm registry using shiki.",
+      "url": "https://www.npmjs.com/package/shiki",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "49631600cd514d8f8afb04f701c1c509",
+      "type": "sub_sub_header",
+      "title": "Lowlight",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9743b7ceb0ef40f98e6b75cd2f6c1da1",
+      "type": "bookmark",
+      "title": "npm: lowlight",
+      "description": "Virtual syntax highlighting for virtual DOMs and non-HTML things. Latest version: 2.9.0, last published: a month ago. Start using lowlight in your project by running `npm i lowlight`. There are 134 other projects in the npm registry using lowlight.",
+      "url": "https://www.npmjs.com/package/lowlight",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4c81305b7cb24b57abe52cdaaafec40f",
+      "type": "sub_sub_header",
+      "title": "Code Hike",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4f82c79d40854216995e384814b0f8e4",
+      "type": "bookmark",
+      "title": "Code Hike",
+      "description": "Marvellous code walkthroughs",
+      "url": "https://codehike.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "dafa1845b3a44cff9ede34073bb0818e",
+      "type": "sub_sub_header",
+      "title": "Expressive Code",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21fd53c4cc45491485dafdef4b5335cc",
+      "type": "external_object_instance",
+      "title": "expressive-code",
+      "description": "",
+      "url": "https://github.com/expressive-code/expressive-code",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "cbb0a10dcb9f4ca5a93f1cd51e16436e",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ef5255ad6841479a8d178ce640162e3c",
+      "type": "sub_sub_header",
+      "title": "shiki-magic-move",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "befc2bc208b1496db32fb51563b55170",
+      "type": "bookmark",
+      "title": "Shiki Magic Move Demo",
+      "description": "",
+      "url": "https://shiki-magic-move.netlify.app/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

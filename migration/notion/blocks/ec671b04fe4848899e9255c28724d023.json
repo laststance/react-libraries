@@ -1,0 +1,38 @@
+{
+  "id": "ec671b04fe4848899e9255c28724d023",
+  "title": "Server Components",
+  "sourceUrl": "https://laststance.notion.site/ec671b04fe4848899e9255c28724d023",
+  "fetchedAt": "2026-10-23T20:07:19.375Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "212f4aa9fa2580d5bd41e7769b1372b9",
+      "type": "sub_sub_header",
+      "title": "React Just",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa2580088d66dfd541b3054c",
+      "type": "bookmark",
+      "title": "ReactJust",
+      "description": "React Server Components enabled by Vite",
+      "url": "https://reactjust.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa25805b8cfec54de9264f73",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

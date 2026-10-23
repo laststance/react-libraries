@@ -1,0 +1,47 @@
+{
+  "id": "a4b7b29906b04d7f95f318a84586a440",
+  "title": "Audio",
+  "sourceUrl": "https://laststance.notion.site/a4b7b29906b04d7f95f318a84586a440",
+  "fetchedAt": "2026-10-23T20:07:17.529Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "48538235a3aa4d49ad1b40ca8222948d",
+      "type": "sub_sub_header",
+      "title": "Tonal",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4f2689ece1a149eea6549b549832e619",
+      "type": "bookmark",
+      "title": "tonal music theory library | tonal",
+      "description": "Tonal music theory library",
+      "url": "https://tonaljs.github.io/tonal/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e0e244e6cfa147229dd07d4861a72f07",
+      "type": "sub_sub_header",
+      "title": "Tone.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22ff52069bf241a4b0843dcee5c0c256",
+      "type": "bookmark",
+      "title": "Tone.js",
+      "description": "Tone.js is a Web Audio framework for creating interactive music in the browser. The architecture of Tone.js aims to be familiar to both musicians and audio programmers creating web-based audio applications. On the high-level, Tone offers common DAW (digital audio workstation) features like a global transport for synchronizing and scheduling events as well as prebuilt synths and effects. Additionally, Tone provides high-performance building blocks to create your own synthesizers, effects, and complex control signals.",
+      "url": "https://tonejs.github.io/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

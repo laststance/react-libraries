@@ -1,0 +1,92 @@
+{
+  "id": "91a94f8b310d4bbdbc9374ad70597e5b",
+  "title": "Date",
+  "sourceUrl": "https://laststance.notion.site/91a94f8b310d4bbdbc9374ad70597e5b",
+  "fetchedAt": "2026-10-23T20:07:16.508Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "7cd6e6f070e4493796134a06d3ff461b",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d0cfc89584af4a3a89b04e6215aadb31",
+      "type": "sub_sub_header",
+      "title": "date-fns",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "37c998651715414eb5e47f6b7b5962b1",
+      "type": "bookmark",
+      "title": "Modern JavaScript Date Utility Library",
+      "description": "date-fns provides the most comprehensive yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js.",
+      "url": "https://date-fns.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "393cb17eb4db43e9b781a64c5979d56c",
+      "type": "sub_sub_header",
+      "title": "Day.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0d7b500e69c4432aae3c9a426188fa1e",
+      "type": "bookmark",
+      "title": "Day.js · 2kB JavaScript date utility library",
+      "description": "2kB JavaScript date utility library",
+      "url": "https://day.js.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "340638454a2a4b96a6fd500a306f2b7a",
+      "type": "sub_sub_header",
+      "title": "SpaceTime",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f40faf849c44feda0dc6532716aee22",
+      "type": "external_object_instance",
+      "title": "spacetime",
+      "description": "",
+      "url": "https://github.com/spencermountain/spacetime",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "292f4aa9fa2580c5aa7dd37ab25d0eba",
+      "type": "sub_sub_header",
+      "title": "@internationalized/date",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "292f4aa9fa25802e9ce4fbebe456fb22",
+      "type": "bookmark",
+      "title": "",
+      "description": "",
+      "url": "https://www.npmjs.com/package/@internationalized/date",
+      "links": [],
+      "children": []
+    }
+  ]
+}

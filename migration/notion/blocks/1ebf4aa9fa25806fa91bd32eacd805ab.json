@@ -1,0 +1,38 @@
+{
+  "id": "1ebf4aa9fa25806fa91bd32eacd805ab",
+  "title": "Desktop Notification",
+  "sourceUrl": "https://laststance.notion.site/1ebf4aa9fa25806fa91bd32eacd805ab",
+  "fetchedAt": "2026-10-23T20:07:09.625Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "1ebf4aa9fa2580d98a26d7c10677b5a3",
+      "type": "sub_sub_header",
+      "title": "node-notifier",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1ebf4aa9fa25805ab9bcc54c0346abbb",
+      "type": "external_object_instance",
+      "title": "node-notifier",
+      "description": "",
+      "url": "https://github.com/mikaelbr/node-notifier",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1ebf4aa9fa25802ca358f3fc03445538",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

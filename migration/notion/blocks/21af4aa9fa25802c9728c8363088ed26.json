@@ -1,0 +1,47 @@
+{
+  "id": "21af4aa9fa25802c9728c8363088ed26",
+  "title": "Stack",
+  "sourceUrl": "https://laststance.notion.site/21af4aa9fa25802c9728c8363088ed26",
+  "fetchedAt": "2026-10-23T20:07:10.636Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "21af4aa9fa2580769318e6227f698ebf",
+      "type": "sub_sub_header",
+      "title": "Better-T Stack",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21af4aa9fa2580dcb9d4c7d5efbcd020",
+      "type": "bookmark",
+      "title": "Better-T Stack",
+      "description": "A modern CLI tool for scaffolding end-to-end type-safe TypeScript projects with best practices and customizable configurations",
+      "url": "https://better-t-stack.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21af4aa9fa25808391d3f25359fdb1ee",
+      "type": "sub_sub_header",
+      "title": "T3 App",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21af4aa9fa25804bae45d44bab0d728d",
+      "type": "bookmark",
+      "title": "Create T3 App",
+      "description": "The best way to start a full-stack, typesafe Next.js app.",
+      "url": "https://create.t3.gg/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

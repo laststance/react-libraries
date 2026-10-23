@@ -1,0 +1,74 @@
+{
+  "id": "1cef4aa9fa2580d0942eea969edddb13",
+  "title": "Debug",
+  "sourceUrl": "https://laststance.notion.site/1cef4aa9fa2580d0942eea969edddb13",
+  "fetchedAt": "2026-10-23T20:07:09.261Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "1cef4aa9fa25805fa52ad4061643b6ba",
+      "type": "sub_sub_header",
+      "title": "code-inspector-plugin",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1cef4aa9fa2580d7a127fd3a64cac52c",
+      "type": "bookmark",
+      "title": "npm: code-inspector-plugin",
+      "description": "Click the dom on the page, it will open your IDE and position the cursor to the source code location of the dom.. Latest version: 0.20.7, last published: 11 days ago. Start using code-inspector-plugin in your project by running `npm i code-inspector-plugin`. There are 6 other projects in the npm registry using code-inspector-plugin.",
+      "url": "https://www.npmjs.com/package/code-inspector-plugin",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa2580309b2dc988824f1582",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1cef4aa9fa25807386e7f7fdc3a16e00",
+      "type": "sub_sub_header",
+      "title": "React Scan",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa2580f5863afc4193ab3c76",
+      "type": "bookmark",
+      "title": "React Scan",
+      "description": "React Scan automatically detects and highlights components that cause performance issues in your React app. Drop it in anywhere – script tag, npm, you name it!",
+      "url": "https://react-scan.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa258066b760eedcc1234921",
+      "type": "sub_sub_header",
+      "title": "Bippy",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa2580f0b459c841f9156c95",
+      "type": "bookmark",
+      "title": "bippy",
+      "description": "hack into react internals",
+      "url": "https://www.bippy.dev/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

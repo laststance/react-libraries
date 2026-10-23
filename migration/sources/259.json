@@ -1,0 +1,10 @@
+{
+  "number": 259,
+  "originalUrl": "https://sequelize.org/",
+  "requestUrl": "https://sequelize.org/",
+  "finalUrl": "https://sequelize.org/",
+  "status": 200,
+  "title": "Sequelize",
+  "description": "Sequelize is a modern TypeScript and Node.js ORM for Oracle, Postgres, MySQL, MariaDB, SQLite and SQL Server, and more. Featuring solid transaction support, relations, eager and lazy loading, read replication and more.",
+  "checkedAt": "2026-10-23T20:10:13.440Z"
+}

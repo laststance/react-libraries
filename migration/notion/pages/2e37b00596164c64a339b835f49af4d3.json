@@ -1,0 +1,12 @@
+{
+  "id": "2e37b00596164c64a339b835f49af4d3",
+  "parent": "4e1053bcac264e069514747acbac6216",
+  "sourceUrl": "https://laststance.notion.site/2e37b00596164c64a339b835f49af4d3",
+  "title": "Mock Server",
+  "content": "\n### JSON Server\n\n<bookmark source=\"https://www.npmjs.com/package/json-server\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2023-11-02T16:40:00.296Z"
+  }
+}

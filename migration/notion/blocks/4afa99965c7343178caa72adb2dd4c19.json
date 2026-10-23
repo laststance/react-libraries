@@ -1,0 +1,47 @@
+{
+  "id": "4afa99965c7343178caa72adb2dd4c19",
+  "title": "Node.js knowledge",
+  "sourceUrl": "https://laststance.notion.site/4afa99965c7343178caa72adb2dd4c19",
+  "fetchedAt": "2026-10-23T20:07:13.658Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "c0540fa1be8643be914ae06ddaebbdc1",
+      "type": "sub_sub_header",
+      "title": "Node.js CLI Apps Best Practices",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e695bced6e7f441e9e863ccf77c9ae25",
+      "type": "external_object_instance",
+      "title": "nodejs-cli-apps-best-practices",
+      "description": "",
+      "url": "https://github.com/lirantal/nodejs-cli-apps-best-practices",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d4f3d22fd364f55a062f54093635629",
+      "type": "sub_sub_header",
+      "title": "Express Tutorial",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2d355b7625d54bd685526e7ff7ab1373",
+      "type": "bookmark",
+      "title": "ExpressJS Tutorial",
+      "description": "ExpressJS Tutorial - Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It is an open source framework developed and maintained by the Node.js foundation.",
+      "url": "https://www.tutorialspoint.com/expressjs/index.htm",
+      "links": [],
+      "children": []
+    }
+  ]
+}

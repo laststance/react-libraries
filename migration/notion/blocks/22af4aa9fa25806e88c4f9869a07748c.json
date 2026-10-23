@@ -1,0 +1,38 @@
+{
+  "id": "22af4aa9fa25806e88c4f9869a07748c",
+  "title": "UserAgent/Device Detect",
+  "sourceUrl": "https://laststance.notion.site/22af4aa9fa25806e88c4f9869a07748c",
+  "fetchedAt": "2026-10-23T20:07:10.647Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "22af4aa9fa25807d903ae99387cbaa74",
+      "type": "sub_header",
+      "title": "react-device-detect",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22af4aa9fa258069b34dc83446ded814",
+      "type": "external_object_instance",
+      "title": "react-device-detect",
+      "description": "",
+      "url": "https://github.com/duskload/react-device-detect",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22af4aa9fa258049bb54c55ddb846381",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

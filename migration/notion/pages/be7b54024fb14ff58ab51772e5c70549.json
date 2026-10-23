@@ -1,0 +1,17 @@
+{
+  "id": "be7b54024fb14ff58ab51772e5c70549",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/be7b54024fb14ff58ab51772e5c70549",
+  "title": "Auth",
+  "content": "\n### Clerk\n\n<bookmark source=\"https://clerk.com/\" />\n\n### Auth0\n\n<bookmark source=\"https://auth0.com/\" />\n\n### Userfront\n\n<bookmark source=\"https://userfront.com/tutorials/react-authentication\" />\n\n### <b>React OAuth2 \\| Google</b>\n\n<unknown url=\"https://app.notion.com/p/be7b54024fb14ff58ab51772e5c70549#b28784ce8eab4361a0a8fbaf2751851a\" alt=\"external_object_instance\" />\n\n### Auth.js\n\n<bookmark source=\"https://authjs.dev/\" />\n\n### Lucia\n\n<bookmark source=\"https://lucia-auth.com/\" />\n\n### SuperTokens\n\n<bookmark source=\"https://supertokens.com/\" />\n\n### integrationos/authkit-react\n\n<bookmark source=\"https://authkit-demo.integrationos.com/\" />\n\n<p />\n\n### propelauth\n\n<bookmark source=\"https://www.propelauth.com/\" />\n\n### Logto\n\n<bookmark source=\"https://logto.io/\" />\n\n### Better Auth\n\n<bookmark source=\"https://www.better-auth.com/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-06-27T05:11:35.650Z",
+    "truncated": true,
+    "unknownBlockCount": 1,
+    "unknownBlockIds": [
+      "b28784ce-8eab-4361-a0a8-fbaf2751851a"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "3d86c4594c8846d9a61c99001e2d1066",
+  "parent": "4e1053bcac264e069514747acbac6216",
+  "sourceUrl": "https://laststance.notion.site/3d86c4594c8846d9a61c99001e2d1066",
+  "title": "ORM",
+  "content": "\n### Prisma\n\n<bookmark source=\"https://www.prisma.io/\" />\n\n### Drizzle ORM\n\n<bookmark source=\"https://orm.drizzle.team/\" />\n\n### <b>Kysely</b>\n\n<bookmark source=\"https://kysely.dev/\" />\n\n### MikroORM\n\n<bookmark source=\"https://mikro-orm.io/\" />\n\n### Mongoose\n\n<bookmark source=\"https://mongoosejs.com/\" />\n\n### Sequelize\n\n<bookmark source=\"https://sequelize.org/\" />\n\n### Orange ORM\n\n<bookmark source=\"https://orange-orm.io/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-06-14T09:57:28.116Z"
+  }
+}

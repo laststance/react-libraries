@@ -1,0 +1,26 @@
+{
+  "id": "4a05a2ef5de549468f004000be3f3d91",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/4a05a2ef5de549468f004000be3f3d91",
+  "title": "Frameworks",
+  "content": "\n# Fullstack Frameworks\n\n<page url=\"https://app.notion.com/p/014126ce3549447dbac171694ada3b79\">\nNext.js\n</page>\n\n<bookmark source=\"https://nextjs.org/\" />\n\n<page url=\"https://app.notion.com/p/9c951031831c4a0b9916a7db46e9c8ea\">\nRemix\n</page>\n\n<bookmark source=\"https://remix.run/\" />\n\n### Redwoodjs\n\n<bookmark source=\"https://redwoodjs.com/\" />\n\n### ZenStack\n\n<bookmark source=\"https://zenstack.dev/\" />\n\n<p />\n\n### <b>The Epic Stack</b>\n\n<bookmark source=\"https://www.epicweb.dev/epic-stack\" />\n\n## T3 App (Next.js + Trpc integration)\n\n<bookmark source=\"https://create.t3.gg/\" />\n\n<p />\n\n### Blitz.js\n\n<bookmark source=\"https://blitzjs.com/\" />\n\n### Refine\n\n<unknown url=\"https://app.notion.com/p/4a05a2ef5de549468f004000be3f3d91#c6444664d1ea4f1aa936597185e9531e\" alt=\"external_object_instance\" />\n\n### Astro\n\n<bookmark source=\"https://astro.build/\" />\n",
+  "children": [
+    {
+      "id": "014126ce3549447dbac171694ada3b79",
+      "title": "Next.js"
+    },
+    {
+      "id": "9c951031831c4a0b9916a7db46e9c8ea",
+      "title": "Remix"
+    }
+  ],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-01-20T03:02:34.052Z",
+    "truncated": true,
+    "unknownBlockCount": 1,
+    "unknownBlockIds": [
+      "c6444664-d1ea-4f1a-a936-597185e9531e"
+    ]
+  }
+}

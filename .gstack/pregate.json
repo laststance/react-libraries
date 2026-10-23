@@ -1,0 +1,17 @@
+{
+  "runner": "pnpm exec playwright test {files}",
+  "dependencies": {
+    "**": ["tests/discovery.test.ts", "tests/category-index.test.ts"]
+  },
+  "strays": {
+    "allow": ["components.ts", "pnpm-workspace.yaml", "theme.css", "vercel.json"]
+  },
+  "guards": [
+    {
+      "id": "catalog-provenance",
+      "when": ["**"],
+      "command": "pnpm run test:catalog",
+      "fix": "Restore the missing source mapping or correct canonical content."
+    }
+  ]
+}

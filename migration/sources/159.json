@@ -1,0 +1,10 @@
+{
+  "number": 159,
+  "originalUrl": "https://www.npmjs.com/package/@vercel/ncc",
+  "requestUrl": "https://registry.npmjs.org/@vercel/ncc/latest",
+  "finalUrl": "https://registry.npmjs.org/@vercel/ncc/latest",
+  "status": 200,
+  "title": "@vercel/ncc",
+  "description": "Simple CLI for compiling a Node.js module into a single file, together with all its dependencies, gcc-style.",
+  "checkedAt": "2026-10-23T20:10:05.625Z"
+}

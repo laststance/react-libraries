@@ -1,0 +1,10 @@
+{
+  "number": 115,
+  "originalUrl": "https://linkify.js.org/",
+  "requestUrl": "https://linkify.js.org/",
+  "finalUrl": "https://linkify.js.org/",
+  "status": 200,
+  "title": "Linkify: a JavaScript plugin",
+  "description": "Linkify is a JavaScript plugin. Use Linkify to find links in plain-text and convert them to HTML <a> tags. It automatically highlights URLs, #hashtags, @mentions and more.",
+  "checkedAt": "2026-10-23T20:10:02.051Z"
+}

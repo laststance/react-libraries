@@ -1,0 +1,12 @@
+{
+  "id": "47fdf89c78474e179d3a79a21f2ddc8a",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/47fdf89c78474e179d3a79a21f2ddc8a",
+  "title": "Panel / Layout",
+  "content": "\n### React Resizable Panels\n\n<bookmark source=\"https://react-resizable-panels.vercel.app/\" />\n\n## React Split Panel\n\n<bookmark source=\"https://tomkp.github.io/react-split-pane/\" />\n\n<p />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2026-02-27T15:51:22.011Z"
+  }
+}

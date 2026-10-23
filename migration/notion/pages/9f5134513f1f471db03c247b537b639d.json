@@ -1,0 +1,12 @@
+{
+  "id": "9f5134513f1f471db03c247b537b639d",
+  "parent": "a1c7b0f128aa4a9685b4d1848d0800b5",
+  "sourceUrl": "https://laststance.notion.site/9f5134513f1f471db03c247b537b639d",
+  "title": "Validation",
+  "content": "\n### joi\n\n<bookmark source=\"https://www.npmjs.com/package/joi\" />\n\n### Yup\n\n<bookmark source=\"https://www.npmjs.com/package/yup\" />\n\n### Zod\n\n<bookmark source=\"https://zod.dev/\" />\n\n### io-ts\n\n<bookmark source=\"https://www.npmjs.com/package/io-ts\" />\n\n### Superstruct\n\n<bookmark source=\"https://docs.superstructjs.org/\" />\n\n### ArkType\n\n<bookmark source=\"https://arktype.io/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-11-14T11:09:45.725Z"
+  }
+}

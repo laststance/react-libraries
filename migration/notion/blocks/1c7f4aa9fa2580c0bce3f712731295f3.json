@@ -1,0 +1,56 @@
+{
+  "id": "1c7f4aa9fa2580c0bce3f712731295f3",
+  "title": "General",
+  "sourceUrl": "https://laststance.notion.site/1c7f4aa9fa2580c0bce3f712731295f3",
+  "fetchedAt": "2026-10-23T20:07:08.907Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "1c7f4aa9fa2580968032d68e140e009e",
+      "type": "sub_sub_header",
+      "title": "Marge Refs",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1c7f4aa9fa2580b4b47adb5f7e2caae7",
+      "type": "external_object_instance",
+      "title": "merge-refs",
+      "description": "",
+      "url": "https://github.com/wojtekmaj/merge-refs",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2b7f4aa9fa2580edbe2bfacabc528d4d",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1c7f4aa9fa258079b5dfee0734230271",
+      "type": "sub_header",
+      "title": "Tanstack/Packer",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2b7f4aa9fa2580f8aa2be400eff252fe",
+      "type": "bookmark",
+      "title": "TanStack Pacer",
+      "description": "Optimize your application's performance with TanStack Pacer's core primitives: Debouncing, Throttling, Rate Limiting, Queuing, and Batching.",
+      "url": "https://tanstack.com/pacer/latest",
+      "links": [],
+      "children": []
+    }
+  ]
+}

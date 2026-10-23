@@ -1,0 +1,56 @@
+{
+  "id": "1c2a0fe5aeb94a5692230937d3802158",
+  "title": "user agent",
+  "sourceUrl": "https://laststance.notion.site/1c2a0fe5aeb94a5692230937d3802158",
+  "fetchedAt": "2026-10-23T20:07:08.954Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "9ca3a689e12c417a850d371e1fcabab0",
+      "type": "sub_sub_header",
+      "title": "UA Paser js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22bf4aa9fa258033809ae9630f15768f",
+      "type": "external_object_instance",
+      "title": "ua-parser-js",
+      "description": "",
+      "url": "https://github.com/faisalman/ua-parser-js",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9f8aa825c6fd4377bef7811c200347ee",
+      "type": "sub_header",
+      "title": "my-ua-paser",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22af4aa9fa2580fdb831e8cf6786ca6f",
+      "type": "external_object_instance",
+      "title": "react-device-detect",
+      "description": "",
+      "url": "https://github.com/duskload/react-device-detect",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22af4aa9fa258074aa8ac538b4e22b49",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

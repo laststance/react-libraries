@@ -1,0 +1,17 @@
+{
+  "id": "41fcf591fc2f4cd2b03eb01c46de30f0",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/41fcf591fc2f4cd2b03eb01c46de30f0",
+  "title": "Syntax Highlight",
+  "content": "\n### Shiki\n\n<bookmark source=\"https://www.npmjs.com/package/shiki\" />\n\n### Lowlight\n\n<bookmark source=\"https://www.npmjs.com/package/lowlight\" />\n\n### Code Hike\n\n<bookmark source=\"https://codehike.org/\" />\n\n### Expressive Code\n\n<unknown url=\"https://app.notion.com/p/41fcf591fc2f4cd2b03eb01c46de30f0#21fd53c4cc45491485dafdef4b5335cc\" alt=\"external_object_instance\" />\n\n<p />\n\n### shiki-magic-move\n\n<bookmark source=\"https://shiki-magic-move.netlify.app/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-03-08T04:55:34.164Z",
+    "truncated": true,
+    "unknownBlockCount": 1,
+    "unknownBlockIds": [
+      "21fd53c4-cc45-4914-85da-fdef4b5335cc"
+    ]
+  }
+}

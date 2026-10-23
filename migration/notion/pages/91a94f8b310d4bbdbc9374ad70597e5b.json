@@ -1,0 +1,14 @@
+{
+  "id": "91a94f8b310d4bbdbc9374ad70597e5b",
+  "parent": "a1c7b0f128aa4a9685b4d1848d0800b5",
+  "sourceUrl": "https://laststance.notion.site/91a94f8b310d4bbdbc9374ad70597e5b",
+  "title": "Date",
+  "content": "\n<p />\n\n### date-fns\n\n<bookmark source=\"https://date-fns.org/\" />\n\n### Day.js\n\n<bookmark source=\"https://day.js.org/\" />\n\n### SpaceTime\n\n<unknown url=\"https://app.notion.com/p/91a94f8b310d4bbdbc9374ad70597e5b#1f40faf849c44feda0dc6532716aee22\" alt=\"external_object_instance\" />\n\n### @internationalized/date\n\n<bookmark source=\"https://www.npmjs.com/package/@internationalized/date\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-11-14T11:09:45.723Z",
+    "truncated": true,
+    "unknownBlockCount": 1
+  }
+}

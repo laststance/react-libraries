@@ -1,0 +1,74 @@
+{
+  "id": "901dc03647014ef498d311e17a9b803a",
+  "title": "Modal/Dialog",
+  "sourceUrl": "https://laststance.notion.site/901dc03647014ef498d311e17a9b803a",
+  "fetchedAt": "2026-10-23T20:07:16.491Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "ae3dffff6db14d52981e943c627a9f9c",
+      "type": "sub_sub_header",
+      "title": "React-Modal",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7ac5861e542647a5959fca0449314969",
+      "type": "bookmark",
+      "title": "react-modal documentation",
+      "description": "",
+      "url": "https://reactcommunity.org/react-modal/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1caf4aa9fa258000b0abd68d82abc4f8",
+      "type": "sub_sub_header",
+      "title": "sweetalert2-react-content",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1caf4aa9fa258075a8ddf6e7d91c57e0",
+      "type": "external_object_instance",
+      "title": "sweetalert2-react-content",
+      "description": "",
+      "url": "https://github.com/sweetalert2/sweetalert2-react-content",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "144f4aa9fa25801ba72ce37abe7fcef8",
+      "type": "sub_header",
+      "title": "Toldo",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "144f4aa9fa2580b5bdd3e71cadbffecd",
+      "type": "external_object_instance",
+      "title": "toldo",
+      "description": "",
+      "url": "https://github.com/raphaelsalaja/toldo",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "144f4aa9fa2580d0b4b7fc5ad364781b",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

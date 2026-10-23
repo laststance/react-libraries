@@ -1,0 +1,209 @@
+{
+  "id": "202f19afe2e94ad38485faedfaa6d74d",
+  "title": "TypeScript Library",
+  "sourceUrl": "https://laststance.notion.site/202f19afe2e94ad38485faedfaa6d74d",
+  "fetchedAt": "2026-10-23T20:07:10.307Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "085c19e7c8694332b165c67485b55dac",
+      "type": "sub_sub_header",
+      "title": "Typefest",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d8de721af3eb45e5987576b868c5035e",
+      "type": "external_object_instance",
+      "title": "type-fest",
+      "description": "",
+      "url": "https://github.com/sindresorhus/type-fest",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "34f2146de3844e42b25e85ddfda99fce",
+      "type": "sub_sub_header",
+      "title": "TypeChat",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4f9fb5bbf8af4c039c8f80562f16832b",
+      "type": "bookmark",
+      "title": "Introduction - TypeChat",
+      "description": "Large language models (or LLMs) can give us surprisingly rich answers to requests.\nMaybe you've tried chatting with a language model and been delighted at how effective it is to brainstorm with it.",
+      "url": "https://microsoft.github.io/TypeChat/docs/introduction/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "99dd5ee19ea34c168769c87d8554b14b",
+      "type": "sub_sub_header",
+      "title": "TypeSpec",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "162b6f2a40284c74addee718e1549db4",
+      "type": "bookmark",
+      "title": "TypeSpec",
+      "description": "",
+      "url": "https://typespec.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5ba0c97d6b994172b32bd2f9f9c5c1ef",
+      "type": "sub_sub_header",
+      "title": "Effect",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "06e45bf9647f4399b22b083a79a80d09",
+      "type": "bookmark",
+      "title": "Effect – The best way to build robust apps in TypeScript",
+      "description": "Effect is a powerful TypeScript library designed to help developers easily create complex, synchronous, and asynchronous programs.",
+      "url": "https://effect.website/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e8b4e6e19faf40ce9499f1357f5406b8",
+      "type": "sub_sub_header",
+      "title": "tsx",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "752f4c2183a64755a3f7170d6c9d107e",
+      "type": "bookmark",
+      "title": "What is tsx? | tsx",
+      "description": "tsx (TypeScript Execute) - The easiest way to run TypeScript in Node.js",
+      "url": "https://tsx.is/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "340093851a6a40dc976870effc2af9bb",
+      "type": "sub_sub_header",
+      "title": "@total-typescript/tsconfig",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d2e270f393ca4c5cacabc1d3a860bd2f",
+      "type": "external_object_instance",
+      "title": "tsconfig",
+      "description": "",
+      "url": "https://github.com/total-typescript/tsconfig",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c8738a7c610546e4b36ca50b1dfce071",
+      "type": "sub_sub_header",
+      "title": "True-myth",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "96c3b70269514cc08d889ac6a4507fa9",
+      "type": "external_object_instance",
+      "title": "true-myth",
+      "description": "",
+      "url": "https://github.com/true-myth/true-myth",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "862b203de7d44f7cbd98118a018c4c9d",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1a81211c91aa49709b778b118e4b1fbb",
+      "type": "sub_sub_header",
+      "title": "ts-expect",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8405b6be3d254199ae568865db7eca4d",
+      "type": "bookmark",
+      "title": "npm: ts-expect",
+      "description": "Checks TypeScript types match expected values. Latest version: 1.3.0, last published: 3 years ago. Start using ts-expect in your project by running `npm i ts-expect`. There are 14 other projects in the npm registry using ts-expect.",
+      "url": "https://www.npmjs.com/package/ts-expect",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d27aa4ed442b41a2b2e2c2b231ff9233",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ab1a8c055d704b84ae86403d80493fb0",
+      "type": "sub_sub_header",
+      "title": "tsd",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bcf274f793684457be14a52b200c8a98",
+      "type": "external_object_instance",
+      "title": "tsd",
+      "description": "",
+      "url": "https://github.com/tsdjs/tsd",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "234f4aa9fa25805aa06ce77eee719b4a",
+      "type": "sub_header",
+      "title": "zshy",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "234f4aa9fa258089889ac39a0a3612f1",
+      "type": "external_object_instance",
+      "title": "zshy",
+      "description": "",
+      "url": "https://github.com/colinhacks/zshy",
+      "links": [],
+      "children": []
+    }
+  ]
+}

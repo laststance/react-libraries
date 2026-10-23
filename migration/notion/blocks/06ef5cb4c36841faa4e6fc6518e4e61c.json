@@ -1,0 +1,38 @@
+{
+  "id": "06ef5cb4c36841faa4e6fc6518e4e61c",
+  "title": "Scrollbar",
+  "sourceUrl": "https://laststance.notion.site/06ef5cb4c36841faa4e6fc6518e4e61c",
+  "fetchedAt": "2026-10-23T20:07:07.687Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "193c55a4cfc44fff898027e4b00c9c90",
+      "type": "sub_sub_header",
+      "title": "OverlayScrollbars",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "55d9f5a12eb74d49a42f1227c3a9edf2",
+      "type": "bookmark",
+      "title": "OverlayScrollbars",
+      "description": "A javascript scrollbar plugin that hides native scrollbars, provides custom styleable overlay scrollbars and keeps the native functionality and feeling.",
+      "url": "https://kingsora.github.io/OverlayScrollbars/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "dac8b0e7e56d4459831394f72add08cb",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

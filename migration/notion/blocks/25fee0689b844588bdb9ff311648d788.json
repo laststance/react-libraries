@@ -1,0 +1,610 @@
+{
+  "id": "25fee0689b844588bdb9ff311648d788",
+  "title": "Styling",
+  "sourceUrl": "https://laststance.notion.site/25fee0689b844588bdb9ff311648d788",
+  "fetchedAt": "2026-10-23T20:07:10.865Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "08dca83048784cdcb60a41a6e7d2c011",
+      "type": "sub_sub_header",
+      "title": "CSS Modules",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "077195242a3e491e8be3a52d1fb5f244",
+      "type": "external_object_instance",
+      "title": "css-modules",
+      "description": "",
+      "url": "https://github.com/css-modules/css-modules",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ffff4aa9fa258086b0e0de6a2f128b64",
+      "type": "external_object_instance",
+      "title": "typescript-plugin-css-modules",
+      "description": "",
+      "url": "https://github.com/mrmckeb/typescript-plugin-css-modules",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d8aa3342456f4daab11917f0f15f4473",
+      "type": "header",
+      "title": "Tailwind CSS ecosystem",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d7b288db169f4fe2b6ae66bc66ea78d2",
+      "type": "bookmark",
+      "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+      "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
+      "url": "https://tailwindcss.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5841f704e0a34276bfdb6d29298708c6",
+      "type": "sub_sub_header",
+      "title": "Utility",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d8bf58f5d8a4352a95aae27e09a4db0",
+      "type": "sub_sub_header",
+      "title": "clsx",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b1bd9707162448e89c6974e3b35ac389",
+      "type": "external_object_instance",
+      "title": "clsx",
+      "description": "",
+      "url": "https://github.com/lukeed/clsx",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "719aa3fba5734558925e2358d3915c23",
+      "type": "sub_sub_header",
+      "title": "tailwind-merge",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1a0d6d37e53946bba574acae9dd5b071",
+      "type": "bookmark",
+      "title": "npm: tailwind-merge",
+      "description": "Merge Tailwind CSS classes without style conflicts. Latest version: 1.13.2, last published: 19 days ago. Start using tailwind-merge in your project by running `npm i tailwind-merge`. There are 515 other projects in the npm registry using tailwind-merge.",
+      "url": "https://www.npmjs.com/package/tailwind-merge",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "991b20128c2845a9ae5273aa422b9f71",
+      "type": "sub_sub_header",
+      "title": "CVA",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a175851b5c714dcd9cb6942c71b0ed1a",
+      "type": "bookmark",
+      "title": "cva",
+      "description": "Class Variance Authority",
+      "url": "https://cva.style/docs",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7e76961c4a4e4b249fe204ec461cc350",
+      "type": "sub_sub_header",
+      "title": "TWC",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3f7eca2844cf45c7b6fe13f2c0383f20",
+      "type": "bookmark",
+      "title": "Create reusable Tailwind CSS + React components – TWC",
+      "description": "Create reusable React Tailwind CSS components.",
+      "url": "https://react-twc.vercel.app/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "75af85ba1e874eb892b60db360d57779",
+      "type": "sub_header",
+      "title": "UI Component Library",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5cf0c594f2f6447d88b071d25b7c5e97",
+      "type": "sub_sub_header",
+      "title": "Tailwind UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "63cc27f830c24e86993fd4713d5ad9ec",
+      "type": "bookmark",
+      "title": "Tailwind UI - Official Tailwind CSS Components & Templates",
+      "description": "Beautiful UI components and templates by the creators of Tailwind CSS.",
+      "url": "https://tailwindui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "26473132b4d24bebbd89622564857b68",
+      "type": "sub_sub_header",
+      "title": "Daisy UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2fd913a3e0354383b2aa72187bc6de51",
+      "type": "bookmark",
+      "title": "daisyUI — Tailwind CSS Components",
+      "description": "Tailwind Components Library - Free components for Tailwind CSS",
+      "url": "https://daisyui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d97cd1b6e6c04364967bff4f81329b28",
+      "type": "sub_header",
+      "title": "shadcn/UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ffff4aa9fa2580e789d4c8a50fccd612",
+      "type": "bookmark",
+      "title": "shadcn/ui",
+      "description": "Beautifully designed components built with Radix UI and Tailwind CSS.",
+      "url": "https://ui.shadcn.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "984ce97494884aafbf4250ebdf20a434",
+      "type": "sub_header",
+      "title": "React Aria",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "35f68788046345f093d3f3cd95211a40",
+      "type": "bookmark",
+      "title": "React Aria",
+      "description": "A library of React Hooks that provides accessible UI primitives for your design system.",
+      "url": "https://react-spectrum.adobe.com/react-aria/index.html",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f67362a8125d4fef8cec0cb7bf5faf1e",
+      "type": "sub_sub_header",
+      "title": "Draft UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a79a189a02cb45bba3a7d136d461521e",
+      "type": "bookmark",
+      "title": "Draft UI",
+      "description": "A collection of simply designed React components focused on making web accessibility as easy as copy & paste",
+      "url": "https://draft-ui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "59bb11589d814fc98b2530d7b9194006",
+      "type": "sub_sub_header",
+      "title": "Catalyst",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "62b86c7103ea40c6917b7a657ba2ef1f",
+      "type": "bookmark",
+      "title": "Catalyst UI Kit",
+      "description": "Modern application UI components to kickstart your design system.",
+      "url": "https://catalyst.tailwindui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "41cba64a930f40afa6c4d96897c34f75",
+      "type": "sub_header",
+      "title": "Dashboard UI Kit",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "16fec93279364beba0141acee508d6a1",
+      "type": "sub_sub_header",
+      "title": "Tremor",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "de3feb1499f741e2a7024d642f19209d",
+      "type": "bookmark",
+      "title": "Tremor – The React library to build dashboards fast",
+      "description": "Modular components to build insightful dashboards in a breeze.",
+      "url": "https://www.tremor.so/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c26cfcc6163241948a22bf990614ce8a",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3b6f70ac3cfc4fc199b7a6c54d310a63",
+      "type": "page",
+      "title": "CSS Modules",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "ca5eaf305b4144c0b0620e8a7f1cd897",
+        "45477c36b8154d57a7e1750673e7ca1b",
+        "be214ec507af4746a6161b439f764cb2"
+      ]
+    },
+    {
+      "id": "519b6d81d1f847f5a3a123bf165738d7",
+      "type": "sub_header",
+      "title": "Zero-runtime CSS in JS",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ca12c6d4e8af4522a6df604d26bd1b75",
+      "type": "sub_sub_header",
+      "title": "Pigment CSS React",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "264d410cf17842eea53d5d06e71e9725",
+      "type": "external_object_instance",
+      "title": "pigment-css",
+      "description": "",
+      "url": "https://github.com/mui/pigment-css",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "51e56c55c86d40df9148671e4cdd69d9",
+      "type": "sub_sub_header",
+      "title": "linaria",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "80918f9d7ee1483495ce71c8d82781b2",
+      "type": "bookmark",
+      "title": "Linaria – zero-runtime CSS in JS library",
+      "description": "",
+      "url": "https://linaria.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "28cf640962824f1c9468259067178c6d",
+      "type": "sub_sub_header",
+      "title": "vanilla-extract",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "66427bff85be4b72b5e64b3926072436",
+      "type": "bookmark",
+      "title": "vanilla-extract — Zero-runtime Stylesheets-in-TypeScript.",
+      "description": "Zero-runtime Stylesheets-in-TypeScript.",
+      "url": "https://vanilla-extract.style/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4eb3d0a048e14c7f8f2a59c928188305",
+      "type": "sub_sub_header",
+      "title": "panda-css",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a01b2b769e22438f8a4f70b734eeb678",
+      "type": "bookmark",
+      "title": "Panda CSS - Build modern websites using build time and type-safe CSS-in-JS",
+      "description": "Build modern websites using build time and type-safe CSS-in-JS",
+      "url": "https://panda-css.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b9a4bbd7caf0496c817cd160e0fb19e8",
+      "type": "sub_sub_header",
+      "title": "Kuma UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "12946eb00d89496c812f41333d5d94c1",
+      "type": "bookmark",
+      "title": "Kuma UI",
+      "description": "The Modern Headless & Zero Runtime UI Component Library 🐻‍❄️✨",
+      "url": "https://www.kuma-ui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9d410b05f95e417ea966184ef461dba9",
+      "type": "sub_sub_header",
+      "title": "UnoCSS",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7502fc9f648345fabcc9310a5a0134b2",
+      "type": "bookmark",
+      "title": "UnoCSS",
+      "description": "The instant on-demand Atomic CSS engine",
+      "url": "https://unocss.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c5531cddd0b146b9a1f30af65e5da894",
+      "type": "sub_header",
+      "title": "CSS in JS",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "84186ac51aa749238c722dfc6a544e16",
+      "type": "sub_sub_header",
+      "title": "StyleX",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "be353f67117940998473ab0a75f63b49",
+      "type": "bookmark",
+      "title": "StyleX",
+      "description": "The styling system that powers Meta.",
+      "url": "https://stylexjs.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "67a39a25ae4148b1ad565e5577983c33",
+      "type": "sub_header",
+      "title": "Emotion",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7ef7f976989a4eceae9266e64545d808",
+      "type": "bookmark",
+      "title": "Emotion – Introduction",
+      "description": "Emotion is a library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities. Both string and object styles are supported.",
+      "url": "https://emotion.sh/docs/introduction",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8d648b40e5e94f48b21b689364c03488",
+      "type": "sub_sub_header",
+      "title": "Styled-Components",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "141413c4089f41378ad89786ad5058e1",
+      "type": "bookmark",
+      "title": "styled-components",
+      "description": "CSS for the <Component> Age",
+      "url": "https://styled-components.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "42475eb2026d4b7d96b0be26b3a91c30",
+      "type": "sub_sub_header",
+      "title": "Reshadow",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "57517fa55f0846629b59ad4c9022a792",
+      "type": "bookmark",
+      "title": "reshadow ⛱️",
+      "description": "reshadow documentation",
+      "url": "https://reshadow.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "685f83dcea1a47a290268d4487c7530d",
+      "type": "text",
+      "title": "@artsy/fresnel",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0a2460d1b904490e8173905574d5bd26",
+      "type": "external_object_instance",
+      "title": "fresnel",
+      "description": "",
+      "url": "https://github.com/artsy/fresnel",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e50b3cdde1054f3e9941baeebde77242",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a40b6ba1e3dc42c0988e2afb5c562b9c",
+      "type": "sub_sub_header",
+      "title": "polished",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "cad462426bf14aca8bf8b1d057272d95",
+      "type": "bookmark",
+      "title": "✨ polished | A lightweight toolset for writing styles in JavaScript",
+      "description": "A lightweight toolset for writing styles in JavaScript.",
+      "url": "https://polished.js.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "aa48b78434a94c79b9e05612a16a1d31",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "de23f0b454444a8aa2cc657c4e46b0ad",
+      "type": "sub_sub_header",
+      "title": "CSS from JS",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0065a4454a3447829b24171b164ec589",
+      "type": "sub_sub_header",
+      "title": "MistCSS",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "484f7cb1f71443b882dfda7107a9b7ea",
+      "type": "bookmark",
+      "title": "MistCSS",
+      "description": "Write atomic React components using only CSS",
+      "url": "https://typicode.github.io/mistcss/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "10f8a9653b154453980c7b3b4f6355b4",
+      "type": "text",
+      "title": "https://github.com/css-modules/css-modules",
+      "description": "",
+      "url": "",
+      "links": [
+        {
+          "text": "https://github.com/css-modules/css-modules",
+          "url": "https://github.com/css-modules/css-modules"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0be68363a104486ebc0ba997bccb3269",
+      "type": "text",
+      "title": "https://github.com/mrmckeb/typescript-plugin-css-modules",
+      "description": "",
+      "url": "",
+      "links": [
+        {
+          "text": "https://github.com/mrmckeb/typescript-plugin-css-modules",
+          "url": "https://github.com/mrmckeb/typescript-plugin-css-modules"
+        }
+      ],
+      "children": []
+    }
+  ]
+}

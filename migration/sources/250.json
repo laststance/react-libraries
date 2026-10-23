@@ -1,0 +1,8 @@
+{
+  "number": 250,
+  "originalUrl": "https://docs.snaplet.dev/core-concepts/generate",
+  "requestUrl": "https://docs.snaplet.dev/core-concepts/generate",
+  "status": null,
+  "error": "TypeError: fetch failed",
+  "checkedAt": "2026-10-23T20:10:12.278Z"
+}

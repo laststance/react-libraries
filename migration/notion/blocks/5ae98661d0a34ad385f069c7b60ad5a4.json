@@ -1,0 +1,200 @@
+{
+  "id": "5ae98661d0a34ad385f069c7b60ad5a4",
+  "title": "State Management",
+  "sourceUrl": "https://laststance.notion.site/5ae98661d0a34ad385f069c7b60ad5a4",
+  "fetchedAt": "2026-10-23T20:07:14.177Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "354afe209ff5403eabef7d83e2b59f92",
+      "type": "sub_sub_header",
+      "title": "Redux Toolkit",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9b17e0cadfe842a1b50c3d16868bb088",
+      "type": "bookmark",
+      "title": "Redux Toolkit | Redux Toolkit",
+      "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
+      "url": "https://redux-toolkit.js.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0bd7a511b00b445091c9a5562e42debe",
+      "type": "sub_sub_header",
+      "title": "Zustand",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "49c08d92a7b94a199ed50d2323b4185d",
+      "type": "bookmark",
+      "title": "Zustand Documentation",
+      "description": "Zustand is a small, fast and scalable bearbones state-management solution, it has a comfy api based on hooks",
+      "url": "https://docs.pmnd.rs/zustand/getting-started/introduction",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "885e50a8677b4a92a3ac687ae646db65",
+      "type": "sub_sub_header",
+      "title": "Jotai",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3b076c2e21144498871f487a92e4e33b",
+      "type": "bookmark",
+      "title": "Jotai, primitive and flexible state management for React",
+      "description": "Jotai takes a bottom-up approach to global React state management with an atomic model inspired by Recoil. One can build state by combining atoms and renders are optimized based on atom dependency. This solves the extra re-render issue of React context and eliminates the need for memoization.",
+      "url": "https://jotai.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6a860825a3574d66ae455ed378c80d32",
+      "type": "sub_sub_header",
+      "title": "Valio",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b618a3cf9f3f48b8b7d0a49cffc828d8",
+      "type": "bookmark",
+      "title": "Valtio, makes proxy-state simple for React and Vanilla",
+      "description": "",
+      "url": "https://valtio.pmnd.rs/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "81fd09796f4e4f0f88cb61e7fc0de130",
+      "type": "sub_sub_header",
+      "title": "Mobx-state-tree",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "09b95cf86a664702b1e2c6e29e2ec5b8",
+      "type": "bookmark",
+      "title": "Welcome to MobX-State-Tree! · MobX-state-tree",
+      "description": "<div id=\"codefund\"></div>",
+      "url": "https://mobx-state-tree.js.org/intro/welcome",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "12851c9c88324139a15de3af99a6c17c",
+      "type": "sub_sub_header",
+      "title": "Mobx",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5ff9d0530ce140649af323ad2d0e500c",
+      "type": "bookmark",
+      "title": "About MobX · MobX 🇺🇦",
+      "description": "<img src=\"https://mobx.js.org/assets/mobx.png\" alt=\"logo\" height=\"120\" align=\"right\" />",
+      "url": "https://mobx.js.org/README.html",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "10e0fa08f27d4d4d9c6fe1b15aeab350",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d79f215e7eb3431297fd95c6e6450776",
+      "type": "sub_sub_header",
+      "title": "XState Store",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "412d764bce8944bab24e1d0bf5da7679",
+      "type": "bookmark",
+      "title": "Introducing XState Store | Stately",
+      "description": "A simple and small state management library inspired by XState",
+      "url": "https://stately.ai/blog/2024-04-10-xstate-store",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0fa6b1320f4940019389020c6a0841b2",
+      "type": "sub_sub_header",
+      "title": "Nano Stores",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5d68c633aad1452eb1921f69019df29c",
+      "type": "external_object_instance",
+      "title": "nanostores",
+      "description": "",
+      "url": "https://github.com/nanostores/nanostores",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bca96690878d4b8782a7eda9562bd986",
+      "type": "sub_sub_header",
+      "title": "Recoil",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "cd55a0f1413a4b32b2de2c2938a45ec2",
+      "type": "bookmark",
+      "title": "Recoil",
+      "description": "A state management library for React.",
+      "url": "https://recoiljs.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1caf4aa9fa2580c386eccf555a1c5c54",
+      "type": "sub_sub_header",
+      "title": "TinyBase",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1caf4aa9fa2580de857dccd41f6f505d",
+      "type": "bookmark",
+      "title": "TinyBase",
+      "description": "The reactive data store for local-first apps.",
+      "url": "https://tinybase.org/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

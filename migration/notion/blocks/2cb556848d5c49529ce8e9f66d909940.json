@@ -1,0 +1,38 @@
+{
+  "id": "2cb556848d5c49529ce8e9f66d909940",
+  "title": "Design System",
+  "sourceUrl": "https://laststance.notion.site/2cb556848d5c49529ce8e9f66d909940",
+  "fetchedAt": "2026-10-23T20:07:11.529Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "19b353b611ff46168b4e838013a2d998",
+      "type": "sub_sub_header",
+      "title": "Design System Guide",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7c1c346e23f54448acfcb07108ddb715",
+      "type": "bookmark",
+      "title": "The Design System Guide",
+      "description": "Set Up a Design System. Guide, Resources, Useful Tools, Checklists",
+      "url": "https://thedesignsystem.guide/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c687aa6b64a0401aa32bfa87d9d3f852",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

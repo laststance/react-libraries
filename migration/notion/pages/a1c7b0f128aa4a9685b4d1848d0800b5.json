@@ -1,0 +1,189 @@
+{
+  "id": "a1c7b0f128aa4a9685b4d1848d0800b5",
+  "parent": "e08f822cf74a4a3aa9f50c2fcb2874a9",
+  "sourceUrl": "https://laststance.notion.site/a1c7b0f128aa4a9685b4d1848d0800b5",
+  "title": "🟡 JavaScript Library(Browser, Universal, No React specific)",
+  "content": "\n<page url=\"https://app.notion.com/p/6704a7514bee4e38bda259895f1bf47d\">\nGeneral\n</page>\n\n<page url=\"https://app.notion.com/p/91a94f8b310d4bbdbc9374ad70597e5b\">\nDate\n</page>\n\n<page url=\"https://app.notion.com/p/881fb16767204e20aa61f2614ba331ba\">\nCurrency\n</page>\n\n<page url=\"https://app.notion.com/p/9d6a87a3d884465cac72fa3d5487c426\">\nDOM\n</page>\n\n<page url=\"https://app.notion.com/p/4cd7c8a8cc6648eea2b41bff85949570\">\nKeyboard\n</page>\n\n<page url=\"https://app.notion.com/p/9f5134513f1f471db03c247b537b639d\">\nValidation\n</page>\n\n<page url=\"https://app.notion.com/p/acde07ca1fa4463e9595e63e9ee0ad7d\">\nSyntax Highlight\n</page>\n\n<page url=\"https://app.notion.com/p/0a36b8cd7ce54dd89a32da771112c415\">\nHeatMap\n</page>\n\n<page url=\"https://app.notion.com/p/eb10d285949b496a873bbf9c657ceed3\">\nRegex\n</page>\n\n<page url=\"https://app.notion.com/p/44d3dda12ea848a0aec3e4fb28fd1b96\">\nZip/PDF\n</page>\n\n<page url=\"https://app.notion.com/p/4b04d3d57a2f4e638b34ff3b5fb8021b\">\nChart\n</page>\n\n<page url=\"https://app.notion.com/p/1f32452511c441a9abffc568f6aae3c8\">\nSpeech\n</page>\n\n<page url=\"https://app.notion.com/p/30c239cf2aea42d3a7c6698e56ea8853\">\nImage\n</page>\n\n<page url=\"https://app.notion.com/p/0a9521c80d9b4f22bd1b668500f761c8\">\nLightbox\n</page>\n\n<page url=\"https://app.notion.com/p/443b68519eeb4b089b5a0f56c1f51b08\">\nSlider\n</page>\n\n<page url=\"https://app.notion.com/p/7b72b54d27c3440f8e34a5684a2b9143\">\nColor\n</page>\n\n<page url=\"https://app.notion.com/p/1785ecdd59304c13916bde12a78dbc2c\">\nCalendar\n</page>\n\n<page url=\"https://app.notion.com/p/a4b7b29906b04d7f95f318a84586a440\">\nAudio\n</page>\n\n<page url=\"https://app.notion.com/p/cf0f50447bf74b30bd418fbf8a01b72f\">\nglob\n</page>\n\n<page url=\"https://app.notion.com/p/06ef5cb4c36841faa4e6fc6518e4e61c\">\n<b>Scrollbar</b>\n</page>\n\n<page url=\"https://app.notion.com/p/3b51f8d9598e40bb95770ba64f101bd4\">\nRich Editor\n</page>\n\n<page url=\"https://app.notion.com/p/d06645fe11e44eeaab4b910706c74749\">\nTour/Onboarding\n</page>\n\n<page url=\"https://app.notion.com/p/a4b227eee81c41b4a4018938dc73772d\">\nEmoji\n</page>\n\n<page url=\"https://app.notion.com/p/f9b9af50dd9e441ea5b99124d5495703\">\nSearch/Fuzzy-match\n</page>\n\n<page url=\"https://app.notion.com/p/109a2da9f0224a1f9ac2554d74075c7f\">\nUtility\n</page>\n\n<page url=\"https://app.notion.com/p/96fb810ca2e84bc1be95d307b82150e6\">\nSecurity\n</page>\n\n<page url=\"https://app.notion.com/p/1c2a0fe5aeb94a5692230937d3802158\">\nuser agent\n</page>\n\n<page url=\"https://app.notion.com/p/e64d6c9e00ef4127a91e0fa9365ab10f\">\nSpeech\n</page>\n\n<page url=\"https://app.notion.com/p/36378a589e8844bb9cf996f430cb6482\">\nCron\n</page>\n\n<page url=\"https://app.notion.com/p/8687082fafda49a7aa1b33f55f1b6a8f\">\nLocalStorage\n</page>\n\n<page url=\"https://app.notion.com/p/9db7a85dec0d4832ad09c4027da21cef\">\nEncryption\n</page>\n\n<page url=\"https://app.notion.com/p/cd5761c17ba0496c94771d42e77d9502\">\nCanvas\n</page>\n\n<page url=\"https://app.notion.com/p/dcb57d60b16f42eca3933a6d5ff60da7\">\nCSV\n</page>\n\n<page url=\"https://app.notion.com/p/1f3f4aa9fa258090aee5c4d584719d77\">\nFile Download\n</page>\n\n<page url=\"https://app.notion.com/p/1f6f4aa9fa2580b394cac20fa552e1af\">\nDiff\n</page>\n\n<page url=\"https://app.notion.com/p/1f6f4aa9fa25803683fadd694019131a\">\nRSS Feed\n</page>\n\n<page url=\"https://app.notion.com/p/20cf4aa9fa25808da2f8f348fb04cdfc\">\nData Fetch / XHR\n</page>\n\n<page url=\"https://app.notion.com/p/212f4aa9fa25808f9b4fda293a3d8efa\">\nOther\n</page>\n\n<page url=\"https://app.notion.com/p/234f4aa9fa2580909283cabb164d4ce7\">\nString\n</page>\n\n<page url=\"https://app.notion.com/p/292f4aa9fa2580829727f642b8ee7e35\">\nVisual Effect\n</page>\n\n<page url=\"https://app.notion.com/p/2c4f4aa9fa2580678932d058c6243641\">\nMarkdown\n</page>\n\n<page url=\"https://app.notion.com/p/2d2f4aa9fa2580069a07ce40d4e56704\">\nJson\n</page>\n\n<page url=\"https://app.notion.com/p/309f4aa9fa258056b9a5e70f7d2f600c\">\nService Worker\n</page>\n\n<page url=\"https://app.notion.com/p/38bf4aa9fa258078b2fae5b40e3cd793\">\nCSS\n</page>\n",
+  "children": [
+    {
+      "id": "6704a7514bee4e38bda259895f1bf47d",
+      "title": "General"
+    },
+    {
+      "id": "91a94f8b310d4bbdbc9374ad70597e5b",
+      "title": "Date"
+    },
+    {
+      "id": "881fb16767204e20aa61f2614ba331ba",
+      "title": "Currency"
+    },
+    {
+      "id": "9d6a87a3d884465cac72fa3d5487c426",
+      "title": "DOM"
+    },
+    {
+      "id": "4cd7c8a8cc6648eea2b41bff85949570",
+      "title": "Keyboard"
+    },
+    {
+      "id": "9f5134513f1f471db03c247b537b639d",
+      "title": "Validation"
+    },
+    {
+      "id": "acde07ca1fa4463e9595e63e9ee0ad7d",
+      "title": "Syntax Highlight"
+    },
+    {
+      "id": "0a36b8cd7ce54dd89a32da771112c415",
+      "title": "HeatMap"
+    },
+    {
+      "id": "eb10d285949b496a873bbf9c657ceed3",
+      "title": "Regex"
+    },
+    {
+      "id": "44d3dda12ea848a0aec3e4fb28fd1b96",
+      "title": "Zip/PDF"
+    },
+    {
+      "id": "4b04d3d57a2f4e638b34ff3b5fb8021b",
+      "title": "Chart"
+    },
+    {
+      "id": "1f32452511c441a9abffc568f6aae3c8",
+      "title": "Speech"
+    },
+    {
+      "id": "30c239cf2aea42d3a7c6698e56ea8853",
+      "title": "Image"
+    },
+    {
+      "id": "0a9521c80d9b4f22bd1b668500f761c8",
+      "title": "Lightbox"
+    },
+    {
+      "id": "443b68519eeb4b089b5a0f56c1f51b08",
+      "title": "Slider"
+    },
+    {
+      "id": "7b72b54d27c3440f8e34a5684a2b9143",
+      "title": "Color"
+    },
+    {
+      "id": "1785ecdd59304c13916bde12a78dbc2c",
+      "title": "Calendar"
+    },
+    {
+      "id": "a4b7b29906b04d7f95f318a84586a440",
+      "title": "Audio"
+    },
+    {
+      "id": "cf0f50447bf74b30bd418fbf8a01b72f",
+      "title": "glob"
+    },
+    {
+      "id": "06ef5cb4c36841faa4e6fc6518e4e61c",
+      "title": "Scrollbar"
+    },
+    {
+      "id": "3b51f8d9598e40bb95770ba64f101bd4",
+      "title": "Rich Editor"
+    },
+    {
+      "id": "d06645fe11e44eeaab4b910706c74749",
+      "title": "Tour/Onboarding"
+    },
+    {
+      "id": "a4b227eee81c41b4a4018938dc73772d",
+      "title": "Emoji"
+    },
+    {
+      "id": "f9b9af50dd9e441ea5b99124d5495703",
+      "title": "Search/Fuzzy-match"
+    },
+    {
+      "id": "109a2da9f0224a1f9ac2554d74075c7f",
+      "title": "Utility"
+    },
+    {
+      "id": "96fb810ca2e84bc1be95d307b82150e6",
+      "title": "Security"
+    },
+    {
+      "id": "1c2a0fe5aeb94a5692230937d3802158",
+      "title": "user agent"
+    },
+    {
+      "id": "e64d6c9e00ef4127a91e0fa9365ab10f",
+      "title": "Speech"
+    },
+    {
+      "id": "36378a589e8844bb9cf996f430cb6482",
+      "title": "Cron"
+    },
+    {
+      "id": "8687082fafda49a7aa1b33f55f1b6a8f",
+      "title": "LocalStorage"
+    },
+    {
+      "id": "9db7a85dec0d4832ad09c4027da21cef",
+      "title": "Encryption"
+    },
+    {
+      "id": "cd5761c17ba0496c94771d42e77d9502",
+      "title": "Canvas"
+    },
+    {
+      "id": "dcb57d60b16f42eca3933a6d5ff60da7",
+      "title": "CSV"
+    },
+    {
+      "id": "1f3f4aa9fa258090aee5c4d584719d77",
+      "title": "File Download"
+    },
+    {
+      "id": "1f6f4aa9fa2580b394cac20fa552e1af",
+      "title": "Diff"
+    },
+    {
+      "id": "1f6f4aa9fa25803683fadd694019131a",
+      "title": "RSS Feed"
+    },
+    {
+      "id": "20cf4aa9fa25808da2f8f348fb04cdfc",
+      "title": "Data Fetch / XHR"
+    },
+    {
+      "id": "212f4aa9fa25808f9b4fda293a3d8efa",
+      "title": "Other"
+    },
+    {
+      "id": "234f4aa9fa2580909283cabb164d4ce7",
+      "title": "String"
+    },
+    {
+      "id": "292f4aa9fa2580829727f642b8ee7e35",
+      "title": "Visual Effect"
+    },
+    {
+      "id": "2c4f4aa9fa2580678932d058c6243641",
+      "title": "Markdown"
+    },
+    {
+      "id": "2d2f4aa9fa2580069a07ce40d4e56704",
+      "title": "Json"
+    },
+    {
+      "id": "309f4aa9fa258056b9a5e70f7d2f600c",
+      "title": "Service Worker"
+    },
+    {
+      "id": "38bf4aa9fa258078b2fae5b40e3cd793",
+      "title": "CSS"
+    }
+  ],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2026-06-26T01:54:23.589Z"
+  }
+}

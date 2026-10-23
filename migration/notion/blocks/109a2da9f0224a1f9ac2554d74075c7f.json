@@ -1,0 +1,110 @@
+{
+  "id": "109a2da9f0224a1f9ac2554d74075c7f",
+  "title": "Utility",
+  "sourceUrl": "https://laststance.notion.site/109a2da9f0224a1f9ac2554d74075c7f",
+  "fetchedAt": "2026-10-23T20:07:08.212Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "5c4f9dfaad204b6da9d54f3a1b3099e1",
+      "type": "sub_sub_header",
+      "title": "Lodash",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "04ed9c21effa4078a5da086e9b93379a",
+      "type": "bookmark",
+      "title": "Lodash",
+      "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+      "url": "https://lodash.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "91bace92b5154c3699e561fcad16f9d2",
+      "type": "sub_sub_header",
+      "title": "Deep-equal-json",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c63142d245c54fb89971bfdb88e3db8a",
+      "type": "external_object_instance",
+      "title": "deep-equal-json",
+      "description": "",
+      "url": "https://github.com/inspect-js/deep-equal-json",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b915d49974b140579cb49a6ba2c58993",
+      "type": "sub_sub_header",
+      "title": "fast-json-stringify",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "cd26316ec34849ea8b0f4961c6a090e6",
+      "type": "external_object_instance",
+      "title": "fast-json-stringify",
+      "description": "",
+      "url": "https://github.com/fastify/fast-json-stringify",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "917b696ff9734a25a8b9d79af7fe42f9",
+      "type": "sub_sub_header",
+      "title": "cva",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "26b3a5bd03114905b78755dba2ac406d",
+      "type": "bookmark",
+      "title": "cva",
+      "description": "Class Variance Authority",
+      "url": "https://cva.style/docs",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "292f4aa9fa258096ac91d2a900f76693",
+      "type": "sub_sub_header",
+      "title": "Tailwind-Variants",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "292f4aa9fa2580128228cf2f5b5e4e73",
+      "type": "bookmark",
+      "title": "Tailwind Variants – Tailwind Variants",
+      "description": "The power of Tailwind combined with a first-class variant API.",
+      "url": "https://www.tailwind-variants.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "292f4aa9fa2580c1b938c9ef7249b5be",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

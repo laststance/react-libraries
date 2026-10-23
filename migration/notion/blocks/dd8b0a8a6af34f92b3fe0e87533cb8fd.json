@@ -1,0 +1,416 @@
+{
+  "id": "dd8b0a8a6af34f92b3fe0e87533cb8fd",
+  "title": "Next.js Library",
+  "sourceUrl": "https://laststance.notion.site/dd8b0a8a6af34f92b3fe0e87533cb8fd",
+  "fetchedAt": "2026-10-23T20:07:18.811Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "7d7c2ab069e74c3d9846d5aadf53229a",
+      "type": "sub_sub_header",
+      "title": "Clerk",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c93dba7739ac415289adaaf181a1bc46",
+      "type": "bookmark",
+      "title": "Clerk | Authentication and User Management",
+      "description": "The easiest way to add authentication and user management to your application. Purpose-built for React, Next.js, Remix, and “The Modern Web”.",
+      "url": "https://clerk.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1619c11bf98743f1afb39017c0fc210c",
+      "type": "sub_sub_header",
+      "title": "NextAuth",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0722bd1820d44e36903fa5e607a19817",
+      "type": "bookmark",
+      "title": "NextAuth.js",
+      "description": "Authentication for Next.js",
+      "url": "https://next-auth.js.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9d62e4b3b977437bad224135ffd42156",
+      "type": "sub_sub_header",
+      "title": "Open Next",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "15ba329c5f974b7aa37c321455719777",
+      "type": "bookmark",
+      "title": "OpenNext",
+      "description": "Open source Next.js serverless adapter",
+      "url": "https://open-next.js.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "54360a6c1aed4bc9846f47997e856f92",
+      "type": "sub_sub_header",
+      "title": "next-safe-action",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fc8bb99ce1fd41d19401466c376cf6c8",
+      "type": "bookmark",
+      "title": "Typesafe Server Actions in your Next.js 13 app | next-safe-action",
+      "description": "next-safe-action is a library for defining end-to-end typesafe Server Actions for Next.js 13 using Zod.",
+      "url": "https://next-safe-action.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "74dfcc08193f4166a0777c8860c3eb11",
+      "type": "sub_sub_header",
+      "title": "next-international",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "715788975e544fe18309b14a77b600d1",
+      "type": "bookmark",
+      "title": "Home – next-international",
+      "description": "Type-safe internationalization (i18n) for Next.js",
+      "url": "https://next-international.vercel.app/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "75427d0ce9394bf1a4dcbaa8b61325a1",
+      "type": "sub_sub_header",
+      "title": "Next Export i18n",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fd563d0ecd86437799b6850730c4d21f",
+      "type": "external_object_instance",
+      "title": "next-export-i18n",
+      "description": "",
+      "url": "https://github.com/martinkr/next-export-i18n",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e2ff1ae493e6440ebd6c529d69169721",
+      "type": "sub_sub_header",
+      "title": "Nexar",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e2e3a65b8b204ee5b5adcc3639c6dbb4",
+      "type": "bookmark",
+      "title": "Nexar",
+      "description": "Nexar is an application architecture for Next.js App Router apps.",
+      "url": "https://nexar.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bbb943b72cdf4b3f829a1958e3c9154f",
+      "type": "sub_sub_header",
+      "title": "next-image-export-optimizer",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6d6ee0dcdbfd4f3db8ef25ccd6c15839",
+      "type": "external_object_instance",
+      "title": "next-image-export-optimizer",
+      "description": "",
+      "url": "https://github.com/Niels-IO/next-image-export-optimizer",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "40e9da942c3c433f831b61036a518d0b",
+      "type": "sub_sub_header",
+      "title": "Vercel AI SDK",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f2619c35c6494094955d664e38c8bdd8",
+      "type": "bookmark",
+      "title": "Vercel AI SDK",
+      "description": "An open source library for building AI-powered user interfaces.",
+      "url": "https://sdk.vercel.ai/docs",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "181da8edf3ae4587928f794b8d846878",
+      "type": "sub_sub_header",
+      "title": "Next Video",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "848da13c3cfd4ba895dc5a596d0f8379",
+      "type": "bookmark",
+      "title": "Next.js video embedding with next-video",
+      "description": "Next Video solves the hard problems with embedding, storing, streaming, and customizing video in your Next.js app.",
+      "url": "https://next-video.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d589ad10779542e9bd111374558d35ab",
+      "type": "sub_sub_header",
+      "title": "next-cache-toolbar",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f35f3fe93ba84110857db18e79743a4e",
+      "type": "external_object_instance",
+      "title": "",
+      "description": "",
+      "url": "https://github.com/KajSzy/next-cache-toolbar/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d1a0f230c74449a1b737effa7e90e0aa",
+      "type": "sub_sub_header",
+      "title": "unqs",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "17f0a882a9054c589332d28b3cdb8080",
+      "type": "bookmark",
+      "title": "nuqs | Type-safe search params state management for Next.js",
+      "description": "Type-safe search params state management for Next.js. Like React.useState, but stored in the URL query string.",
+      "url": "https://nuqs.47ng.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "171d59b4ff934308984d7c22d58b5536",
+      "type": "sub_sub_header",
+      "title": "Next Logger",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "835b3857094441469ad41e10ec24b1a7",
+      "type": "bookmark",
+      "title": "npm: next-logger",
+      "description": "JSON logging patcher for Next.js. Latest version: 4.0.0, last published: 3 months ago. Start using next-logger in your project by running `npm i next-logger`. There are no other projects in the npm registry using next-logger.",
+      "url": "https://www.npmjs.com/package/next-logger",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "437b8696c69f46d8af5c92ca015035f5",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "741e4887a42f416dabd9820922820672",
+      "type": "sub_sub_header",
+      "title": "next-image-s3-imgproxy-loader",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "443aa24e10e04ad38a038ed8365b1237",
+      "type": "external_object_instance",
+      "title": "next-image-s3-imgproxy-loader",
+      "description": "",
+      "url": "https://github.com/BitPatty/next-image-s3-imgproxy-loader",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d3f4aa9fa2580d7a4ddcc1f8c24d9f2",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d3f4aa9fa25809e89a8c1e2f077c146",
+      "type": "sub_sub_header",
+      "title": "t3-env",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d3f4aa9fa25804b81d0fc5052c14845",
+      "type": "external_object_instance",
+      "title": "t3-env",
+      "description": "",
+      "url": "https://github.com/t3-oss/t3-env",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f8f4aa9fa25807f93f1f56ffca3e376",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f8f4aa9fa2580c5a4cdee9804a1fc5e",
+      "type": "sub_sub_header",
+      "title": "next-lazy-hydration-on-scroll",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f8f4aa9fa2580a881b2e80a5cde3464",
+      "type": "external_object_instance",
+      "title": "next-lazy-hydration-on-scroll",
+      "description": "",
+      "url": "https://github.com/woywro/next-lazy-hydration-on-scroll",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa25803d91d6d1da157ca76f",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa2580879e9ef7d586be61e8",
+      "type": "sub_sub_header",
+      "title": "Next.js + ReactRouter",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa258043876ccb61f604ae1a",
+      "type": "bookmark",
+      "title": "Next.js + React Router",
+      "description": "A minimal template showcasing React Router integration within Next.js for client-side routing with clean documentation-style pages",
+      "url": "https://nexfaster.rdsx.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2aaf4aa9fa25808a9ae4cc82656b52e8",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2aaf4aa9fa258031a75ad1369d92b20d",
+      "type": "sub_header",
+      "title": "next-themes",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2aaf4aa9fa25805c8921dbfd4254c4c8",
+      "type": "external_object_instance",
+      "title": "next-themes",
+      "description": "",
+      "url": "https://github.com/pacocoursey/next-themes",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2c7f4aa9fa2580e8a408fa13e0448c0c",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2c7f4aa9fa2580a2942acaffbc3a0e5d",
+      "type": "sub_header",
+      "title": "plock",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2c7f4aa9fa25801b9839ca2a2443b29d",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2c7f4aa9fa2580bb893dc6d31aa92972",
+      "type": "bookmark",
+      "title": "plok.sh - GitHub to Blog",
+      "description": "Turn any GitHub repo into a fast, beautiful blog",
+      "url": "https://plok.sh/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "id": "8ee20190618f45ccaf45e6f8eb40f7d4",
+  "title": "UI Library, Design System",
+  "sourceUrl": "https://laststance.notion.site/8ee20190618f45ccaf45e6f8eb40f7d4",
+  "fetchedAt": "2026-10-23T20:07:16.599Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "965590849f6e453e8fffa7e5c54d85ec",
+      "type": "sub_header",
+      "title": "Complete Design System Package",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "27a2c5ea08ba43bc873320e45180eb3e",
+      "type": "sub_sub_header",
+      "title": "Primer React",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "567cf263698d449aa0038fd4e15809fc",
+      "type": "bookmark",
+      "title": "Primer",
+      "description": "Principles, standards, and usage guidelines for designing GitHub interfaces.",
+      "url": "https://primer.style/design/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e52c2e8a0244410b8f52a57941e482d4",
+      "type": "sub_sub_header",
+      "title": "Fluent UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "124e9b1c536e4f60ac39e5ff82c6fb3d",
+      "type": "bookmark",
+      "title": "Fluent UI React",
+      "description": "Fluent UI React Components is a set of UI components and utilities resulting from an effort to converge the set of React based component libraries in production today: @fluentui/react and @fluentui/react-northstar.",
+      "url": "https://628d031b55e942004ac95df1-myxgspuuyt.chromatic.com/?path=/docs/concepts-introduction--page",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "16b308df155f45218efa5cb75a4733fe",
+      "type": "sub_sub_header",
+      "title": "Atlassian Design System",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fc4af371586447ad90c284c7e2c55cc4",
+      "type": "bookmark",
+      "title": "Overview - Get started - Atlassian Design System",
+      "description": "Start designing and developing beautiful product experiences with Atlassian Design System UI foundations, components, and standards.",
+      "url": "https://atlassian.design/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "74f41a54aefc4878870d1dddf00d189e",
+      "type": "sub_sub_header",
+      "title": "Reshaped",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0dcff13a027c40bc9081c30d7e78abac",
+      "type": "bookmark",
+      "title": "Reshaped - Design system built for your scale with React and Figma",
+      "description": "Reshaped provides professionally crafted component libraries in React and Figma to make your product design and development faster.",
+      "url": "https://reshaped.so/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3d3c5731fdab4fd8b3d70cf567a4a13a",
+      "type": "sub_sub_header",
+      "title": "MUI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5c569c8abcfd42dca295a4059d883c0c",
+      "type": "bookmark",
+      "title": "MUI: The React component library you always wanted",
+      "description": "MUI provides a simple, customizable, and accessible library of React components. Follow your own design system, or start with Material Design.",
+      "url": "https://mui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c17d51fbcec5433993556d9b54059f25",
+      "type": "sub_sub_header",
+      "title": "React Spectrum",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "488fc760e0a6403195b28cd021936331",
+      "type": "bookmark",
+      "title": "React Spectrum",
+      "description": "A React implementation of Spectrum, Adobe’s design system. Spectrum provides adaptive, accessible, and cohesive experiences for all Adobe applications.",
+      "url": "https://react-spectrum.adobe.com/react-spectrum/index.html",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fd3d5468e307491da24b41c15297172d",
+      "type": "sub_sub_header",
+      "title": "UI Components Library",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "38bf4aa9fa25806eb48ff5d5ebc73a95",
+      "type": "sub_header",
+      "title": "Astryx Design System",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "38bf4aa9fa2580ea82eaddfb7a9c13cc",
+      "type": "bookmark",
+      "title": "Astryx Design System",
+      "description": "An open source design system that is fully customizable and agent ready.",
+      "url": "https://astryx.atmeta.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "756d816281f9430cb7b98d5e92be220f",
+      "type": "sub_sub_header",
+      "title": "Mantine",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "96da5663e21c47d2ac282634d00af4a2",
+      "type": "bookmark",
+      "title": "Mantine",
+      "description": "React components and hooks library with native dark theme support and focus on usability, accessibility and developer experience",
+      "url": "https://mantine.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "86be41bc91d74ccd8c41e359cee8dee0",
+      "type": "sub_header",
+      "title": "Park UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0148329b9e614a89ad9eb74d1430053e",
+      "type": "bookmark",
+      "title": "Home | Park UI",
+      "description": "Beautifully designed components built for your choice of JS and CSS frameworks.",
+      "url": "https://park-ui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1736943df2a6452e9e38bf080833ddcf",
+      "type": "sub_sub_header",
+      "title": "Radix UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "696239071f35442a8f44b7727541290b",
+      "type": "bookmark",
+      "title": "Primitives – Radix UI",
+      "description": "An open-source React component library for building high-quality, accessible design systems and web apps.",
+      "url": "https://www.radix-ui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "308f4aa9fa258039bf78f08ad0dcdd7c",
+      "type": "sub_header",
+      "title": "COSS.COM UI",
+      "description": "",
+      "url": "",
+      "links": [
+        {
+          "text": "COSS.COM",
+          "url": "http://COSS.COM"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "308f4aa9fa2580d9b5fcccb45c1e70fb",
+      "type": "bookmark",
+      "title": "coss.com",
+      "description": "coss.com - the everything but AI company",
+      "url": "https://coss.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2740b7f679fc4f7d97c9e2963f8d7cfc",
+      "type": "sub_header",
+      "title": "React Aria",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6b2f665d9201455ab721338bec58a500",
+      "type": "bookmark",
+      "title": "React Aria",
+      "description": "A library of React Hooks that provides accessible UI primitives for your design system.",
+      "url": "https://react-spectrum.adobe.com/react-aria/index.html",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6a5c7a0e88134b58b4ef857b3f842762",
+      "type": "sub_sub_header",
+      "title": "ariakit",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "59fbb8e81f894466a06a65ffe2c2ac2f",
+      "type": "bookmark",
+      "title": "Ariakit - Toolkit for building accessible UIs",
+      "description": "Lower-level component library for building accessible higher-level UI libraries, design systems and web applications with React.",
+      "url": "https://ariakit.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d89737d3ded4b1d912ee19af089b371",
+      "type": "sub_sub_header",
+      "title": "Chakura UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6e00410006c84bc2ac8a88d1b2c29e09",
+      "type": "bookmark",
+      "title": "Chakra UI - A simple, modular and accessible component library that gives you the building blocks you need to build your React applications.",
+      "description": "Simple, Modular and Accessible UI Components for your React Applications. Built with Styled System",
+      "url": "https://chakra-ui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "de042a860b6e4182b09726b9b173ad57",
+      "type": "sub_sub_header",
+      "title": "Rewind UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "09a747b3b88c4b66a4fbb936f347113c",
+      "type": "bookmark",
+      "title": "Rewind-UI",
+      "description": "Effortless user interfaces",
+      "url": "https://rewind-ui.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "dcbd8f547d244864a48ebcb0bbef8f8d",
+      "type": "sub_sub_header",
+      "title": "React Component",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b4d513e332b14e4abea0ddbae4679648",
+      "type": "bookmark",
+      "title": "react-component",
+      "description": "React components foundation of ant.design",
+      "url": "https://react-component.github.io/badgeboard/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ad46c4546ce241178cbe8aafc2f1f1cb",
+      "type": "sub_sub_header",
+      "title": "Ant Design",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e1085c638ea84412b48dd92f9f6d86bb",
+      "type": "bookmark",
+      "title": "Ant Design - The world's second most popular React UI framework",
+      "description": "An enterprise-class UI design language and React UI library with a set of high-quality React components, one of best React UI library for enterprises",
+      "url": "https://ant.design/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a53380941a5c405c83b7a27c98ba6aaf",
+      "type": "sub_sub_header",
+      "title": "ARK UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "042ffd0ff04c4d00b4b91075f706ded3",
+      "type": "bookmark",
+      "title": "Home | Ark UI",
+      "description": "A headless component library for building reusable, scalable design systems that works for a wide range of JS frameworks.",
+      "url": "https://ark-ui.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "656b5f2dfd14425e9dfc0a9c2687b941",
+      "type": "sub_sub_header",
+      "title": "Sass UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "be77ff64c2aa47c2b873f39e6199c376",
+      "type": "bookmark",
+      "title": "Saas UI",
+      "description": "Modern React component library and starterkit for SaaS, B2B and internal tools. Built with Chakra UI and Next.js.",
+      "url": "https://saas-ui.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2937f3875a1945389da1ee16360e8cfb",
+      "type": "sub_sub_header",
+      "title": "Spark",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "31d6e7fd0ace4b93941caf12d4a9c05f",
+      "type": "bookmark",
+      "title": "@storybook/cli - Storybook",
+      "description": "",
+      "url": "https://sparkui.vercel.app/?path=/docs/getting-started--docs",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "95c396c9722744cab17bee8b706a76ec",
+      "type": "sub_sub_header",
+      "title": "cult/ui",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "88ddf17f9fff478ca83edcca150a7056",
+      "type": "bookmark",
+      "title": "Introduction",
+      "description": "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
+      "url": "https://www.cult-ui.com/docs",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d7f4aa9fa25801a809ed3f531c68e08",
+      "type": "sub_sub_header",
+      "title": "Retro UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d7f4aa9fa25801f859cda4996d382db",
+      "type": "bookmark",
+      "title": "Retro Styled React UI Library | Retro UI",
+      "description": "RetroUI - Retro styled component library built with React and TailwindCSS for modern web apps.",
+      "url": "https://retroui.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d7f4aa9fa258085a609c23b9500a699",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d7f4aa9fa2580038e1dda8331de786b",
+      "type": "sub_sub_header",
+      "title": "Origin UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d7f4aa9fa258057b38be229a8b334b2",
+      "type": "bookmark",
+      "title": "Experiment 06 - Crafted.is",
+      "description": "",
+      "url": "https://crafted.is/exp6",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f3f4aa9fa258079ba99e1cffafb457b",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1d7f4aa9fa2580a7a26af168404b6357",
+      "type": "sub_sub_header",
+      "title": "21st.dev",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f3f4aa9fa258067beb0d7609c82376a",
+      "type": "bookmark",
+      "title": "21st.dev - Discover, share, and craft UI components",
+      "description": "Ship polished UIs faster with ready-to-use React Tailwind components inspired by shadcn/ui.",
+      "url": "https://21st.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f4f4aa9fa258092af1dee046e2a3ccc",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f4f4aa9fa258016b74dd86792cddca2",
+      "type": "sub_sub_header",
+      "title": "Magic UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f4f4aa9fa2580179e04c3ecc543a7f8",
+      "type": "bookmark",
+      "title": "Magic UI",
+      "description": "Beautiful UI components and templates to make your landing page look stunning.",
+      "url": "https://magicui.design/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f8f4aa9fa25803f96d4fe955ac728ac",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f8f4aa9fa258028b9cdc494cff43d42",
+      "type": "sub_sub_header",
+      "title": "Tailtark",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f8f4aa9fa2580b1916de6b7f067540a",
+      "type": "bookmark",
+      "title": "Shadcn Marketing Blocks | Tailark",
+      "description": "Speed up your workflow with responsive, pre-built UI blocks designed for marketing websites.",
+      "url": "https://tailark.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "200f4aa9fa25804c9298faa72dc82fb6",
+      "type": "sub_sub_header",
+      "title": "awesome-shadcn-ui",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "200f4aa9fa2580e89e99d9058143303e",
+      "type": "external_object_instance",
+      "title": "awesome-shadcn-ui",
+      "description": "",
+      "url": "https://github.com/birobirobiro/awesome-shadcn-ui",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2b0f4aa9fa25802796c3df9d69c505ce",
+      "type": "sub_header",
+      "title": "Shadcn Admin kit",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2b0f4aa9fa2580eeb78ee506338edd63",
+      "type": "bookmark",
+      "title": "Shadcn Admin Kit",
+      "description": "Powerful open-source shadcn blocks to build beautiful internal tools, admin panels, and dashboards with React.",
+      "url": "https://marmelab.com/shadcn-admin-kit/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2b5f4aa9fa2580b0bdf2da1d1c59deb4",
+      "type": "sub_header",
+      "title": "Tweakcn",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2b5f4aa9fa25805cb425f73b0528b20b",
+      "type": "bookmark",
+      "title": "Beautiful themes for shadcn/ui — tweakcn | Theme Editor & Generator",
+      "description": "Customize theme for shadcn/ui with tweakcn's interactive editor. Supports Tailwind CSS v4, Shadcn UI, and custom styles. Modify properties, preview changes, and get the code in real time.",
+      "url": "https://tweakcn.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2bff4aa9fa258083a160f1fc3b48fc74",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2bff4aa9fa2580a18cabfddc082d0a13",
+      "type": "sub_header",
+      "title": "Pure UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2ccf4aa9fa2580768e0edb7aabffa0be",
+      "type": "external_object_instance",
+      "title": "pure-ui",
+      "description": "",
+      "url": "https://github.com/MusKRI/pure-ui",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2ccf4aa9fa25802e972ef83679db5a4f",
+      "type": "sub_header",
+      "title": "ElevenLabs UI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2ccf4aa9fa25806faa6bcebe4ad9692d",
+      "type": "bookmark",
+      "title": "ElevenLabs UI | ElevenLabs UI",
+      "description": "A collection of Open Source agent and audio components that you can customize and extend.",
+      "url": "https://ui.elevenlabs.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2ccf4aa9fa25807998f7e906c44ad427",
+      "type": "sub_header",
+      "title": "lina",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2ccf4aa9fa2580e9a141d49baeec7db2",
+      "type": "external_object_instance",
+      "title": "lina",
+      "description": "",
+      "url": "https://github.com/SameerJS6/lina",
+      "links": [],
+      "children": []
+    }
+  ]
+}

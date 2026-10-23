@@ -1,0 +1,238 @@
+[
+  {
+    "number": 116,
+    "url": "https://github.com/speed-highlight/core",
+    "reason": "The saved examples path returns 404; use the project repository.",
+    "status": 200,
+    "finalUrl": "https://github.com/speed-highlight/core",
+    "title": "GitHub - speed-highlight/core: A tiny, fast, simple syntax highlighter for the web and the terminal in JavaScript · GitHub",
+    "checkedAt": "2026-10-23T20:26:42.173Z"
+  },
+  {
+    "number": 180,
+    "url": "https://github.com/flsilva/nexar.flsilva.com/",
+    "reason": "The saved domain redirects to an unrelated product; retain the original author's architecture reference.",
+    "status": 200,
+    "finalUrl": "https://github.com/flsilva/nexar.flsilva.com/",
+    "title": "GitHub - flsilva/nexar.flsilva.com: Nexar is an application architecture for Next.js App Router apps. · GitHub",
+    "checkedAt": "2026-10-23T20:26:41.939Z"
+  },
+  {
+    "number": 252,
+    "url": "https://www.npmjs.com/package/@ngneat/falso",
+    "reason": "The original docs and repository return 404; retain the published package.",
+    "requestUrl": "https://registry.npmjs.org/@ngneat/falso/latest",
+    "status": 200,
+    "finalUrl": "https://registry.npmjs.org/@ngneat/falso/latest",
+    "title": "",
+    "checkedAt": "2026-10-23T20:29:16.645Z"
+  },
+  {
+    "number": 296,
+    "url": "https://github.com/userfront/userfront",
+    "reason": "The saved tutorial is unavailable and the company homepage changed products; retain the original authentication SDK.",
+    "requestUrl": "https://github.com/userfront/userfront",
+    "status": 200,
+    "finalUrl": "https://github.com/userfront/userfront",
+    "title": "GitHub - userfront/userfront: Monorepo for the Userfront JavaScript/TypeScript SDKs · GitHub",
+    "checkedAt": "2026-10-23T20:29:17.333Z"
+  },
+  {
+    "number": 304,
+    "url": "https://github.com/jquense/react-big-calendar",
+    "reason": "The saved examples URL returns 404; use the project repository.",
+    "status": 200,
+    "finalUrl": "https://github.com/bigcalendar/react-big-calendar",
+    "title": "GitHub - bigcalendar/react-big-calendar: gcal/outlook like calendar component · GitHub",
+    "checkedAt": "2026-10-23T20:26:42.654Z"
+  },
+  {
+    "number": 306,
+    "url": "https://www.embla-carousel.com/",
+    "reason": "The saved React guide path returns 404; use the documentation homepage.",
+    "status": 200,
+    "finalUrl": "https://www.embla-carousel.com/",
+    "title": "Home",
+    "checkedAt": "2026-10-23T20:26:42.011Z"
+  },
+  {
+    "number": 310,
+    "url": "https://recharts.github.io/",
+    "reason": "The original domain directs visitors to the current documentation host.",
+    "requestUrl": "https://recharts.github.io/",
+    "status": 200,
+    "finalUrl": "https://recharts.github.io/",
+    "title": "Recharts",
+    "checkedAt": "2026-10-23T20:29:17.551Z"
+  },
+  {
+    "number": 313,
+    "url": "https://github.com/antonmedv/codejar",
+    "reason": "The saved documentation host timed out; use the project repository.",
+    "status": 200,
+    "finalUrl": "https://github.com/antonmedv/codejar",
+    "title": "GitHub - antonmedv/codejar: An embeddable code editor for the browser 🍯 · GitHub",
+    "checkedAt": "2026-10-23T20:26:42.128Z"
+  },
+  {
+    "number": 337,
+    "url": "https://shopify.dev/docs/api/hydrogen-react",
+    "reason": "The saved repository subdirectory returns 404; use the official API documentation.",
+    "status": 200,
+    "finalUrl": "https://shopify.dev/docs/api/hydrogen-react/latest",
+    "title": "Hydrogen React",
+    "checkedAt": "2026-10-23T20:26:43.055Z"
+  },
+  {
+    "number": 378,
+    "url": "https://github.com/adazzle/react-data-grid",
+    "reason": "The saved examples host returns 404; use the project repository.",
+    "status": 200,
+    "finalUrl": "https://github.com/Comcast/react-data-grid",
+    "title": "GitHub - Comcast/react-data-grid: Feature-rich and customizable data grid React component · GitHub",
+    "checkedAt": "2026-10-23T20:26:42.663Z"
+  },
+  {
+    "number": 430,
+    "url": "https://reactrouter.com/",
+    "reason": "The saved version path returns 404; use the documentation homepage.",
+    "status": 200,
+    "finalUrl": "https://reactrouter.com/",
+    "title": "React Router Official Documentation",
+    "checkedAt": "2026-10-23T20:26:41.464Z"
+  },
+  {
+    "number": 454,
+    "url": "https://zustand.docs.pmnd.rs/",
+    "reason": "The saved introduction path returns 404; use the current documentation host.",
+    "status": 200,
+    "finalUrl": "https://zustand.docs.pmnd.rs/",
+    "title": "Zustand Docs",
+    "checkedAt": "2026-10-23T20:26:42.163Z"
+  },
+  {
+    "number": 524,
+    "url": "https://react.fluentui.dev/",
+    "reason": "The saved Chromatic build requires authentication; use the public component documentation.",
+    "status": 200,
+    "finalUrl": "https://storybooks.fluentui.dev/react/",
+    "title": "Fluent UI React v9",
+    "checkedAt": "2026-10-23T20:26:42.473Z"
+  },
+  {
+    "number": 526,
+    "url": "https://coss.com/origin",
+    "reason": "Retain the legacy Origin UI collection; the former homepage now redirects to coss ui.",
+    "requestUrl": "https://coss.com/origin",
+    "status": 200,
+    "finalUrl": "https://coss.com/origin",
+    "title": "coss.com origin - Beautiful UI components built with Tailwind CSS and React",
+    "checkedAt": "2026-10-23T20:29:17.723Z"
+  },
+  {
+    "number": 536,
+    "url": "https://coss.com/ui",
+    "reason": "The saved company homepage is not the component documentation; use the UI product page.",
+    "status": 200,
+    "finalUrl": "https://coss.com/ui",
+    "title": "A new, modern UI component library built on top of Base UI - coss ui",
+    "checkedAt": "2026-10-23T20:26:41.992Z"
+  },
+  {
+    "number": 537,
+    "url": "https://coss.com/ui",
+    "reason": "Both coss UI bookmarks describe the same component library.",
+    "status": 200,
+    "finalUrl": "https://coss.com/ui",
+    "title": "A new, modern UI component library built on top of Base UI - coss ui",
+    "checkedAt": "2026-10-23T20:26:41.993Z"
+  },
+  {
+    "number": 541,
+    "url": "https://primer.style/",
+    "reason": "The saved design subpath timed out; use the design-system homepage.",
+    "status": 200,
+    "finalUrl": "https://primer.style/",
+    "title": "Primer",
+    "checkedAt": "2026-10-23T20:26:42.813Z"
+  },
+  {
+    "number": 555,
+    "url": "https://partytown.qwik.dev/",
+    "reason": "Use the current project documentation host.",
+    "status": 200,
+    "finalUrl": "https://partytown.qwik.dev/",
+    "title": "Introduction",
+    "checkedAt": "2026-10-23T20:26:42.120Z"
+  },
+  {
+    "number": 560,
+    "url": "https://github.com/magnitudedev/browser-agent",
+    "reason": "The original domain now describes an inference product; retain the browser-automation project.",
+    "status": 200,
+    "finalUrl": "https://github.com/magnitudedev/browser-agent",
+    "title": "GitHub - magnitudedev/browser-agent: Open-source, vision-first browser agent · GitHub",
+    "checkedAt": "2026-10-23T20:26:42.910Z"
+  },
+  {
+    "number": 566,
+    "url": "https://www.gatsbyjs.com/",
+    "reason": "The saved Gatsby heading pointed to an unrelated React badge board; use the intended framework's homepage.",
+    "status": 200,
+    "finalUrl": "https://www.gatsbyjs.com/",
+    "title": "The Best React-Based Framework | Gatsby",
+    "checkedAt": "2026-10-23T20:26:42.155Z"
+  },
+  {
+    "number": 371,
+    "url": "https://visgl.github.io/react-map-gl/",
+    "status": 200,
+    "finalUrl": "https://visgl.github.io/react-map-gl/",
+    "checkedAt": "2026-10-23T20:32:42.917Z"
+  },
+  {
+    "number": 88,
+    "url": "https://github.com/wa0x6e/cal-heatmap",
+    "reason": "The saved documentation domain redirects to an unrelated gambling site; use the official project repository.",
+    "status": 200,
+    "finalUrl": "https://github.com/wa0x6e/cal-heatmap",
+    "title": "GitHub - wa0x6e/cal-heatmap: Cal-Heatmap is a javascript charting library to create a time-series calendar heatmap · GitHub",
+    "checkedAt": "2026-10-23T21:05:35.453Z"
+  },
+  {
+    "number": 501,
+    "url": "https://github.com/prabhuignoto/react-chrono",
+    "reason": "The saved documentation domain redirects to an unrelated gambling site; use the official project repository.",
+    "status": 200,
+    "finalUrl": "https://github.com/prabhuignoto/react-chrono",
+    "title": "GitHub - prabhuignoto/react-chrono: Modern Timeline Component for React · GitHub",
+    "checkedAt": "2026-10-23T21:05:36.072Z"
+  },
+  {
+    "number": 17,
+    "url": "https://turso.tech/",
+    "reason": "Use the primary product website instead of the saved social profile.",
+    "status": 200,
+    "finalUrl": "https://turso.tech/",
+    "title": "Turso - Millions of Databases. One Architecture.",
+    "checkedAt": "2026-10-23T21:06:31.408Z"
+  },
+  {
+    "number": 167,
+    "url": "https://authjs.dev/",
+    "reason": "Prefer the current Auth.js documentation over the legacy NextAuth domain.",
+    "status": 200,
+    "finalUrl": "https://authjs.dev/",
+    "title": "GitHub",
+    "checkedAt": "2026-10-23T21:06:31.478Z"
+  },
+  {
+    "number": 427,
+    "url": "https://vike.dev/",
+    "reason": "Prefer current Vike documentation over the legacy vite-plugin-ssr domain.",
+    "status": 200,
+    "finalUrl": "https://vike.dev/",
+    "title": "Vike",
+    "checkedAt": "2026-10-23T21:06:31.734Z"
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "id": "171f4aa9fa258030a3aaebbdb5f4d092",
+  "title": "Testing",
+  "sourceUrl": "https://laststance.notion.site/171f4aa9fa258030a3aaebbdb5f4d092",
+  "fetchedAt": "2026-10-23T20:07:08.735Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "226f4aa9fa258051baa5c0820bd4d48d",
+      "type": "sub_header",
+      "title": "Playwright",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "226f4aa9fa2580dda33ee4b5d050ddb4",
+      "type": "bookmark",
+      "title": "Fast and reliable end-to-end testing for modern web apps | Playwright",
+      "description": "Cross-browser end-to-end testing for modern web apps",
+      "url": "https://playwright.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "226f4aa9fa25804e9739db6bb0bd3906",
+      "type": "sub_header",
+      "title": "MSW/Playwright",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "226f4aa9fa2580d4a152c33c41336ad4",
+      "type": "bookmark",
+      "title": "npm: @msw/playwright",
+      "description": "Mock Service Worker binding for Playwright. Latest version: 0.4.1, last published: 4 days ago. Start using @msw/playwright in your project by running `npm i @msw/playwright`. There are no other projects in the npm registry using @msw/playwright.",
+      "url": "https://www.npmjs.com/package/@msw/playwright",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22bf4aa9fa258086b9bef90ef0666320",
+      "type": "sub_header",
+      "title": "playwright-persona\n",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "22bf4aa9fa258052a49edfbe4807ab05",
+      "type": "external_object_instance",
+      "title": "playwright-persona",
+      "description": "",
+      "url": "https://github.com/kettanaito/playwright-persona",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa25800a912fd57cccb74a1c",
+      "type": "header",
+      "title": "Natural Language E2E",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "171f4aa9fa25805d9d07e11303a9148d",
+      "type": "sub_sub_header",
+      "title": "Shortest",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "171f4aa9fa25806d8f62d54d2202ccc4",
+      "type": "bookmark",
+      "title": "Shortest",
+      "description": "Run your CI suite faster than ever.",
+      "url": "https://shortest.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "203f4aa9fa2580a2af6fd301d9a7eceb",
+      "type": "sub_sub_header",
+      "title": "Magnitude",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "203f4aa9fa25801893aecb9bc5991087",
+      "type": "bookmark",
+      "title": "Magnitude",
+      "description": "",
+      "url": "https://magnitude.run/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

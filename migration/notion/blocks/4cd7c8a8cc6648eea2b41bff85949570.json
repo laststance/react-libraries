@@ -1,0 +1,38 @@
+{
+  "id": "4cd7c8a8cc6648eea2b41bff85949570",
+  "title": "Keyboard",
+  "sourceUrl": "https://laststance.notion.site/4cd7c8a8cc6648eea2b41bff85949570",
+  "fetchedAt": "2026-10-23T20:07:13.980Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "8ffd3fb058584a9bb0d79f3f30fe696d",
+      "type": "sub_sub_header",
+      "title": "Hotkey",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ea46e04a3557401dbbc516ba9cf02584",
+      "type": "bookmark",
+      "title": "hotkey",
+      "description": "",
+      "url": "https://github.github.com/hotkey/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1bdadbf5632e46fa8ef19962c42db6b2",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

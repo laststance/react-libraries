@@ -1,0 +1,202 @@
+{
+  "id": "4a05a2ef5de549468f004000be3f3d91",
+  "title": "Frameworks",
+  "sourceUrl": "https://laststance.notion.site/4a05a2ef5de549468f004000be3f3d91",
+  "fetchedAt": "2026-10-23T20:07:13.659Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "7f7d474bcafb42cb9fa8c6fa822cac34",
+      "type": "header",
+      "title": "Fullstack Frameworks",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "014126ce3549447dbac171694ada3b79",
+      "type": "page",
+      "title": "Next.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": [
+        "9560e978d6f94cf2abe91a10281ddebe"
+      ]
+    },
+    {
+      "id": "1e6b1b69515447aeb3b70765ff56fb0f",
+      "type": "bookmark",
+      "title": "Next.js by Vercel - The React Framework for the Web",
+      "description": "Used by some of the world's largest companies, Next.js enables you to create full-stack Web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.",
+      "url": "https://nextjs.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9c951031831c4a0b9916a7db46e9c8ea",
+      "type": "page",
+      "title": "Remix",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f17ee2eaade04f13887ffed9e4ed1ecd",
+      "type": "bookmark",
+      "title": "Remix - Build Better Websites",
+      "description": "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.",
+      "url": "https://remix.run/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c3affb95279741bfa87987b7b90abf89",
+      "type": "sub_sub_header",
+      "title": "Redwoodjs",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ff5b67c10b4b4b0a8ea099db5beff87b",
+      "type": "bookmark",
+      "title": "RedwoodJS: The App Framework for Startups",
+      "description": "Grow from side project to startup with RedwoodJS. Combines React, GraphQL, and Prisma for a full-stack app framework.",
+      "url": "https://redwoodjs.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "712683a738d545299dd4cc3e74ae3d93",
+      "type": "sub_sub_header",
+      "title": "ZenStack",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "88a7348cf5874f45b6b5e4dda826cab6",
+      "type": "bookmark",
+      "title": "ZenStack - Prisma Catalyst For Full-stack Development | ZenStack",
+      "description": "A toolkit that supercharges Prisma ORM with a powerful access control layer, unlocking its full potential for web development.",
+      "url": "https://zenstack.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f2832f85e0dd4dff82c23fec852480e3",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5bc31e1a0abe4aa1a17e516701ff99f7",
+      "type": "sub_sub_header",
+      "title": "The Epic Stack",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "db6a6e4923e84fc18d2c158880fce482",
+      "type": "bookmark",
+      "title": "The Epic Stack",
+      "description": "Introducing an opinionated project starter that enables web development teams to ship their ideas to production more efficiently.",
+      "url": "https://www.epicweb.dev/epic-stack",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "62479adca15a44e8811e344b87cdf15b",
+      "type": "sub_header",
+      "title": "T3 App (Next.js + Trpc integration)",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3f74b5ecb61040159084511ac60a3f98",
+      "type": "bookmark",
+      "title": "Create T3 App",
+      "description": "The best way to start a full-stack, typesafe Next.js app.",
+      "url": "https://create.t3.gg/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "43919189c28049e6a433d6e9f971ed70",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "15eafc70b4df40248b9b376afa1706c6",
+      "type": "sub_sub_header",
+      "title": "Blitz.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c3e70b1e38c24bcdbefbcf498018e5d1",
+      "type": "bookmark",
+      "title": "Blitz.js - The Missing Fullstack Toolkit for Next.js",
+      "description": "Blitz picks up where Next.js leaves off, providing battle-tested libraries and conventions for shipping and scaling world wide applications.",
+      "url": "https://blitzjs.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "60e5cf47adfa4631b12041ac09918553",
+      "type": "sub_sub_header",
+      "title": "Refine",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c6444664d1ea4f1aa936597185e9531e",
+      "type": "external_object_instance",
+      "title": "refine",
+      "description": "",
+      "url": "https://github.com/refinedev/refine",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7c184f407d8146b08a783dfc7fcd13c5",
+      "type": "sub_sub_header",
+      "title": "Astro",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e4fff1296dbf4c418078ca2652f77010",
+      "type": "bookmark",
+      "title": "Astro",
+      "description": "Astro builds fast content sites, powerful web applications, dynamic server APIs, and everything in-between.",
+      "url": "https://astro.build/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

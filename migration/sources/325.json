@@ -1,0 +1,10 @@
+{
+  "number": 325,
+  "originalUrl": "https://www.npmjs.com/package/code-inspector-plugin",
+  "requestUrl": "https://registry.npmjs.org/code-inspector-plugin/latest",
+  "finalUrl": "https://registry.npmjs.org/code-inspector-plugin/latest",
+  "status": 200,
+  "title": "code-inspector-plugin",
+  "description": "Click the dom on the page, it will open your IDE and position the cursor to the source code location of the dom.",
+  "checkedAt": "2026-10-23T20:10:27.459Z"
+}

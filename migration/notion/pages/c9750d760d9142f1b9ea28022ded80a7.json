@@ -1,0 +1,12 @@
+{
+  "id": "c9750d760d9142f1b9ea28022ded80a7",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/c9750d760d9142f1b9ea28022ded80a7",
+  "title": "Icons",
+  "content": "\n### Iconify\n\n<bookmark source=\"https://iconify.design/\" />\n\n### <b>Lucide React</b>\n\n<bookmark source=\"https://lucide.dev/guide/packages/lucide-react\" />\n\n### React-Icons\n\n<bookmark source=\"https://react-icons.github.io/react-icons/\" />\n\n### Heroicons\n\n<bookmark source=\"https://heroicons.com/\" />\n\n### react-file-icon\n\n<bookmark source=\"https://www.npmjs.com/package/react-file-icon\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-05-21T04:43:01.553Z"
+  }
+}

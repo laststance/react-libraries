@@ -1,0 +1,14 @@
+{
+  "id": "171f4aa9fa258030a3aaebbdb5f4d092",
+  "parent": "e08f822cf74a4a3aa9f50c2fcb2874a9",
+  "sourceUrl": "https://laststance.notion.site/171f4aa9fa258030a3aaebbdb5f4d092",
+  "title": "🤖 Testing",
+  "content": "\n## Playwright\n\n<bookmark source=\"https://playwright.dev/\" />\n\n## MSW/Playwright\n\n<bookmark source=\"https://www.npmjs.com/package/@msw/playwright\" />\n\n## playwright-persona<br />\n\n<unknown url=\"https://app.notion.com/p/171f4aa9fa258030a3aaebbdb5f4d092#22bf4aa9fa258052a49edfbe4807ab05\" alt=\"external_object_instance\" />\n\n# Natural Language E2E\n\n### Shortest\n\n<bookmark source=\"https://shortest.com/\" />\n\n### Magnitude\n\n<bookmark source=\"https://magnitude.run/\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-07-09T13:44:38.804Z",
+    "truncated": true,
+    "unknownBlockCount": 1
+  }
+}

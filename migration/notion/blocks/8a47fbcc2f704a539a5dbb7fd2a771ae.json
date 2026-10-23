@@ -1,0 +1,137 @@
+{
+  "id": "8a47fbcc2f704a539a5dbb7fd2a771ae",
+  "title": "Mock Data",
+  "sourceUrl": "https://laststance.notion.site/8a47fbcc2f704a539a5dbb7fd2a771ae",
+  "fetchedAt": "2026-10-23T20:07:16.079Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "0111afcce67d421b8377cc3b83662539",
+      "type": "sub_sub_header",
+      "title": "mswjs@data",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fdde43099f41433da823c5c75f8a3ebd",
+      "type": "bookmark",
+      "title": "npm: @mswjs/data",
+      "description": "Data modeling and relation library for testing JavaScript applications.. Latest version: 0.15.0, last published: 2 days ago. Start using @mswjs/data in your project by running `npm i @mswjs/data`. There are 5 other projects in the npm registry using @mswjs/data.",
+      "url": "https://www.npmjs.com/package/@mswjs/data",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "58c8877b713147968da106ab4f90b5c8",
+      "type": "sub_sub_header",
+      "title": "Faker",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "aba2d4fd053841daa134b89616de0330",
+      "type": "bookmark",
+      "title": "Faker | Faker",
+      "description": "Generate massive amounts of fake (but reasonable) data for testing and development.",
+      "url": "https://fakerjs.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "07294266215546899fc9e6f691947d50",
+      "type": "sub_sub_header",
+      "title": "Zod Mock",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c6452edfc81341b98dbbfe471e717ddf",
+      "type": "bookmark",
+      "title": "",
+      "description": "",
+      "url": "https://github.com/anatine/zod-plugins/tree/main/packages/zod-mock",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6384f85adade4883aa156beeb10361e1",
+      "type": "sub_sub_header",
+      "title": "Snaplet Generate",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21fb42dfc00a4fdcacc1e811daa96c94",
+      "type": "bookmark",
+      "title": "Generate data – Snaplet",
+      "description": "Snaplet Documentation",
+      "url": "https://docs.snaplet.dev/core-concepts/generate",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4bf4bef019584b8880a4ea917ae7f624",
+      "type": "sub_sub_header",
+      "title": "MSW-Auto-Mock",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d67df38eff074d45be8ec8821819f6ec",
+      "type": "external_object_instance",
+      "title": "msw-auto-mock",
+      "description": "",
+      "url": "https://github.com/zoubingwu/msw-auto-mock",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "80f33149d142477fb757759d5094fbcc",
+      "type": "sub_sub_header",
+      "title": "Enforce Unique",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "71120e1978bc4fca801016136ffa2173",
+      "type": "bookmark",
+      "title": "npm: enforce-unique",
+      "description": "Enforce unique values before you assign them. Latest version: 1.2.0, last published: 3 months ago. Start using enforce-unique in your project by running `npm i enforce-unique`. There are 2 other projects in the npm registry using enforce-unique.",
+      "url": "https://www.npmjs.com/package/enforce-unique",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "cf2933f975fe4d1bbb18e880955b46d7",
+      "type": "sub_sub_header",
+      "title": "Falso",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9892f17c81174a8e8bc6395dbbb623bb",
+      "type": "bookmark",
+      "title": "Falso | All the Fake Data for All Your Real Needs",
+      "description": "Falso - All the Fake Data for All Your Real Needs",
+      "url": "https://ngneat.github.io/falso/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

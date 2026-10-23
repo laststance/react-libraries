@@ -1,0 +1,38 @@
+{
+  "id": "f867ca2883864e4989cc51b7620621e7",
+  "title": "Omnibox(SearchBar)",
+  "sourceUrl": "https://laststance.notion.site/f867ca2883864e4989cc51b7620621e7",
+  "fetchedAt": "2026-10-23T20:07:19.750Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "9b9c5518f87046679774192463eff61b",
+      "type": "sub_sub_header",
+      "title": "⌘K",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5e4f804b04fe4b749f2772884a4397c5",
+      "type": "bookmark",
+      "title": "⌘K",
+      "description": "Fast, composable, unstyled command menu for React.",
+      "url": "https://cmdk.paco.me/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "be9e13d49ae348ef965a9781a6e37cbb",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

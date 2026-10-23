@@ -1,0 +1,10 @@
+{
+  "number": 560,
+  "originalUrl": "https://magnitude.run/",
+  "requestUrl": "https://magnitude.run/",
+  "finalUrl": "https://magnitude.dev/",
+  "status": 200,
+  "title": "Run open models as fast as your hardware allows | Magnitude",
+  "description": "Magnitude is an open source inference engine that tunes its kernels on your hardware to find the fastest way to run each model. It",
+  "checkedAt": "2026-10-23T20:11:02.693Z"
+}

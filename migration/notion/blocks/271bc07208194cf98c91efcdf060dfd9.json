@@ -1,0 +1,38 @@
+{
+  "id": "271bc07208194cf98c91efcdf060dfd9",
+  "title": "UTF-8",
+  "sourceUrl": "https://laststance.notion.site/271bc07208194cf98c91efcdf060dfd9",
+  "fetchedAt": "2026-10-23T20:07:11.070Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "7a0e8afba0514d77b4208dbf95197fee",
+      "type": "sub_sub_header",
+      "title": "utf-8-validate",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b954658f08cf4b52847781f5c4fa63d2",
+      "type": "bookmark",
+      "title": "npm: utf-8-validate",
+      "description": "Check if a buffer contains valid UTF-8. Latest version: 6.0.3, last published: a year ago. Start using utf-8-validate in your project by running `npm i utf-8-validate`. There are 1204 other projects in the npm registry using utf-8-validate.",
+      "url": "https://www.npmjs.com/package/utf-8-validate",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3dc1f0cc0f214c259cead83ffad4485a",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

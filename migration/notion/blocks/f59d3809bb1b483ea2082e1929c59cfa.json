@@ -1,0 +1,237 @@
+{
+  "id": "f59d3809bb1b483ea2082e1929c59cfa",
+  "title": "Open Source React Apps",
+  "sourceUrl": "https://laststance.notion.site/f59d3809bb1b483ea2082e1929c59cfa",
+  "fetchedAt": "2026-10-23T20:07:19.570Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "9556bdb1a93f45a894b8f15a0b021f80",
+      "type": "sub_sub_header",
+      "title": "Bulletproof React",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "587ee1d752aa4bbe84e7da5beadb201e",
+      "type": "external_object_instance",
+      "title": "bulletproof-react",
+      "description": "",
+      "url": "https://github.com/alan2207/bulletproof-react",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "aa3d7572263f473d934dfac345666d36",
+      "type": "sub_sub_header",
+      "title": "Umami",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "19b61c90e9c1412ca10b7cf5a3e6c5dd",
+      "type": "bookmark",
+      "title": "umami",
+      "description": "",
+      "url": "https://umami.is/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9fbaa64755004f0087cc66e54787638b",
+      "type": "sub_sub_header",
+      "title": "Noodle",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bb95657461404b4ab3a0cdfeb714cb87",
+      "type": "bookmark",
+      "title": "Noodle | Rethinking Student Productivity",
+      "description": "Noodle is an open-source platform that combines various productivity tools into one, such as note taking and task management, providing insightful automations to enhance student productivity.",
+      "url": "https://noodle.run/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "42e97060ffd2476bbeb60348230416e1",
+      "type": "sub_sub_header",
+      "title": "Excalidraw",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "213ab7433e2945e2a2f12008f11dc42e",
+      "type": "external_object_instance",
+      "title": "excalidraw",
+      "description": "",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7c1561b252e9402fba270f4f1ece5459",
+      "type": "sub_sub_header",
+      "title": "React(handmade webpack)",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7dd28fb9f0a2425cb040e2017a92eb99",
+      "type": "external_object_instance",
+      "title": "flagsmith",
+      "description": "",
+      "url": "https://github.com/Flagsmith/flagsmith",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d4efcaf1758e47f3a139feeed334f707",
+      "type": "sub_sub_header",
+      "title": "Open Sauced",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "281495536b7c4a2ca38cc96590ff2872",
+      "type": "external_object_instance",
+      "title": "app",
+      "description": "",
+      "url": "https://github.com/open-sauced/app",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "26667aeb3ab14793b8775af0cc2759b7",
+      "type": "header",
+      "title": "Next.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "365ae9ce1be740028fb936de77f5500f",
+      "type": "sub_sub_header",
+      "title": "Replay.io(Pages Router)",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "367310e4e48d45ea952c65a0f729889c",
+      "type": "bookmark",
+      "title": "Replay - The time-travel debugger from the future.",
+      "description": "Record and replay your application with DevTools.",
+      "url": "https://www.replay.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d1f53057dba7424383d8b7dfa69d9557",
+      "type": "sub_sub_header",
+      "title": "https://github.com/replayio/devtools",
+      "description": "",
+      "url": "",
+      "links": [
+        {
+          "text": "https://github.com/replayio/devtools",
+          "url": "https://github.com/replayio/devtools"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "24575f9cc8104715be4307a2c1721310",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1ce9043871044d75bb55ba8b8df817fe",
+      "type": "sub_sub_header",
+      "title": "Allnalasser.com(App Router)",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7a35e2e328594c5f8334b9fda94443a9",
+      "type": "external_object_instance",
+      "title": "allanlasser.com",
+      "description": "",
+      "url": "https://github.com/allanlasser/allanlasser.com",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6672ca3e2eac4442b15b7507c78eba59",
+      "type": "sub_sub_header",
+      "title": "Answer Overflow",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "218269394ead4afbb15e5cb600e749dd",
+      "type": "external_object_instance",
+      "title": "AnswerOverflow",
+      "description": "",
+      "url": "https://github.com/AnswerOverflow/AnswerOverflow",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa258055bf19e5b91c3f197b",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3f7410e8a88745208627af458e343a95",
+      "type": "sub_sub_header",
+      "title": "tldraw",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f7f4aa9fa25801e9b92c96e42fc076e",
+      "type": "text",
+      "title": "https://github.com/tldraw/tldraw",
+      "description": "",
+      "url": "",
+      "links": [
+        {
+          "text": "https://github.com/tldraw/tldraw",
+          "url": "https://github.com/tldraw/tldraw"
+        }
+      ],
+      "children": []
+    }
+  ]
+}

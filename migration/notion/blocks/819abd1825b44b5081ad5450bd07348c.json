@@ -1,0 +1,137 @@
+{
+  "id": "819abd1825b44b5081ad5450bd07348c",
+  "title": "Cloud Platform",
+  "sourceUrl": "https://laststance.notion.site/819abd1825b44b5081ad5450bd07348c",
+  "fetchedAt": "2026-10-23T20:07:15.725Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "220fae654c2b4c2f866b221a7d2986da",
+      "type": "sub_sub_header",
+      "title": "Vercel",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fdeb016a8081479d9a9c74d3b4bb9bbb",
+      "type": "bookmark",
+      "title": "Vercel: Build and deploy the best web experiences with the Frontend Cloud",
+      "description": "Vercel's Frontend Cloud gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized web.",
+      "url": "https://vercel.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "742a24baf8dc48b68aa61668d9c1b378",
+      "type": "sub_sub_header",
+      "title": "Fly.io",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c200c2caba9d44528f6aa920b0999330",
+      "type": "bookmark",
+      "title": "Deploy app servers close to your users · Fly",
+      "description": "Accomplish this with just Phoenix and LiveView, in a shockingly small amount of code.",
+      "url": "https://fly.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3bdffbf40ba541dfa8d929aef912a7e5",
+      "type": "sub_sub_header",
+      "title": "Digital Ocean",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7ce87925be414659b3a2b0275448de08",
+      "type": "bookmark",
+      "title": "DigitalOcean | Cloud Hosting for Builders",
+      "description": "Simple, scalable cloud computing solutions built for startups and small-to-midsize businesses.",
+      "url": "https://www.digitalocean.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "35617c45437c4639a2e16bf0b551f3e3",
+      "type": "sub_sub_header",
+      "title": "Heroku",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "006bb160f6e24cbb80cc462b37b1e613",
+      "type": "bookmark",
+      "title": "Platform as a Service | Heroku",
+      "description": "Deploy, manage, and scale your apps on Heroku, a cloud platform based on a managed container system with integrated data services and a powerful ecosystem.",
+      "url": "https://www.heroku.com/platform",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a88190eede3d482eaf43c1d4218d3c9d",
+      "type": "sub_sub_header",
+      "title": "Render",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "748d0b42c5d646569c52c1e8c3962683",
+      "type": "bookmark",
+      "title": "Cloud Application Hosting for Developers | Render",
+      "description": "Render is a unified cloud to build and run all your apps and websites with free TLS certificates, global CDN, private networks and auto deploys from Git.",
+      "url": "https://render.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5fce1f1b7e094bb0b042918c1731e6e3",
+      "type": "sub_sub_header",
+      "title": "Cloudflare",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "878362acbbb84b5a9cc57818dae169a8",
+      "type": "bookmark",
+      "title": "Home · Cloudflare Docs",
+      "description": "Browse product docs including how-to guides, tutorials, API reference, and sample code.",
+      "url": "https://developers.cloudflare.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f0661b82116d4d68acfc0b021dd74c89",
+      "type": "sub_sub_header",
+      "title": "Cuber",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "abf81afdbab940e182f782856fc506a8",
+      "type": "bookmark",
+      "title": "Deploy your apps on Kubernetes easily - Cuber",
+      "description": "Cuber is an open-source automation tool that can build and deploy your apps on Kubernetes:\n    avoid PaaS vendor lock-in and save up to 80% on server costs.",
+      "url": "https://cuber.cloud/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

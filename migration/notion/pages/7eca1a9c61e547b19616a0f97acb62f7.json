@@ -1,0 +1,12 @@
+{
+  "id": "7eca1a9c61e547b19616a0f97acb62f7",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/7eca1a9c61e547b19616a0f97acb62f7",
+  "title": "Payment",
+  "content": "\n### <b>React Stripe.js</b>\n\n<bookmark source=\"https://stripe.com/docs/stripe-js/react\" />\n\n<p />\n\n### Clerk Billing\n\n<bookmark source=\"https://clerk.com/billing\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-05-18T22:26:00.048Z"
+  }
+}

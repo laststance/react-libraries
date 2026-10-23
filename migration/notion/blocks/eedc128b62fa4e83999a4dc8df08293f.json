@@ -1,0 +1,38 @@
+{
+  "id": "eedc128b62fa4e83999a4dc8df08293f",
+  "title": "Template Generation",
+  "sourceUrl": "https://laststance.notion.site/eedc128b62fa4e83999a4dc8df08293f",
+  "fetchedAt": "2026-10-23T20:07:19.384Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "b54998fc22b74041837dbe89a1d5cffd",
+      "type": "sub_sub_header",
+      "title": "Hygen",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d85f8455d6384fe7a2bc32976b12bb69",
+      "type": "bookmark",
+      "title": "Hygen | Hygen",
+      "description": "Description will go into a meta tag in <head />",
+      "url": "https://www.hygen.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "00414b8eb79c4c09b3de4c5ed8651945",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "97692647159a4a5d952b43f65ca0a298",
+  "parent": "4e1053bcac264e069514747acbac6216",
+  "sourceUrl": "https://laststance.notion.site/97692647159a4a5d952b43f65ca0a298",
+  "title": "UUID",
+  "content": "\n### uuidv4\n\n<bookmark source=\"https://www.npmjs.com/package/uuidv4\" />\n\n### <b>Nano ID</b>\n\n<bookmark source=\"https://www.npmjs.com/package/nanoid\" />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-08-15T04:10:04.488Z"
+  }
+}

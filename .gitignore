@@ -1,0 +1,14 @@
+node_modules/
+.blume/
+dist/
+.env*
+.DS_Store
+test-results/
+playwright-report/
+qa/
+.vercel/
+.gstack/tmp/
+.gstack/design-reports/
+.gstack/review-reports/
+.vercel
+.env*.local

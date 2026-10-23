@@ -1,0 +1,29 @@
+{
+  "id": "85bc69fc6bcc4f51af28492877a240e6",
+  "title": "AST",
+  "sourceUrl": "https://laststance.notion.site/85bc69fc6bcc4f51af28492877a240e6",
+  "fetchedAt": "2026-10-23T20:07:15.731Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "4ae25d5a5ab040509fba356e06ed2a0b",
+      "type": "sub_sub_header",
+      "title": "is-reference",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b6adbaafeb14400d9a73c62b175b01fb",
+      "type": "bookmark",
+      "title": "npm: is-reference",
+      "description": "Determine whether an AST node is a reference. Latest version: 3.0.2, last published: 6 months ago. Start using is-reference in your project by running `npm i is-reference`. There are 249 other projects in the npm registry using is-reference.",
+      "url": "https://www.npmjs.com/package/is-reference",
+      "links": [],
+      "children": []
+    }
+  ]
+}

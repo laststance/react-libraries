@@ -1,0 +1,29 @@
+{
+  "id": "ec0fccd5937c44a693ea9bb313907c64",
+  "parent": "e08f822cf74a4a3aa9f50c2fcb2874a9",
+  "sourceUrl": "https://laststance.notion.site/ec0fccd5937c44a693ea9bb313907c64",
+  "title": "☁️ Cloud Infrastructure",
+  "content": "\n<page url=\"https://app.notion.com/p/59388abee53241b5bda5331f7e8d4f79\">\nBig 3\n</page>\n\n<page url=\"https://app.notion.com/p/819abd1825b44b5081ad5450bd07348c\">\nCloud Platform\n</page>\n\n<page url=\"https://app.notion.com/p/aeeca804a8d74f5785a60eef939073ef\">\nBackend as a Service\n</page>\n\n<page url=\"https://app.notion.com/p/13b0a33a2c2f4a92aff6726a736d1c1f\">\nAuth\n</page>\n\n<p />\n",
+  "children": [
+    {
+      "id": "59388abee53241b5bda5331f7e8d4f79",
+      "title": "Big 3"
+    },
+    {
+      "id": "819abd1825b44b5081ad5450bd07348c",
+      "title": "Cloud Platform"
+    },
+    {
+      "id": "aeeca804a8d74f5785a60eef939073ef",
+      "title": "Backend as a Service"
+    },
+    {
+      "id": "13b0a33a2c2f4a92aff6726a736d1c1f",
+      "title": "Auth"
+    }
+  ],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2024-08-13T23:57:49.591Z"
+  }
+}

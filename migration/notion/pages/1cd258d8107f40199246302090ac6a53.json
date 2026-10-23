@@ -1,0 +1,12 @@
+{
+  "id": "1cd258d8107f40199246302090ac6a53",
+  "parent": "0749addfe8df4161a806be56d802ab36",
+  "sourceUrl": "https://laststance.notion.site/1cd258d8107f40199246302090ac6a53",
+  "title": "Editor",
+  "content": "\n### Mark down Editor React\n\n<bookmark source=\"https://uiwjs.github.io/react-md-editor/\" />\n\n### Plate\n\n<bookmark source=\"https://platejs.org/\" />\n\n### BlockNote\n\n<bookmark source=\"https://www.blocknotejs.org/\" />\n\n### Lexical\n\n<bookmark source=\"https://lexical.dev/\" />\n\n<p />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2025-11-09T00:01:13.362Z"
+  }
+}

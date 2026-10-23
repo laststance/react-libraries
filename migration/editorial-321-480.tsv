@@ -1,0 +1,160 @@
+321|SWR|data-fetching|React hooks for fetching, caching, and revalidating server data.|Keeping remote data responsive while refreshing it in the background.
+322|TanStack Query|data-fetching|Tools for managing asynchronous server state and cached requests.|Coordinating loading, mutations, retries, and cache updates in an application.
+323|Flatbush|utilities|A spatial index for quickly searching rectangles and points.|Finding nearby or overlapping objects in a large static dataset.
+324|React Datepicker|calendars|A React component for choosing dates and times.|Adding a ready-made date input to an application form.
+325|Code Inspector|developer-tools|A development tool that connects rendered page elements to their source code.|Opening the corresponding component in an editor directly from the browser.
+326|Bippy|developer-tools|Utilities for inspecting React's internal component structures.|Building specialized React debugging and inspection tools.
+327|React Scan|performance|A tool that detects and highlights React rendering activity.|Investigating unnecessary renders and interface performance problems.
+328|Code Inspector|developer-tools|A development tool that connects rendered page elements to their source code.|Opening the corresponding component in an editor directly from the browser.
+329|doctoc|documentation|A generator for Markdown tables of contents.|Keeping navigation inside repository documentation aligned with its headings.
+330|React DnD|drag-and-drop|React abstractions for draggable items and drop targets.|Building custom drag-and-drop interactions with explicit application behavior.
+331|react-drag-drop-files|files|A React component for selecting files through drag and drop.|Adding a straightforward file-drop area to an upload form.
+332|@hello-pangea/dnd|drag-and-drop|React drag-and-drop components focused on lists.|Reordering items within or between lists using familiar interactions.
+333|react-dropzone|files|React hooks for building file-selection and dropzone interfaces.|Accepting dropped files while keeping control over the upload UI.
+334|dnd kit|drag-and-drop|Composable building blocks for dragging, dropping, sorting, and reordering.|Custom sortable lists and drag-and-drop interfaces in React.
+335|Pragmatic drag and drop|drag-and-drop|Atlassian's drag-and-drop toolkit built on native browser capabilities.|Fine-grained control over drop targets and custom interactions.
+336|Pragmatic drag and drop|drag-and-drop|Atlassian's drag-and-drop toolkit built on native browser capabilities.|Fine-grained control over drop targets and custom interactions.
+337|Hydrogen React|commerce|React utilities and components for Shopify storefronts.|Building a custom storefront connected to Shopify commerce data.
+338|Lexical|editors|An extensible framework for building text editors.|Creating a custom editing experience with explicit document behavior.
+339|BlockNote|editors|A block-based rich-text editor for React.|Adding document-style editing with structured content blocks.
+340|Plate|editors|A React rich-text editor framework with composable plugins.|Building an editor with selectable formatting and document features.
+341|React MD Editor|editors|A Markdown editor with a preview for React.|Letting users edit Markdown and inspect the rendered result.
+342|React Email|email|React components and tooling for composing email templates.|Building reusable HTML emails from familiar component code.
+343|LogRocket|logging|A monitoring platform combining session replay and application diagnostics.|Investigating frontend problems in the context of a user's session.
+344|LogSnag|logging|A service for recording and monitoring application events.|Following important product events through a shared event feed.
+345|Sentry|logging|Error tracking and performance monitoring for applications.|Finding production failures with stack traces and diagnostic context.
+346|Better Upload|files|File-upload tooling for React and S3-compatible storage.|Connecting an upload interface directly to object storage.
+347|UploadThing|files|A service and SDK for application file uploads.|Adding typed upload endpoints and frontend upload controls.
+348|React FilePond|files|A React adapter for the FilePond upload interface.|Adding file previews and a configurable upload experience.
+349|Uppy|files|A modular file uploader with React integration.|Building upload flows with selectable sources, progress, and file handling.
+350|TanStack Form|forms|Headless, type-safe form-state management.|Building custom forms while retaining control over field components and validation.
+351|Formik|forms|React helpers for form state, validation, and submission.|Managing a conventional React form with explicit field state.
+352|React Hook Form|forms|React hooks for managing forms and validation.|Building forms that integrate existing input components with limited rerendering.
+353|International Telephone Input|inputs|A telephone input with country selection and number-formatting support.|Collecting phone numbers from users in different regions.
+354|React JSON Schema Form|forms|A React form renderer driven by JSON Schema.|Generating configurable forms from a shared data schema.
+355|Conform|forms|Form utilities centered on HTML forms and progressive enhancement.|Combining server validation with accessible form behavior.
+356|Next.js|frameworks|A React framework for routing, rendering, and server-side application features.|Building a full-stack web application with integrated React conventions.
+357|ZenStack|databases|A TypeScript data layer combining database access and authorization tooling.|Keeping data models, access policies, and generated APIs aligned.
+358|Blitz|frameworks|A toolkit and conventions for full-stack application development.|Building applications with integrated server data access and authentication patterns.
+359|Refine|frameworks|A React framework for data-intensive business applications.|Building admin interfaces with data providers and reusable CRUD behavior.
+360|Epic Stack|frameworks|An opinionated starter for full-stack web applications.|Starting with an integrated set of application and deployment conventions.
+361|Astro|frameworks|A web framework for content sites and applications with selective interactivity.|Building content-heavy websites with components from supported UI frameworks.
+362|Remix|frameworks|A web framework built around routing and web-standard data flows.|Building applications with integrated loading, actions, and navigation behavior.
+363|RedwoodJS / RedwoodSDK|frameworks|A React framework lineage spanning full-stack applications and server-first development.|Exploring the Redwood ecosystem while checking which framework generation fits your project.
+364|merge-refs|utilities|A helper for assigning several React refs through one callback.|Combining internal and forwarded refs in reusable components.
+365|TanStack Pacer|performance|Utilities for debouncing, throttling, queuing, and batching work.|Controlling how frequently application tasks and updates execute.
+366|jposta|maps|A library for converting Japanese postal codes into addresses.|Helping users fill Japanese address forms from a postal code.
+367|react-openlayers|maps|React bindings for the OpenLayers mapping library.|Adding interactive maps backed by OpenLayers capabilities.
+368|React Google Maps|maps|React components for the Google Maps JavaScript API.|Integrating Google maps, markers, and location interactions into React.
+369|React Leaflet|maps|React components for the Leaflet mapping library.|Building interactive maps with Leaflet layers and plugins.
+370|nmea.js|maps|A parser for NMEA messages from navigation devices.|Interpreting GPS and other navigation-device data in JavaScript.
+371|react-map-gl|maps|React components for GL-based map rendering.|Building interactive map interfaces with controlled React state.
+372|UVCanvas|graphics|A library of shader-driven canvas effects.|Adding generative visual backgrounds and interactive graphic effects.
+373|visx|charts|Low-level visualization components that combine React with D3 utilities.|Building custom charts while owning the rendering and interaction design.
+374|g9|graphics|A library for creating automatically interactive graphics.|Exploring diagrams whose parameters can be manipulated directly.
+375|InfiniteGrid|layout|A layout engine for arranging items in large or growing grids.|Building masonry-style feeds and dynamically loaded card layouts.
+376|AG Grid|data-tables|A ready-made grid for interactive data-heavy applications.|Rich table interactions with an integrated grid UI.
+377|Glide Data Grid|data-tables|A React data grid designed for large, interactive datasets.|Building spreadsheet-like interfaces with custom cell rendering.
+378|React Data Grid|data-tables|An editable and customizable data-grid component for React.|Displaying structured records with keyboard interaction and cell editing.
+379|beautiful-react-hooks|utilities|A collection of reusable hooks for common React behaviors.|Avoiding repeated browser-event and component-state plumbing.
+380|use-debounce|performance|React hooks for debouncing values and callbacks.|Reducing repeated work while a user types or changes inputs.
+381|react-use|utilities|A broad collection of React utility hooks.|Reusing common state, lifecycle, and browser-integration behaviors.
+382|usehooks|utilities|A collection of React hooks for common application needs.|Adding reusable browser and state behavior to components.
+383|its-fine|developer-tools|Escape-hatch utilities for specialized React integrations.|Handling unusual React integration requirements beyond ordinary component APIs.
+384|usehooks-ts|utilities|A TypeScript-oriented collection of React hooks.|Adding typed, reusable application behavior without writing every hook from scratch.
+385|react-file-icon|icons|A React component for rendering file-type icons.|Showing recognizable file badges in upload and document lists.
+386|Iconify|icons|An icon ecosystem that exposes many icon collections through shared tooling.|Choosing icons from multiple sets without changing the integration approach.
+387|React Icons|icons|React components for many popular icon packs.|Importing individual icons into a React application.
+388|Lucide React|icons|React components for a consistent set of line icons.|Building interfaces with a coordinated, customizable icon style.
+389|Heroicons|icons|A collection of interface icons with React-friendly usage.|Adding consistent icons to Tailwind-oriented and other web interfaces.
+390|IMG.LY Background Removal|media|Browser tooling for removing image backgrounds.|Creating subject cutouts without sending every image to an application server.
+391|html-to-image|media|A utility for rendering a DOM node as an image.|Exporting interface fragments, cards, or diagrams as downloadable graphics.
+392|cmdk|keyboard|Composable React components for command menus.|Building a keyboard-friendly command palette with custom commands and styling.
+393|tinykeys|keyboard|A small library for keyboard shortcuts.|Binding key combinations to actions in browser interfaces.
+394|Loadable Components|performance|Tools for code splitting and lazy loading React components.|Deferring component bundles until a route or feature needs them.
+395|lightGallery React|media|A React integration for image and video galleries.|Presenting media in an interactive gallery with overlay viewing.
+396|Yet Another React Lightbox|media|A customizable lightbox component for React.|Opening an image gallery in an extensible overlay viewer.
+397|Prismic|backend|A headless content platform and visual page-building workflow.|Letting content editors compose pages while developers own frontend components.
+398|Toldo|overlays|A dialog component for React.|Adding a polished modal interaction to an application interface.
+399|SweetAlert2 React Content|overlays|A React integration for SweetAlert2 dialogs.|Rendering React content inside alert and confirmation dialogs.
+400|React Modal|overlays|An accessible modal-dialog component for React.|Showing focused content above the page with managed dialog behavior.
+401|react-multistep-wizard|forms|React utilities for organizing a multi-step flow.|Building forms or onboarding sequences that span several steps.
+402|React Link Preview|social-previews|A React component for displaying previews of URLs.|Turning pasted links into descriptive preview cards.
+403|Microlink SDK|social-previews|Components and APIs for rendering rich link previews.|Embedding external content as consistent preview cards.
+404|opengraph-react|social-previews|React components for OpenGraph.io link metadata.|Showing URL previews backed by a metadata service.
+405|react-tiny-link|social-previews|A React component that displays link previews.|Adding compact cards for external URLs in content feeds.
+406|cmdk|keyboard|Composable React components for command menus.|Building a keyboard-friendly command palette with custom commands and styling.
+407|tldraw|graphics|An SDK and application for interactive drawing canvases.|Building whiteboards and spatial interfaces with editable shapes.
+408|Excalidraw|graphics|An open-source drawing application with a hand-drawn visual style.|Creating or embedding collaborative sketching and diagramming experiences.
+409|OpenSauced|open-source-apps|An application for exploring open-source contribution and repository insights.|Studying a dashboard built around software-community data.
+410|Replay|developer-tools|A tool for recording and replaying application execution.|Investigating bugs by revisiting a recorded browser session.
+411|Bulletproof React|learning|A reference application demonstrating React architecture and project organization.|Studying a complete example of maintainable application structure.
+412|Allan Lasser's Website|open-source-apps|The source repository for a personal website.|Studying a real content website's application structure and implementation.
+413|Flagsmith|open-source-apps|An open-source feature-flag and remote-configuration platform.|Studying or deploying a system for controlling feature rollout.
+414|Noodle|open-source-apps|An open-source productivity application for notes and task management.|Studying a workspace interface that combines several productivity tools.
+415|Replay DevTools|open-source-apps|The source repository for Replay's debugging interface.|Studying developer tooling built around recorded application sessions.
+416|React Split Pane|layout|A React component for resizable split layouts.|Building editors and dashboards with adjustable side-by-side panes.
+417|React Resizable Panels|layout|React components for resizable panel groups.|Building interfaces with persistent, adjustable workspace layouts.
+418|simpleParallax|animation|A library for parallax effects on images.|Adding scroll-linked image movement to content pages.
+419|Clerk Billing|commerce|Billing features integrated with Clerk's account infrastructure.|Connecting subscriptions and entitlements to application users and organizations.
+420|React Stripe.js|commerce|React components for Stripe Elements and payment integrations.|Building a payment interface connected to Stripe's client-side APIs.
+421|React Geiger|performance|A tool that makes React rendering performance audible.|Noticing costly renders while interacting with an application.
+422|react-fast-memo|performance|An alternative memoization utility for React components.|Exploring component memoization in measured performance-sensitive cases.
+423|NProgress|notifications|A slim progress bar for page-loading activity.|Indicating navigation or request progress at the top of a page.
+424|mobx-router|routing|A router integrated with MobX state.|Managing navigation in an application already organized around MobX.
+425|Router5|routing|A framework-independent router with state-oriented navigation.|Sharing routing logic independently from a particular view library.
+426|TanStack Router|routing|A type-safe router with integrated search-parameter APIs.|Building typed routes and URL-driven state in a web application.
+427|Vike|frameworks|A framework toolkit built on Vite for server rendering and application routing.|Configuring an application rendering stack with modular integrations.
+428|Found|routing|Routing tools for React applications.|Defining route trees with asynchronous data and rendering behavior.
+429|Navigation Router|routing|A routing library for coordinating application navigation.|Modeling navigation state across supported React application targets.
+430|React Router|routing|Routing tools and framework features for React applications.|Connecting URL navigation with rendering, loading, and form actions.
+431|Universal Router|routing|A framework-independent routing library.|Resolving routes through composable application-defined logic.
+432|Vike|frameworks|A framework toolkit built on Vite for server rendering and application routing.|Configuring an application rendering stack with modular integrations.
+433|compute-scroll-into-view|scrolling|Utilities for calculating how to bring an element into view.|Implementing controlled scrolling and alignment in nested containers.
+434|ScrollX UI|animation|A collection of animated and interactive React components.|Adding scroll-oriented visual effects and presentation sections.
+435|react-remove-scroll-bar|scrolling|A React utility for hiding the page scrollbar without shifting content.|Opening overlays while keeping the underlying layout stable.
+436|Iconify React|icons|React components for rendering icons from the Iconify ecosystem.|Using icon collections through a shared React component API.
+437|SimpleBar React|scrolling|A React integration for custom scrollbars with native scrolling.|Styling a scrolling container without replacing its basic scroll behavior.
+438|React Autosuggest|inputs|A React component for text inputs with suggestions.|Offering completions while users type a query or field value.
+439|js-search|search|A JavaScript library for searching indexed object collections.|Adding client-side text search to an existing in-memory dataset.
+440|Downshift|inputs|React primitives for accessible selection and autocomplete interfaces.|Building custom comboboxes and menus while retaining interaction control.
+441|Algolia Autocomplete|search|A library for building rich autocomplete interfaces.|Combining suggestions and search results in a custom search box.
+442|React Widgets|inputs|A collection of form inputs such as selects and date controls.|Adding coordinated, configurable input components to a React form.
+443|Input OTP|inputs|An unstyled React input for one-time passwords.|Building accessible verification-code entry with custom visual styling.
+444|React Select|inputs|A customizable select component for React.|Supporting searchable, asynchronous, or multi-value selection.
+445|React Just|frameworks|Tooling for React Server Components with a Vite-based workflow.|Exploring server-component application development outside a larger framework.
+446|react-slider|inputs|An accessible React slider input.|Selecting numeric values or ranges with custom styling.
+447|rc-slider|inputs|A configurable slider component for React.|Adding single-value and range selection to an interface.
+448|react-sounds|media|React utilities for adding sound effects to interfaces.|Providing audio feedback for application interactions.
+449|spin-delay|notifications|A React helper for controlling the timing of loading indicators.|Avoiding flickering spinners during very short asynchronous operations.
+450|React Spinners|notifications|A collection of loading-spinner components for React.|Adding a recognizable loading indicator with configurable appearance.
+451|MobX-State-Tree|state|A state container combining typed models with observable state.|Structuring application state around models, actions, and snapshots.
+452|Jotai|state|Atomic state management for React.|Composing shared state from small independently managed atoms.
+453|XState Store|state|A lightweight state store based on events and explicit transitions.|Managing local or shared state with clearly defined update events.
+454|Zustand|state|A small state-management library with hook-based access.|Sharing application state through a straightforward external store.
+455|Nano Stores|state|Small reactive stores that work across several UI frameworks.|Sharing focused pieces of state without a large state-management setup.
+456|MobX|state|Observable state management with automatic dependency tracking.|Deriving reactive UI updates from mutable application models.
+457|Redux Toolkit|state|The recommended tooling for writing Redux state logic.|Managing shared state with predictable actions, reducers, and debugging support.
+458|Valtio|state|Proxy-based state management for React and JavaScript.|Writing mutable-looking state updates with reactive snapshots for rendering.
+459|Recoil|state|An atom-and-selector state-management library originally developed for React.|Understanding or maintaining applications that already use Recoil.
+460|CSS Modules|styling|A convention and tooling approach for locally scoped CSS classes.|Writing stylesheets without exposing every class name globally.
+461|Fresnel|layout|Responsive React layout utilities designed to work with server rendering.|Rendering breakpoint-specific layouts with coordinated CSS media queries.
+462|TypeScript CSS Modules Plugin|developer-tools|A TypeScript language-service plugin for CSS Modules.|Getting editor assistance for CSS class names imported into TypeScript.
+463|Kuma UI|ui-kits|A component and styling library with build-time style generation.|Building typed interfaces while limiting runtime styling work.
+464|styled-components|styling|A component-oriented CSS-in-JS library.|Defining styles alongside React components with dynamic styling behavior.
+465|tailwind-merge|styling|A utility for resolving conflicting Tailwind CSS classes.|Combining default and caller-provided component classes predictably.
+466|Pigment CSS|styling|A build-time CSS-in-JS styling solution.|Writing component styles that are extracted before the application runs.
+467|daisyUI|ui-kits|Semantic component classes built for Tailwind CSS.|Building coordinated interfaces without styling every element from utilities alone.
+468|React Aria|ui-kits|Accessible interaction primitives and components for React.|Building a custom design system with established accessibility behavior.
+469|React TWC|styling|Utilities for creating React components from Tailwind CSS classes.|Packaging repeated utility-class combinations as reusable components.
+470|MistCSS|styling|A tool for defining atomic React components through CSS.|Generating component styling and variants from stylesheet definitions.
+471|Reshadow|styling|A styling library for scoped component styles.|Exploring an alternative CSS-in-JS approach with component-oriented selectors.
+472|Catalyst|ui-kits|A React application UI kit from the creators of Tailwind CSS.|Starting a product interface from a coordinated set of components.
+473|Tailwind Plus|ui-kits|A collection of Tailwind-based interface components and templates.|Accelerating application and marketing-page design with prepared layouts.
+474|vanilla-extract|styling|TypeScript tooling for generating static stylesheets.|Writing typed styles and design tokens without runtime style generation.
+475|UnoCSS|styling|An on-demand atomic CSS engine.|Configuring a utility-class workflow through presets and custom rules.
+476|Emotion|styling|A library for composing styles with JavaScript.|Building component-level styles with a flexible CSS-in-JS API.
+477|Linaria|styling|A CSS-in-JS library that extracts styles at build time.|Keeping styles near components while producing static CSS.
+478|Panda CSS|styling|Build-time styling tools with typed tokens and recipes.|Building a design system with type-safe styling conventions.
+479|Draft UI|ui-kits|Copyable React components focused on accessible interface patterns.|Starting from simple component implementations that you can own and customize.
+480|StyleX|styling|A styling system that compiles JavaScript style definitions into CSS.|Managing typed, composable styles across a large component codebase.

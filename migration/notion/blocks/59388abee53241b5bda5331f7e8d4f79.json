@@ -1,0 +1,74 @@
+{
+  "id": "59388abee53241b5bda5331f7e8d4f79",
+  "title": "Big 3",
+  "sourceUrl": "https://laststance.notion.site/59388abee53241b5bda5331f7e8d4f79",
+  "fetchedAt": "2026-10-23T20:07:14.143Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "c5c750ae2e014320b90d3e23af5e6d4e",
+      "type": "sub_sub_header",
+      "title": "AWS",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7f5603c1496746aaba505ead1fc472cf",
+      "type": "bookmark",
+      "title": "Cloud Computing Services - Amazon Web Services (AWS)",
+      "description": "Amazon Web Services offers reliable, scalable, and  inexpensive cloud computing services. Free to join, pay only for what you use.",
+      "url": "https://aws.amazon.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "632bf470b5b04fcd8fbf5b551dd36ec0",
+      "type": "sub_sub_header",
+      "title": "Microsoft Azure",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f4d3b636545d4192a8ac2b3f74b119d4",
+      "type": "bookmark",
+      "title": "Cloud Computing Services | Microsoft Azure",
+      "description": "Invent with purpose, realize cost savings, and make your organization more efficient with Microsoft Azure’s open and flexible cloud computing platform.",
+      "url": "https://azure.microsoft.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1e54e101596b4d13b3f80efad77d2bf7",
+      "type": "sub_sub_header",
+      "title": "Google Cloud Platform",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d956e2a9125c407e9fe0e3a3cab8807b",
+      "type": "bookmark",
+      "title": "Cloud Computing Services | Google Cloud",
+      "description": "Meet your business challenges head on with cloud computing services from Google, including data management, hybrid & multi-cloud, and AI & ML.",
+      "url": "https://cloud.google.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c7da475a8cc04836aa5692b1217e0c2b",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

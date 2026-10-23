@@ -1,0 +1,10 @@
+{
+  "number": 66,
+  "originalUrl": "https://github.com/hamzaydia/verifyfetch",
+  "requestUrl": "https://github.com/hamzaydia/verifyfetch",
+  "finalUrl": "https://github.com/hamzaydia/verifyfetch",
+  "status": 200,
+  "title": "GitHub - hamzaydia/verifyfetch: Your users download a 4GB AI model, the connection drops at 3.8GB, verifyfetch resumes from 3.8GB and verifies every byte. Drop-in integrity verification for Transformers.js, WebLLM, and any large file in the browser.",
+  "description": "Your users download a 4GB AI model, the connection drops at 3.8GB, verifyfetch resumes from 3.8GB and verifies every byte. Drop-in integrity verification for Transformers.js, WebLLM, and any large file in the browser. - hamzaydia/verifyfetch",
+  "checkedAt": "2026-10-23T20:09:53.669Z"
+}

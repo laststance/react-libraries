@@ -1,0 +1,38 @@
+{
+  "id": "abef73b97bd04844919451105c989b89",
+  "title": "Learning",
+  "sourceUrl": "https://laststance.notion.site/abef73b97bd04844919451105c989b89",
+  "fetchedAt": "2026-10-23T20:07:17.683Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "90fd0f443a784e81b5f6504ae0a2f7f5",
+      "type": "sub_sub_header",
+      "title": "Next.js App Router Training",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bcba5c63e63246ef8706abcc4e13a678",
+      "type": "bookmark",
+      "title": "Next.js App Router Training",
+      "description": "Introducing various basic patterns using Next.js' app router with simplified code.",
+      "url": "https://nextjs-app-router-training.vercel.app/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d4c59aacebe8421e8ce0eaeb3eac4697",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

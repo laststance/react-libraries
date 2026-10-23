@@ -1,0 +1,38 @@
+{
+  "id": "7b72b54d27c3440f8e34a5684a2b9143",
+  "title": "Color",
+  "sourceUrl": "https://laststance.notion.site/7b72b54d27c3440f8e34a5684a2b9143",
+  "fetchedAt": "2026-10-23T20:07:15.248Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "852bfb5616794063821aec20bf088c05",
+      "type": "sub_sub_header",
+      "title": "Fancy ANSI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4e8f5021d83e4c74ac0374a0d3179da6",
+      "type": "bookmark",
+      "title": "Fancy-ANSI",
+      "description": "",
+      "url": "https://kubetail-org.github.io/fancy-ansi/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9a91cdb3cc014bb88b465dc81c03d11c",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

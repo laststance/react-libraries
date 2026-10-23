@@ -1,0 +1,29 @@
+{
+  "id": "266a9681c1914d6eaf47a58ad9380236",
+  "title": "Email",
+  "sourceUrl": "https://laststance.notion.site/266a9681c1914d6eaf47a58ad9380236",
+  "fetchedAt": "2026-10-23T20:07:10.832Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "094330ef212545bbbf1ab76f0acca6ef",
+      "type": "sub_sub_header",
+      "title": "React Email",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "48ddbba7d3fe432ca9089d175500f6c4",
+      "type": "bookmark",
+      "title": "React Email",
+      "description": "A collection of high-quality, unstyled components for creating beautiful emails.",
+      "url": "https://react.email/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

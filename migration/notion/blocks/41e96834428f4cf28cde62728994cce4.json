@@ -1,0 +1,110 @@
+{
+  "id": "41e96834428f4cf28cde62728994cce4",
+  "title": "Docs / Static Site Generator",
+  "sourceUrl": "https://laststance.notion.site/41e96834428f4cf28cde62728994cce4",
+  "fetchedAt": "2026-10-23T20:07:13.099Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "9d812378b74a44f59a904ff25b3db97d",
+      "type": "sub_sub_header",
+      "title": "Docusaurus",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1cd2c3565ded4875adabbe22e6f54ac7",
+      "type": "bookmark",
+      "title": "Build optimized websites quickly, focus on your content | Docusaurus",
+      "description": "An optimized site generator in React. Docusaurus helps you to move fast and write content. Build documentation websites, blogs, marketing pages, and more.",
+      "url": "https://docusaurus.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0792c3847e3d4d08bb89d7f5db796f63",
+      "type": "sub_sub_header",
+      "title": "Next Docs",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5556c216ef694052b5555045ed1631b8",
+      "type": "bookmark",
+      "title": "Next Docs",
+      "description": "The Next.js framework for building documentation sites",
+      "url": "https://next-docs-zeta.vercel.app/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0f636883e62e464bbb212ad8dff836cb",
+      "type": "sub_sub_header",
+      "title": "Nextra",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f404acfd04c847878f3b67136d957d48",
+      "type": "bookmark",
+      "title": "Nextra – Next.js Static Site Generator – Nextra",
+      "description": "Make beautiful websites with Next.js & MDX.",
+      "url": "https://nextra.site/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "eb701d0b116c4ff4abedc31489766372",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "598a2291f457402a8abd7ced5977f8f4",
+      "type": "sub_sub_header",
+      "title": "Astro",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2311914cf4094e349667947e165dacf0",
+      "type": "bookmark",
+      "title": "Astro",
+      "description": "Astro is an all-in-one framework for building fast websites faster. Grab content from anywhere, deploy everywhere, and show the web what you've got.",
+      "url": "https://astro.build/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f1bd939840994b489b81f383e1f2bb8a",
+      "type": "sub_sub_header",
+      "title": "Gatsby",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "92b1dcbca6c04b4a9a4960d0d81c356c",
+      "type": "bookmark",
+      "title": "react-component",
+      "description": "React components foundation of ant.design",
+      "url": "http://react-component.github.io/badgeboard/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "38bf4aa9fa258078b2fae5b40e3cd793",
+  "title": "CSS",
+  "sourceUrl": "https://laststance.notion.site/38bf4aa9fa258078b2fae5b40e3cd793",
+  "fetchedAt": "2026-10-23T20:07:12.609Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "38bf4aa9fa258010a23ee1f2027ce9cd",
+      "type": "sub_header",
+      "title": "Prop for that",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "38bf4aa9fa2580fa8105e7131c9d9361",
+      "type": "external_object_instance",
+      "title": "prop-for-that",
+      "description": "",
+      "url": "https://github.com/argyleink/prop-for-that",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "38bf4aa9fa25801a883bdde440e2efaa",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

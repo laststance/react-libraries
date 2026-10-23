@@ -1,0 +1,92 @@
+{
+  "id": "e83da83f235a4f95963192985a7249f3",
+  "title": "Create CLI Application",
+  "sourceUrl": "https://laststance.notion.site/e83da83f235a4f95963192985a7249f3",
+  "fetchedAt": "2026-10-23T20:07:18.981Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "c142a81a2232439d9568baa25b95da09",
+      "type": "sub_sub_header",
+      "title": "Cac",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2e22671666a5486580d51122037405e6",
+      "type": "bookmark",
+      "title": "npm: cac",
+      "description": "Simple yet powerful framework for building command-line apps.. Latest version: 6.7.14, last published: a year ago. Start using cac in your project by running `npm i cac`. There are 1382 other projects in the npm registry using cac.",
+      "url": "https://www.npmjs.com/package/cac",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0db8079d42434be78c86468a88174363",
+      "type": "sub_sub_header",
+      "title": "Clack",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "31405abdb09d44768b92a7a643a2c15b",
+      "type": "bookmark",
+      "title": "Clack",
+      "description": "Build effortlessly beautiful CLIs",
+      "url": "https://www.clack.cc/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a78163f8c3b84ee8918ec7586d839639",
+      "type": "sub_sub_header",
+      "title": "Execa",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bf0276a7ac874d79b27086c40e1e73aa",
+      "type": "bookmark",
+      "title": "GitHub - sindresorhus/execa: Process execution for humans",
+      "description": "Process execution for humans. Contribute to sindresorhus/execa development by creating an account on GitHub.",
+      "url": "https://github.com/sindresorhus/execa#readme",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3823900ffc2d4d0f95a1bf4cb17a92ce",
+      "type": "sub_sub_header",
+      "title": "Sly CLI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "fffca736072b48598f0d2b5c27a38730",
+      "type": "bookmark",
+      "title": "Add code, not dependencies, with Sly CLi",
+      "description": "Add components, icons, and utilities to your app.",
+      "url": "https://sly-cli.fly.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "cf26b5738a044ad0aac56df071e6135d",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

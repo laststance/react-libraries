@@ -1,0 +1,10 @@
+{
+  "number": 420,
+  "originalUrl": "https://stripe.com/docs/stripe-js/react",
+  "requestUrl": "https://stripe.com/docs/stripe-js/react",
+  "finalUrl": "https://docs.stripe.com/sdks/stripejs-react",
+  "status": 200,
+  "title": "React Stripe.js リファレンス",
+  "description": "React Stripe.js を使用して、Stripe Elements を任意の React アプリに追加します。Elements はどの Stripe 製品でもオンライン決済を回収できます。このリファレンスでは、React Stripe.Js API 全体について説明しています。",
+  "checkedAt": "2026-10-23T20:10:39.147Z"
+}

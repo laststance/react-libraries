@@ -1,0 +1,110 @@
+{
+  "id": "f9b9af50dd9e441ea5b99124d5495703",
+  "title": "Search/Fuzzy-match",
+  "sourceUrl": "https://laststance.notion.site/f9b9af50dd9e441ea5b99124d5495703",
+  "fetchedAt": "2026-10-23T20:07:19.750Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "68c9bba2846d4649a79edc9078638fb9",
+      "type": "text",
+      "title": "FZF for JavaScript",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "71170352560042849d94a6d30708036e",
+      "type": "bookmark",
+      "title": "npm: fzf",
+      "description": "Do fuzzy matching using FZF algorithm in JavaScript. Latest version: 0.5.2, last published: a year ago. Start using fzf in your project by running `npm i fzf`. There are 25 other projects in the npm registry using fzf.",
+      "url": "https://www.npmjs.com/package/fzf",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4a73a7533477474c90e8630551c2fc06",
+      "type": "sub_sub_header",
+      "title": "MiniSearch",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "b5bf8854579146e8b509180f934f29ed",
+      "type": "bookmark",
+      "title": "MiniSearch",
+      "description": "Documentation for MiniSearch",
+      "url": "https://lucaong.github.io/minisearch/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "6e2a03a09e44402db3486415128b2688",
+      "type": "sub_sub_header",
+      "title": "Js Search",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ee060c417e664fd9a7255e965b88b811",
+      "type": "external_object_instance",
+      "title": "js-search",
+      "description": "",
+      "url": "https://github.com/bvaughn/js-search",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "261f4aa9fa25806d95a0d6ce1323e3d7",
+      "type": "sub_header",
+      "title": "FilterQL",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "261f4aa9fa258064b3a0d793b6a60c4f",
+      "type": "external_object_instance",
+      "title": "filterql",
+      "description": "",
+      "url": "https://github.com/adamhl8/filterql",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2f0f4aa9fa258050b4f4e7b01ad0f05d",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2f0f4aa9fa2580b3a6c6ec549356d61a",
+      "type": "sub_header",
+      "title": "Typesence",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2f0f4aa9fa258096ac38cc9e5674828a",
+      "type": "external_object_instance",
+      "title": "typesense",
+      "description": "",
+      "url": "https://github.com/typesense/typesense",
+      "links": [],
+      "children": []
+    }
+  ]
+}

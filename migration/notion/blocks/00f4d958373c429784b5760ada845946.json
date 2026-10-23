@@ -1,0 +1,119 @@
+{
+  "id": "00f4d958373c429784b5760ada845946",
+  "title": "Blog Platform",
+  "sourceUrl": "https://laststance.notion.site/00f4d958373c429784b5760ada845946",
+  "fetchedAt": "2026-10-23T20:07:07.165Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "be470a32e9ae42638396b5fd8e3155ce",
+      "type": "sub_header",
+      "title": "Daily.dev",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "25894ac2effd4965b37dec0e284c7791",
+      "type": "bookmark",
+      "title": "daily.dev | Where developers grow together",
+      "description": "daily dev is a professional network for developers to learn, collaborate, and grow together. Developers come to daily.dev to discover a wide variety of professional knowledge, create groups where they can collaborate with other developers they appreciate, and discuss the latest trends in the developer ecosystem.",
+      "url": "https://daily.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "314012400e144723b5eec1e02956fdf2",
+      "type": "sub_sub_header",
+      "title": "Hashnode",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8fbf0c6d20f847988d55f297df6db9b2",
+      "type": "bookmark",
+      "title": "Hashnode - where developer blogs meet community power!",
+      "description": "Hashnode is your go-to community to connect with other developers worldwide. It offers a platform to read and learn from high-quality tech and programming articles, engage in discussions, and even start your own dev blog. Start your journey of learning, sharing, and growing with Hashnode today!",
+      "url": "https://hashnode.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7633ef5616454167a7510414fabb656f",
+      "type": "sub_sub_header",
+      "title": "DEV.to",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "41dd80d1d4b34560a757e279540d12d3",
+      "type": "bookmark",
+      "title": "DEV Community",
+      "description": "A constructive and inclusive social network for software developers. With you every step of your journey.",
+      "url": "https://dev.to/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21e1994e4fa1439e804e7b06981c7919",
+      "type": "sub_sub_header",
+      "title": "HackerNoon",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7939f89b93054c9ca9bca1f0cda8365d",
+      "type": "bookmark",
+      "title": "HackerNoon - read, write and learn about any technology",
+      "description": "How hackers start their afternoon. HackerNoon is a free platform with 25k+ contributing writers. 100M+ humans have visited HackerNoon to learn about technology",
+      "url": "https://hackernoon.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "7cd340a230394a64afdeb48488623fce",
+      "type": "sub_sub_header",
+      "title": "Showcase",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f59929ad543a4399bee939dfe6cc699d",
+      "type": "bookmark",
+      "title": "Explore | Showwcase",
+      "description": "Showwcase is a professional network built for developers to connect, build community, and find new opportunities.",
+      "url": "https://www.showwcase.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5c66e2f2af7e403898f824e940acfd22",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9e8e3c5942514f31a68a89490e9757a4",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "number": 248,
+  "originalUrl": "https://logtape.org/",
+  "requestUrl": "https://logtape.org/",
+  "finalUrl": "https://logtape.org/",
+  "status": 200,
+  "title": "LogTape: unobtrusive logging for modern JavaScript | LogTape",
+  "description": "Unobtrusive logging library with zero dependencies and a library-first design for Deno, Node.js, Bun, browsers, and edge functions",
+  "checkedAt": "2026-10-23T20:10:12.763Z"
+}

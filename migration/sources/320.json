@@ -1,0 +1,10 @@
+{
+  "number": 320,
+  "originalUrl": "https://suspensive.org/en",
+  "requestUrl": "https://suspensive.org/en",
+  "finalUrl": "https://suspensive.org/en",
+  "status": 200,
+  "title": "All-in-one for React Suspense",
+  "description": "Suspensive — declarative ErrorBoundary, Suspense, Delay, ClientOnly, and TanStack Query integration for production React applications. Drop-in alternative to react-error-boundary with shouldCatch, ErrorBoundaryGroup, and SSR support.",
+  "checkedAt": "2026-10-23T20:10:18.249Z"
+}

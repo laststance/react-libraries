@@ -1,0 +1,137 @@
+{
+  "id": "3d86c4594c8846d9a61c99001e2d1066",
+  "title": "ORM",
+  "sourceUrl": "https://laststance.notion.site/3d86c4594c8846d9a61c99001e2d1066",
+  "fetchedAt": "2026-10-23T20:07:13.113Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "cfcab08a1748471bb6d98581021aa89f",
+      "type": "sub_sub_header",
+      "title": "Prisma",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c2a646c070a24f319bfeafdb10354c73",
+      "type": "bookmark",
+      "title": "Prisma | Next-generation ORM for Node.js & TypeScript",
+      "description": "Prisma is a next-generation Node.js and TypeScript ORM for PostgreSQL, MySQL, SQL Server, SQLite, MongoDB, and CockroachDB. It provides type-safety, automated migrations, and an intuitive data model.",
+      "url": "https://www.prisma.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "015fec2f56ff4e86823b462bf58d3eef",
+      "type": "sub_sub_header",
+      "title": "Drizzle ORM",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "785b9a48c2b9491fb46747ae1beecd95",
+      "type": "bookmark",
+      "title": "DrizzleORM - next gen TypeScript ORM",
+      "description": "Drizzle ORM is a lightweight and performant TypeScript ORM with developer experience in mind",
+      "url": "https://orm.drizzle.team/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "39be64d6890645b2a109c27da8890086",
+      "type": "sub_sub_header",
+      "title": "Kysely",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "994f55154dfd4c52a95ee918894c2b49",
+      "type": "bookmark",
+      "title": "Kysely | Kysely",
+      "description": "Kysely let's you write type-safe SQL queries. This eliminates entire classes of errors and let's you sleep peacefully at night.",
+      "url": "https://kysely.dev/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "69b758dc1c0e46f3aa6286cb5c8618d7",
+      "type": "sub_sub_header",
+      "title": "MikroORM",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "ede4399cd9ce467cb3a634330cdcf9b3",
+      "type": "bookmark",
+      "title": "MikroORM: TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns. | MikroORM",
+      "description": "TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns.",
+      "url": "https://mikro-orm.io/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "5257b8ecb75b47c580cf7b18d43c12c1",
+      "type": "sub_sub_header",
+      "title": "Mongoose",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "3a7952da5eea4ca38d9ea950d6e2e5b7",
+      "type": "bookmark",
+      "title": "Mongoose ODM v8.1.1",
+      "description": "Let's face it, writing MongoDB validation, casting and business logic boilerplate is a drag. That's why we wrote Mongoose.",
+      "url": "https://mongoosejs.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c12950e9a28745febe51f7d3c9fc254f",
+      "type": "sub_sub_header",
+      "title": "Sequelize",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "377c1667ddef449ca483e312656ea96a",
+      "type": "bookmark",
+      "title": "Sequelize",
+      "description": "Sequelize is a modern TypeScript and Node.js ORM for Oracle, Postgres, MySQL, MariaDB, SQLite and SQL Server, and more. Featuring solid transaction support, relations, eager and lazy loading, read replication and more.",
+      "url": "https://sequelize.org/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa25802da70bf1155b124c9f",
+      "type": "sub_sub_header",
+      "title": "Orange ORM",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "212f4aa9fa2580bcb6fcc3bcbbd5faf2",
+      "type": "bookmark",
+      "title": "The ultimate ORM for Node and Typescript",
+      "description": "Fetch rows directly in the browser. Developer friendly, concise with with powerful filtering.",
+      "url": "https://orange-orm.io/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

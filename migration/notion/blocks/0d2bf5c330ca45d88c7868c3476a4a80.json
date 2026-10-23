@@ -1,0 +1,344 @@
+{
+  "id": "0d2bf5c330ca45d88c7868c3476a4a80",
+  "title": "OSS Next App",
+  "sourceUrl": "https://laststance.notion.site/0d2bf5c330ca45d88c7868c3476a4a80",
+  "fetchedAt": "2026-10-23T20:07:08.216Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "4849e1109b104e4fac63889b3e566521",
+      "type": "header",
+      "title": "App Router",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d59b8cb2fd514c328b42b48334b8e347",
+      "type": "sub_sub_header",
+      "title": "Cap",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "bad69f1d39de47be9425a1ab45bbe414",
+      "type": "external_object_instance",
+      "title": "Cap",
+      "description": "",
+      "url": "https://github.com/CapSoftware/cap",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a271d94871b04716804ed9a3be538aa0",
+      "type": "sub_sub_header",
+      "title": "Node.js.org",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "9013619053384877922e90b775ee4419",
+      "type": "external_object_instance",
+      "title": "nodejs.org",
+      "description": "",
+      "url": "https://github.com/nodejs/nodejs.org",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d50e6ae1571c4459b3404d48fe4e0dec",
+      "type": "sub_sub_header",
+      "title": "Morphic",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "2ba6657f6c1e48da9cab0118682929bc",
+      "type": "external_object_instance",
+      "title": "morphic",
+      "description": "",
+      "url": "https://github.com/miurla/morphic",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "dc73d6feb87a46ca836e9ba294703c1c",
+      "type": "sub_sub_header",
+      "title": "Dub.co",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "0c76070041aa4014a2488c63ffbf1f74",
+      "type": "external_object_instance",
+      "title": "dub",
+      "description": "",
+      "url": "https://github.com/dubinc/dub",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "c582ea4fb6bb45eaad03b37073d821e7",
+      "type": "sub_sub_header",
+      "title": "Noodle",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "e72e47d286ab4c0bac89c927cb513418",
+      "type": "external_object_instance",
+      "title": "noodle",
+      "description": "",
+      "url": "https://github.com/noodle-run/noodle",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "245a90bed94e473f9354fa62678a820b",
+      "type": "sub_sub_header",
+      "title": "Argos-CI",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1a5b8cdb69664d99a4da2a6465c08a2f",
+      "type": "external_object_instance",
+      "title": "argos",
+      "description": "",
+      "url": "https://github.com/argos-ci/argos",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "96d3cc1f28ce4bde9f925499a453657c",
+      "type": "sub_sub_header",
+      "title": "Preset-Explorer",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "62440915316f433f84ca57eae47aebdf",
+      "type": "external_object_instance",
+      "title": "preset-explorer",
+      "description": "",
+      "url": "https://github.com/raycast/preset-explorer",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d2f9710e09c14f70a94c047d46d3cddb",
+      "type": "sub_sub_header",
+      "title": "Vercel Platform",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "d598c902be9d465b8f7b2f7886198ce7",
+      "type": "external_object_instance",
+      "title": "platforms",
+      "description": "",
+      "url": "https://github.com/vercel/platforms",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8cd42558f8d04695be1b92af6ab7b6f4",
+      "type": "sub_sub_header",
+      "title": "book-inventory",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "85ec2dd7af3c478da9eeafe6e6331993",
+      "type": "external_object_instance",
+      "title": "book-inventory",
+      "description": "",
+      "url": "https://github.com/vercel-labs/book-inventory",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "59dafaf3cebc4f35a96dec286ccfd157",
+      "type": "sub_sub_header",
+      "title": "AnswerOverflow",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "8c99285ff6bc4812a85fee63be72f78f",
+      "type": "external_object_instance",
+      "title": "AnswerOverflow",
+      "description": "",
+      "url": "https://github.com/AnswerOverflow/AnswerOverflow",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "caf12bf773844d50a0df877c63e56370",
+      "type": "sub_sub_header",
+      "title": "Next.js AI Chatbot",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "4c2d4e2735cc455f97f5d4e76b5227e9",
+      "type": "external_object_instance",
+      "title": "chatbot",
+      "description": "",
+      "url": "https://github.com/vercel/ai-chatbot",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a76d660c5fff49e8b8ba71b9f081396c",
+      "type": "sub_sub_header",
+      "title": "Gitbook",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "f8f1f3c9da754fb69080e547221235d3",
+      "type": "external_object_instance",
+      "title": "gitbook",
+      "description": "",
+      "url": "https://github.com/GitbookIO/gitbook",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "24bdaf8789cf4fd5974a5a55a3bc6192",
+      "type": "sub_sub_header",
+      "title": "Ray.so",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a67dea519cdf40928b3eeb59b92cb7bc",
+      "type": "external_object_instance",
+      "title": "ray-so",
+      "description": "",
+      "url": "https://github.com/raycast/ray-so",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1faf4aa9fa2580d38e33e03c0b50f780",
+      "type": "sub_sub_header",
+      "title": "rag-web-ui",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1faf4aa9fa258002ac9ee3e5d019dcaf",
+      "type": "external_object_instance",
+      "title": "rag-web-ui",
+      "description": "",
+      "url": "https://github.com/rag-web-ui/rag-web-ui",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20af4aa9fa2580929023f6e05794e424",
+      "type": "sub_sub_header",
+      "title": "deepwki-open",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "20af4aa9fa2580d89afae02a9deaf374",
+      "type": "external_object_instance",
+      "title": "deepwiki-open",
+      "description": "",
+      "url": "https://github.com/AsyncFuncAI/deepwiki-open",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21df4aa9fa258004b61dd49a8a41843c",
+      "type": "sub_sub_header",
+      "title": "Gitbook",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21df4aa9fa2580c99a3ecd2c6fc7971f",
+      "type": "bookmark",
+      "title": "GitBook – Build product documentation your users will love",
+      "description": "Forget building and maintaining your own custom docs platform. With GitBook you get beautiful documentation for your users, and a branch-based Git workflow your team will love.",
+      "url": "https://www.gitbook.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21df4aa9fa25809b81cfe3afc61fd5d0",
+      "type": "sub_sub_header",
+      "title": "llm status",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21df4aa9fa2580fd8858d2d91f4b71e9",
+      "type": "bookmark",
+      "title": "LLM Leaderboard 2025 - Model Rankings & Analysis",
+      "description": "Access the latest LLM leaderboard with comprehensive performance metrics and benchmark data. Compare top language models with interactive analysis tools.",
+      "url": "https://llm-stats.com/",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21df4aa9fa258092b87ae4127cf01c78",
+      "type": "sub_sub_header",
+      "title": "Plane",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "21df4aa9fa258018b72ce29fb1314bc6",
+      "type": "external_object_instance",
+      "title": "plane",
+      "description": "",
+      "url": "https://github.com/makeplane/plane",
+      "links": [],
+      "children": []
+    }
+  ]
+}

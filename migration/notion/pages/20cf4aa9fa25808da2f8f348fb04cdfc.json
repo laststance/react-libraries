@@ -1,0 +1,20 @@
+{
+  "id": "20cf4aa9fa25808da2f8f348fb04cdfc",
+  "parent": "a1c7b0f128aa4a9685b4d1848d0800b5",
+  "sourceUrl": "https://laststance.notion.site/20cf4aa9fa25808da2f8f348fb04cdfc",
+  "title": "Data Fetch / XHR",
+  "content": "\n### Axios\n\n<bookmark source=\"https://axios-http.com/docs/intro\" />\n\n### ky\n\n<unknown url=\"https://app.notion.com/p/20cf4aa9fa25808da2f8f348fb04cdfc#20cf4aa9fa258095bb0ec637ab83f02e\" alt=\"external_object_instance\" />\n\n### redaxios\n\n<unknown url=\"https://app.notion.com/p/20cf4aa9fa25808da2f8f348fb04cdfc#20cf4aa9fa25805c85a3c6e0c1f3cc3e\" alt=\"external_object_instance\" />\n\n### apisource\n\n<unknown url=\"https://app.notion.com/p/20cf4aa9fa25808da2f8f348fb04cdfc#20cf4aa9fa258013892fd566b6f7242e\" alt=\"external_object_instance\" />\n\n### <b>Better Fetch</b>\n\n<bookmark source=\"https://better-fetch.vercel.app/\" />\n\n## <b>verifyfetch</b>\n\n<unknown url=\"https://app.notion.com/p/20cf4aa9fa25808da2f8f348fb04cdfc#309f4aa9fa258005b9a1d8d6a6de7ab0\" alt=\"external_object_instance\" />\n\n<p />\n",
+  "children": [],
+  "metadata": {
+    "fetchedAt": "2026-10-24",
+    "lastEditedAt": "2026-02-16T13:31:00.418Z",
+    "truncated": true,
+    "unknownBlockCount": 4,
+    "unknownBlockIds": [
+      "20cf4aa9-fa25-8095-bb0e-c637ab83f02e",
+      "20cf4aa9-fa25-805c-85a3-c6e0c1f3cc3e",
+      "20cf4aa9-fa25-8013-892f-d566b6f7242e",
+      "309f4aa9-fa25-8005-b9a1-d8d6a6de7ab0"
+    ]
+  }
+}

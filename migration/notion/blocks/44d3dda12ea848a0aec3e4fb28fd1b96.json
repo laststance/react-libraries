@@ -1,0 +1,29 @@
+{
+  "id": "44d3dda12ea848a0aec3e4fb28fd1b96",
+  "title": "Zip/PDF",
+  "sourceUrl": "https://laststance.notion.site/44d3dda12ea848a0aec3e4fb28fd1b96",
+  "fetchedAt": "2026-10-23T20:07:13.458Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "2eb52ab417d644948dda0cc48c94805b",
+      "type": "sub_sub_header",
+      "title": "Zip.js",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "a170803c020a49c09f70e1bc479f1ddb",
+      "type": "bookmark",
+      "title": "zip.js - JavaScript library to zip and unzip files",
+      "description": "zip.js is a JavaScript library to zip and unzip files.",
+      "url": "https://gildas-lormeau.github.io/zip.js/",
+      "links": [],
+      "children": []
+    }
+  ]
+}

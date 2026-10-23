@@ -1,0 +1,38 @@
+{
+  "id": "1f6f4aa9fa2580b394cac20fa552e1af",
+  "title": "Diff",
+  "sourceUrl": "https://laststance.notion.site/1f6f4aa9fa2580b394cac20fa552e1af",
+  "fetchedAt": "2026-10-23T20:07:09.951Z",
+  "chunks": 1,
+  "cursorExhausted": true,
+  "missing": [],
+  "blocks": [
+    {
+      "id": "1f6f4aa9fa2580bdae55d8cb1ac7f30f",
+      "type": "sub_sub_header",
+      "title": "JSDiff",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f6f4aa9fa2580cf8b4ee933164667a9",
+      "type": "external_object_instance",
+      "title": "jsdiff",
+      "description": "",
+      "url": "https://github.com/kpdecker/jsdiff",
+      "links": [],
+      "children": []
+    },
+    {
+      "id": "1f6f4aa9fa258005948ad146b5a1db34",
+      "type": "text",
+      "title": "",
+      "description": "",
+      "url": "",
+      "links": [],
+      "children": []
+    }
+  ]
+}
