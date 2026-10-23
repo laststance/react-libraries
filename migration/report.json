@@ -136,6 +136,31 @@
       "number": 371,
       "url": "https://visgl.github.io/react-map-gl/",
       "reason": "Use the verified HTTPS documentation URL instead of the original HTTP bookmark."
+    },
+    {
+      "number": 88,
+      "url": "https://github.com/wa0x6e/cal-heatmap",
+      "reason": "The saved documentation domain redirects to an unrelated gambling site; use the official project repository."
+    },
+    {
+      "number": 501,
+      "url": "https://github.com/prabhuignoto/react-chrono",
+      "reason": "The saved documentation domain redirects to an unrelated gambling site; use the official project repository."
+    },
+    {
+      "number": 17,
+      "url": "https://turso.tech/",
+      "reason": "Use the primary product website instead of the saved social profile."
+    },
+    {
+      "number": 167,
+      "url": "https://authjs.dev/",
+      "reason": "Prefer the current Auth.js documentation over the legacy NextAuth domain."
+    },
+    {
+      "number": 427,
+      "url": "https://vike.dev/",
+      "reason": "Prefer current Vike documentation over the legacy vite-plugin-ssr domain."
     }
   ],
   "mapping": [

@@ -59,3 +59,17 @@ test("duplicate bookmarks share one overview while unavailable historical source
   assert.match(oldEditor.caveat!, /returned 404/);
   assert.equal(libraries.find((entry) => entry.id === "mui-data-grid")?.sourceIds.length, 0);
 });
+
+test("chart libraries whose old docs redirect to unrelated sites link to their official repositories", () => {
+  // Arrange
+  const calendarHeatmap = libraries.find((entry) => entry.id === "cal-heatmap")!;
+  const timeline = libraries.find((entry) => entry.id === "react-chrono")!;
+
+  // Act / Assert
+  assert.equal(calendarHeatmap.official, "https://github.com/wa0x6e/cal-heatmap");
+  assert.equal(timeline.official, "https://github.com/prabhuignoto/react-chrono");
+  assert.match(calendarHeatmap.caveat!, /redirects to unrelated content/);
+  assert.match(timeline.caveat!, /redirects to unrelated content/);
+  assert.equal(report.mapping.find((entry: { sourceId: number }) => entry.sourceId === 88).sourceUrl, "https://cal-heatmap.com/");
+  assert.equal(report.mapping.find((entry: { sourceId: number }) => entry.sourceId === 501).sourceUrl, "https://react-chrono.prabhumurthy.com/");
+});

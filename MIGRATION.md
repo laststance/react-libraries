@@ -28,7 +28,7 @@ Every distinct entry has an English explanation of what it does and a concise `G
 
 Repeated projects share one overview. For example, both cmdk bookmarks resolve to one entry; 16 repeated project names were consolidated across different URLs. `migration/report.json` maps each of the 577 original URLs and all 612 occurrences to the destination ID. Original headings and URLs remain in the snapshots even when their spelling or identity was corrected.
 
-Twenty-one links were corrected, with reasons in `migration/link-corrections.json` and HTTP verification in `migration/correction-checks.json`. Examples include outdated documentation paths, HTTP to HTTPS, and domains that now describe a different product. Original URLs are never overwritten in the source inventory.
+Twenty-six links were corrected, with reasons in `migration/link-corrections.json` and HTTP verification in `migration/correction-checks.json`. Examples include outdated documentation paths, HTTP to HTTPS, and domains that now describe a different product. Cal-Heatmap and React Chrono use their official repositories because the saved documentation domains redirect to unrelated content, despite returning HTTP 200. Reachability alone does not establish project identity. Original URLs are never overwritten in the source inventory.
 
 ## Verification limits
 

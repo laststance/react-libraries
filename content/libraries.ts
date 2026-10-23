@@ -501,14 +501,14 @@ export const libraries: Library[] = [
     "goodFor": "Adding provider-based sign-in and session handling to a web application.",
     "monogram": "Au",
     "kind": "Library / tool",
-    "official": "https://next-auth.js.org/",
+    "official": "https://authjs.dev/",
     "keywords": [],
     "sourceIds": [
       167,
       297
     ],
     "references": [
-      "https://authjs.dev/"
+      "https://next-auth.js.org/"
     ],
     "sourceStatus": "available"
   },
@@ -811,7 +811,8 @@ export const libraries: Library[] = [
     "goodFor": "Visualizing activity or measurements over days and months.",
     "monogram": "Ca",
     "kind": "Library / tool",
-    "official": "https://cal-heatmap.com/",
+    "caveat": "The saved documentation domain redirects to unrelated content. Use the official project repository linked here.",
+    "official": "https://github.com/wa0x6e/cal-heatmap",
     "keywords": [],
     "sourceIds": [
       88
@@ -5630,7 +5631,8 @@ export const libraries: Library[] = [
     "goodFor": "Presenting events, milestones, or historical information in sequence.",
     "monogram": "Re",
     "kind": "Library / tool",
-    "official": "https://react-chrono.prabhumurthy.com/",
+    "caveat": "The saved documentation domain redirects to unrelated content. Use the official project repository linked here.",
+    "official": "https://github.com/prabhuignoto/react-chrono",
     "keywords": [],
     "sourceIds": [
       501
@@ -8177,12 +8179,14 @@ export const libraries: Library[] = [
     "goodFor": "Applications that want a hosted SQLite-oriented database workflow.",
     "monogram": "Tu",
     "kind": "Data tool",
-    "official": "https://twitter.com/tursodatabase",
+    "official": "https://turso.tech/",
     "keywords": [],
     "sourceIds": [
       17
     ],
-    "references": [],
+    "references": [
+      "https://twitter.com/tursodatabase"
+    ],
     "sourceStatus": "available"
   },
   {
@@ -8706,14 +8710,14 @@ export const libraries: Library[] = [
     "goodFor": "Configuring an application rendering stack with modular integrations.",
     "monogram": "Vi",
     "kind": "Framework / starter",
-    "official": "https://vite-plugin-ssr.com/",
+    "official": "https://vike.dev/",
     "keywords": [],
     "sourceIds": [
       427,
       432
     ],
     "references": [
-      "https://vike.dev/"
+      "https://vite-plugin-ssr.com/"
     ],
     "sourceStatus": "available"
   },

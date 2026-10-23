@@ -189,5 +189,50 @@
     "status": 200,
     "finalUrl": "https://visgl.github.io/react-map-gl/",
     "checkedAt": "2026-10-23T20:32:42.917Z"
+  },
+  {
+    "number": 88,
+    "url": "https://github.com/wa0x6e/cal-heatmap",
+    "reason": "The saved documentation domain redirects to an unrelated gambling site; use the official project repository.",
+    "status": 200,
+    "finalUrl": "https://github.com/wa0x6e/cal-heatmap",
+    "title": "GitHub - wa0x6e/cal-heatmap: Cal-Heatmap is a javascript charting library to create a time-series calendar heatmap · GitHub",
+    "checkedAt": "2026-10-23T21:05:35.453Z"
+  },
+  {
+    "number": 501,
+    "url": "https://github.com/prabhuignoto/react-chrono",
+    "reason": "The saved documentation domain redirects to an unrelated gambling site; use the official project repository.",
+    "status": 200,
+    "finalUrl": "https://github.com/prabhuignoto/react-chrono",
+    "title": "GitHub - prabhuignoto/react-chrono: Modern Timeline Component for React · GitHub",
+    "checkedAt": "2026-10-23T21:05:36.072Z"
+  },
+  {
+    "number": 17,
+    "url": "https://turso.tech/",
+    "reason": "Use the primary product website instead of the saved social profile.",
+    "status": 200,
+    "finalUrl": "https://turso.tech/",
+    "title": "Turso - Millions of Databases. One Architecture.",
+    "checkedAt": "2026-10-23T21:06:31.408Z"
+  },
+  {
+    "number": 167,
+    "url": "https://authjs.dev/",
+    "reason": "Prefer the current Auth.js documentation over the legacy NextAuth domain.",
+    "status": 200,
+    "finalUrl": "https://authjs.dev/",
+    "title": "GitHub",
+    "checkedAt": "2026-10-23T21:06:31.478Z"
+  },
+  {
+    "number": 427,
+    "url": "https://vike.dev/",
+    "reason": "Prefer current Vike documentation over the legacy vite-plugin-ssr domain.",
+    "status": 200,
+    "finalUrl": "https://vike.dev/",
+    "title": "Vike",
+    "checkedAt": "2026-10-23T21:06:31.734Z"
   }
 ]

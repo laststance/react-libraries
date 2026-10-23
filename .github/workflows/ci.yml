@@ -36,7 +36,12 @@ jobs:
       - name: Build pages and the search index
         run: pnpm run build
       - name: Ensure generated pages match the catalog
-        run: git diff --exit-code -- docs
+        run: |
+          git diff --exit-code -- docs
+          if [ -n "$(git ls-files --others --exclude-standard -- docs)" ]; then
+            git ls-files --others --exclude-standard -- docs
+            exit 1
+          fi
       - name: Install Chromium
         run: pnpm exec playwright install --with-deps chromium
       - name: Verify migration coverage and browser journeys

@@ -4,11 +4,11 @@
 
 The user selected both themes in round 02 on October 24, 2026:
 
-- Light: **L2 / Option C — Soft Panels**, rated 5/5, “ライトテーマはこれ。”
-- Dark: **D1 / Option B — Familiar Docs**, rated 5/5, “ダークテーマはこれ。”
+- Light: **L2 / Option C — Soft Panels**, rated 5/5, “This is the light theme.” (translated)
+- Dark: **D1 / Option B — Familiar Docs**, rated 5/5, “This is the dark theme.” (translated)
 
 Source board: `b-20261023-193239-movhwy`.
-Approval record: `/Users/ryotamurakami/.gstack/projects/laststance/designs/react-library-directions-20261024/round-02/approved.json`.
+Maintainer-local approval record (not bundled with this repository): `~/.gstack/projects/laststance/designs/react-library-directions-20261024/round-02/approved.json`.
 
 ## Layout
 
@@ -38,7 +38,7 @@ Use Blume's Inter font, 15px body text, 40px desktop page titles, 21px section t
 
 ## Reference archive
 
-The original ten concepts, both selected images, and the 15-image reference gallery remain in `/Users/ryotamurakami/.gstack/projects/laststance/designs/react-library-directions-20261024/`.
+The original ten concepts, both selected images, and the 15-image reference gallery remain in `~/.gstack/projects/laststance/designs/react-library-directions-20261024/`.
 
 Reusable offline gallery: `reference-library-archive/index.html`.
 Portable archive: `react-library-design-references-20261024.zip`.

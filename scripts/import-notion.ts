@@ -62,6 +62,8 @@ const kinds: Record<string, string> = {
   databases: "Data tool", "developer-tools": "Developer tool", analytics: "Analytics tool",
 };
 const caveats: Record<number, string> = {
+  88: "The saved documentation domain redirects to unrelated content. Use the official project repository linked here.",
+  501: "The saved documentation domain redirects to unrelated content. Use the official project repository linked here.",
   180: "The original Nexar domain now points elsewhere. This entry links to the author's original reference repository.",
   295: "The Lucia library was deprecated in March 2025. Its current site teaches authentication and session implementation.",
   296: "This entry covers Userfront's authentication tooling. The company homepage now describes a different product; check the original SDK before planning an integration.",
