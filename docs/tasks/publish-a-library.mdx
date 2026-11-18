@@ -1,47 +1,90 @@
 ---
 title: "Publish a library"
 description: "Build packages, inspect dependencies, validate exports, and automate releases."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Test a packed package in a consumer project before publishing it.</PurposeNote>
+<p class="task-context">Test a packed package in a consumer project before publishing it.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-tsup" data-pagefind-title="tsup"><a href="https://github.com/egoist/tsup/blob/main/docs/README.md" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">tsup<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A bundler for TypeScript libraries with a compact configuration surface.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="12871379" title="12,871,379 weekly npm downloads for tsup"><data value="12871379" aria-hidden="true">12.9M</data><span class="sr-only">12,871,379 weekly npm downloads for tsup</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-api-extractor" data-pagefind-title="API Extractor"><a href="https://api-extractor.com/pages/overview/intro/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">API Extractor<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A TypeScript analysis tool for API reports and declaration output.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="6179567" title="6,179,567 weekly npm downloads for @microsoft/api-extractor"><data value="6179567" aria-hidden="true">6.18M</data><span class="sr-only">6,179,567 weekly npm downloads for @microsoft/api-extractor</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-ni" data-pagefind-title="ni"><a href="https://github.com/antfu-collective/ni#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">ni<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A command wrapper that chooses the project's package manager.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="3857380" title="3,857,380 weekly npm downloads for @antfu/ni"><data value="3857380" aria-hidden="true">3.86M</data><span class="sr-only">3,857,380 weekly npm downloads for @antfu/ni</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-publint" data-pagefind-title="publint"><a href="https://publint.dev/docs/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">publint<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A linter for published package structure and compatibility.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="2815525" title="2,815,525 weekly npm downloads for publint"><data value="2815525" aria-hidden="true">2.82M</data><span class="sr-only">2,815,525 weekly npm downloads for publint</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-size-limit" data-pagefind-title="Size Limit"><a href="https://github.com/ai/size-limit" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Size Limit<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A tool for checking JavaScript package size against configured budgets.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="2187396" title="2,187,396 weekly npm downloads for size-limit"><data value="2187396" aria-hidden="true">2.19M</data><span class="sr-only">2,187,396 weekly npm downloads for size-limit</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-release-it" data-pagefind-title="release-it"><a href="https://github.com/release-it/release-it" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">release-it<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A command-line tool for automating software releases.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1063334" title="1,063,334 weekly npm downloads for release-it"><data value="1063334" aria-hidden="true">1.06M</data><span class="sr-only">1,063,334 weekly npm downloads for release-it</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-npm-check-updates" data-pagefind-title="npm-check-updates"><a href="https://github.com/raineorshine/npm-check-updates#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">npm-check-updates<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A tool that finds dependency versions beyond current package ranges.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1035318" title="1,035,318 weekly npm downloads for npm-check-updates"><data value="1035318" aria-hidden="true">1.04M</data><span class="sr-only">1,035,318 weekly npm downloads for npm-check-updates</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-yalc" data-pagefind-title="yalc"><a href="https://github.com/whitecolor/yalc#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">yalc<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A local package workflow for testing unpublished dependencies.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="576660" title="576,660 weekly npm downloads for yalc"><data value="576660" aria-hidden="true">577K</data><span class="sr-only">576,660 weekly npm downloads for yalc</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-pkgroll" data-pagefind-title="pkgroll"><a href="https://github.com/privatenumber/pkgroll" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">pkgroll<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A package bundler that derives outputs from package metadata.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="338743" title="338,743 weekly npm downloads for pkgroll"><data value="338743" aria-hidden="true">339K</data><span class="sr-only">338,743 weekly npm downloads for pkgroll</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-tshy" data-pagefind-title="tshy"><a href="https://github.com/isaacs/tshy" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">tshy<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A TypeScript package builder for ESM and CommonJS outputs.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="297936" title="297,936 weekly npm downloads for tshy"><data value="297936" aria-hidden="true">298K</data><span class="sr-only">297,936 weekly npm downloads for tshy</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-preconstruct" data-pagefind-title="Preconstruct"><a href="https://preconstruct.tools/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Preconstruct<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Build tooling for developing and packaging JavaScript libraries in monorepos.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="44043" title="44,043 weekly npm downloads for @preconstruct/cli"><data value="44043" aria-hidden="true">44K</data><span class="sr-only">44,043 weekly npm downloads for @preconstruct/cli</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-zshy" data-pagefind-title="zshy"><a href="https://github.com/colinhacks/zshy" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">zshy<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A TypeScript library build tool based on the TypeScript compiler.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="23966" title="23,966 weekly npm downloads for zshy"><data value="23966" aria-hidden="true">24K</data><span class="sr-only">23,966 weekly npm downloads for zshy</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-npmgraph" data-pagefind-title="npmgraph"><a href="https://github.com/npmgraph/npmgraph#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">npmgraph<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A visual explorer for npm dependency graphs.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="17" title="17 weekly npm downloads for npmgraph"><data value="17" aria-hidden="true">17</data><span class="sr-only">17 weekly npm downloads for npmgraph</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="packages" />
-
-<LibraryCard libraryId="api-extractor" />
-
-<LibraryCard libraryId="ni" />
-
-<LibraryCard libraryId="npm-check-updates" />
-
-<LibraryCard libraryId="npmgraph" />
-
-<LibraryCard libraryId="pkgroll" />
-
-<LibraryCard libraryId="preconstruct" />
-
-<LibraryCard libraryId="publint" />
-
-<LibraryCard libraryId="release-it" />
-
-<LibraryCard libraryId="size-limit" />
-
-<LibraryCard libraryId="tshy" />
-
-<LibraryCard libraryId="tsup" />
-
-<LibraryCard libraryId="yalc" />
-
-<LibraryCard libraryId="zshy" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse package development &amp; releases →](/packages)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/packages">Package development &amp; releases →</a>
+  <a href="/tasks/publish-a-library.md" download>Download Markdown</a>
+</div>

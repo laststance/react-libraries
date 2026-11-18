@@ -1,12 +1,36 @@
 ---
 import Search from "blume/components/layout/Search.astro";
 ---
-<div class="library-search">
+<directory-search class="library-search">
   <Search {...Astro.props} strings={{ ...Astro.props.strings, label: "Search libraries", placeholder: "Search a library or what you want to build…" }} />
-  <span class="search-field-label" aria-hidden="true">Search libraries… <kbd>⌘ K</kbd></span>
-</div>
+  <template>
+    <form method="dialog"><button class="search-dismiss" type="submit" tabindex="0" aria-label="Close search" title="Close search (Esc)">Close</button></form>
+  </template>
+  <span class="search-field-label" aria-hidden="true">Search libraries… <kbd><span class="mac-shortcut">⌘ K</span><span class="ctrl-shortcut">Ctrl K</span></kbd></span>
+</directory-search>
 
 <script>
+  // Blume ships a static Esc hint here. A native dialog form also works by touch.
+  customElements.define("directory-search", class extends HTMLElement {
+    connectedCallback() {
+      const hint = this.querySelector("[data-blume-search-input] + kbd");
+      const form = this.querySelector<HTMLTemplateElement>(":scope > template")?.content.querySelector("form");
+      if (!hint || !form) return;
+      // Safari restores focus on dismissal when the opener was focused before showModal.
+      const opener = this.querySelector<HTMLButtonElement>("[data-blume-search-open]");
+      opener?.addEventListener("click", () => opener.focus({ preventScroll: true }), { capture: true });
+      // The IME owns these keys, including the last one WebKit sends after compositionend.
+      this.querySelector<HTMLInputElement>("[data-blume-search-input]")?.addEventListener("keydown", (event) => {
+        if (event.isComposing || event.keyCode === 229) event.stopPropagation();
+      });
+      // Blume otherwise activates the highlighted result on Enter anywhere in the dialog.
+      form.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") event.stopPropagation();
+      });
+      hint.replaceWith(form);
+    }
+  });
+
   // Chromium consumes Escape to clear search inputs before the dialog can close.
   // Handle it explicitly while keeping Blume's close event and scroll cleanup.
   document.addEventListener("keydown", (event) => {
@@ -17,4 +41,13 @@ import Search from "blume/components/layout/Search.astro";
     dialog.close();
     document.querySelector<HTMLButtonElement>("[data-blume-search-open]")?.focus();
   });
+
+  // An in-page result keeps the same header, so navigation cannot dismiss the dialog.
+  document.addEventListener("click", (event) => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    if (!(event.target instanceof Element)) return;
+
+    const result = event.target.closest(".library-search [data-blume-search-results] a[href]");
+    result?.closest<HTMLDialogElement>("[data-blume-search-dialog][open]")?.close();
+  }, { capture: true });
 </script>

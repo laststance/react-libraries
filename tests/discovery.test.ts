@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test("category browsing opens library details and preserves the chosen dark theme", async ({ page }) => {
+test("category browsing shows library bios and preserves the chosen dark theme", async ({ page }) => {
   // Arrange
   await page.goto("/dates");
   await expect(page.getByRole("heading", { name: "Dates & time", exact: true })).toBeVisible();
@@ -16,10 +16,12 @@ test("category browsing opens library details and preserves the chosen dark them
   await page.locator("[data-blume-nav-drawer]").getByRole("link", { name: "Data tables", exact: true }).click();
   await expect(page.getByRole("heading", { name: "Data tables", exact: true })).toBeVisible();
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
-  await expect(page.getByText("You build the markup and controls; virtualization is a separate concern.")).toBeVisible();
-  await page.getByRole("heading", { name: "TanStack Table", exact: true }).getByRole("link").click();
-  await expect(page.getByRole("heading", { name: "What you build" })).toBeVisible();
+  const directory = page.getByRole("main");
+  await expect(directory.getByRole("link", { name: "TanStack Table", exact: true })).toHaveAttribute("href", "https://tanstack.com/table/latest/docs/overview");
+  await expect(directory.getByText("Headless sorting, filtering, and pagination", { exact: false })).toBeVisible();
+  await expect(directory.getByRole("heading", { name: "What you build", exact: true })).toHaveCount(0);
   await page.reload();
+  await expect(page).toHaveURL("/data-tables");
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
 });
 
@@ -29,15 +31,17 @@ test("command search finds a task without knowing a library name and recovers fr
 
   // Act
   await page.keyboard.press("ControlOrMeta+k");
-  const search = page.locator("[data-blume-search-input]");
-  await expect(search).toBeVisible();
+  const search = page.getByRole("combobox", { name: "Search libraries" });
+  await expect(search).toBeFocused();
   await search.fill("large dataset");
 
   // Assert
   const results = page.locator("[data-blume-search-results]");
-  await expect(results).toContainText("Explore a large dataset");
+  const task = results.locator('a[href="/tasks/explore-a-large-dataset"]');
+  await expect(task).toContainText("Explore a large dataset");
   await page.screenshot({ path: "qa/task-search.png" });
-  await results.getByRole("option").filter({ hasText: "Explore a large dataset" }).first().click();
+  await task.click();
+  await expect(page).toHaveURL("/tasks/explore-a-large-dataset");
   await expect(page.getByRole("heading", { name: "Explore a large dataset", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "TanStack Table", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "AG Grid", exact: true })).toBeVisible();
@@ -49,6 +53,15 @@ test("command search finds a task without knowing a library name and recovers fr
   await page.keyboard.press("Escape");
   await expect(search).not.toBeVisible();
   await expect(page.getByRole("button", { name: "Search", exact: true })).toBeFocused();
+  await page.keyboard.press("ControlOrMeta+k");
+  await search.fill("Zod");
+  await expect(results.locator('a[href="/validation#library-zod"]')).toBeVisible();
+  await search.press("Tab");
+  const close = page.getByRole("button", { name: "Close search" });
+  await expect(close).toBeFocused();
+  await close.press("Enter");
+  await expect(search).not.toBeVisible();
+  await expect(page).toHaveURL("/tasks/explore-a-large-dataset");
 });
 
 test("mobile navigation exposes categories and closes after choosing a page", async ({ page }) => {
@@ -70,9 +83,78 @@ test("mobile navigation exposes categories and closes after choosing a page", as
   await page.evaluate(async () => { await Promise.all(document.getAnimations().map((animation) => animation.finished)); });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({ path: "qa/mobile-category.png", fullPage: true });
+  const openSearch = page.getByRole("button", { name: "Search", exact: true });
+  await openSearch.click();
+  await page.getByRole("combobox").fill("zzzznonexistentlibrary");
+  await expect(page.locator("[data-blume-search-message]")).toBeVisible();
+  await page.getByRole("button", { name: "Close search" }).click();
+  await expect(page.getByRole("combobox")).not.toBeVisible();
+  await expect(openSearch).toBeFocused();
 });
 
-test("the full collection can be browsed through collapsed category groups and searched by purpose", async ({ page }) => {
+for (const action of ["Enter", "click"] as const) {
+  test(`choosing a result by ${action} closes search and scrolls to its row on the current page`, async ({ page }) => {
+    // Arrange
+    await page.setViewportSize({ width: 1000, height: 500 });
+    await page.goto("/auth");
+    const heading = page.getByRole("heading", { name: "Auth.js", exact: true });
+    await page.evaluate(() => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "instant" }));
+    await expect(heading).not.toBeInViewport();
+    await page.keyboard.press("ControlOrMeta+k");
+    const search = page.getByRole("combobox");
+    await search.fill("next-auth");
+    const option = page.getByRole("option", { selected: true });
+    await expect(option).toHaveAttribute("href", "/auth#library-auth-js");
+
+    // Act
+    if (action === "Enter") await search.press("Enter");
+    else await option.click();
+
+    // Assert
+    await expect(page).toHaveURL("/auth#library-auth-js");
+    await expect(search).not.toBeVisible();
+    await expect(heading).toBeInViewport();
+  });
+}
+
+test("an IME can cancel or commit text while the selected search result stays in place", async ({ page }) => {
+  // Arrange
+  await page.goto("/dates");
+  await page.keyboard.press("ControlOrMeta+k");
+  const search = page.getByRole("combobox");
+  await search.fill("next-auth");
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/auth#library-auth-js");
+
+  // Act: WebKit can mark an IME key with 229 after compositionend.
+  await search.dispatchEvent("keydown", { key: "Escape", keyCode: 229, isComposing: false });
+  await expect(search).toBeFocused();
+  await search.dispatchEvent("keydown", { key: "Enter", keyCode: 229, isComposing: false });
+
+  // Assert
+  await expect(search).toBeFocused();
+  await expect(page).toHaveURL("/dates");
+  await search.press("Escape");
+  await expect(search).not.toBeVisible();
+});
+
+for (const [query, task] of [
+  ["display a table with sorting and filtering", "/tasks/explore-a-large-dataset"],
+  ["format and compare dates", "/tasks/format-a-date"],
+]) {
+  test(`search finds the task for “${query}” without a library name`, async ({ page }) => {
+    // Arrange
+    await page.goto("/");
+    await page.keyboard.press("ControlOrMeta+k");
+
+    // Act
+    await page.getByRole("combobox").fill(query);
+
+    // Assert
+    await expect(page.getByRole("listbox").locator(`a[href="${task}"]`)).toBeVisible();
+  });
+}
+
+test("collapsed categories can be browsed and searching a library name opens its category row", async ({ page }) => {
   // Arrange
   await page.goto("/");
   const drawer = page.locator("[data-blume-nav-drawer]");
@@ -86,16 +168,22 @@ test("the full collection can be browsed through collapsed category groups and s
   await expect(page.getByRole("heading", { name: "Authentication & identity", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Auth.js", exact: true })).toBeVisible();
   await page.keyboard.press("ControlOrMeta+k");
-  const search = page.locator("[data-blume-search-input]");
+  const search = page.getByRole("combobox", { name: "Search libraries" });
   await search.fill("Zod");
   const results = page.locator("[data-blume-search-results]");
-  await expect(results).toContainText("Zod");
-  await results.locator('a[href^="/validation/zod"]').click();
-  await expect(page.getByRole("heading", { name: "Zod", exact: true })).toBeVisible();
-  await expect(page.getByRole("heading", { name: "When it fits" })).toBeVisible();
-  await page.screenshot({ path: "qa/zod-detail.png" });
+  const zod = results.locator('a[href="/validation#library-zod"]');
+  await expect(zod).toHaveCount(1);
+  await expect(zod).toHaveAttribute("aria-selected", "true");
+  await zod.click();
+  await expect(page).toHaveURL("/validation#library-zod");
+  await expect(page.getByRole("heading", { name: "Zod", exact: true })).toBeInViewport();
+  await expect(page.getByText("A TypeScript-oriented schema validation library.", { exact: true })).toBeVisible();
+  await expect(search).not.toBeVisible();
+  await page.screenshot({ path: "qa/zod-directory.png" });
   await page.keyboard.press("ControlOrMeta+k");
   await search.fill("incoming data");
-  await expect(results).toContainText("Validate incoming data");
+  await expect(results.locator('[aria-selected="true"]')).toContainText("Validate incoming data");
   await page.screenshot({ path: "qa/validation-search.png" });
+  await search.press("Enter");
+  await expect(page.getByRole("heading", { name: "Validate incoming data", exact: true })).toBeVisible();
 });

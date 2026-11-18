@@ -1,10 +1,10 @@
 {
   "runner": "pnpm exec playwright test {files}",
   "dependencies": {
-    "**": ["tests/discovery.test.ts", "tests/category-index.test.ts"]
+    "**": ["tests/discovery.test.ts", "tests/category-index.test.ts", "tests/package-search.test.ts"]
   },
   "strays": {
-    "allow": ["components.ts", "pnpm-workspace.yaml", "theme.css", "vercel.json"]
+    "allow": ["components.ts", "pnpm-workspace.yaml", "theme.css", "vercel.ts"]
   },
   "guards": [
     {

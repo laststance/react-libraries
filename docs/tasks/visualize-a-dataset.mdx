@@ -1,45 +1,85 @@
 ---
 title: "Visualize a dataset"
 description: "Explain data with charts, heatmaps, timelines, and custom visualizations."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Ready-made charts accelerate common cases; lower-level primitives allow more control over presentation and interaction.</PurposeNote>
+<p class="task-context">Ready-made charts accelerate common cases; lower-level primitives allow more control over presentation and interaction.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-recharts" data-pagefind-title="Recharts"><a href="https://recharts.github.io/en-US/guide/getting-started/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Recharts<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Composable chart components for React.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="69304263" title="69,304,263 weekly npm downloads for recharts"><data value="69304263" aria-hidden="true">69.3M</data><span class="sr-only">69,304,263 weekly npm downloads for recharts</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-chart-js" data-pagefind-title="Chart.js"><a href="https://www.chartjs.org/docs/latest/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Chart.js<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A canvas-based JavaScript charting library.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="17219733" title="17,219,733 weekly npm downloads for chart.js"><data value="17219733" aria-hidden="true">17.2M</data><span class="sr-only">17,219,733 weekly npm downloads for chart.js</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-plotly-js" data-pagefind-title="Plotly.js"><a href="https://plotly.com/javascript/getting-started/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Plotly.js<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">An interactive charting library with many scientific and statistical chart types.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="944056" title="944,056 weekly npm downloads for plotly.js"><data value="944056" aria-hidden="true">944K</data><span class="sr-only">944,056 weekly npm downloads for plotly.js</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-visx" data-pagefind-title="visx"><a href="https://visx.airbnb.tech/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">visx<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Low-level visualization components that combine React with D3 utilities.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="155995" title="155,995 weekly npm downloads for @visx/visx"><data value="155995" aria-hidden="true">156K</data><span class="sr-only">155,995 weekly npm downloads for @visx/visx</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-react-chrono" data-pagefind-title="React Chrono"><a href="https://github.com/prabhuignoto/react-chrono" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">React Chrono<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A React component for displaying chronological timelines.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="57357" title="57,357 weekly npm downloads for react-chrono"><data value="57357" aria-hidden="true">57.4K</data><span class="sr-only">57,357 weekly npm downloads for react-chrono</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-react-calendar-heatmap" data-pagefind-title="React Calendar Heatmap"><a href="https://github.com/kevinsqi/react-calendar-heatmap" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">React Calendar Heatmap<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A React component for calendar-style activity heatmaps.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="41902" title="41,902 weekly npm downloads for react-calendar-heatmap"><data value="41902" aria-hidden="true">41.9K</data><span class="sr-only">41,902 weekly npm downloads for react-calendar-heatmap</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-cal-heatmap" data-pagefind-title="Cal-Heatmap"><a href="https://github.com/wa0x6e/cal-heatmap-doc/blob/main/docs/getting-started/quickstart.md" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Cal-Heatmap<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A charting library for time-series calendar heatmaps.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="19091" title="19,091 weekly npm downloads for cal-heatmap"><data value="19091" aria-hidden="true">19.1K</data><span class="sr-only">19,091 weekly npm downloads for cal-heatmap</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-canvasjs" data-pagefind-title="CanvasJS"><a href="https://canvasjs.com/docs/charts/basics-of-creating-html5-chart/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">CanvasJS<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A charting library for displaying interactive data visualizations.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="13615" title="13,615 weekly npm downloads for @canvasjs/charts"><data value="13615" aria-hidden="true">13.6K</data><span class="sr-only">13,615 weekly npm downloads for @canvasjs/charts</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-canvasjs-react-charts" data-pagefind-title="CanvasJS React Charts"><a href="https://canvasjs.com/docs/charts/integration/react/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">CanvasJS React Charts<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">React components for the CanvasJS charting library.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="6642" title="6,642 weekly npm downloads for @canvasjs/react-charts"><data value="6642" aria-hidden="true">6.64K</data><span class="sr-only">6,642 weekly npm downloads for @canvasjs/react-charts</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-heat-js" data-pagefind-title="Heat.js"><a href="https://www.heatjs.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Heat.js<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A configurable JavaScript heatmap component.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="685" title="685 weekly npm downloads for jheat.js"><data value="685" aria-hidden="true">685</data><span class="sr-only">685 weekly npm downloads for jheat.js</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-plotteus" data-pagefind-title="Plotteus"><a href="https://plotteus.dev/docs/introduction" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Plotteus<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A JavaScript visualization library oriented toward data storytelling.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="57" title="57 weekly npm downloads for plotteus"><data value="57" aria-hidden="true">57</data><span class="sr-only">57 weekly npm downloads for plotteus</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-react-tech-radar" data-pagefind-title="React Tech Radar"><a href="https://github.com/omerg/react-tech-radar" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">React Tech Radar<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A React visualization for technology-radar charts.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="9" title="9 weekly npm downloads for react-tech-radar"><data value="9" aria-hidden="true">9</data><span class="sr-only">9 weekly npm downloads for react-tech-radar</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="charts" />
-
-<LibraryCard libraryId="cal-heatmap" />
-
-<LibraryCard libraryId="canvasjs" />
-
-<LibraryCard libraryId="canvasjs-react-charts" />
-
-<LibraryCard libraryId="chart-js" />
-
-<LibraryCard libraryId="heat-js" />
-
-<LibraryCard libraryId="plotly-js" />
-
-<LibraryCard libraryId="plotteus" />
-
-<LibraryCard libraryId="react-calendar-heatmap" />
-
-<LibraryCard libraryId="react-chrono" />
-
-<LibraryCard libraryId="react-tech-radar" />
-
-<LibraryCard libraryId="recharts" />
-
-<LibraryCard libraryId="visx" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse charts &amp; visualization →](/charts)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/charts">Charts &amp; visualization →</a>
+  <a href="/tasks/visualize-a-dataset.md" download>Download Markdown</a>
+</div>

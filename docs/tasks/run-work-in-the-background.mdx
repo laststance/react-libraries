@@ -1,33 +1,58 @@
 ---
 title: "Run work in the background"
 description: "Schedule recurring tasks, queue jobs, process webhooks, and offload computation."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Choose between an in-process scheduler, a worker pool, and durable background infrastructure based on failure and retry needs.</PurposeNote>
+<p class="task-context">Choose between an in-process scheduler, a worker pool, and durable background infrastructure based on failure and retry needs.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-croner" data-pagefind-title="Croner"><a href="https://croner.56k.guru/usage/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Croner<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A scheduler that runs JavaScript tasks using cron expressions.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="16288568" title="16,288,568 weekly npm downloads for croner"><data value="16288568" aria-hidden="true">16.3M</data><span class="sr-only">16,288,568 weekly npm downloads for croner</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-workerpool" data-pagefind-title="workerpool"><a href="https://github.com/josdejong/workerpool#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">workerpool<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A worker-pool library for browsers and Node.js.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="14721021" title="14,721,021 weekly npm downloads for workerpool"><data value="14721021" aria-hidden="true">14.7M</data><span class="sr-only">14,721,021 weekly npm downloads for workerpool</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-trigger-dev" data-pagefind-title="Trigger.dev"><a href="https://trigger.dev/docs/introduction" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Trigger.dev<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A platform for writing and operating background jobs in application code.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1561196" title="1,561,196 weekly npm downloads for @trigger.dev/sdk"><data value="1561196" aria-hidden="true">1.56M</data><span class="sr-only">1,561,196 weekly npm downloads for @trigger.dev/sdk</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-hookdeck" data-pagefind-title="Hookdeck"><a href="https://hookdeck.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Hookdeck<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Infrastructure and tooling for webhook and event delivery.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="63246" title="63,246 weekly npm downloads for hookdeck-cli"><data value="63246" aria-hidden="true">63.2K</data><span class="sr-only">63,246 weekly npm downloads for hookdeck-cli</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-sidequest-js" data-pagefind-title="Sidequest.js"><a href="https://docs.sidequestjs.com/getting-started/quick-start" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Sidequest.js<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A background-job library for running queued work.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="3085" title="3,085 weekly npm downloads for sidequest"><data value="3085" aria-hidden="true">3.09K</data><span class="sr-only">3,085 weekly npm downloads for sidequest</span></span>
+</li>
+</ul>
+<p class="library-list-divider" data-pagefind-ignore>Without npm counts</p>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-cronicle" data-pagefind-title="Cronicle"><a href="https://github.com/jhuckaby/Cronicle/blob/master/docs/Setup.md" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Cronicle<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A distributed task scheduler and runner with a web interface.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="background-jobs" />
-
-<LibraryCard libraryId="croner" />
-
-<LibraryCard libraryId="cronicle" />
-
-<LibraryCard libraryId="hookdeck" />
-
-<LibraryCard libraryId="sidequest-js" />
-
-<LibraryCard libraryId="trigger-dev" />
-
-<LibraryCard libraryId="workerpool" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse background jobs &amp; workers →](/background-jobs)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/background-jobs">Background jobs &amp; workers →</a>
+  <a href="/tasks/run-work-in-the-background.md" download>Download Markdown</a>
+</div>

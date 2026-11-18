@@ -1,0 +1,202 @@
+import { joinBase } from "blume/components/islands/base-path.ts";
+import { highlight, RESULT_POOL, sanitizeExcerpt, SEARCH_LIMIT } from "blume/components/layout/search/types.ts";
+import type { SearchFn } from "blume/components/layout/search/types.ts";
+import type { PackageSearchRows } from "./directory-search.ts";
+
+declare const __DIRECTORY_PACKAGE_ROWS__: PackageSearchRows;
+const packageRows = __DIRECTORY_PACKAGE_ROWS__;
+
+interface PagefindHit {
+  url: string;
+  title: string;
+  excerpt: string;
+}
+
+interface PagefindPage extends Omit<PagefindHit, "title"> {
+  meta: { title?: string };
+  sub_results: (PagefindHit & {
+    anchor?: { id: string; location: number };
+    locations: number[];
+  })[];
+}
+
+interface PagefindDocument {
+  id: string;
+  data(): Promise<PagefindPage>;
+}
+
+interface PagefindModule {
+  createInstance(options: { basePath: string; baseUrl: string }): {
+    filters(): Promise<unknown>;
+    destroy(): Promise<void>;
+    search(query: string): Promise<{ results: PagefindDocument[] }>;
+  };
+}
+
+type PagefindIndex = ReturnType<PagefindModule["createInstance"]>;
+
+// Pagefind links to built directories; Blume serves those routes without the slash.
+const trailingSlash = /(?<=.)\/(?=[#?]|$)/u;
+const exactPackageWaitMs = 200;
+
+/** Folds case and spaces for the query and result titles compared by {@link titleMatch}.
+ * @example normalize(" TanStack   Query "); // "tanstack query"
+ */
+const normalize = (text: string) => text.toLowerCase().trim().replace(/\s+/gu, " ");
+
+/** Ranks direct title matches above the fuzzy matches returned by {@link createSearch}.
+ * @example titleMatch("tanstack query", "tanstack q"); // 2
+ */
+function titleMatch(title: string, query: string): number {
+  if (title === query) return 3;
+  if (title.startsWith(query)) return 2;
+  return title.includes(query) ? 1 : 0;
+}
+
+/** Reads Pagefind documents for {@link createSearch} and retains successful fragments.
+ * An empty index response is valid. A failed search or wholly unreadable response is an error.
+ * @example const pages = await searchPages(index, "large dataset", new Map());
+ */
+async function searchPages(
+  index: PagefindIndex,
+  query: string,
+  pendingFragments: Map<string, Promise<PagefindPage>>,
+): Promise<PagefindPage[]> {
+  const { results } = await index.search(query);
+  // A name like Render can rank below many pages that use the same word in prose.
+  const fragments = await Promise.allSettled(results.slice(0, RESULT_POOL).map((result) => {
+    // Pagefind's main-thread fallback rewrites the same page object on each read.
+    const snapshot = async () => ({ ...await result.data() });
+    const previous = pendingFragments.get(result.id);
+    const reading = previous ? previous.then(snapshot, snapshot) : snapshot();
+    const pending = reading.finally(() => {
+      if (pendingFragments.get(result.id) === pending) pendingFragments.delete(result.id);
+    });
+    pendingFragments.set(result.id, pending);
+    return pending;
+  }));
+  const pages = fragments.flatMap((fragment) => fragment.status === "fulfilled" ? [fragment.value] : []);
+  if (pages.length === 0) {
+    const failure = fragments.find((fragment) => fragment.status === "rejected");
+    if (failure) throw failure.reason;
+  }
+  return pages;
+}
+
+/** Caps Pagefind enrichment for exact package rows so local results can render during an outage.
+ * @example const pages = await waitForRelatedPages(loadIndex(), (index) => searchPages(index, "next-auth", new Map()));
+ */
+async function waitForRelatedPages(
+  index: Promise<PagefindIndex>,
+  search: (instance: PagefindIndex) => Promise<PagefindPage[]>,
+): Promise<PagefindPage[]> {
+  const expiresAt = performance.now() + exactPackageWaitMs;
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  const deadline = new Promise<PagefindPage[]>((resolve) => {
+    timer = setTimeout(() => resolve([]), exactPackageWaitMs);
+  });
+  // The shared index stays alive for later queries, but expired lookups skip search.
+  const relatedPages = index.then((instance) => performance.now() < expiresAt ? search(instance) : []);
+  try {
+    return await Promise.race([relatedPages, deadline]);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/** Loads the Blume build's Pagefind index when the search dialog first opens.
+ * Each query returns library rows at their category anchors and regular page results.
+ * @example const results = await (await createSearch())("TanStack Query");
+ */
+export async function createSearch(): Promise<SearchFn> {
+  const basePath = joinBase(import.meta.env.BASE_URL, "pagefind/");
+  const bundle = `${basePath}pagefind.js`;
+  let index: Promise<PagefindIndex> | undefined;
+  const pendingFragments = new Map<string, Promise<PagefindPage>>();
+  const loadIndex = () => {
+    if (index) return index;
+
+    // Pagefind emits this module at build time, outside Vite's module graph.
+    const attempt: Promise<PagefindIndex> = import(/* @vite-ignore */ bundle)
+      .then(async (pagefind: PagefindModule) => {
+        const instance = pagefind.createInstance({ basePath, baseUrl: "/" });
+        try {
+          // Unlike init(), filters() waits for Pagefind's metadata and WASM to be ready.
+          await instance.filters();
+          return instance;
+        } catch (error) {
+          await instance.destroy().catch(() => undefined);
+          throw error;
+        }
+      })
+      .catch((error: unknown) => {
+        // Unrelated query or fragment failures keep the ready instance.
+        if (index === attempt) index = undefined;
+        throw error;
+      });
+    index = attempt;
+    return attempt;
+  };
+
+  const preload = loadIndex();
+  // Blume uses the startup error to explain that Pagefind is only present after a build.
+  if (import.meta.env.DEV) await preload;
+  else void preload.catch(() => undefined);
+
+  return async (query) => {
+    const normalizedQuery = normalize(query);
+    const exactRows = Object.hasOwn(packageRows, normalizedQuery) ? packageRows[normalizedQuery] : undefined;
+
+    let pages: PagefindPage[] = [];
+    try {
+      const ready = loadIndex();
+      const search = (instance: PagefindIndex) => searchPages(instance, query, pendingFragments);
+      pages = await (exactRows ? waitForRelatedPages(ready, search) : ready.then(search));
+    } catch (error) {
+      // The local package map can still answer an exact query during a Pagefind outage.
+      if (!exactRows) throw error;
+    }
+    const hits = pages.flatMap((page) => {
+      const rows = page.sub_results.flatMap(({ anchor, locations, ...row }) => {
+        if (!anchor?.id.startsWith("library-")) return [];
+
+        // The name begins each row. Pagefind's word offsets also cover typo matches.
+        const name = normalize(row.title);
+        const titleLength = name.split(" ").length;
+        const titleHits = locations.filter((word) => word < anchor.location + titleLength).length;
+        return [{ ...row, rank: titleMatch(name, normalizedQuery) || titleHits / titleLength }];
+      });
+      const title = page.meta.title ?? page.url;
+      const rank = titleMatch(normalize(title), normalizedQuery);
+      // Include the whole page when its title or content outside the rows also matched.
+      const pageMatch = page.sub_results.find(({ anchor }) => !anchor?.id.startsWith("library-"));
+      return rows.length && !rank && !pageMatch
+        ? rows
+        : [{ title, rank, url: page.url, excerpt: pageMatch?.excerpt ?? page.excerpt }, ...rows];
+    });
+
+    const pagefindHits = hits
+      .sort((a, b) => b.rank - a.rank)
+      .slice(0, SEARCH_LIMIT)
+      .map(({ title, url, excerpt }) => ({
+        title: highlight(title, query),
+        url: url.replace(trailingSlash, ""),
+        excerpt: sanitizeExcerpt(excerpt),
+      }));
+    if (!exactRows) {
+      return { hits: pagefindHits, sections: [] };
+    }
+
+    // Package handles may tokenize differently from the displayed library name.
+    const packageHits = exactRows.map(([url, title]) =>
+      pagefindHits.find((hit) => hit.url === url) ?? {
+        title: highlight(title, query),
+        url,
+        excerpt: `npm package ${highlight(normalizedQuery, query)}`,
+      },
+    );
+    const packageUrls = new Set(packageHits.map((hit) => hit.url));
+    const otherHits = pagefindHits.filter((hit) => !packageUrls.has(hit.url));
+    return { hits: [...packageHits, ...otherHits].slice(0, SEARCH_LIMIT), sections: [] };
+  };
+}

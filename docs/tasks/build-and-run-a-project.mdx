@@ -1,35 +1,60 @@
 ---
 title: "Build and run a project"
 description: "Bundle code, analyze builds, and coordinate development processes."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Check runtime targets, output formats, and how tasks depend on one another.</PurposeNote>
+<p class="task-context">Check runtime targets, output formats, and how tasks depend on one another.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-rolldown" data-pagefind-title="Rolldown"><a href="https://rolldown.rs/guide/getting-started" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Rolldown<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A Rust-based JavaScript bundler with a Rollup-oriented API.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="178111682" title="178,111,682 weekly npm downloads for rolldown"><data value="178111682" aria-hidden="true">178M</data><span class="sr-only">178,111,682 weekly npm downloads for rolldown</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-tsx" data-pagefind-title="tsx"><a href="https://tsx.hirok.io/getting-started" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">tsx<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A tool for executing TypeScript files in Node.js.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="143380766" title="143,380,766 weekly npm downloads for tsx"><data value="143380766" aria-hidden="true">143M</data><span class="sr-only">143,380,766 weekly npm downloads for tsx</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-concurrently" data-pagefind-title="concurrently"><a href="https://github.com/open-cli-tools/concurrently#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">concurrently<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A tool for running multiple commands together.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="29486214" title="29,486,214 weekly npm downloads for concurrently"><data value="29486214" aria-hidden="true">29.5M</data><span class="sr-only">29,486,214 weekly npm downloads for concurrently</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-npm-run-all" data-pagefind-title="npm-run-all"><a href="https://github.com/mysticatea/npm-run-all" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">npm-run-all<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A runner for executing npm scripts sequentially or in parallel.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="5367689" title="5,367,689 weekly npm downloads for npm-run-all"><data value="5367689" aria-hidden="true">5.37M</data><span class="sr-only">5,367,689 weekly npm downloads for npm-run-all</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-vercel-ncc" data-pagefind-title="@vercel/ncc"><a href="https://github.com/vercel/ncc#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">@vercel/ncc<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A compiler that bundles a Node.js project into a distributable output.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1390502" title="1,390,502 weekly npm downloads for @vercel/ncc"><data value="1390502" aria-hidden="true">1.39M</data><span class="sr-only">1,390,502 weekly npm downloads for @vercel/ncc</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-rsdoctor" data-pagefind-title="Rsdoctor"><a href="https://rsdoctor.rs/guide/start/intro" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Rsdoctor<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A build-analysis tool for Rspack and webpack.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="788548" title="788,548 weekly npm downloads for @rsdoctor/rspack-plugin"><data value="788548" aria-hidden="true">789K</data><span class="sr-only">788,548 weekly npm downloads for @rsdoctor/rspack-plugin</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-wireit" data-pagefind-title="Wireit"><a href="https://github.com/google/wireit" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Wireit<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A task runner that enhances package scripts with dependency-aware execution.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="234000" title="234,000 weekly npm downloads for wireit"><data value="234000" aria-hidden="true">234K</data><span class="sr-only">234,000 weekly npm downloads for wireit</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="build-tools" />
-
-<LibraryCard libraryId="vercel-ncc" />
-
-<LibraryCard libraryId="concurrently" />
-
-<LibraryCard libraryId="npm-run-all" />
-
-<LibraryCard libraryId="rolldown" />
-
-<LibraryCard libraryId="rsdoctor" />
-
-<LibraryCard libraryId="tsx" />
-
-<LibraryCard libraryId="wireit" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse build tools &amp; task runners →](/build-tools)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/build-tools">Build tools &amp; task runners →</a>
+  <a href="/tasks/build-and-run-a-project.md" download>Download Markdown</a>
+</div>

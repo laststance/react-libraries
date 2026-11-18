@@ -1,17 +1,23 @@
 ---
-import { categories, libraries } from "../content/catalog.ts";
+import { categories } from "../content/catalog.ts";
 import Icon from "blume/components/Icon.astro";
-interface Props { exclude?: string; group?: string; limit?: number; }
-const { exclude, group, limit } = Astro.props;
-const visible = categories.filter((category) => category.id !== exclude && (!group || category.group === group)).slice(0, limit);
+
+interface Props {
+  group: string;
+  tasks?: boolean;
+}
+
+const { group, tasks = false } = Astro.props;
+const entries = categories.filter((category) => category.group === group);
 ---
-<div class="category-grid not-prose">
-  {visible.map((category) => (
-    <a class="category-card" href={`/${category.id}`}>
-      <Icon name={category.icon} size={21} />
-      <div><strong>{category.title}</strong><p>{category.task}</p></div>
-      <span class="category-count">{libraries.filter((library) => library.category === category.id).length}</span>
-      <span aria-hidden="true">→</span>
-    </a>
+<ul class="category-grid not-prose" role="list">
+  {entries.map((category) => (
+    <li>
+      <a class="category-entry" href={tasks ? `/tasks/${category.taskId}` : `/${category.id}`}>
+        <Icon name={category.icon} size={17} />
+        <span>{tasks ? category.task : category.title}</span>
+        <Icon name="arrow-right" size={15} />
+      </a>
+    </li>
   ))}
-</div>
+</ul>

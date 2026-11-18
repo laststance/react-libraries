@@ -1,43 +1,80 @@
 ---
 title: "Fetch and update server data"
-description: "Call APIs, manage cached responses, and connect interface actions to the server."
+description: "Request data from an API, keep cached results current, and send updates from React."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">An HTTP client sends requests; a server-state library also manages caching and synchronization with the UI.</PurposeNote>
+<p class="task-context">Start with an HTTP client for sending requests. Add a server-state library when several screens need to share cached results or refresh after an update.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-axios" data-pagefind-title="Axios"><a href="https://axios.rest/pages/getting-started/first-steps" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Axios<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Send HTTP requests from the browser or Node.js. Interceptors let you share auth headers and error handling.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="147349771" title="147,349,771 weekly npm downloads for axios"><data value="147349771" aria-hidden="true">147M</data><span class="sr-only">147,349,771 weekly npm downloads for axios</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-tanstack-query" data-pagefind-title="TanStack Query"><a href="https://tanstack.com/query/latest/docs/framework/react/overview" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">TanStack Query<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Cache server data across screens, paginate results, and refresh stale queries after a mutation.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="89558516" title="89,558,516 weekly npm downloads for @tanstack/react-query"><data value="89558516" aria-hidden="true">89.6M</data><span class="sr-only">89,558,516 weekly npm downloads for @tanstack/react-query</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-rtk-query" data-pagefind-title="RTK Query"><a href="https://redux.js.org/toolkit/rtk-query/overview" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">RTK Query<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Define API endpoints once to get React hooks that share the cache in your Redux Toolkit store.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="51273033" title="51,273,033 weekly npm downloads for @reduxjs/toolkit"><data value="51273033" aria-hidden="true">51.3M</data><span class="sr-only">51,273,033 weekly npm downloads for @reduxjs/toolkit</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-swr" data-pagefind-title="SWR"><a href="https://swr.vercel.app/docs/getting-started" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">SWR<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Show cached data immediately and refresh it in the background. Useful for read-heavy dashboards.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="28013128" title="28,013,128 weekly npm downloads for swr"><data value="28013128" aria-hidden="true">28M</data><span class="sr-only">28,013,128 weekly npm downloads for swr</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-better-fetch" data-pagefind-title="Better Fetch"><a href="https://better-fetch.vercel.app/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Better Fetch<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Build typed fetch clients and validate request inputs and API responses with schemas.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="22181964" title="22,181,964 weekly npm downloads for @better-fetch/fetch"><data value="22181964" aria-hidden="true">22.2M</data><span class="sr-only">22,181,964 weekly npm downloads for @better-fetch/fetch</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-ky" data-pagefind-title="Ky"><a href="https://github.com/sindresorhus/ky" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Ky<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Add retries, timeouts, and JSON helpers to fetch requests without building a full HTTP client.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="10309907" title="10,309,907 weekly npm downloads for ky"><data value="10309907" aria-hidden="true">10.3M</data><span class="sr-only">10,309,907 weekly npm downloads for ky</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-next-safe-action" data-pagefind-title="next-safe-action"><a href="https://next-safe-action.dev/docs/quick-start" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">next-safe-action<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Validate Next.js Server Action inputs and return typed results to forms and client components.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="519737" title="519,737 weekly npm downloads for next-safe-action"><data value="519737" aria-hidden="true">520K</data><span class="sr-only">519,737 weekly npm downloads for next-safe-action</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-redaxios" data-pagefind-title="redaxios"><a href="https://github.com/developit/redaxios" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">redaxios<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Use familiar Axios-style methods with a small HTTP client built on the browser's fetch API.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="407277" title="407,277 weekly npm downloads for redaxios"><data value="407277" aria-hidden="true">407K</data><span class="sr-only">407,277 weekly npm downloads for redaxios</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-apisauce" data-pagefind-title="apisauce"><a href="https://github.com/infinitered/apisauce" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">apisauce<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Wraps Axios responses in a common success or error result so screens can handle API failures consistently.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="237532" title="237,532 weekly npm downloads for apisauce"><data value="237532" aria-hidden="true">238K</data><span class="sr-only">237,532 weekly npm downloads for apisauce</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-suspensive" data-pagefind-title="Suspensive"><a href="https://suspensive.org/en/docs/introduction" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Suspensive<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Group loading and error states around async React components with Suspense and error boundaries.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="122923" title="122,923 weekly npm downloads for @suspensive/react"><data value="122923" aria-hidden="true">123K</data><span class="sr-only">122,923 weekly npm downloads for @suspensive/react</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-axios-hooks" data-pagefind-title="axios-hooks"><a href="https://github.com/simoneb/axios-hooks" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">axios-hooks<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Run Axios requests from React components with hooks for loading, errors, and responses.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="68303" title="68,303 weekly npm downloads for axios-hooks"><data value="68303" aria-hidden="true">68.3K</data><span class="sr-only">68,303 weekly npm downloads for axios-hooks</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="data-fetching" />
-
-<LibraryCard libraryId="apisauce" />
-
-<LibraryCard libraryId="axios" />
-
-<LibraryCard libraryId="axios-hooks" />
-
-<LibraryCard libraryId="better-fetch" />
-
-<LibraryCard libraryId="ky" />
-
-<LibraryCard libraryId="next-safe-action" />
-
-<LibraryCard libraryId="redaxios" />
-
-<LibraryCard libraryId="rtk-query" />
-
-<LibraryCard libraryId="suspensive" />
-
-<LibraryCard libraryId="swr" />
-
-<LibraryCard libraryId="tanstack-query" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse data fetching &amp; server actions →](/data-fetching)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/data-fetching">Data fetching →</a>
+  <a href="/tasks/fetch-and-update-server-data.md" download>Download Markdown</a>
+</div>

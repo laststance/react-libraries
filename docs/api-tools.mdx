@@ -1,41 +1,75 @@
 ---
 title: "API design & clients"
 description: "Describe API contracts, inspect requests, generate clients, and publish references."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Choose by the job you need to do.">Keep the API contract and generated artifacts aligned with the server behavior they describe.</PurposeNote>
+<div class="library-list not-prose">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-redocly" data-pagefind-title="Redocly"><a href="https://redocly.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Redocly<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Tools for validating API descriptions and publishing API documentation.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="4418160" title="4,418,160 weekly npm downloads for @redocly/cli"><data value="4418160" aria-hidden="true">4.42M</data><span class="sr-only">4,418,160 weekly npm downloads for @redocly/cli</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-orval" data-pagefind-title="Orval"><a href="https://orval.dev/docs/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Orval<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A generator that turns OpenAPI descriptions into typed clients and related tooling.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="4030539" title="4,030,539 weekly npm downloads for orval"><data value="4030539" aria-hidden="true">4.03M</data><span class="sr-only">4,030,539 weekly npm downloads for orval</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-swagger" data-pagefind-title="Swagger"><a href="https://swagger.io/docs/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Swagger<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Tools for editing, documenting, and exploring OpenAPI-described APIs.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1013809" title="1,013,809 weekly npm downloads for swagger-ui-react"><data value="1013809" aria-hidden="true">1.01M</data><span class="sr-only">1,013,809 weekly npm downloads for swagger-ui-react</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-typespec" data-pagefind-title="TypeSpec"><a href="https://typespec.io/docs/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">TypeSpec<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A language for describing APIs and generating specifications and clients.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="448878" title="448,878 weekly npm downloads for @typespec/compiler"><data value="448878" aria-hidden="true">449K</data><span class="sr-only">448,878 weekly npm downloads for @typespec/compiler</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-asyncapi" data-pagefind-title="AsyncAPI"><a href="https://www.asyncapi.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">AsyncAPI<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A specification and tool ecosystem for event-driven APIs.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="99235" title="99,235 weekly npm downloads for @asyncapi/cli"><data value="99235" aria-hidden="true">99.2K</data><span class="sr-only">99,235 weekly npm downloads for @asyncapi/cli</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-postman" data-pagefind-title="Postman"><a href="https://learning.postman.com/docs/getting-started/overview/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Postman<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A workspace for sending requests, testing APIs, and sharing API collections.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="48822" title="48,822 weekly npm downloads for postman-cli"><data value="48822" aria-hidden="true">48.8K</data><span class="sr-only">48,822 weekly npm downloads for postman-cli</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-apidog" data-pagefind-title="Apidog"><a href="https://docs.apidog.com/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Apidog<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">An integrated workspace for API design, debugging, mocking, and documentation.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="5407" title="5,407 weekly npm downloads for apidog-cli"><data value="5407" aria-hidden="true">5.41K</data><span class="sr-only">5,407 weekly npm downloads for apidog-cli</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-insomnia" data-pagefind-title="Insomnia"><a href="https://developer.konghq.com/insomnia/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Insomnia<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">An API client for composing requests and organizing development workflows.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="204" title="204 weekly npm downloads for insomnia-inso"><data value="204" aria-hidden="true">204</data><span class="sr-only">204 weekly npm downloads for insomnia-inso</span></span>
+</li>
+</ul>
+<p class="library-list-divider" data-pagefind-ignore>Without npm counts</p>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-apicurio" data-pagefind-title="Apicurio"><a href="https://www.apicur.io/registry/getting-started/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Apicurio<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Open-source tools for designing APIs and managing schemas in a registry.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-stoplight" data-pagefind-title="Stoplight"><a href="https://docs.stoplight.io/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Stoplight<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Tools for designing and documenting APIs around shared specifications.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+</ul>
+</div>
 
-## Choose a library or tool
-
-10 options in this category.
-
-<LibraryIndex category="api-tools" />
-
-<LibraryCard libraryId="apicurio" />
-
-<LibraryCard libraryId="apidog" />
-
-<LibraryCard libraryId="asyncapi" />
-
-<LibraryCard libraryId="insomnia" />
-
-<LibraryCard libraryId="orval" />
-
-<LibraryCard libraryId="postman" />
-
-<LibraryCard libraryId="redocly" />
-
-<LibraryCard libraryId="stoplight" />
-
-<LibraryCard libraryId="swagger" />
-
-<LibraryCard libraryId="typespec" />
-
-## Keep exploring
-
-<CategoryGrid exclude="api-tools" group="Build and ship" limit={4} />
-
-[Browse all categories →](/)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/api-tools.md" download>Download Markdown</a>
+</div>

@@ -1,51 +1,103 @@
 ---
 title: "Understand and improve a codebase"
 description: "Inspect components, analyze dependencies, generate files, and apply code checks."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Choose tools that expose a concrete maintenance problem and integrate with your existing development workflow.</PurposeNote>
+<p class="task-context">Choose tools that expose a concrete maintenance problem and integrate with your existing development workflow.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-is-reference" data-pagefind-title="is-reference"><a href="https://github.com/Rich-Harris/is-reference#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">is-reference<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A helper that identifies references in JavaScript syntax trees.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="41151444" title="41,151,444 weekly npm downloads for is-reference"><data value="41151444" aria-hidden="true">41.2M</data><span class="sr-only">41,151,444 weekly npm downloads for is-reference</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-knip" data-pagefind-title="Knip"><a href="https://knip.dev/overview/getting-started" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Knip<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A tool for finding unused files, exports, and dependencies.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="32666019" title="32,666,019 weekly npm downloads for knip"><data value="32666019" aria-hidden="true">32.7M</data><span class="sr-only">32,666,019 weekly npm downloads for knip</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-biome" data-pagefind-title="Biome"><a href="https://biomejs.dev/installation/quick-start/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Biome<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A formatter and linter for web-project source code.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="28282045" title="28,282,045 weekly npm downloads for @biomejs/biome"><data value="28282045" aria-hidden="true">28.3M</data><span class="sr-only">28,282,045 weekly npm downloads for @biomejs/biome</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-envinfo" data-pagefind-title="envinfo"><a href="https://github.com/tabrindle/envinfo#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">envinfo<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A utility that reports development environment information.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="21919303" title="21,919,303 weekly npm downloads for envinfo"><data value="21919303" aria-hidden="true">21.9M</data><span class="sr-only">21,919,303 weekly npm downloads for envinfo</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-its-fine" data-pagefind-title="its-fine"><a href="https://github.com/pmndrs/its-fine#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">its-fine<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Escape-hatch utilities for specialized React integrations.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="11996282" title="11,996,282 weekly npm downloads for its-fine"><data value="11996282" aria-hidden="true">12M</data><span class="sr-only">11,996,282 weekly npm downloads for its-fine</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-dependency-cruiser" data-pagefind-title="dependency-cruiser"><a href="https://github.com/sverweij/dependency-cruiser" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">dependency-cruiser<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A dependency analysis tool with configurable architecture rules.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="9195168" title="9,195,168 weekly npm downloads for dependency-cruiser"><data value="9195168" aria-hidden="true">9.2M</data><span class="sr-only">9,195,168 weekly npm downloads for dependency-cruiser</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-bippy" data-pagefind-title="Bippy"><a href="https://github.com/aidenybai/bippy#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Bippy<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Utilities for inspecting React's internal component structures.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="6503328" title="6,503,328 weekly npm downloads for bippy"><data value="6503328" aria-hidden="true">6.5M</data><span class="sr-only">6,503,328 weekly npm downloads for bippy</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-madge" data-pagefind-title="Madge"><a href="https://github.com/pahen/madge" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Madge<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A dependency-graph tool for JavaScript projects.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="4162945" title="4,162,945 weekly npm downloads for madge"><data value="4162945" aria-hidden="true">4.16M</data><span class="sr-only">4,162,945 weekly npm downloads for madge</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-typescript-css-modules-plugin" data-pagefind-title="TypeScript CSS Modules Plugin"><a href="https://github.com/mrmckeb/typescript-plugin-css-modules" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">TypeScript CSS Modules Plugin<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A TypeScript language-service plugin for CSS Modules.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="969475" title="969,475 weekly npm downloads for typescript-plugin-css-modules"><data value="969475" aria-hidden="true">969K</data><span class="sr-only">969,475 weekly npm downloads for typescript-plugin-css-modules</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-code-inspector" data-pagefind-title="Code Inspector"><a href="https://inspector.fe-dev.cn/en/guide/start.html" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Code Inspector<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A development tool that connects rendered page elements to their source code.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="503453" title="503,453 weekly npm downloads for code-inspector-plugin"><data value="503453" aria-hidden="true">503K</data><span class="sr-only">503,453 weekly npm downloads for code-inspector-plugin</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-hygen" data-pagefind-title="Hygen"><a href="https://github.com/jondot/hygen#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Hygen<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A code generator that uses templates kept inside a project.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="501271" title="501,271 weekly npm downloads for hygen"><data value="501271" aria-hidden="true">501K</data><span class="sr-only">501,271 weekly npm downloads for hygen</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-replay" data-pagefind-title="Replay"><a href="https://docs.replay.io/reference/replay-devtools/overview" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Replay<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A tool for recording and replaying application execution.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="53938" title="53,938 weekly npm downloads for replayio"><data value="53938" aria-hidden="true">53.9K</data><span class="sr-only">53,938 weekly npm downloads for replayio</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-mdxlint" data-pagefind-title="mdxlint"><a href="https://github.com/remcohaszing/mdxlint" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">mdxlint<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A command-line linter for MDX documents.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="8139" title="8,139 weekly npm downloads for mdxlint"><data value="8139" aria-hidden="true">8.14K</data><span class="sr-only">8,139 weekly npm downloads for mdxlint</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-next-cache-toolbar" data-pagefind-title="next-cache-toolbar"><a href="https://github.com/KajSzy/next-cache-toolbar/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">next-cache-toolbar<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A development toolbar for inspecting Next.js caching behavior.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="199" title="199 weekly npm downloads for next-cache-toolbar"><data value="199" aria-hidden="true">199</data><span class="sr-only">199 weekly npm downloads for next-cache-toolbar</span></span>
+</li>
+</ul>
+<p class="library-list-divider" data-pagefind-ignore>Without npm counts</p>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-nano-id-collision-calculator" data-pagefind-title="Nano ID Collision Calculator"><a href="https://github.com/zelark/nano-id-cc#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Nano ID Collision Calculator<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A calculator for estimating collisions in randomly generated Nano IDs.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="developer-tools" />
-
-<LibraryCard libraryId="biome" />
-
-<LibraryCard libraryId="bippy" />
-
-<LibraryCard libraryId="code-inspector" />
-
-<LibraryCard libraryId="dependency-cruiser" />
-
-<LibraryCard libraryId="envinfo" />
-
-<LibraryCard libraryId="hygen" />
-
-<LibraryCard libraryId="is-reference" />
-
-<LibraryCard libraryId="its-fine" />
-
-<LibraryCard libraryId="knip" />
-
-<LibraryCard libraryId="madge" />
-
-<LibraryCard libraryId="mdxlint" />
-
-<LibraryCard libraryId="nano-id-collision-calculator" />
-
-<LibraryCard libraryId="next-cache-toolbar" />
-
-<LibraryCard libraryId="replay" />
-
-<LibraryCard libraryId="typescript-css-modules-plugin" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse developer tools &amp; code health →](/developer-tools)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/developer-tools">Developer tools &amp; code health →</a>
+  <a href="/tasks/understand-and-improve-a-codebase.md" download>Download Markdown</a>
+</div>

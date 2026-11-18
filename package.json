@@ -14,8 +14,9 @@
     "doctor": "pnpm content && blume doctor",
     "preview": "blume preview",
     "content": "node scripts/build-content.ts",
+    "downloads:refresh": "node scripts/refresh-downloads.ts",
     "test": "pnpm test:catalog && playwright test",
-    "test:catalog": "pnpm content && node --test tests/catalog.node.ts",
+    "test:catalog": "pnpm content && node --test tests/*.node.ts",
     "validate": "blume validate --strict"
   },
   "dependencies": {
