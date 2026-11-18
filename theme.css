@@ -268,7 +268,16 @@ a, button, summary { -webkit-tap-highlight-color: transparent; }
 .directory-links a:hover { color: var(--blume-accent); }
 
 [data-blume-search-dialog] { background: var(--blume-background); border-radius: 14px; }
-.library-search { position: relative; }
+.library-search { display: block; position: relative; }
+.search-dismiss {
+  min-height: 44px;
+  padding-inline: 8px;
+  border-radius: 5px;
+  color: var(--blume-muted-foreground);
+  font-size: 13px;
+  cursor: pointer;
+}
+.search-dismiss:is(:hover, :focus-visible) { background: var(--library-tint); color: var(--blume-accent); }
 .search-field-label { display: none; }
 [data-blume-search-open], [data-blume-theme-toggle], [data-blume-nav-toggle] { min-width: 44px; min-height: 44px; }
 @media (min-width: 1024px) {

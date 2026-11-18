@@ -53,6 +53,15 @@ test("command search finds a task without knowing a library name and recovers fr
   await page.keyboard.press("Escape");
   await expect(search).not.toBeVisible();
   await expect(page.getByRole("button", { name: "Search", exact: true })).toBeFocused();
+  await page.keyboard.press("ControlOrMeta+k");
+  await search.fill("Zod");
+  await expect(results.locator('a[href="/validation#library-zod"]')).toBeVisible();
+  await search.press("Tab");
+  const close = page.getByRole("button", { name: "Close search" });
+  await expect(close).toBeFocused();
+  await close.press("Enter");
+  await expect(search).not.toBeVisible();
+  await expect(page).toHaveURL("/tasks/explore-a-large-dataset");
 });
 
 test("mobile navigation exposes categories and closes after choosing a page", async ({ page }) => {
@@ -74,6 +83,13 @@ test("mobile navigation exposes categories and closes after choosing a page", as
   await page.evaluate(async () => { await Promise.all(document.getAnimations().map((animation) => animation.finished)); });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({ path: "qa/mobile-category.png", fullPage: true });
+  const openSearch = page.getByRole("button", { name: "Search", exact: true });
+  await openSearch.click();
+  await page.getByRole("combobox").fill("zzzznonexistentlibrary");
+  await expect(page.locator("[data-blume-search-message]")).toBeVisible();
+  await page.getByRole("button", { name: "Close search" }).click();
+  await expect(page.getByRole("combobox")).not.toBeVisible();
+  await expect(openSearch).toBeFocused();
 });
 
 test("collapsed categories can be browsed and searching a library name opens its category row", async ({ page }) => {

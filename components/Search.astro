@@ -1,12 +1,29 @@
 ---
 import Search from "blume/components/layout/Search.astro";
 ---
-<div class="library-search">
+<directory-search class="library-search">
   <Search {...Astro.props} strings={{ ...Astro.props.strings, label: "Search libraries", placeholder: "Search a library or what you want to build…" }} />
+  <template>
+    <form method="dialog"><button class="search-dismiss" type="submit" aria-label="Close search" title="Close search (Esc)">Close</button></form>
+  </template>
   <span class="search-field-label" aria-hidden="true">Search libraries… <kbd><span class="mac-shortcut">⌘ K</span><span class="ctrl-shortcut">Ctrl K</span></kbd></span>
-</div>
+</directory-search>
 
 <script>
+  // Blume ships a static Esc hint here. A native dialog form also works by touch.
+  customElements.define("directory-search", class extends HTMLElement {
+    connectedCallback() {
+      const hint = this.querySelector("[data-blume-search-input] + kbd");
+      const form = this.querySelector("template")?.content.querySelector("form");
+      if (!hint || !form) return;
+      // Blume otherwise activates the highlighted result on Enter anywhere in the dialog.
+      form.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") event.stopPropagation();
+      });
+      hint.replaceWith(form);
+    }
+  });
+
   // Chromium consumes Escape to clear search inputs before the dialog can close.
   // Handle it explicitly while keeping Blume's close event and scroll cleanup.
   document.addEventListener("keydown", (event) => {
