@@ -45,6 +45,9 @@ test("every entry has English purpose and fit copy plus a valid category and gen
     assert.ok(entry.description.length >= 25 && entry.goodFor.length >= 25, entry.name);
     assert.ok(!/[\u3040-\u30ff\u4e00-\u9fff]/u.test(entry.description + entry.goodFor), entry.name);
     assert.equal(new URL(entry.official).protocol, "https:", entry.name);
+    if (entry.documentation !== undefined) {
+      assert.equal(new URL(entry.documentation).protocol, "https:", entry.name);
+    }
   }
 });
 

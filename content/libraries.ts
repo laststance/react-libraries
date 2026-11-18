@@ -10,6 +10,7 @@ export const libraries: Library[] = [
     "goodFor": "Reordering items within or between lists using familiar interactions.",
     "monogram": "he",
     "kind": "Library / tool",
+    "documentation": "https://github.com/hello-pangea/dnd#readme",
     "official": "https://dnd.hellopangea.com/?path=/story/examples-single-vertical-list--basic",
     "keywords": [],
     "sourceIds": [
@@ -26,6 +27,7 @@ export const libraries: Library[] = [
     "goodFor": "Building date controls that need explicit calendar and timezone behavior.",
     "monogram": "in",
     "kind": "Library / tool",
+    "documentation": "https://react-aria.adobe.com/internationalized/date/",
     "official": "https://www.npmjs.com/package/@internationalized/date",
     "keywords": [],
     "sourceIds": [
@@ -42,6 +44,7 @@ export const libraries: Library[] = [
     "goodFor": "Controlling network responses during browser-level application tests.",
     "monogram": "ms",
     "kind": "Testing tool",
+    "documentation": "https://github.com/mswjs/playwright#readme",
     "official": "https://www.npmjs.com/package/@msw/playwright",
     "keywords": [],
     "sourceIds": [
@@ -58,6 +61,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a stateful mocked backend for application test scenarios.",
     "monogram": "ms",
     "kind": "Testing tool",
+    "documentation": "https://github.com/mswjs/data/tree/v0.16.2#readme",
     "official": "https://www.npmjs.com/package/@mswjs/data",
     "keywords": [],
     "sourceIds": [
@@ -74,6 +78,7 @@ export const libraries: Library[] = [
     "goodFor": "Packaging server code and its dependencies for deployment.",
     "monogram": "ve",
     "kind": "Library / tool",
+    "documentation": "https://github.com/vercel/ncc#readme",
     "official": "https://www.npmjs.com/package/@vercel/ncc",
     "keywords": [],
     "sourceIds": [
@@ -90,6 +95,7 @@ export const libraries: Library[] = [
     "goodFor": "Discovering prepared interface elements and page sections.",
     "monogram": "21",
     "kind": "UI toolkit",
+    "documentation": "https://21st.dev/mcp",
     "official": "https://21st.dev/",
     "keywords": [],
     "sourceIds": [
@@ -106,6 +112,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a backend with established conventions and integrated tooling.",
     "monogram": "Ad",
     "kind": "Library / tool",
+    "documentation": "https://docs.adonisjs.com/introduction",
     "official": "https://docs.adonisjs.com/guides/introduction",
     "keywords": [],
     "sourceIds": [
@@ -140,6 +147,7 @@ export const libraries: Library[] = [
     "kind": "Data grid",
     "caveat": "Some advanced features require an Enterprise license.",
     "implementation": "Configure columns, data, and the grid theme, then connect the row model and events to your app. Check the Community and Enterprise feature boundaries for the interactions you need.",
+    "documentation": "https://www.ag-grid.com/react-data-grid/getting-started/",
     "official": "https://www.ag-grid.com/react-data-grid/getting-started/",
     "keywords": [
       "search sort filter",
@@ -162,6 +170,7 @@ export const libraries: Library[] = [
     "goodFor": "Building chat, text generation, and tool-using AI features.",
     "monogram": "AI",
     "kind": "Library / tool",
+    "documentation": "https://ai-sdk.dev/docs/introduction",
     "official": "https://sdk.vercel.ai/docs",
     "keywords": [],
     "sourceIds": [
@@ -178,6 +187,7 @@ export const libraries: Library[] = [
     "goodFor": "Combining suggestions and search results in a custom search box.",
     "monogram": "Al",
     "kind": "Library / tool",
+    "documentation": "https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/what-is-autocomplete",
     "official": "https://github.com/algolia/autocomplete#readme",
     "keywords": [],
     "sourceIds": [
@@ -194,6 +204,7 @@ export const libraries: Library[] = [
     "goodFor": "Learning how algorithms change data step by step.",
     "monogram": "Al",
     "kind": "Learning resource",
+    "documentation": "https://github.com/algorithm-visualizer/algorithm-visualizer#readme",
     "official": "https://github.com/algorithm-visualizer/algorithm-visualizer",
     "keywords": [],
     "sourceIds": [
@@ -226,6 +237,7 @@ export const libraries: Library[] = [
     "goodFor": "Teams that need configurable compute, storage, networking, and managed backends.",
     "monogram": "Am",
     "kind": "Infrastructure",
+    "documentation": "https://docs.aws.amazon.com/",
     "official": "https://aws.amazon.com/",
     "keywords": [],
     "sourceIds": [
@@ -242,6 +254,7 @@ export const libraries: Library[] = [
     "goodFor": "Formatting command-line output with composable styles.",
     "monogram": "An",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/webdiscus/ansis#readme",
     "official": "https://github.com/webdiscus/ansis",
     "keywords": [],
     "sourceIds": [
@@ -258,6 +271,7 @@ export const libraries: Library[] = [
     "goodFor": "Turning community support discussions into searchable answers.",
     "monogram": "An",
     "kind": "Community",
+    "documentation": "https://github.com/AnswerOverflow/AnswerOverflow#readme",
     "official": "https://github.com/AnswerOverflow/AnswerOverflow",
     "keywords": [],
     "sourceIds": [
@@ -277,6 +291,7 @@ export const libraries: Library[] = [
     "goodFor": "Building data-heavy business applications with established component patterns.",
     "monogram": "An",
     "kind": "UI toolkit",
+    "documentation": "https://ant.design/docs/react/introduce/",
     "official": "https://ant.design/",
     "keywords": [],
     "sourceIds": [
@@ -293,6 +308,7 @@ export const libraries: Library[] = [
     "goodFor": "Reviewing public API changes in a published TypeScript library.",
     "monogram": "AP",
     "kind": "Library / tool",
+    "documentation": "https://api-extractor.com/pages/overview/intro/",
     "official": "https://api-extractor.com/pages/overview/intro/",
     "keywords": [],
     "sourceIds": [
@@ -309,6 +325,7 @@ export const libraries: Library[] = [
     "goodFor": "Teams that need shared API definitions and schema governance.",
     "monogram": "Ap",
     "kind": "API tool",
+    "documentation": "https://www.apicur.io/registry/getting-started/",
     "official": "https://www.apicur.io/",
     "keywords": [],
     "sourceIds": [
@@ -325,6 +342,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping API contracts and test workflows in one application.",
     "monogram": "Ap",
     "kind": "API tool",
+    "documentation": "https://docs.apidog.com/",
     "official": "https://apidog.com/",
     "keywords": [],
     "sourceIds": [
@@ -341,6 +359,7 @@ export const libraries: Library[] = [
     "goodFor": "API clients that benefit from consistent success and error results.",
     "monogram": "ap",
     "kind": "Library / tool",
+    "documentation": "https://github.com/infinitered/apisauce#readme",
     "official": "https://github.com/infinitered/apisauce",
     "keywords": [],
     "sourceIds": [
@@ -357,6 +376,7 @@ export const libraries: Library[] = [
     "goodFor": "Building application features from managed or self-hosted backend services.",
     "monogram": "Ap",
     "kind": "Library / tool",
+    "documentation": "https://appwrite.io/docs",
     "official": "https://appwrite.io/",
     "keywords": [],
     "sourceIds": [
@@ -373,6 +393,7 @@ export const libraries: Library[] = [
     "goodFor": "Detecting interface changes by comparing screenshots in development workflows.",
     "monogram": "Ar",
     "kind": "Testing tool",
+    "documentation": "https://argos-ci.com/docs",
     "official": "https://github.com/argos-ci/argos",
     "keywords": [],
     "sourceIds": [
@@ -389,6 +410,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating a custom design system while reusing interaction and accessibility behavior.",
     "monogram": "Ar",
     "kind": "UI toolkit",
+    "documentation": "https://ariakit.com/guide/getting-started",
     "official": "https://ariakit.org/",
     "keywords": [],
     "sourceIds": [
@@ -405,6 +427,7 @@ export const libraries: Library[] = [
     "goodFor": "Reusing accessible interaction patterns while controlling component styling.",
     "monogram": "Ar",
     "kind": "UI toolkit",
+    "documentation": "https://ark-ui.com/docs/overview/getting-started",
     "official": "https://ark-ui.com/",
     "keywords": [],
     "sourceIds": [
@@ -421,6 +444,7 @@ export const libraries: Library[] = [
     "goodFor": "Validating external data while keeping schema definitions close to static types.",
     "monogram": "Ar",
     "kind": "Library / tool",
+    "documentation": "https://arktype.io/docs/intro/setup",
     "official": "https://arktype.io/",
     "keywords": [],
     "sourceIds": [
@@ -437,6 +461,7 @@ export const libraries: Library[] = [
     "goodFor": "Building content-heavy websites with components from supported UI frameworks.",
     "monogram": "As",
     "kind": "Framework / starter",
+    "documentation": "https://docs.astro.build/en/getting-started/",
     "official": "https://astro.build/",
     "keywords": [],
     "sourceIds": [
@@ -453,6 +478,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a coordinated interface from shared design foundations.",
     "monogram": "As",
     "kind": "UI toolkit",
+    "documentation": "https://astryx.atmeta.com/docs/getting-started",
     "official": "https://astryx.atmeta.com/",
     "keywords": [],
     "sourceIds": [
@@ -469,6 +495,7 @@ export const libraries: Library[] = [
     "goodFor": "Documenting message channels, payloads, and asynchronous integrations.",
     "monogram": "As",
     "kind": "API tool",
+    "documentation": "https://www.asyncapi.com/docs",
     "official": "https://www.asyncapi.com/",
     "keywords": [],
     "sourceIds": [
@@ -485,6 +512,7 @@ export const libraries: Library[] = [
     "goodFor": "Building product interfaces around a coordinated enterprise design system.",
     "monogram": "At",
     "kind": "UI toolkit",
+    "documentation": "https://atlassian.design/components",
     "official": "https://atlassian.design/",
     "keywords": [],
     "sourceIds": [
@@ -501,6 +529,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding provider-based sign-in and session handling to a web application.",
     "monogram": "Au",
     "kind": "Library / tool",
+    "documentation": "https://authjs.dev/getting-started",
     "official": "https://authjs.dev/",
     "keywords": [],
     "sourceIds": [
@@ -520,6 +549,7 @@ export const libraries: Library[] = [
     "goodFor": "Supporting multiple sign-in providers across web and mobile applications.",
     "monogram": "Au",
     "kind": "Library / tool",
+    "documentation": "https://auth0.com/docs",
     "official": "https://auth0.com/",
     "keywords": [],
     "sourceIds": [
@@ -552,6 +582,7 @@ export const libraries: Library[] = [
     "goodFor": "Configuring API requests, interceptors, and shared request behavior.",
     "monogram": "Ax",
     "kind": "Library / tool",
+    "documentation": "https://axios.rest/pages/getting-started/first-steps",
     "official": "https://axios-http.com/docs/intro",
     "keywords": [],
     "sourceIds": [
@@ -568,6 +599,7 @@ export const libraries: Library[] = [
     "goodFor": "Connecting request status and responses to React component state.",
     "monogram": "ax",
     "kind": "Library / tool",
+    "documentation": "https://github.com/simoneb/axios-hooks#readme",
     "official": "https://github.com/simoneb/axios-hooks",
     "keywords": [],
     "sourceIds": [
@@ -584,6 +616,7 @@ export const libraries: Library[] = [
     "goodFor": "Implementing password storage in a server-side authentication system.",
     "monogram": "bc",
     "kind": "Library / tool",
+    "documentation": "https://github.com/kelektiv/node.bcrypt.js#readme",
     "official": "https://github.com/kelektiv/node.bcrypt.js",
     "keywords": [],
     "sourceIds": [
@@ -600,6 +633,7 @@ export const libraries: Library[] = [
     "goodFor": "Avoiding repeated browser-event and component-state plumbing.",
     "monogram": "be",
     "kind": "Library / tool",
+    "documentation": "https://github.com/antonioru/beautiful-react-hooks#readme",
     "official": "https://github.com/antonioru/beautiful-react-hooks?tab=readme-ov-file",
     "keywords": [],
     "sourceIds": [
@@ -616,6 +650,7 @@ export const libraries: Library[] = [
     "goodFor": "Implementing accounts and sessions with an extensible application-owned auth layer.",
     "monogram": "Be",
     "kind": "Library / tool",
+    "documentation": "https://better-auth.com/docs/installation",
     "official": "https://www.better-auth.com/",
     "keywords": [],
     "sourceIds": [
@@ -632,6 +667,7 @@ export const libraries: Library[] = [
     "goodFor": "Building typed API clients around the standard Fetch API.",
     "monogram": "Be",
     "kind": "Library / tool",
+    "documentation": "https://better-fetch.vercel.app/docs",
     "official": "https://better-fetch.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -648,6 +684,7 @@ export const libraries: Library[] = [
     "goodFor": "Connecting an upload interface directly to object storage.",
     "monogram": "Be",
     "kind": "Library / tool",
+    "documentation": "https://better-upload.com/docs",
     "official": "https://better-upload.com/",
     "keywords": [],
     "sourceIds": [
@@ -664,6 +701,7 @@ export const libraries: Library[] = [
     "goodFor": "Choosing compatible frontend, backend, and tooling options when starting a project.",
     "monogram": "Be",
     "kind": "Framework / starter",
+    "documentation": "https://www.better-t-stack.dev/docs",
     "official": "https://www.better-t-stack.dev/new",
     "keywords": [],
     "sourceIds": [
@@ -683,6 +721,7 @@ export const libraries: Library[] = [
     "goodFor": "Applying consistent formatting and automated code checks.",
     "monogram": "Bi",
     "kind": "Developer tool",
+    "documentation": "https://biomejs.dev/installation/quick-start/",
     "official": "https://biomejs.dev/",
     "keywords": [],
     "sourceIds": [
@@ -699,6 +738,7 @@ export const libraries: Library[] = [
     "goodFor": "Building specialized React debugging and inspection tools.",
     "monogram": "Bi",
     "kind": "Developer tool",
+    "documentation": "https://github.com/aidenybai/bippy#readme",
     "official": "https://www.bippy.dev/",
     "keywords": [],
     "sourceIds": [
@@ -715,6 +755,7 @@ export const libraries: Library[] = [
     "goodFor": "Building applications with integrated server data access and authentication patterns.",
     "monogram": "Bl",
     "kind": "Framework / starter",
+    "documentation": "https://blitzjs.com/docs",
     "official": "https://blitzjs.com/",
     "keywords": [],
     "sourceIds": [
@@ -731,6 +772,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding document-style editing with structured content blocks.",
     "monogram": "Bl",
     "kind": "Library / tool",
+    "documentation": "https://www.blocknotejs.org/docs",
     "official": "https://www.blocknotejs.org/",
     "keywords": [],
     "sourceIds": [
@@ -747,6 +789,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying a complete example of maintainable application structure.",
     "monogram": "Bu",
     "kind": "Learning resource",
+    "documentation": "https://github.com/alan2207/bulletproof-react#readme",
     "official": "https://github.com/alan2207/bulletproof-react",
     "keywords": [],
     "sourceIds": [
@@ -763,6 +806,7 @@ export const libraries: Library[] = [
     "goodFor": "Producing structured application logs that external tools can process.",
     "monogram": "Bu",
     "kind": "Library / tool",
+    "documentation": "https://github.com/trentm/node-bunyan#readme",
     "official": "https://www.npmjs.com/package/bunyan",
     "keywords": [],
     "sourceIds": [
@@ -795,6 +839,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a small CLI with argument parsing and generated help.",
     "monogram": "CA",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/cacjs/cac#readme",
     "official": "https://www.npmjs.com/package/cac",
     "keywords": [],
     "sourceIds": [
@@ -812,6 +857,7 @@ export const libraries: Library[] = [
     "monogram": "Ca",
     "kind": "Library / tool",
     "caveat": "The saved documentation domain redirects to unrelated content. Use the official project repository linked here.",
+    "documentation": "https://github.com/wa0x6e/cal-heatmap-doc/blob/main/docs/getting-started/quickstart.md",
     "official": "https://github.com/wa0x6e/cal-heatmap",
     "keywords": [],
     "sourceIds": [
@@ -828,6 +874,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding an accessible date-selection interface with custom styling.",
     "monogram": "Ca",
     "kind": "Library / tool",
+    "documentation": "https://wicky.nillia.ms/cally/guides/",
     "official": "https://wicky.nillia.ms/cally/",
     "keywords": [],
     "sourceIds": [
@@ -844,6 +891,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding creative graphics to interfaces across supported web frameworks.",
     "monogram": "Ca",
     "kind": "Library / tool",
+    "documentation": "https://canvasui.dev/docs",
     "official": "https://canvasui.dev/",
     "keywords": [],
     "sourceIds": [
@@ -860,6 +908,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding a celebratory visual effect to successful actions.",
     "monogram": "ca",
     "kind": "Library / tool",
+    "documentation": "https://github.com/catdad/canvas-confetti#readme",
     "official": "https://www.npmjs.com/package/canvas-confetti",
     "keywords": [],
     "sourceIds": [
@@ -876,6 +925,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding a ready-made chart UI with configurable series and axes.",
     "monogram": "Ca",
     "kind": "Library / tool",
+    "documentation": "https://canvasjs.com/docs/charts/basics-of-creating-html5-chart/",
     "official": "https://canvasjs.com/",
     "keywords": [],
     "sourceIds": [
@@ -892,6 +942,7 @@ export const libraries: Library[] = [
     "goodFor": "Integrating configurable interactive charts into a React application.",
     "monogram": "Ca",
     "kind": "Library / tool",
+    "documentation": "https://canvasjs.com/docs/charts/integration/react/",
     "official": "https://canvasjs.com/react-charts/",
     "keywords": [],
     "sourceIds": [
@@ -908,6 +959,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying or self-hosting a video-oriented productivity tool.",
     "monogram": "Ca",
     "kind": "Reference app",
+    "documentation": "https://cap.so/docs",
     "official": "https://github.com/CapSoftware/cap",
     "keywords": [],
     "sourceIds": [
@@ -924,6 +976,7 @@ export const libraries: Library[] = [
     "goodFor": "Starting a product interface from a coordinated set of components.",
     "monogram": "Ca",
     "kind": "UI toolkit",
+    "documentation": "https://catalyst.tailwindui.com/docs",
     "official": "https://catalyst.tailwindui.com/",
     "keywords": [],
     "sourceIds": [
@@ -940,6 +993,7 @@ export const libraries: Library[] = [
     "goodFor": "Building consistent application screens from configurable components.",
     "monogram": "Ch",
     "kind": "UI toolkit",
+    "documentation": "https://chakra-ui.com/docs/get-started/installation",
     "official": "https://chakra-ui.com/",
     "keywords": [],
     "sourceIds": [
@@ -956,6 +1010,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding common chart types to dashboards and reporting pages.",
     "monogram": "Ch",
     "kind": "Library / tool",
+    "documentation": "https://www.chartjs.org/docs/latest/",
     "official": "https://www.chartjs.org/",
     "keywords": [],
     "sourceIds": [
@@ -972,6 +1027,7 @@ export const libraries: Library[] = [
     "goodFor": "Generating palettes and color scales for interfaces or charts.",
     "monogram": "ch",
     "kind": "Library / tool",
+    "documentation": "https://www.vis4.net/chromajs/",
     "official": "https://www.vis4.net/chromajs/",
     "keywords": [],
     "sourceIds": [
@@ -988,6 +1044,7 @@ export const libraries: Library[] = [
     "goodFor": "Turning phrases such as next Friday into structured date information.",
     "monogram": "Ch",
     "kind": "Library / tool",
+    "documentation": "https://github.com/wanasit/chrono#readme",
     "official": "https://github.com/wanasit/chrono",
     "keywords": [],
     "sourceIds": [
@@ -1004,6 +1061,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating guided setup flows with prompts and progress messages.",
     "monogram": "Cl",
     "kind": "CLI toolkit",
+    "documentation": "https://bomb.sh/docs/clack/basics/getting-started/",
     "official": "https://www.clack.cc/",
     "keywords": [],
     "sourceIds": [
@@ -1020,6 +1078,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing size, color, and state variants in a component system.",
     "monogram": "Cl",
     "kind": "Library / tool",
+    "documentation": "https://cva.style/getting-started/installation/",
     "official": "https://cva.style/docs",
     "keywords": [],
     "sourceIds": [
@@ -1036,6 +1095,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding account screens and session handling to a React application.",
     "monogram": "Cl",
     "kind": "Library / tool",
+    "documentation": "https://clerk.com/docs",
     "official": "https://clerk.com/",
     "keywords": [],
     "sourceIds": [
@@ -1052,6 +1112,7 @@ export const libraries: Library[] = [
     "goodFor": "Connecting subscriptions and entitlements to application users and organizations.",
     "monogram": "Cl",
     "kind": "Library / tool",
+    "documentation": "https://clerk.com/docs/guides/billing/overview",
     "official": "https://clerk.com/billing",
     "keywords": [],
     "sourceIds": [
@@ -1068,6 +1129,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping animated terminal interfaces visually tidy.",
     "monogram": "cl",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/sindresorhus/cli-cursor#readme",
     "official": "https://www.npmjs.com/package/cli-cursor",
     "keywords": [],
     "sourceIds": [
@@ -1084,6 +1146,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a custom command-line progress indicator.",
     "monogram": "cl",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/sindresorhus/cli-spinners#readme",
     "official": "https://www.npmjs.com/package/cli-spinners",
     "keywords": [],
     "sourceIds": [
@@ -1100,6 +1163,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding copy and paste behavior to Node.js developer tools.",
     "monogram": "cl",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/sindresorhus/clipboardy#readme",
     "official": "https://github.com/sindresorhus/clipboardy",
     "keywords": [],
     "sourceIds": [
@@ -1116,6 +1180,7 @@ export const libraries: Library[] = [
     "goodFor": "Building edge-hosted applications with networking, storage, and compute services.",
     "monogram": "Cl",
     "kind": "Infrastructure",
+    "documentation": "https://developers.cloudflare.com/",
     "official": "https://developers.cloudflare.com/",
     "keywords": [],
     "sourceIds": [
@@ -1132,6 +1197,7 @@ export const libraries: Library[] = [
     "goodFor": "Building className values from component states and optional styles.",
     "monogram": "cl",
     "kind": "Library / tool",
+    "documentation": "https://github.com/lukeed/clsx#readme",
     "official": "https://github.com/lukeed/clsx",
     "keywords": [],
     "sourceIds": [
@@ -1148,6 +1214,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a keyboard-friendly command palette with custom commands and styling.",
     "monogram": "cm",
     "kind": "Library / tool",
+    "documentation": "https://github.com/pacocoursey/cmdk#readme",
     "official": "https://github.com/pacocoursey/cmdk",
     "keywords": [],
     "sourceIds": [
@@ -1167,6 +1234,7 @@ export const libraries: Library[] = [
     "goodFor": "Building interactive code walkthroughs and technical storytelling pages.",
     "monogram": "Co",
     "kind": "Library / tool",
+    "documentation": "https://codehike.org/docs",
     "official": "https://codehike.org/",
     "keywords": [],
     "sourceIds": [
@@ -1183,6 +1251,7 @@ export const libraries: Library[] = [
     "goodFor": "Opening the corresponding component in an editor directly from the browser.",
     "monogram": "Co",
     "kind": "Developer tool",
+    "documentation": "https://inspector.fe-dev.cn/en/guide/start.html",
     "official": "https://www.npmjs.com/package/code-inspector-plugin",
     "keywords": [],
     "sourceIds": [
@@ -1202,6 +1271,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding an editable code snippet with your choice of syntax highlighting.",
     "monogram": "Co",
     "kind": "Library / tool",
+    "documentation": "https://github.com/antonmedv/codejar#readme",
     "official": "https://github.com/antonmedv/codejar",
     "keywords": [],
     "sourceIds": [
@@ -1218,6 +1288,7 @@ export const libraries: Library[] = [
     "goodFor": "Implementing controlled scrolling and alignment in nested containers.",
     "monogram": "co",
     "kind": "Library / tool",
+    "documentation": "https://github.com/scroll-into-view/compute-scroll-into-view#readme",
     "official": "https://scroll-into-view.dev/#scroll-alignment",
     "keywords": [],
     "sourceIds": [
@@ -1234,6 +1305,7 @@ export const libraries: Library[] = [
     "goodFor": "Starting a frontend, backend, and supporting processes in one workflow.",
     "monogram": "co",
     "kind": "Library / tool",
+    "documentation": "https://github.com/open-cli-tools/concurrently#readme",
     "official": "https://www.npmjs.com/package/concurrently",
     "keywords": [],
     "sourceIds": [
@@ -1250,6 +1322,7 @@ export const libraries: Library[] = [
     "goodFor": "Combining server validation with accessible form behavior.",
     "monogram": "Co",
     "kind": "Library / tool",
+    "documentation": "https://conform.guide/installation",
     "official": "https://conform.guide/",
     "keywords": [],
     "sourceIds": [
@@ -1266,6 +1339,7 @@ export const libraries: Library[] = [
     "goodFor": "Controlling filenames and attachment behavior in file-download responses.",
     "monogram": "co",
     "kind": "Library / tool",
+    "documentation": "https://github.com/Methuselah96/content-disposition-header#readme",
     "official": "https://github.com/Methuselah96/content-disposition-header",
     "keywords": [],
     "sourceIds": [
@@ -1282,6 +1356,7 @@ export const libraries: Library[] = [
     "goodFor": "Building application interfaces with customizable accessible primitives and components.",
     "monogram": "co",
     "kind": "UI toolkit",
+    "documentation": "https://coss.com/ui/docs",
     "official": "https://coss.com/ui",
     "keywords": [],
     "sourceIds": [
@@ -1299,6 +1374,7 @@ export const libraries: Library[] = [
     "goodFor": "Collecting webpage data with request management and browser integration.",
     "monogram": "Cr",
     "kind": "Library / tool",
+    "documentation": "https://crawlee.dev/js/docs/guides",
     "official": "https://crawlee.dev/",
     "keywords": [],
     "sourceIds": [
@@ -1315,6 +1391,7 @@ export const libraries: Library[] = [
     "goodFor": "Bootstrapping a Next.js project with an integrated TypeScript-oriented stack.",
     "monogram": "Cr",
     "kind": "Framework / starter",
+    "documentation": "https://create.t3.gg/en/introduction",
     "official": "https://create.t3.gg/",
     "keywords": [],
     "sourceIds": [
@@ -1331,6 +1408,7 @@ export const libraries: Library[] = [
     "goodFor": "Scheduling recurring jobs within a JavaScript or TypeScript process.",
     "monogram": "Cr",
     "kind": "Library / tool",
+    "documentation": "https://croner.56k.guru/usage/",
     "official": "https://croner.56k.guru/",
     "keywords": [],
     "sourceIds": [
@@ -1347,6 +1425,7 @@ export const libraries: Library[] = [
     "goodFor": "Operating recurring jobs across multiple machines.",
     "monogram": "Cr",
     "kind": "Library / tool",
+    "documentation": "https://github.com/jhuckaby/Cronicle/blob/master/docs/Setup.md",
     "official": "https://cronicle.net/",
     "keywords": [],
     "sourceIds": [
@@ -1363,6 +1442,7 @@ export const libraries: Library[] = [
     "goodFor": "Writing stylesheets without exposing every class name globally.",
     "monogram": "CS",
     "kind": "Library / tool",
+    "documentation": "https://github.com/css-modules/css-modules#readme",
     "official": "https://github.com/css-modules/css-modules",
     "keywords": [],
     "sourceIds": [
@@ -1379,6 +1459,7 @@ export const libraries: Library[] = [
     "goodFor": "Teams that want an application deployment workflow on their own cluster.",
     "monogram": "Cu",
     "kind": "Infrastructure",
+    "documentation": "https://cuber.cloud/docs/overview",
     "official": "https://cuber.cloud/",
     "keywords": [],
     "sourceIds": [
@@ -1395,6 +1476,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding customizable components and visual patterns to an application.",
     "monogram": "Cu",
     "kind": "UI toolkit",
+    "documentation": "https://www.cult-ui.com/docs",
     "official": "https://www.cult-ui.com/docs",
     "keywords": [],
     "sourceIds": [
@@ -1411,6 +1493,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping up with development topics and sharing useful reading.",
     "monogram": "da",
     "kind": "Community",
+    "documentation": "https://docs.daily.dev/",
     "official": "https://daily.dev/",
     "keywords": [],
     "sourceIds": [
@@ -1427,6 +1510,7 @@ export const libraries: Library[] = [
     "goodFor": "Building coordinated interfaces without styling every element from utilities alone.",
     "monogram": "da",
     "kind": "UI toolkit",
+    "documentation": "https://daisyui.com/docs/install/",
     "official": "https://daisyui.com/",
     "keywords": [],
     "sourceIds": [
@@ -1445,6 +1529,7 @@ export const libraries: Library[] = [
     "kind": "Date utilities",
     "caveat": "Date calculations and formatting, rather than a date picker UI.",
     "implementation": "Call the date functions from your application code. Choose formatting patterns and locale behavior explicitly; build or add a separate calendar UI when users need to select a date.",
+    "documentation": "https://date-fns.org/docs/Getting-Started/",
     "official": "https://date-fns.org/",
     "keywords": [
       "format a date",
@@ -1468,6 +1553,7 @@ export const libraries: Library[] = [
     "kind": "Date utilities",
     "caveat": "Add plugins for capabilities beyond the core.",
     "implementation": "Use Day.js objects for parsing, manipulation, and display. Enable the plugins and locales your application needs, and check their behavior against your date formats.",
+    "documentation": "https://day.js.org/docs/en/installation/installation",
     "official": "https://day.js.org/",
     "keywords": [
       "format a date",
@@ -1489,6 +1575,7 @@ export const libraries: Library[] = [
     "goodFor": "Checking whether nested serialized data has changed.",
     "monogram": "de",
     "kind": "Library / tool",
+    "documentation": "https://github.com/inspect-js/deep-equal-json#readme",
     "official": "https://github.com/inspect-js/deep-equal-json",
     "keywords": [],
     "sourceIds": [
@@ -1505,6 +1592,7 @@ export const libraries: Library[] = [
     "goodFor": "Generating navigable explanations of a repository's structure and behavior.",
     "monogram": "De",
     "kind": "Reference app",
+    "documentation": "https://github.com/AsyncFuncAI/deepwiki-open#readme",
     "official": "https://github.com/AsyncFuncAI/deepwiki-open",
     "keywords": [],
     "sourceIds": [
@@ -1521,6 +1609,7 @@ export const libraries: Library[] = [
     "goodFor": "Detecting forbidden imports, cycles, and structural drift in a codebase.",
     "monogram": "de",
     "kind": "Developer tool",
+    "documentation": "https://github.com/sverweij/dependency-cruiser#readme",
     "official": "https://github.com/sverweij/dependency-cruiser",
     "keywords": [],
     "sourceIds": [
@@ -1537,6 +1626,7 @@ export const libraries: Library[] = [
     "goodFor": "Reading practical development articles and sharing implementation experiences.",
     "monogram": "DE",
     "kind": "Community",
+    "documentation": "https://dev.to/p/editor_guide",
     "official": "https://dev.to/",
     "keywords": [],
     "sourceIds": [
@@ -1553,6 +1643,7 @@ export const libraries: Library[] = [
     "goodFor": "Transferring structured application state across server and client boundaries.",
     "monogram": "de",
     "kind": "Library / tool",
+    "documentation": "https://github.com/sveltejs/devalue#readme",
     "official": "https://github.com/sveltejs/devalue",
     "keywords": [],
     "sourceIds": [
@@ -1569,6 +1660,7 @@ export const libraries: Library[] = [
     "goodFor": "Small teams that need servers, databases, and application hosting.",
     "monogram": "Di",
     "kind": "Infrastructure",
+    "documentation": "https://docs.digitalocean.com/products/",
     "official": "https://www.digitalocean.com/",
     "keywords": [],
     "sourceIds": [
@@ -1585,6 +1677,7 @@ export const libraries: Library[] = [
     "goodFor": "Handling currencies and arithmetic without treating money as an unstructured number.",
     "monogram": "Di",
     "kind": "Library / tool",
+    "documentation": "https://www.dinerojs.com/getting-started/quick-start",
     "official": "https://v2.dinerojs.com/docs/getting-started/quick-start",
     "keywords": [],
     "sourceIds": [
@@ -1601,6 +1694,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing structured content while retaining an existing SQL data model.",
     "monogram": "Di",
     "kind": "Library / tool",
+    "documentation": "https://directus.com/docs/",
     "official": "https://directus.io/",
     "keywords": [],
     "sourceIds": [
@@ -1619,6 +1713,7 @@ export const libraries: Library[] = [
     "kind": "Interaction toolkit",
     "caveat": "You still design the interface, interaction rules, and feedback.",
     "implementation": "Connect draggable and droppable elements to your application state. Choose sensors, sorting behavior, and visual feedback; test pointer and keyboard interactions in your actual layout.",
+    "documentation": "https://dndkit.com/react/quickstart/",
     "official": "https://dndkit.com/",
     "keywords": [
       "reorder list",
@@ -1641,6 +1736,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping navigation inside repository documentation aligned with its headings.",
     "monogram": "do",
     "kind": "Publishing tool",
+    "documentation": "https://github.com/thlorenz/doctoc#readme",
     "official": "https://www.npmjs.com/package/doctoc",
     "keywords": [],
     "sourceIds": [
@@ -1657,6 +1753,7 @@ export const libraries: Library[] = [
     "goodFor": "Publishing a structured documentation website with reusable content features.",
     "monogram": "Do",
     "kind": "Publishing tool",
+    "documentation": "https://docusaurus.io/docs",
     "official": "https://docusaurus.io/",
     "keywords": [],
     "sourceIds": [
@@ -1673,6 +1770,7 @@ export const libraries: Library[] = [
     "goodFor": "Rendering user-supplied HTML after applying an appropriate sanitization policy.",
     "monogram": "DO",
     "kind": "Library / tool",
+    "documentation": "https://github.com/cure53/DOMPurify#readme",
     "official": "https://cure53.de/purify",
     "keywords": [],
     "sourceIds": [
@@ -1689,6 +1787,7 @@ export const libraries: Library[] = [
     "goodFor": "Saving data that an application generates on the client.",
     "monogram": "do",
     "kind": "Library / tool",
+    "documentation": "https://github.com/rndme/download#readme",
     "official": "https://www.npmjs.com/package/downloadjs",
     "keywords": [],
     "sourceIds": [
@@ -1705,6 +1804,7 @@ export const libraries: Library[] = [
     "goodFor": "Building custom comboboxes and menus while retaining interaction control.",
     "monogram": "Do",
     "kind": "Library / tool",
+    "documentation": "https://www.downshift-js.com/",
     "official": "https://www.downshift-js.com/",
     "keywords": [],
     "sourceIds": [
@@ -1721,6 +1821,7 @@ export const libraries: Library[] = [
     "goodFor": "Starting from simple component implementations that you can own and customize.",
     "monogram": "Dr",
     "kind": "UI toolkit",
+    "documentation": "https://draft-ui.com/getting-started/introduction",
     "official": "https://draft-ui.com/",
     "keywords": [],
     "sourceIds": [
@@ -1737,6 +1838,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding business-oriented chat and customer-engagement workflows.",
     "monogram": "Dr",
     "kind": "Library / tool",
+    "documentation": "https://devdocs.drift.com/docs/using-drift-apis",
     "official": "https://www.drift.com/",
     "keywords": [],
     "sourceIds": [
@@ -1753,6 +1855,7 @@ export const libraries: Library[] = [
     "goodFor": "Introducing features through focused step-by-step interface walkthroughs.",
     "monogram": "Dr",
     "kind": "Library / tool",
+    "documentation": "https://driverjs.com/docs/installation",
     "official": "https://driverjs.com/",
     "keywords": [],
     "sourceIds": [
@@ -1769,6 +1872,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping database access close to SQL while benefiting from static types.",
     "monogram": "Dr",
     "kind": "Data tool",
+    "documentation": "https://orm.drizzle.team/docs/get-started",
     "official": "https://orm.drizzle.team/",
     "keywords": [],
     "sourceIds": [
@@ -1785,6 +1889,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying a production-style application for short links and link analytics.",
     "monogram": "Du",
     "kind": "Reference app",
+    "documentation": "https://dub.co/docs",
     "official": "https://github.com/dubinc/dub",
     "keywords": [],
     "sourceIds": [
@@ -1801,6 +1906,7 @@ export const libraries: Library[] = [
     "goodFor": "Structuring asynchronous work, errors, dependencies, and resource lifecycles.",
     "monogram": "Ef",
     "kind": "Library / tool",
+    "documentation": "https://effect.website/docs/v4/onboarding",
     "official": "https://effect.website/",
     "keywords": [],
     "sourceIds": [
@@ -1817,6 +1923,7 @@ export const libraries: Library[] = [
     "goodFor": "Building voice-oriented application screens with reusable interaction elements.",
     "monogram": "El",
     "kind": "Library / tool",
+    "documentation": "https://github.com/elevenlabs/ui/blob/main/apps/www/content/docs/(root)/index.mdx",
     "official": "https://ui.elevenlabs.io/",
     "keywords": [],
     "sourceIds": [
@@ -1833,6 +1940,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a custom swipeable carousel while controlling its visual design.",
     "monogram": "Em",
     "kind": "Library / tool",
+    "documentation": "https://www.embla-carousel.com/docs",
     "official": "https://www.embla-carousel.com/",
     "keywords": [],
     "sourceIds": [
@@ -1849,6 +1957,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding searchable emoji selection to messaging or editing interfaces.",
     "monogram": "Em",
     "kind": "Library / tool",
+    "documentation": "https://github.com/missive/emoji-mart#readme",
     "official": "https://missiveapp.com/open/emoji-mart",
     "keywords": [],
     "sourceIds": [
@@ -1865,6 +1974,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding emoji selection without depending on a particular UI framework.",
     "monogram": "em",
     "kind": "Library / tool",
+    "documentation": "https://github.com/nolanlawson/emoji-picker-element#readme",
     "official": "https://nolanlawson.github.io/emoji-picker-element/",
     "keywords": [],
     "sourceIds": [
@@ -1881,6 +1991,7 @@ export const libraries: Library[] = [
     "goodFor": "Building component-level styles with a flexible CSS-in-JS API.",
     "monogram": "Em",
     "kind": "Library / tool",
+    "documentation": "https://emotion.sh/docs/introduction",
     "official": "https://emotion.sh/docs/introduction",
     "keywords": [],
     "sourceIds": [
@@ -1897,6 +2008,7 @@ export const libraries: Library[] = [
     "goodFor": "Avoiding duplicate fixture values while creating test data.",
     "monogram": "en",
     "kind": "Testing tool",
+    "documentation": "https://github.com/MansurAliKoroglu/enforce-unique#readme",
     "official": "https://www.npmjs.com/package/enforce-unique",
     "keywords": [],
     "sourceIds": [
@@ -1913,6 +2025,7 @@ export const libraries: Library[] = [
     "goodFor": "Collecting reproducible environment details for debugging and issue reports.",
     "monogram": "en",
     "kind": "Developer tool",
+    "documentation": "https://github.com/tabrindle/envinfo#readme",
     "official": "https://www.npmjs.com/package/envinfo",
     "keywords": [],
     "sourceIds": [
@@ -1929,6 +2042,7 @@ export const libraries: Library[] = [
     "goodFor": "Starting with an integrated set of application and deployment conventions.",
     "monogram": "Ep",
     "kind": "Framework / starter",
+    "documentation": "https://github.com/epicweb-dev/epic-stack/tree/main/docs",
     "official": "https://www.epicweb.dev/epic-stack",
     "keywords": [],
     "sourceIds": [
@@ -1945,6 +2059,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying an administrative workflow that lets support staff act as another user.",
     "monogram": "Ep",
     "kind": "Learning resource",
+    "documentation": "https://github.com/alan2207/epic-stack-with-user-impersonation#readme",
     "official": "https://twitter.com/kentcdodds/status/1677313114147270656",
     "keywords": [],
     "sourceIds": [
@@ -1961,6 +2076,7 @@ export const libraries: Library[] = [
     "goodFor": "Handling everyday collection and data transformations with individual helpers.",
     "monogram": "es",
     "kind": "Library / tool",
+    "documentation": "https://es-toolkit.dev/usage.html",
     "official": "https://es-toolkit.dev/",
     "keywords": [],
     "sourceIds": [
@@ -1977,6 +2093,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating or embedding collaborative sketching and diagramming experiences.",
     "monogram": "Ex",
     "kind": "Library / tool",
+    "documentation": "https://plus.excalidraw.com/docs/sdk/excalidraw/installation",
     "official": "https://github.com/excalidraw/excalidraw",
     "keywords": [],
     "sourceIds": [
@@ -1993,6 +2110,7 @@ export const libraries: Library[] = [
     "goodFor": "Running external programs with structured input, output, and error handling.",
     "monogram": "Ex",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/sindresorhus/execa#readme",
     "official": "https://github.com/sindresorhus/execa#readme",
     "keywords": [],
     "sourceIds": [
@@ -2009,6 +2127,7 @@ export const libraries: Library[] = [
     "goodFor": "Publishing code examples with highlighting, annotations, and presentation features.",
     "monogram": "Ex",
     "kind": "Library / tool",
+    "documentation": "https://expressive-code.com/installation/",
     "official": "https://github.com/expressive-code/expressive-code",
     "keywords": [],
     "sourceIds": [
@@ -2025,6 +2144,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating sample users, records, and large development datasets.",
     "monogram": "Fa",
     "kind": "Testing tool",
+    "documentation": "https://fakerjs.dev/guide/",
     "official": "https://fakerjs.dev/",
     "keywords": [],
     "sourceIds": [
@@ -2041,6 +2161,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating typed fixtures such as names, addresses, and product details.",
     "monogram": "Fa",
     "kind": "Testing tool",
+    "documentation": "https://unpkg.com/@ngneat/falso@8.0.2/README.md",
     "official": "https://www.npmjs.com/package/@ngneat/falso",
     "keywords": [],
     "sourceIds": [
@@ -2057,6 +2178,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing colored command output inside browser-based interfaces.",
     "monogram": "Fa",
     "kind": "Library / tool",
+    "documentation": "https://github.com/kubetail-org/fancy-ansi#readme",
     "official": "https://kubetail-org.github.io/fancy-ansi/",
     "keywords": [],
     "sourceIds": [
@@ -2073,6 +2195,7 @@ export const libraries: Library[] = [
     "goodFor": "Serializing known response shapes in performance-sensitive server code.",
     "monogram": "fa",
     "kind": "Library / tool",
+    "documentation": "https://github.com/fastify/fast-json-stringify#readme",
     "official": "https://github.com/fastify/fast-json-stringify",
     "keywords": [],
     "sourceIds": [
@@ -2089,6 +2212,7 @@ export const libraries: Library[] = [
     "goodFor": "Offering downloads of client-generated documents and exports.",
     "monogram": "Fi",
     "kind": "Library / tool",
+    "documentation": "https://github.com/eligrey/FileSaver.js#readme",
     "official": "https://github.com/eligrey/FileSaver.js",
     "keywords": [],
     "sourceIds": [
@@ -2105,6 +2229,7 @@ export const libraries: Library[] = [
     "goodFor": "Expressing reusable filtering conditions over collections.",
     "monogram": "Fi",
     "kind": "Library / tool",
+    "documentation": "https://github.com/adamhl8/filterql#readme",
     "official": "https://github.com/adamhl8/filterql",
     "keywords": [],
     "sourceIds": [
@@ -2121,6 +2246,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying or deploying a system for controlling feature rollout.",
     "monogram": "Fl",
     "kind": "Reference app",
+    "documentation": "https://docs.flagsmith.com/",
     "official": "https://github.com/Flagsmith/flagsmith",
     "keywords": [],
     "sourceIds": [
@@ -2137,6 +2263,7 @@ export const libraries: Library[] = [
     "goodFor": "Finding nearby or overlapping objects in a large static dataset.",
     "monogram": "Fl",
     "kind": "Library / tool",
+    "documentation": "https://github.com/mourner/flatbush#readme",
     "official": "https://github.com/mourner/flatbush",
     "keywords": [],
     "sourceIds": [
@@ -2153,6 +2280,7 @@ export const libraries: Library[] = [
     "goodFor": "Displaying swipeable image galleries and horizontally browsable content.",
     "monogram": "Fl",
     "kind": "Library / tool",
+    "documentation": "https://flickity.metafizzy.co/#getting-started",
     "official": "https://flickity.metafizzy.co/",
     "keywords": [],
     "sourceIds": [
@@ -2169,6 +2297,7 @@ export const libraries: Library[] = [
     "goodFor": "Building tooltips, popovers, and menus anchored to other elements.",
     "monogram": "Fl",
     "kind": "Library / tool",
+    "documentation": "https://floating-ui.com/docs/getting-started",
     "official": "https://floating-ui.com/",
     "keywords": [],
     "sourceIds": [
@@ -2185,6 +2314,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding styled application components to a Tailwind-based project.",
     "monogram": "Fl",
     "kind": "UI toolkit",
+    "documentation": "https://flowbite-react.com/docs/getting-started/quickstart",
     "official": "https://www.flowbite-react.com/",
     "keywords": [],
     "sourceIds": [
@@ -2201,6 +2331,7 @@ export const libraries: Library[] = [
     "goodFor": "Building applications that follow Fluent design conventions.",
     "monogram": "Fl",
     "kind": "UI toolkit",
+    "documentation": "https://storybooks.fluentui.dev/react/?path=/docs/concepts-introduction--docs",
     "official": "https://react.fluentui.dev/",
     "keywords": [],
     "sourceIds": [
@@ -2217,6 +2348,7 @@ export const libraries: Library[] = [
     "goodFor": "Running server applications near users across multiple regions.",
     "monogram": "Fl",
     "kind": "Infrastructure",
+    "documentation": "https://docs.fly.io/",
     "official": "https://fly.io/",
     "keywords": [],
     "sourceIds": [
@@ -2233,6 +2365,7 @@ export const libraries: Library[] = [
     "goodFor": "Assembling styled interface elements with a class-based component workflow.",
     "monogram": "Fl",
     "kind": "UI toolkit",
+    "documentation": "https://flyonui.com/docs/getting-started/quick-start/",
     "official": "https://flyonui.com/",
     "keywords": [],
     "sourceIds": [
@@ -2249,6 +2382,7 @@ export const libraries: Library[] = [
     "goodFor": "Handling file-upload requests on a server.",
     "monogram": "Fo",
     "kind": "Library / tool",
+    "documentation": "https://github.com/node-formidable/formidable#readme",
     "official": "https://github.com/node-formidable/formidable",
     "keywords": [],
     "sourceIds": [
@@ -2265,6 +2399,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing a conventional React form with explicit field state.",
     "monogram": "Fo",
     "kind": "Library / tool",
+    "documentation": "https://formik.org/docs/overview",
     "official": "https://formik.org/",
     "keywords": [],
     "sourceIds": [
@@ -2281,6 +2416,7 @@ export const libraries: Library[] = [
     "goodFor": "Defining route trees with asynchronous data and rendering behavior.",
     "monogram": "Fo",
     "kind": "Library / tool",
+    "documentation": "https://4catalyzer.github.io/found/docs/getting-started/quick-start/",
     "official": "https://4catalyzer.github.io/found/",
     "keywords": [],
     "sourceIds": [
@@ -2313,6 +2449,7 @@ export const libraries: Library[] = [
     "goodFor": "Rendering breakpoint-specific layouts with coordinated CSS media queries.",
     "monogram": "Fr",
     "kind": "Library / tool",
+    "documentation": "https://github.com/artsy/fresnel#readme",
     "official": "https://github.com/artsy/fresnel",
     "keywords": [],
     "sourceIds": [
@@ -2329,6 +2466,7 @@ export const libraries: Library[] = [
     "goodFor": "Displaying schedules with configurable calendar views and interactions.",
     "monogram": "Fu",
     "kind": "Library / tool",
+    "documentation": "https://fullcalendar.io/docs/react",
     "official": "https://fullcalendar.io/docs/react",
     "keywords": [],
     "sourceIds": [
@@ -2345,6 +2483,7 @@ export const libraries: Library[] = [
     "goodFor": "Applications that need control over identity deployment and configuration.",
     "monogram": "Fu",
     "kind": "Library / tool",
+    "documentation": "https://fusionauth.io/docs/",
     "official": "https://fusionauth.io/",
     "keywords": [],
     "sourceIds": [
@@ -2361,6 +2500,7 @@ export const libraries: Library[] = [
     "goodFor": "Ranking short labels and commands from approximate text input.",
     "monogram": "fz",
     "kind": "Library / tool",
+    "documentation": "https://fzf.netlify.app/docs/latest/basic",
     "official": "https://www.npmjs.com/package/fzf",
     "keywords": [],
     "sourceIds": [
@@ -2377,6 +2517,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring diagrams whose parameters can be manipulated directly.",
     "monogram": "g9",
     "kind": "Library / tool",
+    "documentation": "https://github.com/bijection/g9#docs",
     "official": "https://omrelli.ug/g9/gallery/",
     "keywords": [],
     "sourceIds": [
@@ -2393,6 +2534,7 @@ export const libraries: Library[] = [
     "goodFor": "Building sites that connect structured content to reusable React pages.",
     "monogram": "Ga",
     "kind": "Framework / starter",
+    "documentation": "https://www.gatsbyjs.com/docs/",
     "official": "https://www.gatsbyjs.com/",
     "keywords": [],
     "sourceIds": [
@@ -2409,6 +2551,7 @@ export const libraries: Library[] = [
     "goodFor": "Maintaining a hosted documentation site with a collaborative editing workflow.",
     "monogram": "Gi",
     "kind": "Publishing tool",
+    "documentation": "https://gitbook.com/docs/getting-started/quickstart",
     "official": "https://www.gitbook.com/",
     "keywords": [],
     "sourceIds": [
@@ -2428,6 +2571,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding declarative shortcuts to browser interfaces.",
     "monogram": "Gi",
     "kind": "Library / tool",
+    "documentation": "https://github.com/github/hotkey#readme",
     "official": "https://github.github.com/hotkey/",
     "keywords": [],
     "sourceIds": [
@@ -2444,6 +2588,7 @@ export const libraries: Library[] = [
     "goodFor": "Building spreadsheet-like interfaces with custom cell rendering.",
     "monogram": "Gl",
     "kind": "Library / tool",
+    "documentation": "https://docs.grid.glideapps.com/",
     "official": "https://grid.glideapps.com/",
     "keywords": [],
     "sourceIds": [
@@ -2460,6 +2605,7 @@ export const libraries: Library[] = [
     "goodFor": "Finding files that match a configured path pattern.",
     "monogram": "gl",
     "kind": "Library / tool",
+    "documentation": "https://github.com/isaacs/node-glob#readme",
     "official": "https://www.npmjs.com/package/glob",
     "keywords": [],
     "sourceIds": [
@@ -2476,6 +2622,7 @@ export const libraries: Library[] = [
     "goodFor": "Selecting project files for build scripts and code-processing tasks.",
     "monogram": "Gl",
     "kind": "Library / tool",
+    "documentation": "https://github.com/sindresorhus/globby#readme",
     "official": "https://www.npmjs.com/package/globby",
     "keywords": [],
     "sourceIds": [
@@ -2492,6 +2639,7 @@ export const libraries: Library[] = [
     "goodFor": "Deploying applications alongside managed data and computing services.",
     "monogram": "Go",
     "kind": "Infrastructure",
+    "documentation": "https://docs.cloud.google.com/docs",
     "official": "https://cloud.google.com/",
     "keywords": [],
     "sourceIds": [
@@ -2508,6 +2656,7 @@ export const libraries: Library[] = [
     "goodFor": "Presenting multiple backend capabilities through a unified GraphQL interface.",
     "monogram": "Gr",
     "kind": "Library / tool",
+    "documentation": "https://grafbase.com/docs",
     "official": "https://grafbase.com/",
     "keywords": [],
     "sourceIds": [
@@ -2524,6 +2673,7 @@ export const libraries: Library[] = [
     "goodFor": "Writing composable request handlers across supported JavaScript runtimes.",
     "monogram": "H3",
     "kind": "Library / tool",
+    "documentation": "https://h3.dev/guide",
     "official": "https://h3.dev/",
     "keywords": [],
     "sourceIds": [
@@ -2540,6 +2690,7 @@ export const libraries: Library[] = [
     "goodFor": "Discovering broader industry perspectives and developer-written content.",
     "monogram": "Ha",
     "kind": "Community",
+    "documentation": "https://help.hackernoon.com/",
     "official": "https://hackernoon.com/",
     "keywords": [],
     "sourceIds": [
@@ -2556,6 +2707,7 @@ export const libraries: Library[] = [
     "goodFor": "Publishing a technical blog and finding developer-written articles.",
     "monogram": "Ha",
     "kind": "Community",
+    "documentation": "https://github.com/Hashnode/support/blob/main/docs/using-hashnode.md",
     "official": "https://hashnode.com/",
     "keywords": [],
     "sourceIds": [
@@ -2572,6 +2724,7 @@ export const libraries: Library[] = [
     "goodFor": "Connecting applications to existing data sources with an API layer.",
     "monogram": "Ha",
     "kind": "Library / tool",
+    "documentation": "https://hasura.io/docs/3.0/index/",
     "official": "https://hasura.io/",
     "keywords": [],
     "sourceIds": [
@@ -2588,6 +2741,7 @@ export const libraries: Library[] = [
     "goodFor": "Designing custom UI while reusing established interaction behavior.",
     "monogram": "He",
     "kind": "UI toolkit",
+    "documentation": "https://headlessui.com/react/menu",
     "official": "https://headlessui.com/",
     "keywords": [],
     "sourceIds": [
@@ -2604,6 +2758,7 @@ export const libraries: Library[] = [
     "goodFor": "Presenting activity patterns with a customizable heatmap interface.",
     "monogram": "He",
     "kind": "Library / tool",
+    "documentation": "https://www.heatjs.com/docs",
     "official": "https://www.william-troup.com/heat-js/",
     "keywords": [],
     "sourceIds": [
@@ -2620,6 +2775,7 @@ export const libraries: Library[] = [
     "goodFor": "Guiding users through uploading and mapping spreadsheet-style data.",
     "monogram": "He",
     "kind": "Library / tool",
+    "documentation": "https://github.com/HelloCSV/HelloCSV#readme",
     "official": "https://hellocsv.github.io/HelloCSV/",
     "keywords": [],
     "sourceIds": [
@@ -2636,6 +2792,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding consistent icons to Tailwind-oriented and other web interfaces.",
     "monogram": "He",
     "kind": "Library / tool",
+    "documentation": "https://github.com/tailwindlabs/heroicons#readme",
     "official": "https://heroicons.com/",
     "keywords": [],
     "sourceIds": [
@@ -2652,6 +2809,7 @@ export const libraries: Library[] = [
     "goodFor": "Deploying a server application without managing its underlying machines directly.",
     "monogram": "He",
     "kind": "Infrastructure",
+    "documentation": "https://devcenter.heroku.com/",
     "official": "https://www.heroku.com/platform",
     "keywords": [],
     "sourceIds": [
@@ -2668,6 +2826,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a coordinated application UI with customizable components.",
     "monogram": "He",
     "kind": "UI toolkit",
+    "documentation": "https://heroui.com/en/docs/react/getting-started/quick-start",
     "official": "https://www.heroui.com/",
     "keywords": [],
     "sourceIds": [
@@ -2684,6 +2843,7 @@ export const libraries: Library[] = [
     "goodFor": "Implementing compact APIs with web-standard request and response objects.",
     "monogram": "Ho",
     "kind": "Library / tool",
+    "documentation": "https://hono.dev/docs",
     "official": "https://hono.dev/",
     "keywords": [],
     "sourceIds": [
@@ -2700,6 +2860,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing retries, observability, and reliability for incoming events.",
     "monogram": "Ho",
     "kind": "Library / tool",
+    "documentation": "https://hookdeck.com/docs",
     "official": "https://hookdeck.com/",
     "keywords": [],
     "sourceIds": [
@@ -2716,13 +2877,13 @@ export const libraries: Library[] = [
     "goodFor": "Learning to implement browser interactions with vanilla JavaScript.",
     "monogram": "HT",
     "kind": "Learning resource",
-    "official": "https://phuoc.ng/collection/html-dom/",
+    "official": "https://github.com/phuocng/html-dom",
     "keywords": [],
     "sourceIds": [
       139
     ],
     "references": [],
-    "sourceStatus": "unconfirmed"
+    "sourceStatus": "available"
   },
   {
     "id": "html-to-image",
@@ -2732,6 +2893,7 @@ export const libraries: Library[] = [
     "goodFor": "Exporting interface fragments, cards, or diagrams as downloadable graphics.",
     "monogram": "ht",
     "kind": "Library / tool",
+    "documentation": "https://github.com/bubkoo/html-to-image#readme",
     "official": "https://www.npmjs.com/package/html-to-image",
     "keywords": [],
     "sourceIds": [
@@ -2748,6 +2910,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a custom storefront connected to Shopify commerce data.",
     "monogram": "Hy",
     "kind": "Library / tool",
+    "documentation": "https://shopify.dev/docs/api/hydrogen-react/latest",
     "official": "https://shopify.dev/docs/api/hydrogen-react",
     "keywords": [],
     "sourceIds": [
@@ -2764,13 +2927,14 @@ export const libraries: Library[] = [
     "goodFor": "Creating consistent components and files from local conventions.",
     "monogram": "Hy",
     "kind": "Developer tool",
-    "official": "https://www.hygen.io/",
+    "documentation": "https://github.com/jondot/hygen#readme",
+    "official": "https://github.com/jondot/hygen",
     "keywords": [],
     "sourceIds": [
       271
     ],
     "references": [],
-    "sourceStatus": "unconfirmed"
+    "sourceStatus": "available"
   },
   {
     "id": "iconify",
@@ -2780,6 +2944,7 @@ export const libraries: Library[] = [
     "goodFor": "Choosing icons from multiple sets without changing the integration approach.",
     "monogram": "Ic",
     "kind": "Library / tool",
+    "documentation": "https://iconify.design/docs/",
     "official": "https://iconify.design/",
     "keywords": [],
     "sourceIds": [
@@ -2796,6 +2961,7 @@ export const libraries: Library[] = [
     "goodFor": "Using icon collections through a shared React component API.",
     "monogram": "Ic",
     "kind": "Library / tool",
+    "documentation": "https://iconify.design/docs/icon-components/react/",
     "official": "https://www.npmjs.com/package/@iconify/react",
     "keywords": [],
     "sourceIds": [
@@ -2812,6 +2978,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating subject cutouts without sending every image to an application server.",
     "monogram": "IM",
     "kind": "Library / tool",
+    "documentation": "https://github.com/imgly/background-removal-js/blob/main/packages/web/README.md",
     "official": "https://img.ly/showcases/cesdk/background-removal/web",
     "keywords": [],
     "sourceIds": [
@@ -2828,6 +2995,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing complex collections while retaining previous versions of state.",
     "monogram": "Im",
     "kind": "Library / tool",
+    "documentation": "https://immutable-js.com/docs/v5/",
     "official": "https://immutable-js.com/",
     "keywords": [],
     "sourceIds": [
@@ -2844,6 +3012,7 @@ export const libraries: Library[] = [
     "goodFor": "Building masonry-style feeds and dynamically loaded card layouts.",
     "monogram": "In",
     "kind": "Library / tool",
+    "documentation": "https://naver.github.io/egjs-infinitegrid/docs",
     "official": "https://naver.github.io/egjs-infinitegrid/",
     "keywords": [],
     "sourceIds": [
@@ -2860,6 +3029,7 @@ export const libraries: Library[] = [
     "goodFor": "Building accessible verification-code entry with custom visual styling.",
     "monogram": "In",
     "kind": "Library / tool",
+    "documentation": "https://input-otp.rodz.dev/docs",
     "official": "https://input-otp.rodz.dev/",
     "keywords": [],
     "sourceIds": [
@@ -2876,6 +3046,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring HTTP APIs and testing requests during development.",
     "monogram": "In",
     "kind": "API tool",
+    "documentation": "https://developer.konghq.com/insomnia/",
     "official": "https://insomnia.rest/",
     "keywords": [],
     "sourceIds": [
@@ -2892,6 +3063,7 @@ export const libraries: Library[] = [
     "goodFor": "Building an account-connection flow for third-party services.",
     "monogram": "In",
     "kind": "Library / tool",
+    "documentation": "https://github.com/withoneai/authkit/blob/1c9aafd2d085/README.md",
     "official": "https://authkit-demo.integrationos.com/",
     "keywords": [],
     "sourceIds": [
@@ -2908,6 +3080,7 @@ export const libraries: Library[] = [
     "goodFor": "Collecting phone numbers from users in different regions.",
     "monogram": "In",
     "kind": "Library / tool",
+    "documentation": "https://intl-tel-input.com/docs/react-component",
     "official": "https://intl-tel-input.com/",
     "keywords": [],
     "sourceIds": [
@@ -2924,6 +3097,7 @@ export const libraries: Library[] = [
     "goodFor": "Organizing translated messages in a JavaScript or TypeScript application.",
     "monogram": "in",
     "kind": "Library / tool",
+    "documentation": "https://github.com/nivandres/intl-t#readme",
     "official": "https://github.com/nivandres/intl-t",
     "keywords": [],
     "sourceIds": [
@@ -2940,6 +3114,7 @@ export const libraries: Library[] = [
     "goodFor": "Validating data at application boundaries in functional TypeScript code.",
     "monogram": "io",
     "kind": "Library / tool",
+    "documentation": "https://gcanti.github.io/io-ts/",
     "official": "https://www.npmjs.com/package/io-ts",
     "keywords": [],
     "sourceIds": [
@@ -2956,6 +3131,7 @@ export const libraries: Library[] = [
     "goodFor": "Choosing between interactive prompts and plain output in scripts.",
     "monogram": "is",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/sindresorhus/is-interactive#readme",
     "official": "https://www.npmjs.com/package/is-interactive",
     "keywords": [],
     "sourceIds": [
@@ -2972,6 +3148,7 @@ export const libraries: Library[] = [
     "goodFor": "Writing code-analysis tools that distinguish references from other syntax nodes.",
     "monogram": "is",
     "kind": "Developer tool",
+    "documentation": "https://github.com/Rich-Harris/is-reference#readme",
     "official": "https://www.npmjs.com/package/is-reference",
     "keywords": [],
     "sourceIds": [
@@ -2988,6 +3165,7 @@ export const libraries: Library[] = [
     "goodFor": "Choosing compatible symbols when rendering command-line output.",
     "monogram": "is",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/sindresorhus/is-unicode-supported#readme",
     "official": "https://www.npmjs.com/package/is-unicode-supported",
     "keywords": [],
     "sourceIds": [
@@ -3004,6 +3182,7 @@ export const libraries: Library[] = [
     "goodFor": "Sharing HTML sanitization behavior between application layers.",
     "monogram": "is",
     "kind": "Library / tool",
+    "documentation": "https://github.com/kkomelin/isomorphic-dompurify#readme",
     "official": "https://github.com/kkomelin/isomorphic-dompurify",
     "keywords": [],
     "sourceIds": [
@@ -3020,6 +3199,7 @@ export const libraries: Library[] = [
     "goodFor": "Handling unusual React integration requirements beyond ordinary component APIs.",
     "monogram": "it",
     "kind": "Developer tool",
+    "documentation": "https://github.com/pmndrs/its-fine#readme",
     "official": "https://www.npmjs.com/package/its-fine",
     "keywords": [],
     "sourceIds": [
@@ -3052,6 +3232,7 @@ export const libraries: Library[] = [
     "goodFor": "Checking structured request payloads and configuration objects.",
     "monogram": "Jo",
     "kind": "Library / tool",
+    "documentation": "https://joi.dev/api/18.x.x",
     "official": "https://www.npmjs.com/package/joi",
     "keywords": [],
     "sourceIds": [
@@ -3068,6 +3249,7 @@ export const libraries: Library[] = [
     "goodFor": "Owning accessible component source in a Tailwind-oriented application.",
     "monogram": "Jo",
     "kind": "UI toolkit",
+    "documentation": "https://jollyui.dev/docs",
     "official": "https://www.jollyui.dev/",
     "keywords": [],
     "sourceIds": [
@@ -3084,7 +3266,8 @@ export const libraries: Library[] = [
     "goodFor": "Composing shared state from small independently managed atoms.",
     "monogram": "Jo",
     "kind": "Library / tool",
-    "official": "https://jotai.org/",
+    "documentation": "https://github.com/pmndrs/jotai/blob/main/docs/index.mdx",
+    "official": "https://github.com/pmndrs/jotai",
     "keywords": [],
     "sourceIds": [
       452
@@ -3100,6 +3283,7 @@ export const libraries: Library[] = [
     "goodFor": "Walking users through controls and key application features.",
     "monogram": "Jo",
     "kind": "Library / tool",
+    "documentation": "https://www.william-troup.com/journey-js/documentation/index.html",
     "official": "https://www.william-troup.com/journey-js/examples/index.html",
     "keywords": [],
     "sourceIds": [
@@ -3116,6 +3300,7 @@ export const libraries: Library[] = [
     "goodFor": "Helping users fill Japanese address forms from a postal code.",
     "monogram": "jp",
     "kind": "Library / tool",
+    "documentation": "https://github.com/nickichi/jposta#readme",
     "official": "https://github.com/nickichi/jposta",
     "keywords": [],
     "sourceIds": [
@@ -3132,6 +3317,7 @@ export const libraries: Library[] = [
     "goodFor": "Maintaining existing jQuery interfaces and integrating older browser widgets.",
     "monogram": "jQ",
     "kind": "Library / tool",
+    "documentation": "https://api.jquery.com/",
     "official": "https://jquery.com/",
     "keywords": [],
     "sourceIds": [
@@ -3148,6 +3334,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding client-side text search to an existing in-memory dataset.",
     "monogram": "js",
     "kind": "Library / tool",
+    "documentation": "https://github.com/bvaughn/js-search#readme",
     "official": "https://github.com/bvaughn/js-search",
     "keywords": [],
     "sourceIds": [
@@ -3167,6 +3354,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating barcode graphics for labels and inventory interfaces.",
     "monogram": "Js",
     "kind": "Library / tool",
+    "documentation": "https://github.com/lindell/JsBarcode#readme",
     "official": "https://github.com/lindell/JsBarcode",
     "keywords": [],
     "sourceIds": [
@@ -3183,6 +3371,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing text changes, patches, and comparison views.",
     "monogram": "js",
     "kind": "Library / tool",
+    "documentation": "https://github.com/kpdecker/jsdiff#readme",
     "official": "https://github.com/kpdecker/jsdiff",
     "keywords": [],
     "sourceIds": [
@@ -3199,6 +3388,7 @@ export const libraries: Library[] = [
     "goodFor": "Building configuration screens and structured-data inspection tools.",
     "monogram": "JS",
     "kind": "Library / tool",
+    "documentation": "https://github.com/josdejong/jsoneditor#readme",
     "official": "https://github.com/josdejong/jsoneditor",
     "keywords": [],
     "sourceIds": [
@@ -3215,6 +3405,7 @@ export const libraries: Library[] = [
     "goodFor": "Prototyping a frontend before its real backend is available.",
     "monogram": "JS",
     "kind": "Testing tool",
+    "documentation": "https://github.com/typicode/json-server#readme",
     "official": "https://www.npmjs.com/package/json-server",
     "keywords": [],
     "sourceIds": [
@@ -3231,13 +3422,14 @@ export const libraries: Library[] = [
     "goodFor": "Adding an export button for reports and tabular data.",
     "monogram": "js",
     "kind": "Library / tool",
-    "official": "https://json-to-csv-export.vercel.app/",
+    "documentation": "https://github.com/coston/json-to-csv-export#readme",
+    "official": "https://github.com/coston/json-to-csv-export",
     "keywords": [],
     "sourceIds": [
       48
     ],
     "references": [],
-    "sourceStatus": "unconfirmed"
+    "sourceStatus": "available"
   },
   {
     "id": "kleur",
@@ -3247,6 +3439,7 @@ export const libraries: Library[] = [
     "goodFor": "Styling logs and status messages in Node.js commands.",
     "monogram": "kl",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/lukeed/kleur#readme",
     "official": "https://github.com/lukeed/kleur",
     "keywords": [],
     "sourceIds": [
@@ -3263,6 +3456,7 @@ export const libraries: Library[] = [
     "goodFor": "Cleaning up a JavaScript or TypeScript project's unused code.",
     "monogram": "Kn",
     "kind": "Developer tool",
+    "documentation": "https://knip.dev/overview/getting-started",
     "official": "https://knip.dev/",
     "keywords": [],
     "sourceIds": [
@@ -3279,6 +3473,7 @@ export const libraries: Library[] = [
     "goodFor": "Building diagrams and editors with draggable canvas objects.",
     "monogram": "Ko",
     "kind": "Library / tool",
+    "documentation": "https://konvajs.org/docs/",
     "official": "https://www.npmjs.com/package/konva",
     "keywords": [],
     "sourceIds": [
@@ -3295,6 +3490,7 @@ export const libraries: Library[] = [
     "goodFor": "Building typed interfaces while limiting runtime styling work.",
     "monogram": "Ku",
     "kind": "UI toolkit",
+    "documentation": "https://www.kuma-ui.com/docs",
     "official": "https://www.kuma-ui.com/",
     "keywords": [],
     "sourceIds": [
@@ -3311,6 +3507,7 @@ export const libraries: Library[] = [
     "goodFor": "Writing concise browser API clients with configurable retry and response handling.",
     "monogram": "Ky",
     "kind": "Library / tool",
+    "documentation": "https://github.com/sindresorhus/ky#readme",
     "official": "https://github.com/sindresorhus/ky",
     "keywords": [],
     "sourceIds": [
@@ -3327,6 +3524,7 @@ export const libraries: Library[] = [
     "goodFor": "Writing composable SQL queries without adopting a full ORM model layer.",
     "monogram": "Ky",
     "kind": "Data tool",
+    "documentation": "https://kysely.dev/docs/intro",
     "official": "https://kysely.dev/",
     "keywords": [],
     "sourceIds": [
@@ -3343,6 +3541,7 @@ export const libraries: Library[] = [
     "goodFor": "Preparing for coding interviews and improving algorithmic problem solving.",
     "monogram": "Le",
     "kind": "Learning resource",
+    "documentation": "https://support.leetcode.com/hc/en-us/articles/360012067053-LeetCode-QuickStart-Guide",
     "official": "https://leetcode.com/",
     "keywords": [],
     "sourceIds": [
@@ -3359,6 +3558,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating a custom editing experience with explicit document behavior.",
     "monogram": "Le",
     "kind": "Library / tool",
+    "documentation": "https://lexical.dev/docs/intro",
     "official": "https://lexical.dev/",
     "keywords": [],
     "sourceIds": [
@@ -3375,6 +3575,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding a straightforward enlarged-image viewer to a webpage.",
     "monogram": "Li",
     "kind": "Library / tool",
+    "documentation": "https://lokeshdhakar.com/projects/lightbox2/#getting-started",
     "official": "https://lokeshdhakar.com/projects/lightbox2/",
     "keywords": [],
     "sourceIds": [
@@ -3391,6 +3592,7 @@ export const libraries: Library[] = [
     "goodFor": "Presenting media in an interactive gallery with overlay viewing.",
     "monogram": "li",
     "kind": "Library / tool",
+    "documentation": "https://www.lightgalleryjs.com/docs/react/",
     "official": "https://www.lightgalleryjs.com/docs/react/",
     "keywords": [],
     "sourceIds": [
@@ -3407,6 +3609,7 @@ export const libraries: Library[] = [
     "goodFor": "Refining scroll-container interactions in a shadcn-style interface.",
     "monogram": "Li",
     "kind": "Library / tool",
+    "documentation": "https://lina.sameer.sh/",
     "official": "https://github.com/SameerJS6/lina",
     "keywords": [],
     "sourceIds": [
@@ -3423,6 +3626,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping styles near components while producing static CSS.",
     "monogram": "Li",
     "kind": "Library / tool",
+    "documentation": "https://github.com/callstack/linaria/tree/master/docs",
     "official": "https://linaria.dev/",
     "keywords": [],
     "sourceIds": [
@@ -3439,6 +3643,7 @@ export const libraries: Library[] = [
     "goodFor": "Making URLs, mentions, and similar text patterns clickable.",
     "monogram": "Li",
     "kind": "Library / tool",
+    "documentation": "https://linkify.js.org/docs/",
     "official": "https://linkify.js.org/",
     "keywords": [],
     "sourceIds": [
@@ -3455,6 +3660,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating visual programming interfaces and connected processing nodes.",
     "monogram": "Li",
     "kind": "Library / tool",
+    "documentation": "https://github.com/jagenjo/litegraph.js#readme",
     "official": "https://github.com/jagenjo/litegraph.js",
     "keywords": [],
     "sourceIds": [
@@ -3471,6 +3677,7 @@ export const libraries: Library[] = [
     "goodFor": "Building interactive calls, rooms, and live media experiences.",
     "monogram": "Li",
     "kind": "Library / tool",
+    "documentation": "https://docs.livekit.io/intro/overview/",
     "official": "https://livekit.io/",
     "keywords": [],
     "sourceIds": [
@@ -3487,6 +3694,7 @@ export const libraries: Library[] = [
     "goodFor": "Researching model options before testing them on your own workload.",
     "monogram": "LL",
     "kind": "Library / tool",
+    "documentation": "https://llm-stats.com/developer",
     "official": "https://llm-stats.com/",
     "keywords": [],
     "sourceIds": [
@@ -3503,6 +3711,7 @@ export const libraries: Library[] = [
     "goodFor": "Deferring component bundles until a route or feature needs them.",
     "monogram": "Lo",
     "kind": "Library / tool",
+    "documentation": "https://loadable-components.com/docs/getting-started/",
     "official": "https://loadable-components.com/",
     "keywords": [],
     "sourceIds": [
@@ -3519,6 +3728,7 @@ export const libraries: Library[] = [
     "goodFor": "Maintaining familiar data-transformation helpers across a JavaScript codebase.",
     "monogram": "Lo",
     "kind": "Library / tool",
+    "documentation": "https://lodash.com/docs/",
     "official": "https://lodash.com/",
     "keywords": [],
     "sourceIds": [
@@ -3535,6 +3745,7 @@ export const libraries: Library[] = [
     "goodFor": "Making terminal success, warning, and error messages easy to scan.",
     "monogram": "lo",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/sindresorhus/log-symbols#readme",
     "official": "https://www.npmjs.com/package/log-symbols",
     "keywords": [],
     "sourceIds": [
@@ -3551,6 +3762,7 @@ export const libraries: Library[] = [
     "goodFor": "Investigating frontend problems in the context of a user's session.",
     "monogram": "Lo",
     "kind": "Library / tool",
+    "documentation": "https://docs.logrocket.com/docs/introduction",
     "official": "https://logrocket.com/",
     "keywords": [],
     "sourceIds": [
@@ -3567,6 +3779,7 @@ export const libraries: Library[] = [
     "goodFor": "Following important product events through a shared event feed.",
     "monogram": "Lo",
     "kind": "Library / tool",
+    "documentation": "https://docs.logsnag.com/",
     "official": "https://docs.logsnag.com/",
     "keywords": [],
     "sourceIds": [
@@ -3583,6 +3796,7 @@ export const libraries: Library[] = [
     "goodFor": "Sharing logging conventions across server, browser, and edge code.",
     "monogram": "Lo",
     "kind": "Library / tool",
+    "documentation": "https://logtape.org/manual/start",
     "official": "https://logtape.org/",
     "keywords": [],
     "sourceIds": [
@@ -3599,6 +3813,7 @@ export const libraries: Library[] = [
     "goodFor": "Supporting login and identity features in a SaaS application.",
     "monogram": "Lo",
     "kind": "Library / tool",
+    "documentation": "https://docs.logto.io/introduction",
     "official": "https://logto.io/",
     "keywords": [],
     "sourceIds": [
@@ -3615,6 +3830,7 @@ export const libraries: Library[] = [
     "goodFor": "Rendering highlighted code through a custom virtual-DOM integration.",
     "monogram": "Lo",
     "kind": "Library / tool",
+    "documentation": "https://github.com/wooorm/lowlight#readme",
     "official": "https://www.npmjs.com/package/lowlight",
     "keywords": [],
     "sourceIds": [
@@ -3632,6 +3848,7 @@ export const libraries: Library[] = [
     "monogram": "Lu",
     "kind": "Library / tool",
     "caveat": "The Lucia library was deprecated in March 2025. Its current site teaches authentication and session implementation.",
+    "documentation": "https://github.com/lucia-auth/lucia/blob/bcee386807d61f0088eca136ae4cc2a053c3f3a6/pages/sessions/overview.md",
     "official": "https://lucia-auth.com/",
     "keywords": [],
     "sourceIds": [
@@ -3648,6 +3865,7 @@ export const libraries: Library[] = [
     "goodFor": "Building interfaces with a coordinated, customizable icon style.",
     "monogram": "Lu",
     "kind": "Library / tool",
+    "documentation": "https://lucide.dev/guide/react",
     "official": "https://lucide.dev/guide/packages/lucide-react",
     "keywords": [],
     "sourceIds": [
@@ -3664,6 +3882,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding distinctive visual components that you can customize in your codebase.",
     "monogram": "Lu",
     "kind": "UI toolkit",
+    "documentation": "https://www.luxeui.com/ui/installation",
     "official": "https://luxe.guhrodrigues.com/",
     "keywords": [],
     "sourceIds": [
@@ -3680,6 +3899,7 @@ export const libraries: Library[] = [
     "goodFor": "Finding circular dependencies and understanding module relationships.",
     "monogram": "Ma",
     "kind": "Developer tool",
+    "documentation": "https://github.com/pahen/madge#readme",
     "official": "https://github.com/pahen/madge",
     "keywords": [],
     "sourceIds": [
@@ -3696,6 +3916,7 @@ export const libraries: Library[] = [
     "goodFor": "Building expressive landing pages and marketing interfaces.",
     "monogram": "Ma",
     "kind": "Library / tool",
+    "documentation": "https://magicui.design/docs",
     "official": "https://magicui.design/",
     "keywords": [],
     "sourceIds": [
@@ -3713,6 +3934,7 @@ export const libraries: Library[] = [
     "monogram": "Ma",
     "kind": "Testing tool",
     "caveat": "This entry covers the original browser agent. The Magnitude domain now describes a different inference product.",
+    "documentation": "https://github.com/magnitudedev/browser-agent#readme",
     "official": "https://github.com/magnitudedev/browser-agent",
     "keywords": [],
     "sourceIds": [
@@ -3729,6 +3951,7 @@ export const libraries: Library[] = [
     "goodFor": "Building feature-rich application screens with coordinated UI controls.",
     "monogram": "Ma",
     "kind": "UI toolkit",
+    "documentation": "https://mantine.dev/getting-started/",
     "official": "https://mantine.dev/",
     "keywords": [],
     "sourceIds": [
@@ -3745,6 +3968,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a styled interface with Material-inspired visual conventions.",
     "monogram": "Ma",
     "kind": "UI toolkit",
+    "documentation": "https://www.material-tailwind.com/docs/react/installation",
     "official": "https://www.material-tailwind.com/",
     "keywords": [],
     "sourceIds": [
@@ -3761,6 +3985,7 @@ export const libraries: Library[] = [
     "goodFor": "Understanding the protocol behind browser and API requests.",
     "monogram": "MD",
     "kind": "Learning resource",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
     "official": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
     "keywords": [],
     "sourceIds": [
@@ -3777,6 +4002,7 @@ export const libraries: Library[] = [
     "goodFor": "Checking how HTML, CSS, JavaScript, and browser features work.",
     "monogram": "MD",
     "kind": "Learning resource",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web",
     "official": "https://developer.mozilla.org/",
     "keywords": [],
     "sourceIds": [
@@ -3793,6 +4019,7 @@ export const libraries: Library[] = [
     "goodFor": "Checking documentation that combines Markdown and JSX.",
     "monogram": "md",
     "kind": "Developer tool",
+    "documentation": "https://github.com/remcohaszing/mdxlint#readme",
     "official": "https://github.com/remcohaszing/mdxlint",
     "keywords": [],
     "sourceIds": [
@@ -3809,6 +4036,7 @@ export const libraries: Library[] = [
     "goodFor": "Parsing CLI flags and presenting concise command help.",
     "monogram": "me",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/sindresorhus/meow#readme",
     "official": "https://github.com/sindresorhus/meow",
     "keywords": [],
     "sourceIds": [
@@ -3825,6 +4053,7 @@ export const libraries: Library[] = [
     "goodFor": "Combining internal and forwarded refs in reusable components.",
     "monogram": "me",
     "kind": "Library / tool",
+    "documentation": "https://github.com/wojtekmaj/merge-refs#readme",
     "official": "https://github.com/wojtekmaj/merge-refs",
     "keywords": [],
     "sourceIds": [
@@ -3841,6 +4070,7 @@ export const libraries: Library[] = [
     "goodFor": "Embedding external content as consistent preview cards.",
     "monogram": "Mi",
     "kind": "Library / tool",
+    "documentation": "https://microlink.io/docs/sdk/getting-started/overview",
     "official": "https://microlink.io/sdk",
     "keywords": [],
     "sourceIds": [
@@ -3857,6 +4087,7 @@ export const libraries: Library[] = [
     "goodFor": "Applications integrated with Microsoft's cloud and enterprise ecosystem.",
     "monogram": "Mi",
     "kind": "Infrastructure",
+    "documentation": "https://learn.microsoft.com/en-us/azure/",
     "official": "https://azure.microsoft.com/",
     "keywords": [],
     "sourceIds": [
@@ -3873,6 +4104,7 @@ export const libraries: Library[] = [
     "goodFor": "Investigating how people interact with a website.",
     "monogram": "Mi",
     "kind": "Analytics tool",
+    "documentation": "https://learn.microsoft.com/en-us/clarity/",
     "official": "https://clarity.microsoft.com/",
     "keywords": [],
     "sourceIds": [
@@ -3889,6 +4121,7 @@ export const libraries: Library[] = [
     "goodFor": "Automating browser and application workflows using visual understanding.",
     "monogram": "Mi",
     "kind": "Library / tool",
+    "documentation": "https://midscenejs.com/get-started",
     "official": "https://github.com/web-infra-dev/midscene",
     "keywords": [],
     "sourceIds": [
@@ -3905,6 +4138,7 @@ export const libraries: Library[] = [
     "goodFor": "Applications that need managed entities and explicit persistence boundaries.",
     "monogram": "Mi",
     "kind": "Data tool",
+    "documentation": "https://mikro-orm.io/docs/quick-start",
     "official": "https://mikro-orm.io/",
     "keywords": [],
     "sourceIds": [
@@ -3921,6 +4155,7 @@ export const libraries: Library[] = [
     "goodFor": "Checking file paths against include and exclude patterns.",
     "monogram": "mi",
     "kind": "Library / tool",
+    "documentation": "https://github.com/isaacs/minimatch#readme",
     "official": "https://github.com/isaacs/minimatch",
     "keywords": [],
     "sourceIds": [
@@ -3940,6 +4175,7 @@ export const libraries: Library[] = [
     "goodFor": "Searching small to medium datasets directly in the browser or Node.js.",
     "monogram": "Mi",
     "kind": "Library / tool",
+    "documentation": "https://lucaong.github.io/minisearch/",
     "official": "https://lucaong.github.io/minisearch/",
     "keywords": [],
     "sourceIds": [
@@ -3956,6 +4192,7 @@ export const libraries: Library[] = [
     "goodFor": "Generating component styling and variants from stylesheet definitions.",
     "monogram": "Mi",
     "kind": "Library / tool",
+    "documentation": "https://github.com/typicode/mistcss#readme",
     "official": "https://typicode.github.io/mistcss/",
     "keywords": [],
     "sourceIds": [
@@ -3972,6 +4209,7 @@ export const libraries: Library[] = [
     "goodFor": "Deriving reactive UI updates from mutable application models.",
     "monogram": "Mo",
     "kind": "Library / tool",
+    "documentation": "https://mobx.js.org/README.html",
     "official": "https://mobx.js.org/README.html",
     "keywords": [],
     "sourceIds": [
@@ -3988,6 +4226,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing navigation in an application already organized around MobX.",
     "monogram": "mo",
     "kind": "Library / tool",
+    "documentation": "https://github.com/kitze/mobx-router#readme",
     "official": "https://github.com/kitze/mobx-router",
     "keywords": [],
     "sourceIds": [
@@ -4004,6 +4243,7 @@ export const libraries: Library[] = [
     "goodFor": "Structuring application state around models, actions, and snapshots.",
     "monogram": "Mo",
     "kind": "Library / tool",
+    "documentation": "https://mobx-state-tree.js.org/intro/welcome",
     "official": "https://mobx-state-tree.js.org/intro/welcome",
     "keywords": [],
     "sourceIds": [
@@ -4020,6 +4260,7 @@ export const libraries: Library[] = [
     "goodFor": "Applying structured validation and model behavior to MongoDB documents.",
     "monogram": "Mo",
     "kind": "Data tool",
+    "documentation": "https://mongoosejs.com/docs/index.html",
     "official": "https://mongoosejs.com/",
     "keywords": [],
     "sourceIds": [
@@ -4036,6 +4277,7 @@ export const libraries: Library[] = [
     "goodFor": "Recording incoming requests in an Express-style application.",
     "monogram": "Mo",
     "kind": "Library / tool",
+    "documentation": "https://github.com/expressjs/morgan#readme",
     "official": "https://www.npmjs.com/package/morgan",
     "keywords": [],
     "sourceIds": [
@@ -4052,6 +4294,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying a search experience that combines retrieval with generated answers.",
     "monogram": "Mo",
     "kind": "Reference app",
+    "documentation": "https://github.com/miurla/morphic#readme",
     "official": "https://github.com/miurla/morphic",
     "keywords": [],
     "sourceIds": [
@@ -4068,6 +4311,7 @@ export const libraries: Library[] = [
     "goodFor": "Building transitions, gestures, and coordinated layout animation.",
     "monogram": "Mo",
     "kind": "Library / tool",
+    "documentation": "https://motion.dev/docs",
     "official": "https://motion.dev/",
     "keywords": [],
     "sourceIds": [
@@ -4087,6 +4331,7 @@ export const libraries: Library[] = [
     "goodFor": "Bootstrapping mocked API responses for frontend development.",
     "monogram": "ms",
     "kind": "Testing tool",
+    "documentation": "https://github.com/zoubingwu/msw-auto-mock#readme",
     "official": "https://github.com/zoubingwu/msw-auto-mock",
     "keywords": [],
     "sourceIds": [
@@ -4103,6 +4348,7 @@ export const libraries: Library[] = [
     "goodFor": "Building an application with a broad, coordinated component library.",
     "monogram": "MU",
     "kind": "UI toolkit",
+    "documentation": "https://mui.com/material-ui/getting-started/",
     "official": "https://mui.com/",
     "keywords": [],
     "sourceIds": [
@@ -4121,6 +4367,7 @@ export const libraries: Library[] = [
     "goodFor": "Data tables in an application already using Material UI.",
     "caveat": "Feature availability differs between Community, Pro, and Premium.",
     "implementation": "Define rows and columns, configure grid features, and apply your MUI theme. Confirm the required plan for advanced interactions before settling on the component.",
+    "documentation": "https://mui.com/x/react-data-grid/quickstart/",
     "official": "https://mui.com/x/react-data-grid/",
     "keywords": [
       "search sort filter",
@@ -4141,6 +4388,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating short unique IDs for application records and shareable links.",
     "monogram": "Na",
     "kind": "Library / tool",
+    "documentation": "https://github.com/ai/nanoid#readme",
     "official": "https://www.npmjs.com/package/nanoid",
     "keywords": [],
     "sourceIds": [
@@ -4157,6 +4405,7 @@ export const libraries: Library[] = [
     "goodFor": "Choosing an ID length based on an application's expected volume.",
     "monogram": "Na",
     "kind": "Developer tool",
+    "documentation": "https://github.com/zelark/nano-id-cc#readme",
     "official": "https://zelark.github.io/nano-id-cc/",
     "keywords": [],
     "sourceIds": [
@@ -4173,6 +4422,7 @@ export const libraries: Library[] = [
     "goodFor": "Sharing focused pieces of state without a large state-management setup.",
     "monogram": "Na",
     "kind": "Library / tool",
+    "documentation": "https://github.com/nanostores/nanostores#readme",
     "official": "https://github.com/nanostores/nanostores",
     "keywords": [],
     "sourceIds": [
@@ -4189,6 +4439,7 @@ export const libraries: Library[] = [
     "goodFor": "Modeling navigation state across supported React application targets.",
     "monogram": "Na",
     "kind": "Library / tool",
+    "documentation": "https://grahammendick.github.io/navigation/documentation/setup.html",
     "official": "https://grahammendick.github.io/navigation/",
     "keywords": [],
     "sourceIds": [
@@ -4205,6 +4456,7 @@ export const libraries: Library[] = [
     "goodFor": "Packaging HTML, CSS, and JavaScript as a lightweight desktop application.",
     "monogram": "Ne",
     "kind": "Library / tool",
+    "documentation": "https://neutralino.js.org/docs/",
     "official": "https://neutralino.js.org/",
     "keywords": [],
     "sourceIds": [
@@ -4222,6 +4474,7 @@ export const libraries: Library[] = [
     "monogram": "Ne",
     "kind": "Learning resource",
     "caveat": "The original Nexar domain now points elsewhere. This entry links to the author's original reference repository.",
+    "documentation": "https://nexar.flsilva.com/learn",
     "official": "https://github.com/flsilva/nexar.flsilva.com/",
     "keywords": [],
     "sourceIds": [
@@ -4238,6 +4491,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring a hybrid routing setup through a minimal working example.",
     "monogram": "Ne",
     "kind": "Framework / starter",
+    "documentation": "https://github.com/rudrodip/nexfaster#readme",
     "official": "https://nexfaster.rdsx.dev/",
     "keywords": [],
     "sourceIds": [
@@ -4254,6 +4508,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring a documentation layout and publishing approach built with Next.js.",
     "monogram": "Ne",
     "kind": "Publishing tool",
+    "documentation": "https://github.com/fuma-nama/fumadocs/blob/7fe9c6b02749a69975a48c9fa42d5f9cde4aacb6/apps/docs/content/docs/ui/index.mdx",
     "official": "https://next-docs-zeta.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -4271,6 +4526,7 @@ export const libraries: Library[] = [
     "goodFor": "Debugging cache interactions while building a Next.js application.",
     "monogram": "ne",
     "kind": "Developer tool",
+    "documentation": "https://github.com/KajSzy/next-cache-toolbar#readme",
     "official": "https://github.com/KajSzy/next-cache-toolbar/",
     "keywords": [],
     "sourceIds": [
@@ -4287,6 +4543,7 @@ export const libraries: Library[] = [
     "goodFor": "Serving translated client interfaces from a static export.",
     "monogram": "ne",
     "kind": "Library / tool",
+    "documentation": "https://github.com/martinkr/next-export-i18n#readme",
     "official": "https://github.com/martinkr/next-export-i18n",
     "keywords": [],
     "sourceIds": [
@@ -4303,6 +4560,7 @@ export const libraries: Library[] = [
     "goodFor": "Preparing optimized images when no Next.js image server runs in production.",
     "monogram": "ne",
     "kind": "Library / tool",
+    "documentation": "https://github.com/Niels-IO/next-image-export-optimizer#readme",
     "official": "https://github.com/Niels-IO/next-image-export-optimizer",
     "keywords": [],
     "sourceIds": [
@@ -4319,6 +4577,7 @@ export const libraries: Library[] = [
     "goodFor": "Connecting image optimization to an existing storage and proxy setup.",
     "monogram": "ne",
     "kind": "Library / tool",
+    "documentation": "https://github.com/BitPatty/next-image-s3-imgproxy-loader#readme",
     "official": "https://github.com/BitPatty/next-image-s3-imgproxy-loader",
     "keywords": [],
     "sourceIds": [
@@ -4335,6 +4594,7 @@ export const libraries: Library[] = [
     "goodFor": "Organizing translated messages and localized routes in a Next.js application.",
     "monogram": "ne",
     "kind": "Library / tool",
+    "documentation": "https://next-international.vercel.app/docs",
     "official": "https://next-international.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -4351,6 +4611,7 @@ export const libraries: Library[] = [
     "goodFor": "Reducing initial client work for below-the-fold Next.js content.",
     "monogram": "ne",
     "kind": "Library / tool",
+    "documentation": "https://github.com/woywro/next-lazy-hydration-on-scroll#readme",
     "official": "https://github.com/woywro/next-lazy-hydration-on-scroll",
     "keywords": [],
     "sourceIds": [
@@ -4367,6 +4628,7 @@ export const libraries: Library[] = [
     "goodFor": "Collecting machine-readable logs from a Next.js server.",
     "monogram": "ne",
     "kind": "Library / tool",
+    "documentation": "https://github.com/sainsburys-tech/next-logger#readme",
     "official": "https://www.npmjs.com/package/next-logger",
     "keywords": [],
     "sourceIds": [
@@ -4383,6 +4645,7 @@ export const libraries: Library[] = [
     "goodFor": "Connecting form or UI actions to validated server operations.",
     "monogram": "ne",
     "kind": "Library / tool",
+    "documentation": "https://next-safe-action.dev/docs/quick-start",
     "official": "https://next-safe-action.dev/",
     "keywords": [],
     "sourceIds": [
@@ -4399,6 +4662,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding persisted light, dark, and system theme selection.",
     "monogram": "ne",
     "kind": "Library / tool",
+    "documentation": "https://github.com/pacocoursey/next-themes/tree/main/next-themes#readme",
     "official": "https://github.com/pacocoursey/next-themes",
     "keywords": [],
     "sourceIds": [
@@ -4415,6 +4679,7 @@ export const libraries: Library[] = [
     "goodFor": "Embedding video with storage, streaming, and player integration.",
     "monogram": "ne",
     "kind": "Library / tool",
+    "documentation": "https://next-video.dev/docs",
     "official": "https://next-video.dev/",
     "keywords": [],
     "sourceIds": [
@@ -4431,6 +4696,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a full-stack web application with integrated React conventions.",
     "monogram": "Ne",
     "kind": "Framework / starter",
+    "documentation": "https://nextjs.org/docs",
     "official": "https://nextjs.org/",
     "keywords": [],
     "sourceIds": [
@@ -4447,6 +4713,7 @@ export const libraries: Library[] = [
     "goodFor": "Learning routing and rendering concepts through simplified application code.",
     "monogram": "Ne",
     "kind": "Learning resource",
+    "documentation": "https://github.com/hiroppy/nextjs-app-router-training#readme",
     "official": "https://nextjs-app-router-training.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -4464,6 +4731,7 @@ export const libraries: Library[] = [
     "goodFor": "Publishing technical documentation with React-enhanced Markdown content.",
     "monogram": "Ne",
     "kind": "Publishing tool",
+    "documentation": "https://nextra.site/docs",
     "official": "https://nextra.site/",
     "keywords": [],
     "sourceIds": [
@@ -4480,6 +4748,7 @@ export const libraries: Library[] = [
     "goodFor": "Running familiar install and script commands across different repositories.",
     "monogram": "ni",
     "kind": "Library / tool",
+    "documentation": "https://github.com/antfu-collective/ni#readme",
     "official": "https://www.npmjs.com/package/@antfu/ni",
     "keywords": [],
     "sourceIds": [
@@ -4496,13 +4765,14 @@ export const libraries: Library[] = [
     "goodFor": "Adding an AI chat experience connected to a model backend.",
     "monogram": "nl",
     "kind": "Library / tool",
-    "official": "https://nlux.dev/",
+    "documentation": "https://docs.nlkit.com/nlux",
+    "official": "https://docs.nlkit.com/nlux",
     "keywords": [],
     "sourceIds": [
       284
     ],
     "references": [],
-    "sourceStatus": "unconfirmed"
+    "sourceStatus": "available"
   },
   {
     "id": "nmea-js",
@@ -4512,6 +4782,7 @@ export const libraries: Library[] = [
     "goodFor": "Interpreting GPS and other navigation-device data in JavaScript.",
     "monogram": "nm",
     "kind": "Library / tool",
+    "documentation": "https://github.com/BMSVieira/nmea.js#readme",
     "official": "https://github.com/BMSVieira/nmea.js",
     "keywords": [],
     "sourceIds": [
@@ -4528,6 +4799,7 @@ export const libraries: Library[] = [
     "goodFor": "Notifying developers when a local task completes or fails.",
     "monogram": "no",
     "kind": "Library / tool",
+    "documentation": "https://github.com/mikaelbr/node-notifier#readme",
     "official": "https://github.com/mikaelbr/node-notifier",
     "keywords": [],
     "sourceIds": [
@@ -4544,6 +4816,7 @@ export const libraries: Library[] = [
     "goodFor": "Reviewing CLI usability, reliability, and packaging decisions.",
     "monogram": "No",
     "kind": "Learning resource",
+    "documentation": "https://github.com/lirantal/nodejs-cli-apps-best-practices#readme",
     "official": "https://github.com/lirantal/nodejs-cli-apps-best-practices",
     "keywords": [],
     "sourceIds": [
@@ -4560,6 +4833,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying an established documentation and community website implementation.",
     "monogram": "No",
     "kind": "Reference app",
+    "documentation": "https://github.com/nodejs/nodejs.org#readme",
     "official": "https://github.com/nodejs/nodejs.org",
     "keywords": [],
     "sourceIds": [
@@ -4595,6 +4869,7 @@ export const libraries: Library[] = [
     "goodFor": "Reviewing and updating package.json dependency constraints.",
     "monogram": "np",
     "kind": "Library / tool",
+    "documentation": "https://github.com/raineorshine/npm-check-updates#readme",
     "official": "https://www.npmjs.com/package/npm-check-updates",
     "keywords": [],
     "sourceIds": [
@@ -4611,6 +4886,7 @@ export const libraries: Library[] = [
     "goodFor": "Organizing a development or build workflow across multiple package scripts.",
     "monogram": "np",
     "kind": "Library / tool",
+    "documentation": "https://github.com/mysticatea/npm-run-all#readme",
     "official": "https://github.com/mysticatea/npm-run-all",
     "keywords": [],
     "sourceIds": [
@@ -4627,6 +4903,7 @@ export const libraries: Library[] = [
     "goodFor": "Running locally installed command-line tools from Node.js code.",
     "monogram": "np",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/sindresorhus/npm-run-path#readme",
     "official": "https://github.com/sindresorhus/npm-run-path",
     "keywords": [],
     "sourceIds": [
@@ -4643,6 +4920,7 @@ export const libraries: Library[] = [
     "goodFor": "Understanding the packages pulled into a dependency tree.",
     "monogram": "np",
     "kind": "Library / tool",
+    "documentation": "https://github.com/npmgraph/npmgraph#readme",
     "official": "https://npmgraph.js.org/",
     "keywords": [],
     "sourceIds": [
@@ -4659,6 +4937,7 @@ export const libraries: Library[] = [
     "goodFor": "Indicating navigation or request progress at the top of a page.",
     "monogram": "NP",
     "kind": "Library / tool",
+    "documentation": "https://github.com/rstacruz/nprogress/blob/master/Readme.md",
     "official": "https://rstacruz.github.io/nprogress/",
     "keywords": [],
     "sourceIds": [
@@ -4675,6 +4954,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding a client-side classification signal to an image moderation workflow.",
     "monogram": "NS",
     "kind": "Library / tool",
+    "documentation": "https://github.com/infinitered/nsfwjs#readme",
     "official": "https://nsfwjs.com/",
     "keywords": [],
     "sourceIds": [
@@ -4691,6 +4971,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping filters, pagination, and shareable view state in the address bar.",
     "monogram": "nu",
     "kind": "Library / tool",
+    "documentation": "https://nuqs.dev/docs/installation",
     "official": "https://nuqs.47ng.com/",
     "keywords": [],
     "sourceIds": [
@@ -4707,6 +4988,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a custom onboarding flow while reusing its state-management behavior.",
     "monogram": "On",
     "kind": "Library / tool",
+    "documentation": "https://github.com/useflytrap/onboarding_lib/blob/main/packages/lib/README.md",
     "official": "https://onboarding-lib.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -4724,6 +5006,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing URL previews backed by a metadata service.",
     "monogram": "op",
     "kind": "Library / tool",
+    "documentation": "https://github.com/securecoders/opengraph-react#readme",
     "official": "https://www.npmjs.com/package/opengraph-react",
     "keywords": [],
     "sourceIds": [
@@ -4740,6 +5023,7 @@ export const libraries: Library[] = [
     "goodFor": "Packaging a Next.js application for supported serverless infrastructure.",
     "monogram": "Op",
     "kind": "Infrastructure",
+    "documentation": "https://opennext.js.org/",
     "official": "https://open-next.js.org/",
     "keywords": [],
     "sourceIds": [
@@ -4756,6 +5040,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying a dashboard built around software-community data.",
     "monogram": "Op",
     "kind": "Reference app",
+    "documentation": "https://github.com/open-sauced/app#readme",
     "official": "https://github.com/open-sauced/app",
     "keywords": [],
     "sourceIds": [
@@ -4772,6 +5057,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing progress while a CLI waits for a task to finish.",
     "monogram": "or",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/sindresorhus/ora#readme",
     "official": "https://github.com/sindresorhus/ora",
     "keywords": [],
     "sourceIds": [
@@ -4788,6 +5074,7 @@ export const libraries: Library[] = [
     "goodFor": "Querying related records through a higher-level data-access API.",
     "monogram": "Or",
     "kind": "Data tool",
+    "documentation": "https://orange-orm.io/installation.html",
     "official": "https://orange-orm.io/",
     "keywords": [],
     "sourceIds": [
@@ -4805,6 +5092,7 @@ export const libraries: Library[] = [
     "monogram": "Or",
     "kind": "UI toolkit",
     "caveat": "Origin UI is preserved as a legacy collection with limited maintenance. New development continues in coss ui.",
+    "documentation": "https://github.com/cosscom/ui/blob/main/apps/origin/README.md",
     "official": "https://coss.com/origin",
     "keywords": [],
     "sourceIds": [
@@ -4821,6 +5109,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping frontend API calls aligned with an API specification.",
     "monogram": "Or",
     "kind": "API tool",
+    "documentation": "https://orval.dev/docs/",
     "official": "https://orval.dev/",
     "keywords": [],
     "sourceIds": [
@@ -4837,6 +5126,7 @@ export const libraries: Library[] = [
     "goodFor": "Styling scrolling containers while retaining familiar browser interaction.",
     "monogram": "Ov",
     "kind": "Library / tool",
+    "documentation": "https://kingsora.github.io/OverlayScrollbars/",
     "official": "https://kingsora.github.io/OverlayScrollbars/",
     "keywords": [],
     "sourceIds": [
@@ -4853,6 +5143,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a design system with type-safe styling conventions.",
     "monogram": "Pa",
     "kind": "Library / tool",
+    "documentation": "https://panda-css.com/docs",
     "official": "https://panda-css.com/",
     "keywords": [],
     "sourceIds": [
@@ -4869,6 +5160,7 @@ export const libraries: Library[] = [
     "goodFor": "Starting a design system from coordinated component recipes.",
     "monogram": "Pa",
     "kind": "UI toolkit",
+    "documentation": "https://park-ui.com/docs/introduction",
     "official": "https://park-ui.com/",
     "keywords": [],
     "sourceIds": [
@@ -4885,6 +5177,7 @@ export const libraries: Library[] = [
     "goodFor": "Reducing main-thread work caused by external website scripts.",
     "monogram": "Pa",
     "kind": "Library / tool",
+    "documentation": "https://partytown.qwik.dev/getting-started/",
     "official": "https://partytown.qwik.dev/",
     "keywords": [],
     "sourceIds": [
@@ -4901,6 +5194,7 @@ export const libraries: Library[] = [
     "goodFor": "Combining usage insights with in-app guidance for users.",
     "monogram": "Pe",
     "kind": "Analytics tool",
+    "documentation": "https://support.pendo.io/hc/en-us",
     "official": "https://www.pendo.io/",
     "keywords": [],
     "sourceIds": [
@@ -4917,6 +5211,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding colored output to lightweight developer tools.",
     "monogram": "pi",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/alexeyraspopov/picocolors#readme",
     "official": "https://github.com/alexeyraspopov/picocolors",
     "keywords": [],
     "sourceIds": [
@@ -4933,6 +5228,7 @@ export const libraries: Library[] = [
     "goodFor": "Writing component styles that are extracted before the application runs.",
     "monogram": "Pi",
     "kind": "Library / tool",
+    "documentation": "https://github.com/mui/pigment-css#readme",
     "official": "https://github.com/mui/pigment-css",
     "keywords": [],
     "sourceIds": [
@@ -4949,6 +5245,7 @@ export const libraries: Library[] = [
     "goodFor": "Collecting application logs in latency-sensitive server workloads.",
     "monogram": "Pi",
     "kind": "Library / tool",
+    "documentation": "https://github.com/pinojs/pino/blob/main/docs/api.md",
     "official": "https://getpino.io/#/",
     "keywords": [],
     "sourceIds": [
@@ -4965,6 +5262,7 @@ export const libraries: Library[] = [
     "goodFor": "Building distributable JavaScript and TypeScript libraries.",
     "monogram": "pk",
     "kind": "Library / tool",
+    "documentation": "https://github.com/privatenumber/pkgroll#readme",
     "official": "https://github.com/privatenumber/pkgroll",
     "keywords": [],
     "sourceIds": [
@@ -4981,6 +5279,7 @@ export const libraries: Library[] = [
     "goodFor": "Processing certificates and cryptographic structures with Web Crypto integration.",
     "monogram": "PK",
     "kind": "Library / tool",
+    "documentation": "https://pkijs.org/docs/installation/",
     "official": "https://github.com/PeculiarVentures/PKI.js",
     "keywords": [],
     "sourceIds": [
@@ -4997,6 +5296,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying or self-hosting a collaborative project-management interface.",
     "monogram": "Pl",
     "kind": "Reference app",
+    "documentation": "https://docs.plane.so/",
     "official": "https://github.com/makeplane/plane",
     "keywords": [],
     "sourceIds": [
@@ -5013,6 +5313,7 @@ export const libraries: Library[] = [
     "goodFor": "Teams that want database operations handled by a hosted service.",
     "monogram": "Pl",
     "kind": "Data tool",
+    "documentation": "https://planetscale.com/docs",
     "official": "https://planetscale.com/",
     "keywords": [],
     "sourceIds": [
@@ -5029,6 +5330,7 @@ export const libraries: Library[] = [
     "goodFor": "Building an editor with selectable formatting and document features.",
     "monogram": "Pl",
     "kind": "Library / tool",
+    "documentation": "https://platejs.org/docs",
     "official": "https://platejs.org/",
     "keywords": [],
     "sourceIds": [
@@ -5045,6 +5347,7 @@ export const libraries: Library[] = [
     "goodFor": "Verifying real user workflows across supported browser engines.",
     "monogram": "Pl",
     "kind": "Testing tool",
+    "documentation": "https://playwright.dev/docs/intro",
     "official": "https://playwright.dev/",
     "keywords": [],
     "sourceIds": [
@@ -5061,6 +5364,7 @@ export const libraries: Library[] = [
     "goodFor": "Testing workflows as users with different accounts and permissions.",
     "monogram": "pl",
     "kind": "Testing tool",
+    "documentation": "https://github.com/kettanaito/playwright-persona#readme",
     "official": "https://github.com/kettanaito/playwright-persona",
     "keywords": [],
     "sourceIds": [
@@ -5077,6 +5381,7 @@ export const libraries: Library[] = [
     "goodFor": "Publishing repository-based content through a dedicated reading interface.",
     "monogram": "pl",
     "kind": "Publishing tool",
+    "documentation": "https://plok.sh/guide",
     "official": "https://plok.sh/",
     "keywords": [],
     "sourceIds": [
@@ -5093,6 +5398,7 @@ export const libraries: Library[] = [
     "goodFor": "Building analytical dashboards and explorable data visualizations.",
     "monogram": "Pl",
     "kind": "Library / tool",
+    "documentation": "https://plotly.com/javascript/getting-started/",
     "official": "https://plotly.com/javascript/",
     "keywords": [],
     "sourceIds": [
@@ -5109,6 +5415,7 @@ export const libraries: Library[] = [
     "goodFor": "Presenting data through explanatory visual narratives.",
     "monogram": "Pl",
     "kind": "Library / tool",
+    "documentation": "https://plotteus.dev/docs/introduction",
     "official": "https://www.plotteus.dev/",
     "keywords": [],
     "sourceIds": [
@@ -5125,6 +5432,7 @@ export const libraries: Library[] = [
     "goodFor": "Coordinating animated 3D interactions through reusable sequences.",
     "monogram": "pm",
     "kind": "Library / tool",
+    "documentation": "https://pmndrs.github.io/timeline/getting-started/0-introduction",
     "official": "https://pmndrs.github.io/timeline/getting-started/0-introduction",
     "keywords": [],
     "sourceIds": [
@@ -5141,6 +5449,7 @@ export const libraries: Library[] = [
     "goodFor": "Small applications that benefit from a self-contained backend.",
     "monogram": "Po",
     "kind": "Library / tool",
+    "documentation": "https://pocketbase.io/docs/",
     "official": "https://pocketbase.io/",
     "keywords": [],
     "sourceIds": [
@@ -5157,6 +5466,7 @@ export const libraries: Library[] = [
     "goodFor": "Calculating colors, layout values, and reusable CSS fragments.",
     "monogram": "Po",
     "kind": "Library / tool",
+    "documentation": "https://polished.js.org/docs/",
     "official": "https://polished.js.org/",
     "keywords": [],
     "sourceIds": [
@@ -5173,6 +5483,7 @@ export const libraries: Library[] = [
     "goodFor": "Collaborating on request examples and repeatable API checks.",
     "monogram": "Po",
     "kind": "API tool",
+    "documentation": "https://learning.postman.com/docs/getting-started/overview/",
     "official": "https://www.postman.com/",
     "keywords": [],
     "sourceIds": [
@@ -5191,6 +5502,7 @@ export const libraries: Library[] = [
     "kind": "Low-level toolkit",
     "caveat": "A toolkit to assemble; accessible controls and UI need deliberate design.",
     "implementation": "Wire adapters and drop-target behavior into your existing UI. Add appropriate visual feedback and accessible alternatives for actions that would otherwise require dragging.",
+    "documentation": "https://atlassian.design/components/pragmatic-drag-and-drop/core-package/",
     "official": "https://atlassian.design/components/pragmatic-drag-and-drop/",
     "keywords": [
       "native drag and drop",
@@ -5215,6 +5527,7 @@ export const libraries: Library[] = [
     "goodFor": "Maintaining multiple packages with a shared development and release workflow.",
     "monogram": "Pr",
     "kind": "Library / tool",
+    "documentation": "https://preconstruct.tools/",
     "official": "https://preconstruct.tools/",
     "keywords": [],
     "sourceIds": [
@@ -5231,6 +5544,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing elapsed time and task durations in interfaces or logs.",
     "monogram": "pr",
     "kind": "Library / tool",
+    "documentation": "https://github.com/sindresorhus/pretty-ms#readme",
     "official": "https://github.com/sindresorhus/pretty-ms",
     "keywords": [],
     "sourceIds": [
@@ -5247,6 +5561,7 @@ export const libraries: Library[] = [
     "goodFor": "Building interfaces that follow Primer's product design conventions.",
     "monogram": "Pr",
     "kind": "UI toolkit",
+    "documentation": "https://primer.style/product/getting-started/react/",
     "official": "https://primer.style/",
     "keywords": [],
     "sourceIds": [
@@ -5263,6 +5578,7 @@ export const libraries: Library[] = [
     "goodFor": "Working with application data through generated query APIs and migrations.",
     "monogram": "Pr",
     "kind": "Data tool",
+    "documentation": "https://www.prisma.io/docs/orm",
     "official": "https://www.prisma.io/",
     "keywords": [],
     "sourceIds": [
@@ -5279,6 +5595,7 @@ export const libraries: Library[] = [
     "goodFor": "Letting content editors compose pages while developers own frontend components.",
     "monogram": "Pr",
     "kind": "Library / tool",
+    "documentation": "https://prismic.io/docs",
     "official": "https://prismic.io/",
     "keywords": [],
     "sourceIds": [
@@ -5295,6 +5612,7 @@ export const libraries: Library[] = [
     "goodFor": "Giving command-line users an indication of ongoing asynchronous work.",
     "monogram": "pr",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/bvaughn/progress-estimator#readme",
     "official": "https://github.com/bvaughn/progress-estimator",
     "keywords": [],
     "sourceIds": [
@@ -5311,6 +5629,7 @@ export const libraries: Library[] = [
     "goodFor": "Collecting configuration and choices during a CLI workflow.",
     "monogram": "pr",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/terkelg/prompts#readme",
     "official": "https://www.npmjs.com/package/prompts",
     "keywords": [],
     "sourceIds": [
@@ -5327,6 +5646,7 @@ export const libraries: Library[] = [
     "goodFor": "Making CSS respond to pointer position, element state, and other browser information.",
     "monogram": "Pr",
     "kind": "Library / tool",
+    "documentation": "https://github.com/argyleink/prop-for-that#readme",
     "official": "https://github.com/argyleink/prop-for-that",
     "keywords": [],
     "sourceIds": [
@@ -5343,6 +5663,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding team accounts, organizations, and business sign-in flows.",
     "monogram": "Pr",
     "kind": "Library / tool",
+    "documentation": "https://docs.propelauth.com/",
     "official": "https://www.propelauth.com/",
     "keywords": [],
     "sourceIds": [
@@ -5359,6 +5680,7 @@ export const libraries: Library[] = [
     "goodFor": "Checking exports and packaging before releasing an npm library.",
     "monogram": "pu",
     "kind": "Library / tool",
+    "documentation": "https://publint.dev/docs/",
     "official": "https://publint.dev/",
     "keywords": [],
     "sourceIds": [
@@ -5375,6 +5697,7 @@ export const libraries: Library[] = [
     "goodFor": "Starting a React interface from a coordinated Base UI component set.",
     "monogram": "Pu",
     "kind": "UI toolkit",
+    "documentation": "https://github.com/MusKRI/pure-ui#readme",
     "official": "https://github.com/MusKRI/pure-ui",
     "keywords": [],
     "sourceIds": [
@@ -5391,6 +5714,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding formatted text editing with a configurable toolbar and document model.",
     "monogram": "Qu",
     "kind": "Library / tool",
+    "documentation": "https://quilljs.com/docs/quickstart",
     "official": "https://quilljs.com/",
     "keywords": [],
     "sourceIds": [
@@ -5407,6 +5731,7 @@ export const libraries: Library[] = [
     "goodFor": "Reducing repeated application-level data manipulation code.",
     "monogram": "Ra",
     "kind": "Library / tool",
+    "documentation": "https://radash-docs.vercel.app/docs/getting-started",
     "official": "https://radash-docs.vercel.app/docs/getting-started",
     "keywords": [],
     "sourceIds": [
@@ -5423,6 +5748,7 @@ export const libraries: Library[] = [
     "goodFor": "Building custom-styled controls from reusable interaction components.",
     "monogram": "Ra",
     "kind": "UI toolkit",
+    "documentation": "https://www.radix-ui.com/primitives/docs/overview/introduction",
     "official": "https://www.radix-ui.com/",
     "keywords": [],
     "sourceIds": [
@@ -5439,6 +5765,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring document-backed question answering through a complete application.",
     "monogram": "RA",
     "kind": "Reference app",
+    "documentation": "https://github.com/rag-web-ui/rag-web-ui#readme",
     "official": "https://github.com/rag-web-ui/rag-web-ui",
     "keywords": [],
     "sourceIds": [
@@ -5455,6 +5782,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring polished developer-tool interfaces and their implementation.",
     "monogram": "ra",
     "kind": "Reference app",
+    "documentation": "https://github.com/raycast/ray-so#readme",
     "official": "https://github.com/raycast/ray-so",
     "keywords": [],
     "sourceIds": [
@@ -5471,6 +5799,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring a searchable catalog implementation and reusable AI workflows.",
     "monogram": "Ra",
     "kind": "Reference app",
+    "documentation": "https://github.com/raycast/preset-explorer#readme",
     "official": "https://github.com/raycast/preset-explorer",
     "keywords": [],
     "sourceIds": [
@@ -5487,6 +5816,7 @@ export const libraries: Library[] = [
     "goodFor": "Displaying configurable temporary messages in an application interface.",
     "monogram": "rc",
     "kind": "Library / tool",
+    "documentation": "https://github.com/react-component/notification#readme",
     "official": "https://notification-react-component.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -5503,6 +5833,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding single-value and range selection to an interface.",
     "monogram": "rc",
     "kind": "Library / tool",
+    "documentation": "https://github.com/react-component/slider#readme",
     "official": "https://slider-react-component.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -5519,6 +5850,7 @@ export const libraries: Library[] = [
     "goodFor": "Using predictable regex execution for supported pattern syntax.",
     "monogram": "RE",
     "kind": "Library / tool",
+    "documentation": "https://github.com/le0pard/re2js#readme",
     "official": "https://re2js.leopard.in.ua/",
     "keywords": [],
     "sourceIds": [
@@ -5535,6 +5867,7 @@ export const libraries: Library[] = [
     "goodFor": "Assembling a customized conversational UI from reusable components.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://reachat.dev/docs",
     "official": "https://reachat.dev/",
     "keywords": [],
     "sourceIds": [
@@ -5551,6 +5884,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a custom design system with established accessibility behavior.",
     "monogram": "Re",
     "kind": "UI toolkit",
+    "documentation": "https://react-aria.adobe.com/getting-started",
     "official": "https://react-spectrum.adobe.com/react-aria/index.html",
     "keywords": [],
     "sourceIds": [
@@ -5567,6 +5901,7 @@ export const libraries: Library[] = [
     "goodFor": "Offering completions while users type a query or field value.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/moroshko/react-autosuggest#readme",
     "official": "https://react-autosuggest.js.org/",
     "keywords": [],
     "sourceIds": [
@@ -5583,6 +5918,7 @@ export const libraries: Library[] = [
     "goodFor": "Building an application schedule or appointment interface.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://bigcalendar.github.io/react-big-calendar/index.html",
     "official": "https://github.com/jquense/react-big-calendar",
     "keywords": [],
     "sourceIds": [
@@ -5599,6 +5935,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding expressive visual sections and effects to a website.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://www.reactbits.dev/get-started/installation",
     "official": "https://www.reactbits.dev/",
     "keywords": [],
     "sourceIds": [
@@ -5615,6 +5952,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing contribution history or daily activity in a compact grid.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/kevinsqi/react-calendar-heatmap#readme",
     "official": "https://github.com/kevinsqi/react-calendar-heatmap",
     "keywords": [],
     "sourceIds": [
@@ -5632,6 +5970,7 @@ export const libraries: Library[] = [
     "monogram": "Re",
     "kind": "Library / tool",
     "caveat": "The saved documentation domain redirects to unrelated content. Use the official project repository linked here.",
+    "documentation": "https://github.com/prabhuignoto/react-chrono#readme",
     "official": "https://github.com/prabhuignoto/react-chrono",
     "keywords": [],
     "sourceIds": [
@@ -5681,6 +6020,7 @@ export const libraries: Library[] = [
     "goodFor": "Displaying structured records with keyboard interaction and cell editing.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/adazzle/react-data-grid#readme",
     "official": "https://github.com/adazzle/react-data-grid",
     "keywords": [],
     "sourceIds": [
@@ -5697,6 +6037,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding a ready-made date input to an application form.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/Hacker0x01/react-datepicker#readme",
     "official": "https://reactdatepicker.com/",
     "keywords": [],
     "sourceIds": [
@@ -5713,6 +6054,7 @@ export const libraries: Library[] = [
     "goodFor": "Building custom drag-and-drop interactions with explicit application behavior.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://react-dnd.github.io/react-dnd/docs/overview/",
     "official": "https://react-dnd.github.io/react-dnd/about",
     "keywords": [],
     "sourceIds": [
@@ -5729,6 +6071,7 @@ export const libraries: Library[] = [
     "goodFor": "Learning React concepts and checking supported component patterns.",
     "monogram": "Re",
     "kind": "Learning resource",
+    "documentation": "https://react.dev/learn",
     "official": "https://react.dev/",
     "keywords": [],
     "sourceIds": [
@@ -5745,6 +6088,7 @@ export const libraries: Library[] = [
     "goodFor": "Building reusable HTML emails from familiar component code.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://react.email/docs/introduction",
     "official": "https://react.email/",
     "keywords": [],
     "sourceIds": [
@@ -5761,6 +6105,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding file previews and a configurable upload experience.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://pqina.nl/filepond/docs/getting-started/installation/react/",
     "official": "https://github.com/pqina/react-filepond",
     "keywords": [],
     "sourceIds": [
@@ -5777,6 +6122,7 @@ export const libraries: Library[] = [
     "goodFor": "Noticing costly renders while interacting with an application.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/kristiandupont/react-geiger#readme",
     "official": "https://github.com/kristiandupont/react-geiger",
     "keywords": [],
     "sourceIds": [
@@ -5793,6 +6139,7 @@ export const libraries: Library[] = [
     "goodFor": "Integrating Google maps, markers, and location interactions into React.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://visgl.github.io/react-google-maps/docs/get-started",
     "official": "https://visgl.github.io/react-google-maps/",
     "keywords": [],
     "sourceIds": [
@@ -5825,6 +6172,7 @@ export const libraries: Library[] = [
     "goodFor": "Emphasizing search terms within result excerpts or document content.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/bvaughn/react-highlight-words#readme",
     "official": "https://bvaughn.github.io/react-highlight-words/",
     "keywords": [],
     "sourceIds": [
@@ -5841,6 +6189,7 @@ export const libraries: Library[] = [
     "goodFor": "Building forms that integrate existing input components with limited rerendering.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://react-hook-form.com/get-started",
     "official": "https://react-hook-form.com/",
     "keywords": [],
     "sourceIds": [
@@ -5857,6 +6206,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing success, error, and asynchronous-operation feedback.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://react-hot-toast.com/docs",
     "official": "https://react-hot-toast.com/",
     "keywords": [],
     "sourceIds": [
@@ -5873,6 +6223,7 @@ export const libraries: Library[] = [
     "goodFor": "Importing individual icons into a React application.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://react-icons.github.io/react-icons/",
     "official": "https://react-icons.github.io/react-icons/",
     "keywords": [],
     "sourceIds": [
@@ -5889,6 +6240,7 @@ export const libraries: Library[] = [
     "goodFor": "Generating configurable forms from a shared data schema.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://rjsf-team.github.io/react-jsonschema-form/docs/",
     "official": "https://github.com/rjsf-team/react-jsonschema-form",
     "keywords": [],
     "sourceIds": [
@@ -5905,6 +6257,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring server-component application development outside a larger framework.",
     "monogram": "Re",
     "kind": "Framework / starter",
+    "documentation": "https://reactjust.dev/guide/getting-started",
     "official": "https://reactjust.dev/",
     "keywords": [],
     "sourceIds": [
@@ -5921,6 +6274,7 @@ export const libraries: Library[] = [
     "goodFor": "Building interactive maps with Leaflet layers and plugins.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://react-leaflet.js.org/docs/start-introduction/",
     "official": "https://react-leaflet.js.org/",
     "keywords": [],
     "sourceIds": [
@@ -5937,6 +6291,7 @@ export const libraries: Library[] = [
     "goodFor": "Turning pasted links into descriptive preview cards.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/dhaiwat10/react-link-preview#readme",
     "official": "https://www.npmjs.com/package/@dhaiwat10/react-link-preview",
     "keywords": [],
     "sourceIds": [
@@ -5953,6 +6308,7 @@ export const libraries: Library[] = [
     "goodFor": "Letting users edit Markdown and inspect the rendered result.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/uiwjs/react-md-editor/blob/master/core/README.md",
     "official": "https://uiwjs.github.io/react-md-editor/",
     "keywords": [],
     "sourceIds": [
@@ -5969,6 +6325,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing focused content above the page with managed dialog behavior.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://reactcommunity.org/react-modal/",
     "official": "https://reactcommunity.org/react-modal/",
     "keywords": [],
     "sourceIds": [
@@ -5985,6 +6342,7 @@ export const libraries: Library[] = [
     "goodFor": "Building responsive mobile animations and gesture-driven interactions.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/",
     "official": "https://github.com/software-mansion/react-native-reanimated",
     "keywords": [],
     "sourceIds": [
@@ -6001,6 +6359,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding Google sign-in to a React application.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/MomenSherif/react-oauth#readme",
     "official": "https://github.com/MomenSherif/react-oauth",
     "keywords": [],
     "sourceIds": [
@@ -6017,6 +6376,7 @@ export const libraries: Library[] = [
     "goodFor": "Building interfaces with persistent, adjustable workspace layouts.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://react-resizable-panels.vercel.app/",
     "official": "https://react-resizable-panels.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -6033,6 +6393,7 @@ export const libraries: Library[] = [
     "goodFor": "Connecting URL navigation with rendering, loading, and form actions.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://reactrouter.com/home",
     "official": "https://reactrouter.com/",
     "keywords": [],
     "sourceIds": [
@@ -6049,6 +6410,7 @@ export const libraries: Library[] = [
     "goodFor": "Investigating unnecessary renders and interface performance problems.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/aidenybai/react-scan#readme",
     "official": "https://react-scan.com/",
     "keywords": [],
     "sourceIds": [
@@ -6065,6 +6427,7 @@ export const libraries: Library[] = [
     "goodFor": "Supporting searchable, asynchronous, or multi-value selection.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://react-select.com/props",
     "official": "https://react-select.com/home",
     "keywords": [],
     "sourceIds": [
@@ -6081,6 +6444,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding straightforward animation sequences without a large animation setup.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/bluebill1049/react-simple-animate#readme",
     "official": "https://react-simple-animate.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -6097,6 +6461,7 @@ export const libraries: Library[] = [
     "goodFor": "Building interfaces with coordinated adaptive components and accessibility patterns.",
     "monogram": "Re",
     "kind": "UI toolkit",
+    "documentation": "https://react-spectrum.adobe.com/getting-started",
     "official": "https://react-spectrum.adobe.com/react-spectrum/index.html",
     "keywords": [],
     "sourceIds": [
@@ -6113,6 +6478,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding a recognizable loading indicator with configurable appearance.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/davidhu2000/react-spinners#readme",
     "official": "https://www.davidhu.io/react-spinners/",
     "keywords": [],
     "sourceIds": [
@@ -6129,6 +6495,7 @@ export const libraries: Library[] = [
     "goodFor": "Building editors and dashboards with adjustable side-by-side panes.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/tomkp/react-split-pane#readme",
     "official": "https://tomkp.github.io/react-split-pane/",
     "keywords": [],
     "sourceIds": [
@@ -6145,6 +6512,7 @@ export const libraries: Library[] = [
     "goodFor": "Building a payment interface connected to Stripe's client-side APIs.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://docs.stripe.com/sdks/stripejs-react",
     "official": "https://stripe.com/docs/stripe-js/react",
     "keywords": [],
     "sourceIds": [
@@ -6161,6 +6529,7 @@ export const libraries: Library[] = [
     "goodFor": "Editing labels, keywords, or token-like values in a form.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/react-tags/react-tags#readme",
     "official": "https://github.com/react-tags/react-tags",
     "keywords": [],
     "sourceIds": [
@@ -6177,6 +6546,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing technology adoption or assessment across rings and quadrants.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/omerg/react-tech-radar#readme",
     "official": "https://github.com/omerg/react-tech-radar",
     "keywords": [],
     "sourceIds": [
@@ -6193,6 +6563,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing transient alerts with configurable positioning and behavior.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://fkhadra.github.io/react-toastify/introduction/",
     "official": "https://fkhadra.github.io/react-toastify/introduction/",
     "keywords": [],
     "sourceIds": [
@@ -6209,6 +6580,7 @@ export const libraries: Library[] = [
     "goodFor": "Packaging repeated utility-class combinations as reusable components.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://react-twc.vercel.app/docs/getting-started",
     "official": "https://react-twc.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -6225,6 +6597,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing linked social posts inside a React content page.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://react-tweet.vercel.app/#installation",
     "official": "https://github.com/vercel/react-tweet",
     "keywords": [],
     "sourceIds": [
@@ -6244,6 +6617,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding coordinated, configurable input components to a React form.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://jquense.github.io/react-widgets/docs/",
     "official": "https://jquense.github.io/react-widgets/",
     "keywords": [],
     "sourceIds": [
@@ -6260,6 +6634,7 @@ export const libraries: Library[] = [
     "goodFor": "Making short headings and titles wrap more evenly.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/shuding/react-wrap-balancer#readme",
     "official": "https://react-wrap-balancer.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -6276,6 +6651,7 @@ export const libraries: Library[] = [
     "goodFor": "Using daisyUI patterns through component props and composition.",
     "monogram": "re",
     "kind": "UI toolkit",
+    "documentation": "https://github.com/daisyui/react-daisyui#readme",
     "official": "https://react.daisyui.com/?path=/docs/welcome--docs",
     "keywords": [],
     "sourceIds": [
@@ -6292,6 +6668,7 @@ export const libraries: Library[] = [
     "goodFor": "Adapting behavior when a feature check alone does not cover device differences.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/duskload/react-device-detect#readme",
     "official": "https://github.com/duskload/react-device-detect",
     "keywords": [],
     "sourceIds": [
@@ -6308,6 +6685,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding a straightforward file-drop area to an upload form.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/KarimMokhtar/react-drag-drop-files#readme",
     "official": "https://www.npmjs.com/package/react-drag-drop-files",
     "keywords": [],
     "sourceIds": [
@@ -6324,6 +6702,7 @@ export const libraries: Library[] = [
     "goodFor": "Accepting dropped files while keeping control over the upload UI.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://react-dropzone.js.org/guide/getting-started/",
     "official": "https://react-dropzone.js.org/",
     "keywords": [],
     "sourceIds": [
@@ -6340,6 +6719,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring component memoization in measured performance-sensitive cases.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/romgrk/react-fast-memo#readme",
     "official": "https://github.com/romgrk/react-fast-memo",
     "keywords": [],
     "sourceIds": [
@@ -6356,6 +6736,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing recognizable file badges in upload and document lists.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/corygibbons/react-file-icon#readme",
     "official": "https://www.npmjs.com/package/react-file-icon",
     "keywords": [],
     "sourceIds": [
@@ -6372,6 +6753,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding pointer-responsive highlights to cards and other UI surfaces.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/codaworks/react-glow#readme",
     "official": "https://github.com/codaworks/react-glow",
     "keywords": [],
     "sourceIds": [
@@ -6388,6 +6770,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding automatic transitions as components and layouts change.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://www.react-magic-motion.com/",
     "official": "https://www.react-magic-motion.com/",
     "keywords": [],
     "sourceIds": [
@@ -6404,6 +6787,7 @@ export const libraries: Library[] = [
     "goodFor": "Building interactive map interfaces with controlled React state.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://visgl.github.io/react-map-gl/docs",
     "official": "https://visgl.github.io/react-map-gl/",
     "keywords": [],
     "sourceIds": [
@@ -6420,6 +6804,7 @@ export const libraries: Library[] = [
     "goodFor": "Building forms or onboarding sequences that span several steps.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/alan2207/react-multistep-wizard#readme",
     "official": "https://github.com/alan2207/react-multistep-wizard",
     "keywords": [],
     "sourceIds": [
@@ -6436,6 +6821,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding interactive maps backed by OpenLayers capabilities.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/allenhwkim/react-openlayers#readme",
     "official": "https://www.npmjs.com/package/react-openlayers",
     "keywords": [],
     "sourceIds": [
@@ -6452,6 +6838,7 @@ export const libraries: Library[] = [
     "goodFor": "Opening overlays while keeping the underlying layout stable.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/theKashey/react-remove-scroll-bar#readme",
     "official": "https://github.com/theKashey/react-remove-scroll-bar",
     "keywords": [],
     "sourceIds": [
@@ -6468,6 +6855,7 @@ export const libraries: Library[] = [
     "goodFor": "Selecting numeric values or ranges with custom styling.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://zillow.github.io/react-slider/",
     "official": "https://www.npmjs.com/package/react-slider",
     "keywords": [],
     "sourceIds": [
@@ -6484,6 +6872,7 @@ export const libraries: Library[] = [
     "goodFor": "Providing audio feedback for application interactions.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://www.reactsounds.com/docs",
     "official": "https://www.reactsounds.com/",
     "keywords": [],
     "sourceIds": [
@@ -6500,6 +6889,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding compact cards for external URLs in content feeds.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/winhtaikaung/react-tiny-link#readme",
     "official": "https://www.npmjs.com/package/react-tiny-link",
     "keywords": [],
     "sourceIds": [
@@ -6516,6 +6906,7 @@ export const libraries: Library[] = [
     "goodFor": "Introducing application controls through a sequence of highlighted steps.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://unpkg.com/react-tour-onboarding@1.15.63/README.md",
     "official": "https://www.npmjs.com/package/react-tour-onboarding?activeTab=readme",
     "keywords": [],
     "sourceIds": [
@@ -6532,6 +6923,7 @@ export const libraries: Library[] = [
     "goodFor": "Reusing common state, lifecycle, and browser-integration behaviors.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/streamich/react-use#readme",
     "official": "https://github.com/streamich/react-use",
     "keywords": [],
     "sourceIds": [
@@ -6564,6 +6956,7 @@ export const libraries: Library[] = [
     "goodFor": "Highlighting features and explaining workflows inside the application.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/elrumordelaluz/reactour/tree/v1#readme",
     "official": "https://www.npmjs.com/package/reactour",
     "keywords": [],
     "sourceIds": [
@@ -6580,6 +6973,7 @@ export const libraries: Library[] = [
     "goodFor": "Building charts from React components with custom presentation.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://recharts.github.io/en-US/guide/getting-started/",
     "official": "https://recharts.github.io/",
     "keywords": [],
     "sourceIds": [
@@ -6596,6 +6990,7 @@ export const libraries: Library[] = [
     "goodFor": "Understanding or maintaining applications that already use Recoil.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://recoiljs.org/docs/introduction/getting-started/",
     "official": "https://recoiljs.org/",
     "keywords": [],
     "sourceIds": [
@@ -6612,6 +7007,7 @@ export const libraries: Library[] = [
     "goodFor": "Using familiar request syntax with a fetch-based implementation.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/developit/redaxios#readme",
     "official": "https://github.com/developit/redaxios",
     "keywords": [],
     "sourceIds": [
@@ -6628,6 +7024,7 @@ export const libraries: Library[] = [
     "goodFor": "Turning OpenAPI files into a navigable developer reference.",
     "monogram": "Re",
     "kind": "API tool",
+    "documentation": "https://redocly.com/docs",
     "official": "https://redocly.com/",
     "keywords": [],
     "sourceIds": [
@@ -6644,6 +7041,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing shared state with predictable actions, reducers, and debugging support.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://redux.js.org/toolkit/introduction/getting-started",
     "official": "https://redux-toolkit.js.org/",
     "keywords": [],
     "sourceIds": [
@@ -6661,6 +7059,7 @@ export const libraries: Library[] = [
     "monogram": "Re",
     "kind": "Framework / starter",
     "caveat": "RedwoodJS and RedwoodSDK have different architecture and deployment assumptions. Follow the documentation for the generation you intend to use.",
+    "documentation": "https://docs.rwsdk.com/getting-started/quick-start/",
     "official": "https://redwoodjs.com/",
     "keywords": [],
     "sourceIds": [
@@ -6677,6 +7076,7 @@ export const libraries: Library[] = [
     "goodFor": "Building admin interfaces with data providers and reusable CRUD behavior.",
     "monogram": "Re",
     "kind": "Framework / starter",
+    "documentation": "https://refine.dev/core/docs/",
     "official": "https://github.com/refinedev/refine",
     "keywords": [],
     "sourceIds": [
@@ -6693,6 +7093,7 @@ export const libraries: Library[] = [
     "goodFor": "Writing and maintaining complex patterns with clearer structure.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/slevithan/regex#readme",
     "official": "https://github.com/slevithan/regex",
     "keywords": [],
     "sourceIds": [
@@ -6709,6 +7110,7 @@ export const libraries: Library[] = [
     "goodFor": "Coordinating version bumps, tags, and publishing steps.",
     "monogram": "re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/release-it/release-it#readme",
     "official": "https://github.com/release-it/release-it",
     "keywords": [],
     "sourceIds": [
@@ -6725,6 +7127,7 @@ export const libraries: Library[] = [
     "goodFor": "Rendering progressively generated Markdown from AI responses.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/vercel/streamdown/blob/main/packages/remend/README.md",
     "official": "https://vercel.com/changelog/new-npm-package-for-automatic-recovery-of-broken-streaming-markdown",
     "keywords": [],
     "sourceIds": [
@@ -6741,6 +7144,7 @@ export const libraries: Library[] = [
     "goodFor": "Building applications with integrated loading, actions, and navigation behavior.",
     "monogram": "Re",
     "kind": "Framework / starter",
+    "documentation": "https://docs.remix.run/start-here/",
     "official": "https://remix.run/",
     "keywords": [],
     "sourceIds": [
@@ -6757,6 +7161,7 @@ export const libraries: Library[] = [
     "goodFor": "Generating parameterized video compositions from reusable components.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://www.remotion.dev/docs/",
     "official": "https://www.remotion.dev/",
     "keywords": [],
     "sourceIds": [
@@ -6773,6 +7178,7 @@ export const libraries: Library[] = [
     "goodFor": "Git-based deployment of a frontend and its supporting services.",
     "monogram": "Re",
     "kind": "Infrastructure",
+    "documentation": "https://render.com/docs",
     "official": "https://render.com/",
     "keywords": [],
     "sourceIds": [
@@ -6789,6 +7195,7 @@ export const libraries: Library[] = [
     "goodFor": "Investigating bugs by revisiting a recorded browser session.",
     "monogram": "Re",
     "kind": "Developer tool",
+    "documentation": "https://docs.replay.io/reference/replay-devtools/overview",
     "official": "https://www.replay.io/",
     "keywords": [],
     "sourceIds": [
@@ -6805,6 +7212,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying developer tooling built around recorded application sessions.",
     "monogram": "Re",
     "kind": "Reference app",
+    "documentation": "https://github.com/replayio/devtools#readme",
     "official": "https://github.com/replayio/devtools",
     "keywords": [],
     "sourceIds": [
@@ -6821,6 +7229,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring an alternative CSS-in-JS approach with component-oriented selectors.",
     "monogram": "Re",
     "kind": "Library / tool",
+    "documentation": "https://github.com/yandex/reshadow#readme",
     "official": "https://reshadow.dev/",
     "keywords": [],
     "sourceIds": [
@@ -6837,6 +7246,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping product design and implementation aligned through shared components.",
     "monogram": "Re",
     "kind": "UI toolkit",
+    "documentation": "https://www.reshaped.so/docs/getting-started/overview",
     "official": "https://reshaped.so/",
     "keywords": [],
     "sourceIds": [
@@ -6853,6 +7263,7 @@ export const libraries: Library[] = [
     "goodFor": "Giving an application a deliberately distinctive visual identity.",
     "monogram": "Re",
     "kind": "UI toolkit",
+    "documentation": "https://neobrutalism.com/docs",
     "official": "https://retroui.dev/",
     "keywords": [],
     "sourceIds": [
@@ -6869,6 +7280,7 @@ export const libraries: Library[] = [
     "goodFor": "Assembling common screens from a coordinated component set.",
     "monogram": "Re",
     "kind": "UI toolkit",
+    "documentation": "https://rewind-ui.dev/introduction",
     "official": "https://rewind-ui.dev/",
     "keywords": [],
     "sourceIds": [
@@ -6885,6 +7297,7 @@ export const libraries: Library[] = [
     "goodFor": "Cleaning generated files and build directories in development scripts.",
     "monogram": "ri",
     "kind": "Library / tool",
+    "documentation": "https://github.com/isaacs/rimraf#readme",
     "official": "https://www.npmjs.com/package/rimraf",
     "keywords": [],
     "sourceIds": [
@@ -6901,6 +7314,7 @@ export const libraries: Library[] = [
     "goodFor": "Building bundles with tooling designed around Rollup-style integration.",
     "monogram": "Ro",
     "kind": "Library / tool",
+    "documentation": "https://rolldown.rs/guide/getting-started",
     "official": "https://rolldown.rs/",
     "keywords": [],
     "sourceIds": [
@@ -6917,6 +7331,7 @@ export const libraries: Library[] = [
     "goodFor": "Embedding a customizable HTML editing experience in a web application.",
     "monogram": "Ro",
     "kind": "Library / tool",
+    "documentation": "https://microsoft.github.io/roosterjs/docs/index.html",
     "official": "https://github.com/Microsoft/roosterjs?tab=readme-ov-file",
     "keywords": [],
     "sourceIds": [
@@ -6933,6 +7348,7 @@ export const libraries: Library[] = [
     "goodFor": "Sharing routing logic independently from a particular view library.",
     "monogram": "Ro",
     "kind": "Library / tool",
+    "documentation": "https://router5.js.org/introduction/getting-started",
     "official": "https://router5.js.org/",
     "keywords": [],
     "sourceIds": [
@@ -6949,6 +7365,7 @@ export const libraries: Library[] = [
     "goodFor": "Investigating build behavior, module composition, and bundling problems.",
     "monogram": "Rs",
     "kind": "Library / tool",
+    "documentation": "https://rsdoctor.rs/guide/start/intro",
     "official": "https://rsdoctor.dev/",
     "keywords": [],
     "sourceIds": [
@@ -6965,6 +7382,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing server data in an application that uses Redux.",
     "monogram": "RT",
     "kind": "Library / tool",
+    "documentation": "https://redux.js.org/toolkit/rtk-query/overview",
     "official": "https://redux-toolkit.js.org/rtk-query/overview",
     "keywords": [],
     "sourceIds": [
@@ -6981,6 +7399,7 @@ export const libraries: Library[] = [
     "goodFor": "Building business applications, internal tools, and account-management screens.",
     "monogram": "Sa",
     "kind": "UI toolkit",
+    "documentation": "https://saas-ui.dev/docs/getting-started/introduction",
     "official": "https://saas-ui.dev/",
     "keywords": [],
     "sourceIds": [
@@ -6997,6 +7416,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding a styled scheduling interface with configurable event views.",
     "monogram": "Sc",
     "kind": "Library / tool",
+    "documentation": "https://schedule-x.dev/docs/calendar",
     "official": "https://schedule-x.dev/",
     "keywords": [],
     "sourceIds": [
@@ -7013,6 +7433,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding scroll-oriented visual effects and presentation sections.",
     "monogram": "Sc",
     "kind": "Library / tool",
+    "documentation": "https://scrollxui.dev/docs",
     "official": "https://scrollxui.dev/",
     "keywords": [],
     "sourceIds": [
@@ -7029,6 +7450,7 @@ export const libraries: Library[] = [
     "goodFor": "Small browser scripts that need concise DOM queries.",
     "monogram": "se",
     "kind": "Library / tool",
+    "documentation": "https://github.com/fregante/select-dom#readme",
     "official": "https://www.npmjs.com/package/select-dom",
     "keywords": [],
     "sourceIds": [
@@ -7045,6 +7467,7 @@ export const libraries: Library[] = [
     "goodFor": "Finding production failures with stack traces and diagnostic context.",
     "monogram": "Se",
     "kind": "Library / tool",
+    "documentation": "https://docs.sentry.io/platforms/javascript/guides/react/",
     "official": "https://sentry.io/welcome/",
     "keywords": [],
     "sourceIds": [
@@ -7061,6 +7484,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing database models, relationships, and transactions.",
     "monogram": "Se",
     "kind": "Data tool",
+    "documentation": "https://sequelize.org/docs/v6/getting-started/",
     "official": "https://sequelize.org/",
     "keywords": [],
     "sourceIds": [
@@ -7077,6 +7501,7 @@ export const libraries: Library[] = [
     "goodFor": "Building internal tools and data-management dashboards with shadcn-style UI.",
     "monogram": "sh",
     "kind": "UI toolkit",
+    "documentation": "https://marmelab.com/shadcn-admin-kit/docs/install/",
     "official": "https://marmelab.com/shadcn-admin-kit/",
     "keywords": [],
     "sourceIds": [
@@ -7093,6 +7518,7 @@ export const libraries: Library[] = [
     "goodFor": "Owning and customizing accessible React components inside your project.",
     "monogram": "sh",
     "kind": "UI toolkit",
+    "documentation": "https://ui.shadcn.com/docs/installation",
     "official": "https://ui.shadcn.com/",
     "keywords": [],
     "sourceIds": [
@@ -7109,6 +7535,7 @@ export const libraries: Library[] = [
     "goodFor": "Rendering code samples with coloring similar to a code editor.",
     "monogram": "Sh",
     "kind": "Library / tool",
+    "documentation": "https://shiki.style/guide/",
     "official": "https://www.npmjs.com/package/shiki",
     "keywords": [],
     "sourceIds": [
@@ -7125,6 +7552,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing how code evolves during a tutorial or presentation.",
     "monogram": "Sh",
     "kind": "Library / tool",
+    "documentation": "https://github.com/shikijs/shiki-magic-move#readme",
     "official": "https://shiki-magic-move.netlify.app/",
     "keywords": [],
     "sourceIds": [
@@ -7141,6 +7569,7 @@ export const libraries: Library[] = [
     "goodFor": "Exploring automated checks for user-facing application behavior.",
     "monogram": "Sh",
     "kind": "Testing tool",
+    "documentation": "https://github.com/antiwork/shortest#readme",
     "official": "https://shortest.com/",
     "keywords": [],
     "sourceIds": [
@@ -7157,6 +7586,7 @@ export const libraries: Library[] = [
     "goodFor": "Writing portable request handlers for Node.js, Bun, and Cloudflare Workers.",
     "monogram": "Sh",
     "kind": "Library / tool",
+    "documentation": "https://github.com/bikeshaving/shovel#readme",
     "official": "https://github.com/bikeshaving/shovel",
     "keywords": [],
     "sourceIds": [
@@ -7189,6 +7619,7 @@ export const libraries: Library[] = [
     "goodFor": "Moving asynchronous tasks out of request handling into worker processes.",
     "monogram": "Si",
     "kind": "Library / tool",
+    "documentation": "https://docs.sidequestjs.com/getting-started/quick-start",
     "official": "https://sidequestjs.com/",
     "keywords": [],
     "sourceIds": [
@@ -7205,6 +7636,7 @@ export const libraries: Library[] = [
     "goodFor": "Styling a scrolling container without replacing its basic scroll behavior.",
     "monogram": "Si",
     "kind": "Library / tool",
+    "documentation": "https://github.com/Grsmto/simplebar/tree/master/packages/simplebar-react#readme",
     "official": "https://github.com/Grsmto/simplebar/tree/master/packages/simplebar-react",
     "keywords": [],
     "sourceIds": [
@@ -7221,6 +7653,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding scroll-linked image movement to content pages.",
     "monogram": "si",
     "kind": "Library / tool",
+    "documentation": "https://github.com/geosigno/simpleParallax.js#readme",
     "official": "https://simpleparallax.com/",
     "keywords": [],
     "sourceIds": [
@@ -7237,6 +7670,7 @@ export const libraries: Library[] = [
     "goodFor": "Catching bundle-size regressions in continuous integration.",
     "monogram": "Si",
     "kind": "Library / tool",
+    "documentation": "https://github.com/ai/size-limit#readme",
     "official": "https://github.com/ai/size-limit",
     "keywords": [],
     "sourceIds": [
@@ -7253,6 +7687,7 @@ export const libraries: Library[] = [
     "goodFor": "Copying selected building blocks into an application codebase.",
     "monogram": "Sl",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/jacobparis-insiders/sly/blob/main/cli/README.md",
     "official": "https://sly-cli.fly.dev/",
     "keywords": [],
     "sourceIds": [
@@ -7269,13 +7704,14 @@ export const libraries: Library[] = [
     "goodFor": "Populating development and test databases with representative fixtures.",
     "monogram": "Sn",
     "kind": "Testing tool",
-    "official": "https://docs.snaplet.dev/core-concepts/generate",
+    "documentation": "https://snaplet-seed.netlify.app/seed/migrations",
+    "official": "https://snaplet-seed.netlify.app/seed/migrations",
     "keywords": [],
     "sourceIds": [
       250
     ],
     "references": [],
-    "sourceStatus": "unconfirmed"
+    "sourceStatus": "available"
   },
   {
     "id": "solito",
@@ -7285,6 +7721,7 @@ export const libraries: Library[] = [
     "goodFor": "Coordinating navigation in a shared Next.js and React Native codebase.",
     "monogram": "So",
     "kind": "Library / tool",
+    "documentation": "https://solito.dev/install",
     "official": "https://solito.dev/v5",
     "keywords": [],
     "sourceIds": [
@@ -7301,6 +7738,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding concise transient feedback for application actions.",
     "monogram": "So",
     "kind": "Library / tool",
+    "documentation": "https://sonner.emilkowal.ski/getting-started",
     "official": "https://sonner.emilkowal.ski/",
     "keywords": [],
     "sourceIds": [
@@ -7317,6 +7755,7 @@ export const libraries: Library[] = [
     "goodFor": "Working with dates across timezones using a chainable interface.",
     "monogram": "Sp",
     "kind": "Library / tool",
+    "documentation": "https://github.com/spencermountain/spacetime#readme",
     "official": "https://github.com/spencermountain/spacetime",
     "keywords": [],
     "sourceIds": [
@@ -7333,7 +7772,8 @@ export const libraries: Library[] = [
     "goodFor": "Exploring reusable UI elements and their available variations.",
     "monogram": "Sp",
     "kind": "UI toolkit",
-    "official": "https://sparkui.vercel.app/?path=/docs/getting-started--docs",
+    "documentation": "https://sparkui.vercel.app/?path=/docs/introduction--docs",
+    "official": "https://sparkui.vercel.app/?path=/docs/introduction--docs",
     "keywords": [],
     "sourceIds": [
       538
@@ -7349,6 +7789,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding highlighted code samples to webpages and documentation.",
     "monogram": "Sp",
     "kind": "Library / tool",
+    "documentation": "https://github.com/speed-highlight/core#readme",
     "official": "https://github.com/speed-highlight/core",
     "keywords": [],
     "sourceIds": [
@@ -7365,6 +7806,7 @@ export const libraries: Library[] = [
     "goodFor": "Avoiding flickering spinners during very short asynchronous operations.",
     "monogram": "sp",
     "kind": "Library / tool",
+    "documentation": "https://github.com/smeijer/spin-delay#readme",
     "official": "https://www.npmjs.com/package/spin-delay",
     "keywords": [],
     "sourceIds": [
@@ -7381,6 +7823,7 @@ export const libraries: Library[] = [
     "goodFor": "Reviewing API contracts before implementing endpoints.",
     "monogram": "St",
     "kind": "API tool",
+    "documentation": "https://docs.stoplight.io/",
     "official": "https://stoplight.io/solutions",
     "keywords": [],
     "sourceIds": [
@@ -7397,6 +7840,7 @@ export const libraries: Library[] = [
     "goodFor": "Defining styles alongside React components with dynamic styling behavior.",
     "monogram": "st",
     "kind": "Library / tool",
+    "documentation": "https://styled-components.com/docs",
     "official": "https://styled-components.com/",
     "keywords": [],
     "sourceIds": [
@@ -7413,6 +7857,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing typed, composable styles across a large component codebase.",
     "monogram": "St",
     "kind": "Library / tool",
+    "documentation": "https://stylexjs.com/docs/learn",
     "official": "https://stylexjs.com/",
     "keywords": [],
     "sourceIds": [
@@ -7429,6 +7874,7 @@ export const libraries: Library[] = [
     "goodFor": "Working with dates, strings, and collections through a unified helper library.",
     "monogram": "Su",
     "kind": "Library / tool",
+    "documentation": "https://sugarjs.com/docs/",
     "official": "https://github.com/andrewplummer/Sugar",
     "keywords": [],
     "sourceIds": [
@@ -7445,6 +7891,7 @@ export const libraries: Library[] = [
     "goodFor": "Applications that want SQL data and common backend services together.",
     "monogram": "Su",
     "kind": "Library / tool",
+    "documentation": "https://supabase.com/docs",
     "official": "https://supabase.com/",
     "keywords": [],
     "sourceIds": [
@@ -7461,6 +7908,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding frontend patterns connected to Supabase-backed features.",
     "monogram": "Su",
     "kind": "UI toolkit",
+    "documentation": "https://supabase.com/library/docs/getting-started/quickstart",
     "official": "https://supabase.com/ui",
     "keywords": [],
     "sourceIds": [
@@ -7477,6 +7925,7 @@ export const libraries: Library[] = [
     "goodFor": "Moving dates and other richer values between application layers.",
     "monogram": "Su",
     "kind": "Library / tool",
+    "documentation": "https://github.com/flightcontrolhq/superjson#readme",
     "official": "https://github.com/flightcontrolhq/superjson",
     "keywords": [],
     "sourceIds": [
@@ -7493,6 +7942,7 @@ export const libraries: Library[] = [
     "goodFor": "Checking application input with small reusable data structures.",
     "monogram": "Su",
     "kind": "Library / tool",
+    "documentation": "https://docs.superstructjs.org/guides/01-getting-started",
     "official": "https://docs.superstructjs.org/",
     "keywords": [],
     "sourceIds": [
@@ -7509,6 +7959,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding login and session features with control over the backend deployment.",
     "monogram": "Su",
     "kind": "Library / tool",
+    "documentation": "https://supertokens.com/docs",
     "official": "https://supertokens.com/",
     "keywords": [],
     "sourceIds": [
@@ -7525,6 +7976,7 @@ export const libraries: Library[] = [
     "goodFor": "Organizing loading, error, and asynchronous rendering boundaries.",
     "monogram": "Su",
     "kind": "Library / tool",
+    "documentation": "https://suspensive.org/en/docs/introduction",
     "official": "https://suspensive.org/en",
     "keywords": [],
     "sourceIds": [
@@ -7541,6 +7993,7 @@ export const libraries: Library[] = [
     "goodFor": "Publishing interactive API documentation and maintaining API definitions.",
     "monogram": "Sw",
     "kind": "API tool",
+    "documentation": "https://swagger.io/docs/",
     "official": "https://swagger.io/",
     "keywords": [],
     "sourceIds": [
@@ -7557,6 +8010,7 @@ export const libraries: Library[] = [
     "goodFor": "Rendering React content inside alert and confirmation dialogs.",
     "monogram": "Sw",
     "kind": "Library / tool",
+    "documentation": "https://github.com/sweetalert2/sweetalert2-react-content#readme",
     "official": "https://github.com/sweetalert2/sweetalert2-react-content",
     "keywords": [],
     "sourceIds": [
@@ -7573,6 +8027,7 @@ export const libraries: Library[] = [
     "goodFor": "Building swipeable content with configurable navigation and transitions.",
     "monogram": "Sw",
     "kind": "Library / tool",
+    "documentation": "https://swiperjs.com/react",
     "official": "https://swiperjs.com/",
     "keywords": [],
     "sourceIds": [
@@ -7589,6 +8044,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping remote data responsive while refreshing it in the background.",
     "monogram": "SW",
     "kind": "Library / tool",
+    "documentation": "https://swr.vercel.app/docs/getting-started",
     "official": "https://swr.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -7605,6 +8061,7 @@ export const libraries: Library[] = [
     "goodFor": "Failing early when server or client configuration is missing or invalid.",
     "monogram": "T3",
     "kind": "Library / tool",
+    "documentation": "https://env.t3.gg/docs/introduction",
     "official": "https://github.com/t3-oss/t3-env",
     "keywords": [],
     "sourceIds": [
@@ -7621,6 +8078,7 @@ export const libraries: Library[] = [
     "goodFor": "Composing responsive page sections from reusable layouts.",
     "monogram": "Ta",
     "kind": "UI toolkit",
+    "documentation": "https://tailark.com/docs",
     "official": "https://tailark.com/",
     "keywords": [],
     "sourceIds": [
@@ -7637,6 +8095,7 @@ export const libraries: Library[] = [
     "goodFor": "Building interface styles directly from composable utility classes.",
     "monogram": "Ta",
     "kind": "Library / tool",
+    "documentation": "https://tailwindcss.com/docs/installation/using-vite",
     "official": "https://tailwindcss.com/",
     "keywords": [],
     "sourceIds": [
@@ -7669,6 +8128,7 @@ export const libraries: Library[] = [
     "goodFor": "Building components with typed style variants and multiple slots.",
     "monogram": "Ta",
     "kind": "Library / tool",
+    "documentation": "https://www.tailwind-variants.org/docs/introduction",
     "official": "https://www.tailwind-variants.org/",
     "keywords": [],
     "sourceIds": [
@@ -7685,6 +8145,7 @@ export const libraries: Library[] = [
     "goodFor": "Combining default and caller-provided component classes predictably.",
     "monogram": "ta",
     "kind": "Library / tool",
+    "documentation": "https://github.com/dcastil/tailwind-merge/tree/HEAD/packages/tailwind-merge#readme",
     "official": "https://www.npmjs.com/package/tailwind-merge",
     "keywords": [],
     "sourceIds": [
@@ -7701,6 +8162,7 @@ export const libraries: Library[] = [
     "goodFor": "Building custom forms while retaining control over field components and validation.",
     "monogram": "Ta",
     "kind": "Library / tool",
+    "documentation": "https://tanstack.com/form/latest/docs/overview",
     "official": "https://tanstack.com/form/latest",
     "keywords": [],
     "sourceIds": [
@@ -7717,6 +8179,7 @@ export const libraries: Library[] = [
     "goodFor": "Controlling how frequently application tasks and updates execute.",
     "monogram": "Ta",
     "kind": "Library / tool",
+    "documentation": "https://tanstack.com/pacer/latest/docs/overview",
     "official": "https://tanstack.com/pacer/latest",
     "keywords": [],
     "sourceIds": [
@@ -7733,6 +8196,7 @@ export const libraries: Library[] = [
     "goodFor": "Coordinating loading, mutations, retries, and cache updates in an application.",
     "monogram": "Ta",
     "kind": "Library / tool",
+    "documentation": "https://tanstack.com/query/latest/docs/framework/react/overview",
     "official": "https://tanstack.com/query/latest",
     "keywords": [],
     "sourceIds": [
@@ -7749,6 +8213,7 @@ export const libraries: Library[] = [
     "goodFor": "Building typed routes and URL-driven state in a web application.",
     "monogram": "Ta",
     "kind": "Library / tool",
+    "documentation": "https://tanstack.com/router/latest/docs/overview",
     "official": "https://tanstack.com/router/v1",
     "keywords": [],
     "sourceIds": [
@@ -7767,6 +8232,7 @@ export const libraries: Library[] = [
     "kind": "Headless table",
     "caveat": "You build the markup and controls; virtualization is a separate concern.",
     "implementation": "Render rows and cells using your own components. Connect search, sort, and filter controls to table state. For large datasets, decide between client-side data, server-side operations, and a separate virtualization layer.",
+    "documentation": "https://tanstack.com/table/latest/docs/overview",
     "official": "https://tanstack.com/table/latest",
     "keywords": [
       "search sort filter",
@@ -7789,6 +8255,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping long lists and tables responsive without choosing their visual design.",
     "monogram": "Ta",
     "kind": "Library / tool",
+    "documentation": "https://tanstack.com/virtual/latest/docs/introduction",
     "official": "https://tanstack.com/virtual/latest",
     "keywords": [],
     "sourceIds": [
@@ -7821,6 +8288,7 @@ export const libraries: Library[] = [
     "goodFor": "Starting projects from a remote example or starter directory.",
     "monogram": "ti",
     "kind": "CLI toolkit",
+    "documentation": "https://github.com/tiged/tiged#readme",
     "official": "https://github.com/tiged/tiged",
     "keywords": [],
     "sourceIds": [
@@ -7837,6 +8305,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing structured client data with reactive views and persistence.",
     "monogram": "Ti",
     "kind": "Library / tool",
+    "documentation": "https://tinybase.org/guides/the-basics/getting-started/",
     "official": "https://tinybase.org/",
     "keywords": [],
     "sourceIds": [
@@ -7853,6 +8322,7 @@ export const libraries: Library[] = [
     "goodFor": "Binding key combinations to actions in browser interfaces.",
     "monogram": "ti",
     "kind": "Library / tool",
+    "documentation": "https://github.com/jamiebuilds/tinykeys#readme",
     "official": "https://github.com/jamiebuilds/tinykeys",
     "keywords": [],
     "sourceIds": [
@@ -7869,6 +8339,7 @@ export const libraries: Library[] = [
     "goodFor": "Processing items in priority order without repeatedly sorting an array.",
     "monogram": "Ti",
     "kind": "Library / tool",
+    "documentation": "https://github.com/mourner/tinyqueue#readme",
     "official": "https://github.com/mourner/tinyqueue",
     "keywords": [],
     "sourceIds": [
@@ -7885,6 +8356,7 @@ export const libraries: Library[] = [
     "goodFor": "Looking up practical terminal usage quickly.",
     "monogram": "tl",
     "kind": "CLI toolkit",
+    "documentation": "https://tldr.sh/#installation",
     "official": "https://tldr.sh/#installation",
     "keywords": [],
     "sourceIds": [
@@ -7901,6 +8373,7 @@ export const libraries: Library[] = [
     "goodFor": "Building whiteboards and spatial interfaces with editable shapes.",
     "monogram": "tl",
     "kind": "Library / tool",
+    "documentation": "https://tldraw.dev/quick-start",
     "official": "https://github.com/tldraw/tldraw",
     "keywords": [],
     "sourceIds": [
@@ -7917,6 +8390,7 @@ export const libraries: Library[] = [
     "goodFor": "Extracting hostnames, domains, and subdomains from URLs.",
     "monogram": "tl",
     "kind": "Library / tool",
+    "documentation": "https://github.com/remusao/tldts#readme",
     "official": "https://github.com/remusao/tldts",
     "keywords": [],
     "sourceIds": [
@@ -7933,6 +8407,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding a polished modal interaction to an application interface.",
     "monogram": "To",
     "kind": "Library / tool",
+    "documentation": "https://toldo.vercel.app/",
     "official": "https://github.com/raphaelsalaja/toldo",
     "keywords": [],
     "sourceIds": [
@@ -7949,6 +8424,7 @@ export const libraries: Library[] = [
     "goodFor": "Working with notes, chords, intervals, and scales in music software.",
     "monogram": "To",
     "kind": "Library / tool",
+    "documentation": "https://tonaljs.github.io/tonal/docs/",
     "official": "https://tonaljs.github.io/tonal/",
     "keywords": [],
     "sourceIds": [
@@ -7965,6 +8441,7 @@ export const libraries: Library[] = [
     "goodFor": "Scheduling sound, synthesis, and musical interaction in web applications.",
     "monogram": "To",
     "kind": "Library / tool",
+    "documentation": "https://tonejs.github.io/docs/15.1.22/index.html",
     "official": "https://tonejs.github.io/",
     "keywords": [],
     "sourceIds": [
@@ -7981,6 +8458,7 @@ export const libraries: Library[] = [
     "goodFor": "Starting projects with consistent compiler settings.",
     "monogram": "To",
     "kind": "Library / tool",
+    "documentation": "https://github.com/total-typescript/tsconfig#readme",
     "official": "https://github.com/total-typescript/tsconfig",
     "keywords": [],
     "sourceIds": [
@@ -7997,6 +8475,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding model inference to browser or JavaScript application workflows.",
     "monogram": "Tr",
     "kind": "Library / tool",
+    "documentation": "https://huggingface.co/docs/transformers.js/index",
     "official": "https://github.com/xenova/transformers.js",
     "keywords": [],
     "sourceIds": [
@@ -8013,6 +8492,7 @@ export const libraries: Library[] = [
     "goodFor": "Assembling application dashboards from coordinated UI building blocks.",
     "monogram": "Tr",
     "kind": "UI toolkit",
+    "documentation": "https://www.tremor.so/docs/getting-started/installation",
     "official": "https://www.tremor.so/",
     "keywords": [],
     "sourceIds": [
@@ -8029,6 +8509,7 @@ export const libraries: Library[] = [
     "goodFor": "Long-running tasks, scheduled work, and external API integrations.",
     "monogram": "Tr",
     "kind": "Library / tool",
+    "documentation": "https://trigger.dev/docs/introduction",
     "official": "https://trigger.dev/",
     "keywords": [],
     "sourceIds": [
@@ -8045,6 +8526,7 @@ export const libraries: Library[] = [
     "goodFor": "Representing absence and failure explicitly in TypeScript application logic.",
     "monogram": "Tr",
     "kind": "Library / tool",
+    "documentation": "https://true-myth.dev/",
     "official": "https://github.com/true-myth/true-myth",
     "keywords": [],
     "sourceIds": [
@@ -8061,6 +8543,7 @@ export const libraries: Library[] = [
     "goodFor": "Checking that public types behave as intended during compilation.",
     "monogram": "ts",
     "kind": "Library / tool",
+    "documentation": "https://github.com/TypeStrong/ts-expect#readme",
     "official": "https://github.com/TypeStrong/ts-expect",
     "keywords": [],
     "sourceIds": [
@@ -8080,6 +8563,7 @@ export const libraries: Library[] = [
     "goodFor": "Expressing structured branching with exhaustive matching over TypeScript values.",
     "monogram": "ts",
     "kind": "Library / tool",
+    "documentation": "https://github.com/gvergnaud/ts-pattern#readme",
     "official": "https://github.com/gvergnaud/ts-pattern",
     "keywords": [],
     "sourceIds": [
@@ -8096,6 +8580,7 @@ export const libraries: Library[] = [
     "goodFor": "Building complex type transformations from reusable type-level operations.",
     "monogram": "ts",
     "kind": "Library / tool",
+    "documentation": "https://millsp.github.io/ts-toolbelt/",
     "official": "https://github.com/millsp/ts-toolbelt",
     "keywords": [],
     "sourceIds": [
@@ -8112,6 +8597,7 @@ export const libraries: Library[] = [
     "goodFor": "Protecting a library's exported types with compile-time assertions.",
     "monogram": "ts",
     "kind": "Library / tool",
+    "documentation": "https://github.com/SamVerschueren/tsd#readme",
     "official": "https://github.com/SamVerschueren/tsd",
     "keywords": [],
     "sourceIds": [
@@ -8131,6 +8617,7 @@ export const libraries: Library[] = [
     "goodFor": "Publishing a library that needs multiple module formats.",
     "monogram": "ts",
     "kind": "Library / tool",
+    "documentation": "https://github.com/isaacs/tshy#readme",
     "official": "https://github.com/isaacs/tshy",
     "keywords": [],
     "sourceIds": [
@@ -8147,7 +8634,8 @@ export const libraries: Library[] = [
     "goodFor": "Producing package bundles and type declarations from library source.",
     "monogram": "ts",
     "kind": "Library / tool",
-    "official": "https://tsup.egoist.dev/",
+    "documentation": "https://github.com/egoist/tsup/blob/main/docs/README.md",
+    "official": "https://github.com/egoist/tsup",
     "keywords": [],
     "sourceIds": [
       164
@@ -8163,13 +8651,14 @@ export const libraries: Library[] = [
     "goodFor": "Running development scripts and local TypeScript programs directly.",
     "monogram": "ts",
     "kind": "Library / tool",
-    "official": "https://tsx.is/",
+    "documentation": "https://tsx.hirok.io/getting-started",
+    "official": "https://tsx.hirok.io/",
     "keywords": [],
     "sourceIds": [
       571
     ],
     "references": [],
-    "sourceStatus": "unconfirmed"
+    "sourceStatus": "available"
   },
   {
     "id": "turso",
@@ -8179,6 +8668,7 @@ export const libraries: Library[] = [
     "goodFor": "Applications that want a hosted SQLite-oriented database workflow.",
     "monogram": "Tu",
     "kind": "Data tool",
+    "documentation": "https://docs.turso.tech/quickstart",
     "official": "https://turso.tech/",
     "keywords": [],
     "sourceIds": [
@@ -8213,6 +8703,7 @@ export const libraries: Library[] = [
     "goodFor": "Trying design-token changes and exporting a coordinated theme.",
     "monogram": "tw",
     "kind": "Library / tool",
+    "documentation": "https://github.com/jnsahaj/tweakcn#readme",
     "official": "https://tweakcn.com/",
     "keywords": [],
     "sourceIds": [
@@ -8229,6 +8720,7 @@ export const libraries: Library[] = [
     "goodFor": "Expressing common advanced type transformations without redefining them.",
     "monogram": "ty",
     "kind": "Library / tool",
+    "documentation": "https://github.com/sindresorhus/type-fest#readme",
     "official": "https://github.com/sindresorhus/type-fest",
     "keywords": [],
     "sourceIds": [
@@ -8245,6 +8737,7 @@ export const libraries: Library[] = [
     "goodFor": "Connecting language-model output to TypeScript-defined application operations.",
     "monogram": "Ty",
     "kind": "Library / tool",
+    "documentation": "https://microsoft.github.io/TypeChat/docs/introduction/",
     "official": "https://microsoft.github.io/TypeChat/docs/introduction/",
     "keywords": [],
     "sourceIds": [
@@ -8261,6 +8754,7 @@ export const libraries: Library[] = [
     "goodFor": "Getting editor assistance for CSS class names imported into TypeScript.",
     "monogram": "Ty",
     "kind": "Developer tool",
+    "documentation": "https://github.com/mrmckeb/typescript-plugin-css-modules#readme",
     "official": "https://github.com/mrmckeb/typescript-plugin-css-modules",
     "keywords": [],
     "sourceIds": [
@@ -8277,6 +8771,7 @@ export const libraries: Library[] = [
     "goodFor": "Providing search across a server-managed collection of application data.",
     "monogram": "Ty",
     "kind": "Library / tool",
+    "documentation": "https://typesense.org/docs/",
     "official": "https://github.com/typesense/typesense",
     "keywords": [],
     "sourceIds": [
@@ -8293,6 +8788,7 @@ export const libraries: Library[] = [
     "goodFor": "Maintaining an API contract that feeds multiple code generators.",
     "monogram": "Ty",
     "kind": "API tool",
+    "documentation": "https://typespec.io/docs/",
     "official": "https://typespec.io/",
     "keywords": [],
     "sourceIds": [
@@ -8309,6 +8805,7 @@ export const libraries: Library[] = [
     "goodFor": "Interpreting user-agent strings in analytics or compatibility workflows.",
     "monogram": "UA",
     "kind": "Library / tool",
+    "documentation": "https://docs.uaparser.dev/",
     "official": "https://github.com/faisalman/ua-parser-js",
     "keywords": [],
     "sourceIds": [
@@ -8341,6 +8838,7 @@ export const libraries: Library[] = [
     "goodFor": "Tracking visits and events through a focused analytics dashboard.",
     "monogram": "Um",
     "kind": "Analytics tool",
+    "documentation": "https://docs.umami.is/docs",
     "official": "https://umami.is/",
     "keywords": [],
     "sourceIds": [
@@ -8373,6 +8871,7 @@ export const libraries: Library[] = [
     "goodFor": "Resolving routes through composable application-defined logic.",
     "monogram": "Un",
     "kind": "Library / tool",
+    "documentation": "https://kriasoft.com/universal-router/getting-started",
     "official": "https://www.kriasoft.com/universal-router/",
     "keywords": [],
     "sourceIds": [
@@ -8389,6 +8888,7 @@ export const libraries: Library[] = [
     "goodFor": "Configuring a utility-class workflow through presets and custom rules.",
     "monogram": "Un",
     "kind": "Library / tool",
+    "documentation": "https://unocss.dev/guide/",
     "official": "https://unocss.dev/",
     "keywords": [],
     "sourceIds": [
@@ -8405,6 +8905,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding typed upload endpoints and frontend upload controls.",
     "monogram": "Up",
     "kind": "Library / tool",
+    "documentation": "https://docs.uploadthing.com/",
     "official": "https://uploadthing.com/",
     "keywords": [],
     "sourceIds": [
@@ -8421,6 +8922,7 @@ export const libraries: Library[] = [
     "goodFor": "Building upload flows with selectable sources, progress, and file handling.",
     "monogram": "Up",
     "kind": "Library / tool",
+    "documentation": "https://uppy.io/docs/react/",
     "official": "https://uppy.io/docs/react/",
     "keywords": [],
     "sourceIds": [
@@ -8437,6 +8939,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding caching, rate limiting, or queued work to serverless applications.",
     "monogram": "Up",
     "kind": "Library / tool",
+    "documentation": "https://upstash.com/docs/introduction",
     "official": "https://upstash.com/",
     "keywords": [],
     "sourceIds": [
@@ -8453,6 +8956,7 @@ export const libraries: Library[] = [
     "goodFor": "Showing custom actions when a user opens an element's context menu.",
     "monogram": "us",
     "kind": "Library / tool",
+    "documentation": "https://use-context-menu.vercel.app/",
     "official": "https://use-context-menu.vercel.app/",
     "keywords": [],
     "sourceIds": [
@@ -8469,6 +8973,7 @@ export const libraries: Library[] = [
     "goodFor": "Reducing repeated work while a user types or changes inputs.",
     "monogram": "us",
     "kind": "Library / tool",
+    "documentation": "https://github.com/xnimorz/use-debounce#readme",
     "official": "https://github.com/xnimorz/use-debounce",
     "keywords": [],
     "sourceIds": [
@@ -8485,6 +8990,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding reusable browser and state behavior to components.",
     "monogram": "us",
     "kind": "Library / tool",
+    "documentation": "https://usehooks.com/",
     "official": "https://github.com/uidotdev/usehooks",
     "keywords": [],
     "sourceIds": [
@@ -8501,6 +9007,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding typed, reusable application behavior without writing every hook from scratch.",
     "monogram": "us",
     "kind": "Library / tool",
+    "documentation": "https://usehooks-ts.com/introduction",
     "official": "https://github.com/juliencrn/usehooks-ts",
     "keywords": [],
     "sourceIds": [
@@ -8518,6 +9025,7 @@ export const libraries: Library[] = [
     "monogram": "Us",
     "kind": "Library / tool",
     "caveat": "This entry covers Userfront's authentication tooling. The company homepage now describes a different product; check the original SDK before planning an integration.",
+    "documentation": "https://github.com/userfront/userfront/tree/main/packages/react#readme",
     "official": "https://github.com/userfront/userfront",
     "keywords": [],
     "sourceIds": [
@@ -8534,6 +9042,7 @@ export const libraries: Library[] = [
     "goodFor": "Validating incoming binary data before interpreting it as text.",
     "monogram": "ut",
     "kind": "Library / tool",
+    "documentation": "https://github.com/websockets/utf-8-validate#readme",
     "official": "https://www.npmjs.com/package/utf-8-validate",
     "keywords": [],
     "sourceIds": [
@@ -8550,6 +9059,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating identifiers for records and application objects.",
     "monogram": "uu",
     "kind": "Library / tool",
+    "documentation": "https://unpkg.com/uuidv4@6.2.13/README.md",
     "official": "https://www.npmjs.com/package/uuidv4",
     "keywords": [],
     "sourceIds": [
@@ -8566,6 +9076,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding generative visual backgrounds and interactive graphic effects.",
     "monogram": "UV",
     "kind": "Library / tool",
+    "documentation": "https://uvcanvas.com/docs",
     "official": "https://uvcanvas.com/",
     "keywords": [],
     "sourceIds": [
@@ -8582,6 +9093,7 @@ export const libraries: Library[] = [
     "goodFor": "Writing mutable-looking state updates with reactive snapshots for rendering.",
     "monogram": "Va",
     "kind": "Library / tool",
+    "documentation": "https://valtio.dev/docs/introduction/getting-started",
     "official": "https://valtio.pmnd.rs/",
     "keywords": [],
     "sourceIds": [
@@ -8598,6 +9110,7 @@ export const libraries: Library[] = [
     "goodFor": "Writing typed styles and design tokens without runtime style generation.",
     "monogram": "va",
     "kind": "Library / tool",
+    "documentation": "https://vanilla-extract.style/documentation/getting-started/",
     "official": "https://vanilla-extract.style/",
     "keywords": [],
     "sourceIds": [
@@ -8614,6 +9127,7 @@ export const libraries: Library[] = [
     "goodFor": "Preview deployments and production hosting for modern web frameworks.",
     "monogram": "Ve",
     "kind": "Infrastructure",
+    "documentation": "https://vercel.com/docs",
     "official": "https://vercel.com/",
     "keywords": [],
     "sourceIds": [
@@ -8630,6 +9144,7 @@ export const libraries: Library[] = [
     "goodFor": "Starting from a complete example of streaming chat UI and server integration.",
     "monogram": "Ve",
     "kind": "Reference app",
+    "documentation": "https://chatbot.ai-sdk.dev/docs",
     "official": "https://github.com/vercel/ai-chatbot",
     "keywords": [],
     "sourceIds": [
@@ -8646,6 +9161,7 @@ export const libraries: Library[] = [
     "goodFor": "Studying data-driven application screens through a focused example project.",
     "monogram": "Ve",
     "kind": "Reference app",
+    "documentation": "https://github.com/vercel-labs/book-inventory#readme",
     "official": "https://github.com/vercel-labs/book-inventory",
     "keywords": [],
     "sourceIds": [
@@ -8662,6 +9178,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating social-sharing images dynamically for pages and content.",
     "monogram": "Ve",
     "kind": "Library / tool",
+    "documentation": "https://vercel.com/docs/og-image-generation",
     "official": "https://vercel.com/docs/functions/edge-functions/og-image-generation",
     "keywords": [],
     "sourceIds": [
@@ -8678,6 +9195,7 @@ export const libraries: Library[] = [
     "goodFor": "Building separate customer sites or workspaces on one application.",
     "monogram": "Ve",
     "kind": "Framework / starter",
+    "documentation": "https://github.com/vercel/platforms#readme",
     "official": "https://github.com/vercel/platforms",
     "keywords": [],
     "sourceIds": [
@@ -8694,6 +9212,7 @@ export const libraries: Library[] = [
     "goodFor": "Downloading large model files while recovering from interrupted connections.",
     "monogram": "ve",
     "kind": "Library / tool",
+    "documentation": "https://github.com/hamzaydia/verifyfetch#readme",
     "official": "https://github.com/hamzaydia/verifyfetch",
     "keywords": [],
     "sourceIds": [
@@ -8710,6 +9229,7 @@ export const libraries: Library[] = [
     "goodFor": "Configuring an application rendering stack with modular integrations.",
     "monogram": "Vi",
     "kind": "Framework / starter",
+    "documentation": "https://vike.dev/ssr",
     "official": "https://vike.dev/",
     "keywords": [],
     "sourceIds": [
@@ -8729,6 +9249,7 @@ export const libraries: Library[] = [
     "goodFor": "Building custom charts while owning the rendering and interaction design.",
     "monogram": "vi",
     "kind": "Library / tool",
+    "documentation": "https://visx.airbnb.tech/docs",
     "official": "https://airbnb.io/visx/",
     "keywords": [],
     "sourceIds": [
@@ -8745,6 +9266,7 @@ export const libraries: Library[] = [
     "goodFor": "Experimenting with local speech synthesis in web interfaces.",
     "monogram": "vi",
     "kind": "Library / tool",
+    "documentation": "https://github.com/diffusionstudio/vits-web#readme",
     "official": "https://huggingface.co/spaces/diffusionstudio/vits-web",
     "keywords": [],
     "sourceIds": [
@@ -8825,6 +9347,7 @@ export const libraries: Library[] = [
     "goodFor": "Delivering push notifications to subscribed browsers.",
     "monogram": "we",
     "kind": "Library / tool",
+    "documentation": "https://github.com/web-push-libs/web-push#readme",
     "official": "https://github.com/web-push-libs/web-push",
     "keywords": [],
     "sourceIds": [
@@ -8857,6 +9380,7 @@ export const libraries: Library[] = [
     "goodFor": "Coordinating build steps and avoiding repeated work.",
     "monogram": "Wi",
     "kind": "Library / tool",
+    "documentation": "https://github.com/google/wireit#readme",
     "official": "https://github.com/google/wireit",
     "keywords": [],
     "sourceIds": [
@@ -8873,6 +9397,7 @@ export const libraries: Library[] = [
     "goodFor": "Moving expensive computation away from the main execution thread.",
     "monogram": "wo",
     "kind": "Library / tool",
+    "documentation": "https://github.com/josdejong/workerpool#readme",
     "official": "https://github.com/josdejong/workerpool?tab=readme-ov-file",
     "keywords": [],
     "sourceIds": [
@@ -8889,6 +9414,7 @@ export const libraries: Library[] = [
     "goodFor": "Making a SaaS application integrate with customers' identity systems.",
     "monogram": "Wo",
     "kind": "Library / tool",
+    "documentation": "https://workos.com/docs",
     "official": "https://workos.com/",
     "keywords": [],
     "sourceIds": [
@@ -8905,6 +9431,7 @@ export const libraries: Library[] = [
     "goodFor": "Adding bidirectional realtime communication to a server application.",
     "monogram": "ws",
     "kind": "Library / tool",
+    "documentation": "https://github.com/websockets/ws#readme",
     "official": "https://github.com/websockets/ws",
     "keywords": [],
     "sourceIds": [
@@ -8921,6 +9448,7 @@ export const libraries: Library[] = [
     "goodFor": "Building and packaging an extension with modern web tooling.",
     "monogram": "WX",
     "kind": "Framework / starter",
+    "documentation": "https://wxt.dev/guide/installation",
     "official": "https://wxt.dev/",
     "keywords": [],
     "sourceIds": [
@@ -8937,6 +9465,7 @@ export const libraries: Library[] = [
     "goodFor": "Managing local or shared state with clearly defined update events.",
     "monogram": "XS",
     "kind": "Library / tool",
+    "documentation": "https://stately.ai/docs/xstate-store",
     "official": "https://stately.ai/blog/2024-04-10-xstate-store",
     "keywords": [],
     "sourceIds": [
@@ -8953,6 +9482,7 @@ export const libraries: Library[] = [
     "goodFor": "Trying changes to a library in a consuming project before publishing.",
     "monogram": "ya",
     "kind": "Library / tool",
+    "documentation": "https://github.com/whitecolor/yalc#readme",
     "official": "https://www.npmjs.com/package/yalc",
     "keywords": [],
     "sourceIds": [
@@ -8969,6 +9499,7 @@ export const libraries: Library[] = [
     "goodFor": "Opening an image gallery in an extensible overlay viewer.",
     "monogram": "Ye",
     "kind": "Library / tool",
+    "documentation": "https://yet-another-react-lightbox.com/documentation",
     "official": "https://yet-another-react-lightbox.com/",
     "keywords": [],
     "sourceIds": [
@@ -8985,6 +9516,7 @@ export const libraries: Library[] = [
     "goodFor": "Defining form constraints and reusable object validation rules.",
     "monogram": "Yu",
     "kind": "Library / tool",
+    "documentation": "https://github.com/jquense/yup#readme",
     "official": "https://www.npmjs.com/package/yup",
     "keywords": [],
     "sourceIds": [
@@ -9001,6 +9533,7 @@ export const libraries: Library[] = [
     "goodFor": "Keeping data models, access policies, and generated APIs aligned.",
     "monogram": "Ze",
     "kind": "Data tool",
+    "documentation": "https://zenstack.dev/docs",
     "official": "https://zenstack.dev/",
     "keywords": [],
     "sourceIds": [
@@ -9017,6 +9550,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating or extracting compressed files in browser-based workflows.",
     "monogram": "zi",
     "kind": "Library / tool",
+    "documentation": "https://gildas-lormeau.github.io/zip.js/api/index.html",
     "official": "https://gildas-lormeau.github.io/zip.js/",
     "keywords": [],
     "sourceIds": [
@@ -9033,6 +9567,7 @@ export const libraries: Library[] = [
     "goodFor": "Validating unknown data and deriving static types from schemas.",
     "monogram": "Zo",
     "kind": "Library / tool",
+    "documentation": "https://zod.dev/basics",
     "official": "https://zod.dev/",
     "keywords": [],
     "sourceIds": [
@@ -9049,6 +9584,7 @@ export const libraries: Library[] = [
     "goodFor": "Creating fixtures that follow an existing validation schema.",
     "monogram": "Zo",
     "kind": "Testing tool",
+    "documentation": "https://github.com/anatine/zod-plugins/tree/main/packages/zod-mock#readme",
     "official": "https://github.com/anatine/zod-plugins/tree/main/packages/zod-mock",
     "keywords": [],
     "sourceIds": [
@@ -9065,6 +9601,7 @@ export const libraries: Library[] = [
     "goodFor": "Publishing packages without adopting a separate bundling workflow.",
     "monogram": "zs",
     "kind": "Library / tool",
+    "documentation": "https://github.com/colinhacks/zshy#readme",
     "official": "https://github.com/colinhacks/zshy",
     "keywords": [],
     "sourceIds": [
@@ -9081,6 +9618,7 @@ export const libraries: Library[] = [
     "goodFor": "Sharing application state through a straightforward external store.",
     "monogram": "Zu",
     "kind": "Library / tool",
+    "documentation": "https://zustand.docs.pmnd.rs/learn/getting-started/introduction",
     "official": "https://zustand.docs.pmnd.rs/",
     "keywords": [],
     "sourceIds": [
@@ -9097,6 +9635,7 @@ export const libraries: Library[] = [
     "goodFor": "Combining command execution with normal JavaScript control flow.",
     "monogram": "zx",
     "kind": "CLI toolkit",
+    "documentation": "https://google.github.io/zx/",
     "official": "https://www.npmjs.com/package/zx",
     "keywords": [],
     "sourceIds": [

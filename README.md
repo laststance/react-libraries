@@ -24,7 +24,7 @@ pnpm run preview --host 127.0.0.1 --port 8793
 
 Edit `content/libraries.ts` to add or revise an entry, and `content/categories.ts` to manage categories and task wording. These files are the canonical source. **Normal builds do not read or contact Notion.**
 
-Each entry needs a stable `id`, category, name, short purpose (`description`), recommended use case (`goodFor`), and source URL (`official`). Add a `caveat` when there is a meaningful limitation and `implementation` when useful setup context is available. A new entry uses `sourceIds: []`; keep existing source IDs so the one-time migration remains auditable.
+Each entry needs a stable `id`, category, name, short purpose (`description`), recommended use case (`goodFor`), and source URL (`official`). Set `documentation` to the project's official guide, API reference, or README with usage instructions. If the entry has no verified documentation, omit that field. The site then displays its source link. Add a `caveat` when there is a meaningful limitation and `implementation` when useful setup context is available. A new entry uses `sourceIds: []`; keep existing source IDs so the one-time migration remains auditable.
 
 `sourceStatus` records link availability at editorial review, not a maintenance or security endorsement. `unavailable` means the reviewed source returned 404; `unconfirmed` means a timeout, rate limit, or access restriction prevented verification. Recheck these fields when reviewing an entry.
 

@@ -1,5 +1,5 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
-import { categories, libraries, groups, featuredCategories } from "../content/catalog.ts";
+import { categories, libraries, groups, featuredCategories, getResourceLinks } from "../content/catalog.ts";
 
 const generated: string[] = [];
 const manifest = new URL("../docs/.generated.json", import.meta.url);
@@ -43,14 +43,16 @@ for (const category of categories) {
 for (const library of libraries) {
   const category = categories.find((entry) => entry.id === library.category)!;
   const alternatives = libraries.filter((entry) => entry.category === library.category && entry.id !== library.id).slice(0, 5);
+  const links = getResourceLinks(library).map(({ label, href }) => `[${label}](<${href}>)`);
   const sections = [
+    `<div id="source" class="library-resource-links not-prose" data-has-docs="${Boolean(library.documentation)}" data-pagefind-ignore>\n\n${links.join(" ")}\n\n</div>`,
     `<PurposeNote title="Good for">${md(library.goodFor)}</PurposeNote>`,
     `## What it does\n\n${md(library.description)}`,
     `## When it fits\n\n${md(library.goodFor)}`,
     ...(library.implementation ? [`## What you build\n\n${md(library.implementation)}`] : []),
     ...(library.caveat ? [`## Keep in mind\n\n${md(library.caveat)}`] : []),
     ...(alternatives.length ? [`## Other options in this category\n\n<div data-pagefind-ignore>\n\n${alternatives.map((entry) => `- [${md(entry.name)}](/${entry.category}/${entry.id}) — ${md(entry.goodFor)}`).join("\n")}\n\n</div>`] : []),
-    `## Source\n\n[${library.sourceStatus === "unavailable" ? "Saved" : "Project"} source for ${md(library.name)} ↗](${library.official})\n\nEditorial overview reviewed on October 24, 2026. Follow the source for current setup, compatibility, and licensing.`,
+    "Editorial overview reviewed on October 24, 2026.",
     `[${md(category.task)} →](/tasks/${category.taskId})\n\n[All ${md(category.title.toLowerCase())} options →](/${category.id})`,
   ];
   await page(`${library.category}/${library.id}`, library.name, library.description, sections.join("\n\n"));

@@ -12,6 +12,8 @@ export interface Library {
   goodFor: string;
   caveat?: string;
   implementation?: string;
+  /** Verified first-party documentation, when available for this entry. */
+  documentation?: string;
   official: string;
   keywords: string[];
   /** Original URL numbers in the immutable migration inventory. */

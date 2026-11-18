@@ -1,7 +1,8 @@
 ---
-import { getLibrary } from "../content/catalog.ts";
+import { getLibrary, getResourceLinks } from "../content/catalog.ts";
 interface Props { libraryId: string; }
 const library = getLibrary(Astro.props.libraryId);
+const [primary] = getResourceLinks(library);
 ---
 <section id={`library-${library.id}`} class="library-card not-prose" aria-label={library.name} data-pagefind-ignore>
   <div class="library-heading">
@@ -16,6 +17,8 @@ const library = getLibrary(Astro.props.libraryId);
   </dl>
   <div class="library-links">
     <a class="library-overview" href={`/${library.category}/${library.id}`}>Read overview <span aria-hidden="true">→</span></a>
-    <a class="library-official" href={library.official} target="_blank" rel="noreferrer">{library.sourceStatus === "unavailable" ? "Saved source" : "Visit source"} <span aria-hidden="true">↗</span><span class="sr-only"> for {library.name} (opens in a new tab)</span></a>
+    <a class={library.documentation ? "library-docs" : "library-source"} href={primary.href} target="_blank" rel="noreferrer">
+      {primary.label} <span aria-hidden="true">↗</span><span class="sr-only"> for {library.name} (opens in a new tab)</span>
+    </a>
   </div>
 </section>
