@@ -81,7 +81,10 @@ blume-toc a[aria-current="location"] { color: var(--blume-accent); border-left-c
 .library-resource-links p { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; margin: 0; font-size: 14px; }
 .library-resource-links a, .library-links .library-docs { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; }
 .library-resource-links a, .library-links .library-source { color: var(--blume-muted-foreground); }
-.library-resource-links[data-has-docs="true"] a:first-child, .library-links .library-docs { padding: 0 12px; border-radius: 7px; background: var(--library-tint); color: var(--blume-accent); font-weight: 600; text-decoration: none; }
+.library-resource-links[data-has-docs="true"] a:first-child, .library-links .library-docs {
+  padding: 0 12px; border-radius: 7px; background: var(--library-tint); color: var(--blume-accent); font-weight: 600; text-decoration: none;
+  &:is(:hover, :focus-visible) { background: var(--blume-accent); color: var(--blume-background); }
+}
 .library-resource-links a::after { content: "↗" / ""; }
 .library-resource-links a:hover, .library-links .library-docs:hover { text-decoration: underline; }
 .category-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
