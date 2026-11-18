@@ -84,15 +84,21 @@ async function searchPages(
 }
 
 /** Caps Pagefind enrichment for exact package rows so local results can render during an outage.
- * @example const pages = await waitForRelatedPages(searchPages(index, "next-auth", new Map()));
+ * @example const pages = await waitForRelatedPages(loadIndex(), (index) => searchPages(index, "next-auth", new Map()));
  */
-async function waitForRelatedPages(search: Promise<PagefindPage[]>): Promise<PagefindPage[]> {
+async function waitForRelatedPages(
+  index: Promise<PagefindIndex>,
+  search: (instance: PagefindIndex) => Promise<PagefindPage[]>,
+): Promise<PagefindPage[]> {
+  const expiresAt = performance.now() + exactPackageWaitMs;
   let timer: ReturnType<typeof setTimeout> | undefined;
   const deadline = new Promise<PagefindPage[]>((resolve) => {
     timer = setTimeout(() => resolve([]), exactPackageWaitMs);
   });
+  // The shared index stays alive for later queries, but expired lookups skip search.
+  const relatedPages = index.then((instance) => performance.now() < expiresAt ? search(instance) : []);
   try {
-    return await Promise.race([search, deadline]);
+    return await Promise.race([relatedPages, deadline]);
   } finally {
     clearTimeout(timer);
   }
@@ -143,8 +149,9 @@ export async function createSearch(): Promise<SearchFn> {
 
     let pages: PagefindPage[] = [];
     try {
-      const search = loadIndex().then((instance) => searchPages(instance, query, pendingFragments));
-      pages = await (exactRows ? waitForRelatedPages(search) : search);
+      const ready = loadIndex();
+      const search = (instance: PagefindIndex) => searchPages(instance, query, pendingFragments);
+      pages = await (exactRows ? waitForRelatedPages(ready, search) : ready.then(search));
     } catch (error) {
       // The local package map can still answer an exact query during a Pagefind outage.
       if (!exactRows) throw error;

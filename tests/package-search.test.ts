@@ -298,3 +298,97 @@ test("an older query cannot replace the cached fragment already read by the acti
   // Assert
   await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/validation#library-zod");
 });
+
+test("expired exact npm queries do not start Pagefind work once the shared index becomes ready", async ({ page }) => {
+  // Arrange
+  await page.route("**/pagefind/pagefind.js", (route) => route.fulfill({
+    contentType: "text/javascript",
+    body: `const html = document.documentElement;
+      const ready = new Promise((resolve) => document.addEventListener("test:index-ready", resolve, { once: true }));
+      const searches = [];
+      const reads = [];
+      const record = (events, key, query) => {
+        events.push(query);
+        html.dataset[key] = JSON.stringify(events);
+      };
+      export const createInstance = () => {
+        html.dataset.instances = String(Number(html.dataset.instances || 0) + 1);
+        return {
+          filters: () => ready,
+          search: async (query) => {
+            record(searches, "searches", query);
+            return { results: [{ id: "tables", data: async () => {
+              record(reads, "reads", query);
+              return { url: "/data-tables/", meta: { title: "Data tables" }, excerpt: "Table options", sub_results: [] };
+            } }] };
+          },
+        };
+      };`,
+  }));
+  await page.goto("/");
+  await page.keyboard.press("ControlOrMeta+k");
+  const search = page.getByRole("combobox", { name: "Search libraries" });
+  const selected = page.getByRole("option", { selected: true });
+  const html = page.locator("html");
+  await expect(html).toHaveAttribute("data-instances", "1");
+
+  // Act
+  await search.fill("next-auth");
+  await expect(selected).toHaveAttribute("href", "/auth#library-auth-js");
+  await search.fill("react-datepicker");
+  await expect(selected).toHaveAttribute("href", "/calendars#library-react-datepicker");
+  await page.evaluate(() => document.dispatchEvent(new Event("test:index-ready")));
+  await search.fill("large dataset");
+
+  // Assert
+  await expect(selected).toHaveAttribute("href", "/data-tables");
+  await expect(html).toHaveAttribute("data-searches", '["large dataset"]');
+  await expect(html).toHaveAttribute("data-reads", '["large dataset"]');
+  await expect(html).toHaveAttribute("data-instances", "1");
+  await search.fill("next-auth");
+  await expect(selected).toHaveAttribute("href", "/auth#library-auth-js");
+  await expect(page.getByRole("option").filter({ hasText: "Data tables" })).toBeVisible();
+});
+
+test("an active query waits for an earlier read of the same fragment ID", async ({ page }) => {
+  // Arrange
+  await page.route("**/pagefind/pagefind.js", (route) => route.fulfill({
+    contentType: "text/javascript",
+    body: `const html = document.documentElement;
+      const firstRead = new Promise((resolve) => document.addEventListener("test:finish-first-read", resolve, { once: true }));
+      const page = (title, id) => ({ url: "/validation/", meta: { title: "Runtime validation" }, excerpt: title,
+        sub_results: [{ title, url: "/validation/#library-" + id, excerpt: title,
+          anchor: { id: "library-" + id, location: 0 }, locations: [0] }] });
+      export const createInstance = () => ({
+        filters: async () => ({}),
+        search: async (query) => ({ results: query === "schema arktype" ? [{ id: "validation", data: async () => {
+          html.dataset.firstRead = "pending";
+          await firstRead;
+          html.dataset.firstRead = "settled";
+          return page("ArkType", "arktype");
+        } }] : [{ id: "validation", data: async () => {
+          html.dataset.secondReadAt = html.dataset.firstRead;
+          return page("Zod", "zod");
+        } }, { id: "guide", data: async () => {
+          html.dataset.activeQueryReading = "true";
+          return { url: "/choosing-a-library/", meta: { title: "Choosing a library" }, excerpt: "Guide", sub_results: [] };
+        } }] }),
+      });`,
+  }));
+  await page.goto("/");
+  await page.keyboard.press("ControlOrMeta+k");
+  const search = page.getByRole("combobox", { name: "Search libraries" });
+  const html = page.locator("html");
+
+  // Act
+  await search.fill("schema arktype");
+  await expect(html).toHaveAttribute("data-first-read", "pending");
+  await search.fill("schema zod");
+  await expect(html).toHaveAttribute("data-active-query-reading", "true");
+  expect(await html.getAttribute("data-second-read-at")).toBeNull();
+  await page.evaluate(() => document.dispatchEvent(new Event("test:finish-first-read")));
+
+  // Assert
+  await expect(html).toHaveAttribute("data-second-read-at", "settled");
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/validation#library-zod");
+});
