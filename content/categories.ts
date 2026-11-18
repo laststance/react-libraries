@@ -31,10 +31,10 @@ export const categories = [
     "icon": "table",
     "task": "Explore a large dataset",
     "taskId": "explore-a-large-dataset",
-    "description": "Display a large dataset in a table with search, sorting, filtering, and editing.",
-    "note": "A headless table supplies behavior while you build the UI. An integrated grid supplies more interface and its own customization boundaries.",
+    "description": "Find tools for searching, sorting, filtering, and editing large datasets in a table.",
+    "note": "Use headless table logic when you want to design the rows and controls. Choose a complete grid when built-in editors, filters, and keyboard navigation cover the job.",
     "noteTitle": "Table logic, or a complete grid?",
-    "taskDescription": "Display a large dataset in a table with search, sorting, filtering, and editing."
+    "taskDescription": "Help users search, sort, filter, and edit records in a large table."
   },
   {
     "id": "forms",
@@ -314,15 +314,15 @@ export const categories = [
   },
   {
     "id": "data-fetching",
-    "title": "Data fetching & server actions",
+    "title": "Data fetching",
     "group": "Manage application data",
     "icon": "arrow-left-right",
     "task": "Fetch and update server data",
     "taskId": "fetch-and-update-server-data",
-    "description": "Call APIs, manage cached responses, and connect interface actions to the server.",
-    "note": "An HTTP client sends requests; a server-state library also manages caching and synchronization with the UI.",
-    "noteTitle": "Choose by the job you need to do.",
-    "taskDescription": "Call APIs, manage cached responses, and connect interface actions to the server."
+    "description": "Call APIs, keep server data fresh in React, and validate updates sent from the UI.",
+    "note": "Start with an HTTP client for sending requests. Add a server-state library when several screens need to share cached results or refresh after an update.",
+    "noteTitle": "HTTP requests and shared caches",
+    "taskDescription": "Request data from an API, keep cached results current, and send updates from React."
   },
   {
     "id": "routing",
