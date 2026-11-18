@@ -52,7 +52,7 @@ test("the TanStack Query name opens official documentation in a new tab", async 
   // Assert
   await expect(popup).toHaveURL(docsUrl);
   await expect(page).toHaveURL("/data-fetching");
-  await expect(page.getByText("Tools for managing asynchronous server state and cached requests.", { exact: true })).toBeVisible();
+  await expect(page.getByText("refresh stale queries after a mutation", { exact: false })).toBeVisible();
   await popup.close();
 });
 
@@ -66,4 +66,21 @@ test("a saved TanStack Query overview URL still opens its directory row", async 
   // Assert
   await expect(page).toHaveURL("/data-fetching#library-tanstack-query");
   await expect(page.getByRole("heading", { name: "TanStack Query", exact: true })).toBeInViewport();
+});
+
+test("bookmarked Markdown files download the category list in the requested format", async ({ request }) => {
+  // Arrange
+  const original = "/data-fetching/tanstack-query";
+
+  for (const format of ["md", "mdx"]) {
+    // Act
+    const redirect = await request.get(`${original}.${format}`, { maxRedirects: 0 });
+    const markdown = await request.get(redirect.headers().location);
+
+    // Assert
+    expect(redirect.status()).toBe(308);
+    expect(redirect.headers().location).toBe(`/data-fetching.${format}`);
+    expect(markdown.ok()).toBe(true);
+    expect(await markdown.text()).toContain("https://tanstack.com/query/latest/docs/framework/react/overview");
+  }
 });

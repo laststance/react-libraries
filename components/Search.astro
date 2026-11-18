@@ -3,7 +3,7 @@ import Search from "blume/components/layout/Search.astro";
 ---
 <div class="library-search">
   <Search {...Astro.props} strings={{ ...Astro.props.strings, label: "Search libraries", placeholder: "Search a library or what you want to build…" }} />
-  <span class="search-field-label" aria-hidden="true">Search libraries… <kbd>⌘ K</kbd></span>
+  <span class="search-field-label" aria-hidden="true">Search libraries… <kbd><span class="mac-shortcut">⌘ K</span><span class="ctrl-shortcut">Ctrl K</span></kbd></span>
 </div>
 
 <script>

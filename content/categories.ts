@@ -34,7 +34,7 @@ export const categories = [
     "description": "Find tools for searching, sorting, filtering, and editing large datasets in a table.",
     "note": "Use headless table logic when you want to design the rows and controls. Choose a complete grid when built-in editors, filters, and keyboard navigation cover the job.",
     "noteTitle": "Table logic, or a complete grid?",
-    "taskDescription": "Help users search, sort, filter, and edit records in a large table."
+    "taskDescription": "Build a searchable, sortable, filterable table for a large dataset. Compare grids with built-in editors and headless tools for custom controls."
   },
   {
     "id": "forms",

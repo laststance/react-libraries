@@ -17,8 +17,8 @@ test("category browsing shows library bios and preserves the chosen dark theme",
   await expect(page.getByRole("heading", { name: "Data tables", exact: true })).toBeVisible();
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
   const directory = page.getByRole("main");
-  await expect(directory.getByRole("link", { name: "TanStack Table", exact: true })).toHaveAttribute("href", "https://tanstack.com/table/latest");
-  await expect(directory.getByText("Table logic for sorting, filtering, and pagination, with complete control over your UI.", { exact: true })).toBeVisible();
+  await expect(directory.getByRole("link", { name: "TanStack Table", exact: true })).toHaveAttribute("href", "https://tanstack.com/table/latest/docs/overview");
+  await expect(directory.getByText("Headless sorting, filtering, and pagination", { exact: false })).toBeVisible();
   await expect(directory.getByRole("heading", { name: "What you build", exact: true })).toHaveCount(0);
   await page.reload();
   await expect(page).toHaveURL("/data-tables");

@@ -126,6 +126,7 @@ a, button, summary { -webkit-tap-highlight-color: transparent; }
   min-height: 56px;
 }
 .library-row + .library-row { border-top: 1px solid var(--blume-border); }
+.library-text-list .library-row { grid-template-columns: 1fr; grid-template-areas: "name" "bio"; }
 .library-row:focus-within, .library-row:has(.library-name:target) {
   background: var(--library-tint);
 }
@@ -194,6 +195,10 @@ a, button, summary { -webkit-tap-highlight-color: transparent; }
     grid-template-areas: "name bio downloads";
     align-content: center;
     column-gap: 24px;
+  }
+  .library-text-list .library-row {
+    grid-template-columns: minmax(9.5rem, 26%) minmax(0, 1fr);
+    grid-template-areas: "name bio";
   }
 }
 
@@ -297,6 +302,13 @@ a, button, summary { -webkit-tap-highlight-color: transparent; }
     padding: 0 5px;
     line-height: 22px;
     font-family: inherit;
+  }
+  .search-field-label .ctrl-shortcut,
+  .library-search:has([data-blume-tooltip*="Ctrl"]) .mac-shortcut { display: none; }
+  .library-search:has([data-blume-tooltip*="Ctrl"]) .ctrl-shortcut { display: inline; }
+  .library-search [data-blume-search-open]:is(:hover, :focus-visible) {
+    background: var(--library-tint);
+    border-color: var(--blume-accent);
   }
   [data-blume-doc-grid] { grid-template-columns: 248px minmax(0, 1fr); }
   [data-blume-nav-drawer] { top: var(--library-header-height); height: calc(100dvh - var(--library-header-height)); }

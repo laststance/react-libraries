@@ -24,7 +24,7 @@ function utcDate(date: string): number {
 }
 
 /**
- * Keeps sequential npm requests below the service's rate limit during refresh.
+ * Spaces npm requests during refresh and retries once after a 429 or server error.
  * @example await fetchPoint("last-week");
  */
 async function fetchPoint(path: string): Promise<Response> {
@@ -35,11 +35,12 @@ async function fetchPoint(path: string): Promise<Response> {
   lastRequest = performance.now();
   const response = await fetch(url, { signal: AbortSignal.timeout(15_000) });
 
-  // Cloudflare can send Retry-After: 0 while its rate limit is still active.
+  // Retry-After can be a delay in seconds or an HTTP date.
   if (response.status === 429 || response.status >= 500) {
-    const retryAfterSeconds = Number(response.headers.get("retry-after"));
+    const retryAfter = response.headers.get("retry-after") ?? "";
+    const requestedMs = /^\d+$/.test(retryAfter) ? Number(retryAfter) * 1_000 : Date.parse(retryAfter) - Date.now();
     const fallbackMs = response.status === 429 ? 60_000 : 1_000;
-    const retryMs = Math.max(fallbackMs, Number.isFinite(retryAfterSeconds) ? retryAfterSeconds * 1_000 : 0);
+    const retryMs = Number.isFinite(requestedMs) ? Math.max(fallbackMs, requestedMs) : fallbackMs;
     await response.body?.cancel();
     console.warn(`npm returned HTTP ${response.status}. Retrying in ${Math.ceil(retryMs / 1_000)} seconds.`);
     await delay(retryMs);

@@ -66,10 +66,10 @@ async function page(route: string, title: string, description: string, body: str
  *
  * @example
  * ```ts
- * const rows = getRankedLibraries("data-fetching").map(libraryRow);
+ * const row = libraryRow(getRankedLibraries("data-fetching")[0], true);
  * ```
  */
-function libraryRow({ library, npmPackage, downloads }: RankedLibrary): string {
+function libraryRow({ library, npmPackage, downloads }: RankedLibrary, showDownloads: boolean): string {
   const name = escapeMdx(library.name);
   const source = library.sourceStatus === "unavailable"
     ? `${name} <span class="library-source-unavailable" data-pagefind-ignore>Source unavailable</span>`
@@ -84,8 +84,7 @@ function libraryRow({ library, npmPackage, downloads }: RankedLibrary): string {
     : `<data value="${downloads}" aria-hidden="true">${compactDownloads.format(downloads)}</data>`;
   return `<li class="library-row">
   <h2 class="library-name" id="library-${library.id}" data-pagefind-title="${name}">${source}</h2>
-  <p class="library-bio">${escapeMdx(library.description)}</p>
-  <span class="library-downloads" data-pagefind-ignore${downloadAttribute} title="${escapeMdx(downloadLabel)}">${metric}<span class="sr-only">${escapeMdx(downloadLabel)}</span></span>
+  <p class="library-bio">${escapeMdx(library.description)}</p>${showDownloads ? `\n  <span class="library-downloads" data-pagefind-ignore${downloadAttribute} title="${escapeMdx(downloadLabel)}">${metric}<span class="sr-only">${escapeMdx(downloadLabel)}</span></span>` : ""}
 </li>`;
 }
 
@@ -102,14 +101,15 @@ function libraryRow({ library, npmPackage, downloads }: RankedLibrary): string {
 function libraryList(entries: readonly RankedLibrary[], taskPage: boolean): string {
   const ranked = entries.filter(({ downloads }) => downloads !== null);
   const unranked = entries.filter(({ downloads }) => downloads === null);
-  const list = (rows: typeof entries) => `<ul class="library-rows" role="list">\n${rows.map(libraryRow).join("\n")}\n</ul>`;
+  const showDownloads = entries.some(({ npmPackage }) => npmPackage !== null);
+  const list = (rows: typeof entries) => `<ul class="library-rows" role="list">\n${rows.map((row) => libraryRow(row, showDownloads)).join("\n")}\n</ul>`;
   const sections = ranked.length && unranked.length
     ? [list(ranked), '<p class="library-list-divider" data-pagefind-ignore>Without npm counts</p>', list(unranked)]
     : [list(entries)];
-  return `<div class="library-list not-prose"${taskPage ? ' data-pagefind-ignore="all"' : ""}>
+  const columnLabel = `<span class="library-list-metric">Weekly npm downloads${ranked.length ? ' <span aria-hidden="true">↓</span>' : ""}<span class="library-list-period">${periodLabel}</span></span>`;
+  return `<div class="library-list not-prose${showDownloads ? "" : " library-text-list"}"${taskPage ? ' data-pagefind-ignore="all"' : ""}>
   <div class="library-list-header" data-pagefind-ignore>
-    <span>Libraries &amp; tools</span>
-    <span class="library-list-metric">Weekly npm downloads${ranked.length ? ' <span aria-hidden="true">↓</span>' : ""}<span class="library-list-period">${periodLabel}</span></span>
+    <span>Libraries &amp; tools</span>${showDownloads ? `\n    ${columnLabel}` : ""}
   </div>
   <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
 ${sections.join("\n")}

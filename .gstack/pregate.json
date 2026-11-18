@@ -4,7 +4,7 @@
     "**": ["tests/discovery.test.ts", "tests/category-index.test.ts"]
   },
   "strays": {
-    "allow": ["components.ts", "pnpm-workspace.yaml", "theme.css", "vercel.json"]
+    "allow": ["components.ts", "pnpm-workspace.yaml", "theme.css", "vercel.ts"]
   },
   "guards": [
     {
