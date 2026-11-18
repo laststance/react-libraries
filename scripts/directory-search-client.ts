@@ -26,6 +26,8 @@ interface PagefindModule {
   };
 }
 
+type PagefindIndex = ReturnType<PagefindModule["createInstance"]>;
+
 // Pagefind links to built directories; Blume serves those routes without the slash.
 const trailingSlash = /(?<=.)\/(?=[#?]|$)/u;
 
@@ -43,6 +45,22 @@ function titleMatch(title: string, query: string): number {
   return title.includes(query) ? 1 : 0;
 }
 
+/** Reads Pagefind documents for {@link createSearch} and retains successful fragments.
+ * An empty index response is valid. A failed search or wholly unreadable response is an error.
+ * @example const pages = await searchPages(index, "large dataset");
+ */
+async function searchPages(index: PagefindIndex, query: string): Promise<PagefindPage[]> {
+  const { results } = await index.search(query);
+  // A name like Render can rank below many pages that use the same word in prose.
+  const fragments = await Promise.allSettled(results.slice(0, RESULT_POOL).map(async (result) => result.data()));
+  const pages = fragments.flatMap((fragment) => fragment.status === "fulfilled" ? [fragment.value] : []);
+  if (pages.length === 0) {
+    const failure = fragments.find((fragment) => fragment.status === "rejected");
+    if (failure) throw failure.reason;
+  }
+  return pages;
+}
+
 /** Loads the Blume build's Pagefind index when the search dialog first opens.
  * Each query returns library rows at their category anchors and regular page results.
  * @example const results = await (await createSearch())("TanStack Query");
@@ -51,14 +69,24 @@ export async function createSearch(): Promise<SearchFn> {
   const basePath = joinBase(import.meta.env.BASE_URL, "pagefind/");
   const bundle = `${basePath}pagefind.js`;
   // Pagefind emits this module at build time, outside Vite's module graph.
-  const pagefind: PagefindModule = await import(/* @vite-ignore */ bundle);
-  const index = pagefind.createInstance({ basePath, baseUrl: "/" });
+  const index = await import(/* @vite-ignore */ bundle)
+    .then((pagefind: PagefindModule) => pagefind.createInstance({ basePath, baseUrl: "/" }))
+    .then((value) => ({ value }), (error: unknown) => ({ error }));
+  // Blume uses the startup error to explain that Pagefind is only present after a build.
+  if (import.meta.env.DEV && "error" in index) throw index.error;
 
   return async (query) => {
-    const { results } = await index.search(query);
-    // A name like Render can rank below many pages that use the same word in prose.
-    const pages = await Promise.all(results.slice(0, RESULT_POOL).map((result) => result.data()));
     const normalizedQuery = normalize(query);
+    const exactRows = Object.hasOwn(packageRows, normalizedQuery) ? packageRows[normalizedQuery] : undefined;
+
+    let pages: PagefindPage[] = [];
+    try {
+      if ("error" in index) throw index.error;
+      pages = await searchPages(index.value, query);
+    } catch (error) {
+      // The local package map can still answer an exact query during a Pagefind outage.
+      if (!exactRows) throw error;
+    }
     const hits = pages.flatMap((page) => {
       const rows = page.sub_results.flatMap(({ anchor, locations, ...row }) => {
         if (!anchor?.id.startsWith("library-")) return [];
@@ -86,12 +114,12 @@ export async function createSearch(): Promise<SearchFn> {
         url: url.replace(trailingSlash, ""),
         excerpt: sanitizeExcerpt(excerpt),
       }));
-    if (!Object.hasOwn(packageRows, normalizedQuery)) {
+    if (!exactRows) {
       return { hits: pagefindHits, sections: [] };
     }
 
     // Package handles may tokenize differently from the displayed library name.
-    const packageHits = packageRows[normalizedQuery].map(([url, title]) =>
+    const packageHits = exactRows.map(([url, title]) =>
       pagefindHits.find((hit) => hit.url === url) ?? {
         title: highlight(title, query),
         url,
