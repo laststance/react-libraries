@@ -1,43 +1,83 @@
 ---
 title: "Deploy an application"
 description: "Host frontends, run server applications, and configure cloud infrastructure."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Match the deployment model to your runtime, storage, region, and operational requirements.</PurposeNote>
+<p class="task-context">Match the deployment model to your runtime, storage, region, and operational requirements.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-vercel" data-pagefind-title="Vercel"><a href="https://vercel.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Vercel<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A deployment platform focused on frontend applications and associated server functions.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="5629681" title="5,629,681 weekly npm downloads for vercel"><data value="5629681" aria-hidden="true">5.63M</data><span class="sr-only">5,629,681 weekly npm downloads for vercel</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-opennext" data-pagefind-title="OpenNext"><a href="https://opennext.js.org/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">OpenNext<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Adapters for deploying Next.js applications outside a single hosting platform.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="2912332" title="2,912,332 weekly npm downloads for @opennextjs/aws"><data value="2912332" aria-hidden="true">2.91M</data><span class="sr-only">2,912,332 weekly npm downloads for @opennextjs/aws</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-heroku" data-pagefind-title="Heroku"><a href="https://devcenter.heroku.com/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Heroku<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A managed application platform with deployment workflows and add-on services.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="12342" title="12,342 weekly npm downloads for heroku"><data value="12342" aria-hidden="true">12.3K</data><span class="sr-only">12,342 weekly npm downloads for heroku</span></span>
+</li>
+</ul>
+<p class="library-list-divider" data-pagefind-ignore>Without npm counts</p>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-amazon-web-services" data-pagefind-title="Amazon Web Services"><a href="https://docs.aws.amazon.com/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Amazon Web Services<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Cloud infrastructure and managed services for deploying and operating applications.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-cloudflare-developers" data-pagefind-title="Cloudflare Developers"><a href="https://developers.cloudflare.com/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Cloudflare Developers<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Documentation for Cloudflare's developer platform and edge services.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-cuber" data-pagefind-title="Cuber"><a href="https://cuber.cloud/docs/overview" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Cuber<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">An automation tool for building and deploying applications on Kubernetes.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-digitalocean" data-pagefind-title="DigitalOcean"><a href="https://docs.digitalocean.com/products/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">DigitalOcean<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Cloud infrastructure and managed services for application development.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-fly-io" data-pagefind-title="Fly.io"><a href="https://docs.fly.io/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Fly.io<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A platform for deploying applications on distributed virtual machines.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-google-cloud" data-pagefind-title="Google Cloud"><a href="https://docs.cloud.google.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Google Cloud<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Cloud services for application hosting, data processing, and infrastructure.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-microsoft-azure" data-pagefind-title="Microsoft Azure"><a href="https://learn.microsoft.com/en-us/azure/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Microsoft Azure<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A cloud platform offering compute, storage, identity, and managed application services.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-render" data-pagefind-title="Render"><a href="https://render.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Render<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A cloud platform for deploying websites, services, and background workers.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="hosting" />
-
-<LibraryCard libraryId="amazon-web-services" />
-
-<LibraryCard libraryId="cloudflare-developers" />
-
-<LibraryCard libraryId="cuber" />
-
-<LibraryCard libraryId="digitalocean" />
-
-<LibraryCard libraryId="fly-io" />
-
-<LibraryCard libraryId="google-cloud" />
-
-<LibraryCard libraryId="heroku" />
-
-<LibraryCard libraryId="microsoft-azure" />
-
-<LibraryCard libraryId="opennext" />
-
-<LibraryCard libraryId="render" />
-
-<LibraryCard libraryId="vercel" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse hosting &amp; infrastructure →](/hosting)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/hosting">Hosting &amp; infrastructure →</a>
+  <a href="/tasks/deploy-an-application.md" download>Download Markdown</a>
+</div>

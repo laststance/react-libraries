@@ -1,37 +1,65 @@
 ---
 title: "Investigate application failures"
 description: "Collect structured logs, track errors, and inspect recorded sessions."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Choose diagnostic signals that help explain real failures while controlling what application data is recorded.</PurposeNote>
+<p class="task-context">Choose diagnostic signals that help explain real failures while controlling what application data is recorded.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-pino" data-pagefind-title="Pino"><a href="https://github.com/pinojs/pino/blob/main/docs/api.md" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Pino<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A structured JSON logger for Node.js.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="80348439" title="80,348,439 weekly npm downloads for pino"><data value="80348439" aria-hidden="true">80.3M</data><span class="sr-only">80,348,439 weekly npm downloads for pino</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-sentry" data-pagefind-title="Sentry"><a href="https://docs.sentry.io/platforms/javascript/guides/react/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Sentry<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Error tracking and performance monitoring for applications.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="42465398" title="42,465,398 weekly npm downloads for @sentry/react"><data value="42465398" aria-hidden="true">42.5M</data><span class="sr-only">42,465,398 weekly npm downloads for @sentry/react</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-morgan" data-pagefind-title="Morgan"><a href="https://github.com/expressjs/morgan#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Morgan<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">HTTP request-logging middleware for Node.js servers.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="18200013" title="18,200,013 weekly npm downloads for morgan"><data value="18200013" aria-hidden="true">18.2M</data><span class="sr-only">18,200,013 weekly npm downloads for morgan</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-bunyan" data-pagefind-title="Bunyan"><a href="https://github.com/trentm/node-bunyan#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Bunyan<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A JSON logging library for Node.js.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="5574768" title="5,574,768 weekly npm downloads for bunyan"><data value="5574768" aria-hidden="true">5.57M</data><span class="sr-only">5,574,768 weekly npm downloads for bunyan</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-logrocket" data-pagefind-title="LogRocket"><a href="https://docs.logrocket.com/docs/introduction" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">LogRocket<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A monitoring platform combining session replay and application diagnostics.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1153275" title="1,153,275 weekly npm downloads for logrocket"><data value="1153275" aria-hidden="true">1.15M</data><span class="sr-only">1,153,275 weekly npm downloads for logrocket</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-logtape" data-pagefind-title="LogTape"><a href="https://logtape.org/manual/start" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">LogTape<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A structured logging library for JavaScript runtimes.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1109283" title="1,109,283 weekly npm downloads for @logtape/logtape"><data value="1109283" aria-hidden="true">1.11M</data><span class="sr-only">1,109,283 weekly npm downloads for @logtape/logtape</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-next-logger" data-pagefind-title="next-logger"><a href="https://github.com/sainsburys-tech/next-logger#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">next-logger<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A patcher that adds structured logging to Next.js output.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="366044" title="366,044 weekly npm downloads for next-logger"><data value="366044" aria-hidden="true">366K</data><span class="sr-only">366,044 weekly npm downloads for next-logger</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-logsnag" data-pagefind-title="LogSnag"><a href="https://docs.logsnag.com/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">LogSnag<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A service for recording and monitoring application events.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1756" title="1,756 weekly npm downloads for @logsnag/node"><data value="1756" aria-hidden="true">1.76K</data><span class="sr-only">1,756 weekly npm downloads for @logsnag/node</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="logging" />
-
-<LibraryCard libraryId="bunyan" />
-
-<LibraryCard libraryId="logrocket" />
-
-<LibraryCard libraryId="logsnag" />
-
-<LibraryCard libraryId="logtape" />
-
-<LibraryCard libraryId="morgan" />
-
-<LibraryCard libraryId="next-logger" />
-
-<LibraryCard libraryId="pino" />
-
-<LibraryCard libraryId="sentry" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse logging &amp; observability →](/logging)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/logging">Logging &amp; observability →</a>
+  <a href="/tasks/investigate-application-failures.md" download>Download Markdown</a>
+</div>

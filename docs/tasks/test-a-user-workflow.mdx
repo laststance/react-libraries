@@ -1,49 +1,95 @@
 ---
 title: "Test a user workflow"
 description: "Automate browsers, compare screenshots, mock APIs, and generate fixtures."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Test observable behavior with representative data and use mocks where they make failures easier to understand.</PurposeNote>
+<p class="task-context">Test observable behavior with representative data and use mocks where they make failures easier to understand.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-playwright" data-pagefind-title="Playwright"><a href="https://playwright.dev/docs/intro" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Playwright<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A framework for automating and testing web browsers.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="176871210" title="176,871,210 weekly npm downloads for playwright"><data value="176871210" aria-hidden="true">177M</data><span class="sr-only">176,871,210 weekly npm downloads for playwright</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-faker" data-pagefind-title="Faker"><a href="https://fakerjs.dev/guide/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Faker<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A library that generates realistic-looking fake data.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="25368269" title="25,368,269 weekly npm downloads for @faker-js/faker"><data value="25368269" aria-hidden="true">25.4M</data><span class="sr-only">25,368,269 weekly npm downloads for @faker-js/faker</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-falso" data-pagefind-title="Falso"><a href="https://unpkg.com/@ngneat/falso@8.0.2/README.md" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Falso<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A library for generating fake application data.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="576965" title="576,965 weekly npm downloads for @ngneat/falso"><data value="576965" aria-hidden="true">577K</data><span class="sr-only">576,965 weekly npm downloads for @ngneat/falso</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-json-server" data-pagefind-title="JSON Server"><a href="https://github.com/typicode/json-server#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">JSON Server<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A tool that exposes a JSON file through a mock REST API.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="420871" title="420,871 weekly npm downloads for json-server"><data value="420871" aria-hidden="true">421K</data><span class="sr-only">420,871 weekly npm downloads for json-server</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-msw-playwright" data-pagefind-title="@msw/playwright"><a href="https://github.com/mswjs/playwright#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">@msw/playwright<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Bindings that connect Mock Service Worker to Playwright.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="390072" title="390,072 weekly npm downloads for @msw/playwright"><data value="390072" aria-hidden="true">390K</data><span class="sr-only">390,072 weekly npm downloads for @msw/playwright</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-argos" data-pagefind-title="Argos"><a href="https://argos-ci.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Argos<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">An open-source visual testing platform.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="346769" title="346,769 weekly npm downloads for @argos-ci/playwright"><data value="346769" aria-hidden="true">347K</data><span class="sr-only">346,769 weekly npm downloads for @argos-ci/playwright</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-zod-mock" data-pagefind-title="Zod Mock"><a href="https://github.com/anatine/zod-plugins/tree/main/packages/zod-mock" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Zod Mock<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A generator for mock values derived from Zod schemas.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="221783" title="221,783 weekly npm downloads for @anatine/zod-mock"><data value="221783" aria-hidden="true">222K</data><span class="sr-only">221,783 weekly npm downloads for @anatine/zod-mock</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-mswjs-data" data-pagefind-title="@mswjs/data"><a href="https://github.com/mswjs/data/tree/v0.16.2#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">@mswjs/data<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Tools for modeling and querying data in tests.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="167775" title="167,775 weekly npm downloads for @mswjs/data"><data value="167775" aria-hidden="true">168K</data><span class="sr-only">167,775 weekly npm downloads for @mswjs/data</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-enforce-unique" data-pagefind-title="enforce-unique"><a href="https://github.com/MansurAliKoroglu/enforce-unique#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">enforce-unique<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A helper for ensuring generated values remain unique.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="77543" title="77,543 weekly npm downloads for enforce-unique"><data value="77543" aria-hidden="true">77.5K</data><span class="sr-only">77,543 weekly npm downloads for enforce-unique</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-snaplet-generate" data-pagefind-title="Snaplet Generate"><a href="https://github.com/supabase-community/seed" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Snaplet Generate<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Generates realistic seed data from a PostgreSQL schema for local development and test databases.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="47723" title="47,723 weekly npm downloads for @snaplet/seed"><data value="47723" aria-hidden="true">47.7K</data><span class="sr-only">47,723 weekly npm downloads for @snaplet/seed</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-msw-auto-mock" data-pagefind-title="msw-auto-mock"><a href="https://github.com/zoubingwu/msw-auto-mock" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">msw-auto-mock<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A generator for Mock Service Worker handlers from API descriptions.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="44233" title="44,233 weekly npm downloads for msw-auto-mock"><data value="44233" aria-hidden="true">44.2K</data><span class="sr-only">44,233 weekly npm downloads for msw-auto-mock</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-shortest" data-pagefind-title="Shortest"><a href="https://github.com/antiwork/shortest#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Shortest<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A testing tool focused on application and CI workflows.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="18553" title="18,553 weekly npm downloads for @antiwork/shortest"><data value="18553" aria-hidden="true">18.6K</data><span class="sr-only">18,553 weekly npm downloads for @antiwork/shortest</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-magnitude-browser-agent" data-pagefind-title="Magnitude Browser Agent"><a href="https://github.com/magnitudedev/browser-agent" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Magnitude Browser Agent<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A vision-based browser automation framework using natural-language instructions.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="14960" title="14,960 weekly npm downloads for magnitude-core"><data value="14960" aria-hidden="true">15K</data><span class="sr-only">14,960 weekly npm downloads for magnitude-core</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-playwright-persona" data-pagefind-title="playwright-persona"><a href="https://github.com/kettanaito/playwright-persona" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">playwright-persona<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Authentication helpers for organizing Playwright tests around personas.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1125" title="1,125 weekly npm downloads for playwright-persona"><data value="1125" aria-hidden="true">1.13K</data><span class="sr-only">1,125 weekly npm downloads for playwright-persona</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="testing" />
-
-<LibraryCard libraryId="msw-playwright" />
-
-<LibraryCard libraryId="mswjs-data" />
-
-<LibraryCard libraryId="argos" />
-
-<LibraryCard libraryId="enforce-unique" />
-
-<LibraryCard libraryId="faker" />
-
-<LibraryCard libraryId="falso" />
-
-<LibraryCard libraryId="json-server" />
-
-<LibraryCard libraryId="magnitude-browser-agent" />
-
-<LibraryCard libraryId="msw-auto-mock" />
-
-<LibraryCard libraryId="playwright" />
-
-<LibraryCard libraryId="playwright-persona" />
-
-<LibraryCard libraryId="shortest" />
-
-<LibraryCard libraryId="snaplet-generate" />
-
-<LibraryCard libraryId="zod-mock" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse testing &amp; mock data →](/testing)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/testing">Testing &amp; mock data →</a>
+  <a href="/tasks/test-a-user-workflow.md" download>Download Markdown</a>
+</div>

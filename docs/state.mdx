@@ -1,45 +1,82 @@
 ---
 title: "State management"
 description: "Coordinate local state, shared stores, URL state, and persistent client data."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Choose by the job you need to do.">Separate UI state from server data. Compare the update model and debugging experience with your team's needs.</PurposeNote>
+<div class="library-list not-prose">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-zustand" data-pagefind-title="Zustand"><a href="https://zustand.docs.pmnd.rs/learn/getting-started/introduction" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Zustand<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A small state-management library with hook-based access.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="94917307" title="94,917,307 weekly npm downloads for zustand"><data value="94917307" aria-hidden="true">94.9M</data><span class="sr-only">94,917,307 weekly npm downloads for zustand</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-immutable-js" data-pagefind-title="Immutable.js"><a href="https://immutable-js.com/docs/v5/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Immutable.js<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Persistent immutable data structures for JavaScript.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="58556906" title="58,556,906 weekly npm downloads for immutable"><data value="58556906" aria-hidden="true">58.6M</data><span class="sr-only">58,556,906 weekly npm downloads for immutable</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-redux-toolkit" data-pagefind-title="Redux Toolkit"><a href="https://redux.js.org/toolkit/introduction/getting-started" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Redux Toolkit<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">The recommended tooling for writing Redux state logic.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="51273033" title="51,273,033 weekly npm downloads for @reduxjs/toolkit"><data value="51273033" aria-hidden="true">51.3M</data><span class="sr-only">51,273,033 weekly npm downloads for @reduxjs/toolkit</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-jotai" data-pagefind-title="Jotai"><a href="https://github.com/pmndrs/jotai/blob/main/docs/index.mdx" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Jotai<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Atomic state management for React.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="10160185" title="10,160,185 weekly npm downloads for jotai"><data value="10160185" aria-hidden="true">10.2M</data><span class="sr-only">10,160,185 weekly npm downloads for jotai</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-nuqs" data-pagefind-title="nuqs"><a href="https://nuqs.dev/docs/installation" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">nuqs<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Type-safe state management stored in URL search parameters.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="8285877" title="8,285,877 weekly npm downloads for nuqs"><data value="8285877" aria-hidden="true">8.29M</data><span class="sr-only">8,285,877 weekly npm downloads for nuqs</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-mobx" data-pagefind-title="MobX"><a href="https://mobx.js.org/README.html" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">MobX<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Observable state management with automatic dependency tracking.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="4458269" title="4,458,269 weekly npm downloads for mobx"><data value="4458269" aria-hidden="true">4.46M</data><span class="sr-only">4,458,269 weekly npm downloads for mobx</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-valtio" data-pagefind-title="Valtio"><a href="https://valtio.dev/docs/introduction/getting-started" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Valtio<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Proxy-based state management for React and JavaScript.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="3129239" title="3,129,239 weekly npm downloads for valtio"><data value="3129239" aria-hidden="true">3.13M</data><span class="sr-only">3,129,239 weekly npm downloads for valtio</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-nano-stores" data-pagefind-title="Nano Stores"><a href="https://github.com/nanostores/nanostores" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Nano Stores<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Small reactive stores that work across several UI frameworks.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1388366" title="1,388,366 weekly npm downloads for @nanostores/react"><data value="1388366" aria-hidden="true">1.39M</data><span class="sr-only">1,388,366 weekly npm downloads for @nanostores/react</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-recoil" data-pagefind-title="Recoil"><a href="https://recoiljs.org/docs/introduction/getting-started/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Recoil<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">An atom-and-selector state-management library originally developed for React.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="585968" title="585,968 weekly npm downloads for recoil"><data value="585968" aria-hidden="true">586K</data><span class="sr-only">585,968 weekly npm downloads for recoil</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-mobx-state-tree" data-pagefind-title="MobX-State-Tree"><a href="https://mobx-state-tree.js.org/intro/welcome" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">MobX-State-Tree<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A state container combining typed models with observable state.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="285074" title="285,074 weekly npm downloads for mobx-state-tree"><data value="285074" aria-hidden="true">285K</data><span class="sr-only">285,074 weekly npm downloads for mobx-state-tree</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-xstate-store" data-pagefind-title="XState Store"><a href="https://stately.ai/docs/xstate-store" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">XState Store<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A lightweight state store based on events and explicit transitions.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="246844" title="246,844 weekly npm downloads for @xstate/store"><data value="246844" aria-hidden="true">247K</data><span class="sr-only">246,844 weekly npm downloads for @xstate/store</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-tinybase" data-pagefind-title="TinyBase"><a href="https://tinybase.org/guides/the-basics/getting-started/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">TinyBase<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A reactive data store designed for local-first applications.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="23737" title="23,737 weekly npm downloads for tinybase"><data value="23737" aria-hidden="true">23.7K</data><span class="sr-only">23,737 weekly npm downloads for tinybase</span></span>
+</li>
+</ul>
+</div>
 
-## Choose a library or tool
-
-12 options in this category.
-
-<LibraryIndex category="state" />
-
-<LibraryCard libraryId="immutable-js" />
-
-<LibraryCard libraryId="jotai" />
-
-<LibraryCard libraryId="mobx" />
-
-<LibraryCard libraryId="mobx-state-tree" />
-
-<LibraryCard libraryId="nano-stores" />
-
-<LibraryCard libraryId="nuqs" />
-
-<LibraryCard libraryId="recoil" />
-
-<LibraryCard libraryId="redux-toolkit" />
-
-<LibraryCard libraryId="tinybase" />
-
-<LibraryCard libraryId="valtio" />
-
-<LibraryCard libraryId="xstate-store" />
-
-<LibraryCard libraryId="zustand" />
-
-## Keep exploring
-
-<CategoryGrid exclude="state" group="Manage application data" limit={4} />
-
-[Browse all categories →](/)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/state.md" download>Download Markdown</a>
+</div>

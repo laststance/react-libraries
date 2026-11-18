@@ -1,37 +1,68 @@
 ---
 title: "Add backend capabilities"
 description: "Add databases, content management, APIs, storage, and realtime features."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Compare which services you need, where data lives, and the operational work you will own.</PurposeNote>
+<p class="task-context">Compare which services you need, where data lives, and the operational work you will own.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-supabase" data-pagefind-title="Supabase"><a href="https://supabase.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Supabase<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A Postgres-based backend platform with authentication, storage, APIs, and realtime features.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="70028753" title="70,028,753 weekly npm downloads for @supabase/supabase-js"><data value="70028753" aria-hidden="true">70M</data><span class="sr-only">70,028,753 weekly npm downloads for @supabase/supabase-js</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-upstash" data-pagefind-title="Upstash"><a href="https://upstash.com/docs/introduction" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Upstash<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Serverless-oriented data and messaging services with HTTP-friendly APIs.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="8776697" title="8,776,697 weekly npm downloads for @upstash/redis"><data value="8776697" aria-hidden="true">8.78M</data><span class="sr-only">8,776,697 weekly npm downloads for @upstash/redis</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-pocketbase" data-pagefind-title="PocketBase"><a href="https://pocketbase.io/docs/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">PocketBase<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A compact backend combining a database, authentication, storage, and an admin UI.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="324592" title="324,592 weekly npm downloads for pocketbase"><data value="324592" aria-hidden="true">325K</data><span class="sr-only">324,592 weekly npm downloads for pocketbase</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-directus" data-pagefind-title="Directus"><a href="https://directus.com/docs/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Directus<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A data platform that adds APIs and an administration interface to SQL databases.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="169845" title="169,845 weekly npm downloads for @directus/sdk"><data value="169845" aria-hidden="true">170K</data><span class="sr-only">169,845 weekly npm downloads for @directus/sdk</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-prismic" data-pagefind-title="Prismic"><a href="https://prismic.io/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Prismic<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A headless content platform and visual page-building workflow.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="120193" title="120,193 weekly npm downloads for @prismicio/react"><data value="120193" aria-hidden="true">120K</data><span class="sr-only">120,193 weekly npm downloads for @prismicio/react</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-appwrite" data-pagefind-title="Appwrite"><a href="https://appwrite.io/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Appwrite<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A backend platform providing authentication, databases, storage, and functions.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="58901" title="58,901 weekly npm downloads for appwrite"><data value="58901" aria-hidden="true">58.9K</data><span class="sr-only">58,901 weekly npm downloads for appwrite</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-grafbase" data-pagefind-title="Grafbase"><a href="https://grafbase.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Grafbase<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Tools for building a GraphQL API layer across services and data sources.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="532" title="532 weekly npm downloads for grafbase"><data value="532" aria-hidden="true">532</data><span class="sr-only">532 weekly npm downloads for grafbase</span></span>
+</li>
+</ul>
+<p class="library-list-divider" data-pagefind-ignore>Without npm counts</p>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-hasura" data-pagefind-title="Hasura"><a href="https://hasura.io/docs/3.0/index/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Hasura<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A platform for exposing data through APIs, including GraphQL.</p>
+  <span class="library-downloads" data-pagefind-ignore title="Weekly npm downloads unavailable"><span aria-hidden="true">—</span><span class="sr-only">Weekly npm downloads unavailable</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="backend" />
-
-<LibraryCard libraryId="appwrite" />
-
-<LibraryCard libraryId="directus" />
-
-<LibraryCard libraryId="grafbase" />
-
-<LibraryCard libraryId="hasura" />
-
-<LibraryCard libraryId="pocketbase" />
-
-<LibraryCard libraryId="prismic" />
-
-<LibraryCard libraryId="supabase" />
-
-<LibraryCard libraryId="upstash" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse backend services &amp; content →](/backend)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/backend">Backend services &amp; content →</a>
+  <a href="/tasks/add-backend-capabilities.md" download>Download Markdown</a>
+</div>

@@ -1,57 +1,115 @@
 ---
 title: "Import or export a file"
 description: "Upload files, export CSV, create archives, and work with file paths."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Browser file selection, server parsing, storage, and downloadable exports are separate stages of a file workflow.</PurposeNote>
+<p class="task-context">Browser file selection, server parsing, storage, and downloadable exports are separate stages of a file workflow.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-minimatch" data-pagefind-title="minimatch"><a href="https://github.com/isaacs/minimatch" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">minimatch<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A matcher for shell-style glob patterns.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="997162463" title="997,162,463 weekly npm downloads for minimatch"><data value="997162463" aria-hidden="true">997M</data><span class="sr-only">997,162,463 weekly npm downloads for minimatch</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-glob" data-pagefind-title="glob"><a href="https://github.com/isaacs/node-glob#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">glob<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">File matching using shell-style glob patterns.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="546488411" title="546,488,411 weekly npm downloads for glob"><data value="546488411" aria-hidden="true">546M</data><span class="sr-only">546,488,411 weekly npm downloads for glob</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-rimraf" data-pagefind-title="rimraf"><a href="https://github.com/isaacs/rimraf#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">rimraf<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A cross-platform utility for removing directory trees.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="211577278" title="211,577,278 weekly npm downloads for rimraf"><data value="211577278" aria-hidden="true">212M</data><span class="sr-only">211,577,278 weekly npm downloads for rimraf</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-globby" data-pagefind-title="Globby"><a href="https://github.com/sindresorhus/globby#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Globby<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Convenience helpers for matching files with glob patterns.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="111426542" title="111,426,542 weekly npm downloads for globby"><data value="111426542" aria-hidden="true">111M</data><span class="sr-only">111,426,542 weekly npm downloads for globby</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-formidable" data-pagefind-title="Formidable"><a href="https://github.com/node-formidable/formidable" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Formidable<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A parser for multipart form submissions and uploaded files in Node.js.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="34816249" title="34,816,249 weekly npm downloads for formidable"><data value="34816249" aria-hidden="true">34.8M</data><span class="sr-only">34,816,249 weekly npm downloads for formidable</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-react-dropzone" data-pagefind-title="react-dropzone"><a href="https://react-dropzone.js.org/guide/getting-started/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">react-dropzone<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">React hooks for building file-selection and dropzone interfaces.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="20384722" title="20,384,722 weekly npm downloads for react-dropzone"><data value="20384722" aria-hidden="true">20.4M</data><span class="sr-only">20,384,722 weekly npm downloads for react-dropzone</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-filesaver-js" data-pagefind-title="FileSaver.js"><a href="https://github.com/eligrey/FileSaver.js" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">FileSaver.js<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A browser utility for saving generated data as a file.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="10054863" title="10,054,863 weekly npm downloads for file-saver"><data value="10054863" aria-hidden="true">10.1M</data><span class="sr-only">10,054,863 weekly npm downloads for file-saver</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-zip-js" data-pagefind-title="zip.js"><a href="https://gildas-lormeau.github.io/zip.js/api/index.html" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">zip.js<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A JavaScript library for reading and writing ZIP archives.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="8598150" title="8,598,150 weekly npm downloads for @zip.js/zip.js"><data value="8598150" aria-hidden="true">8.6M</data><span class="sr-only">8,598,150 weekly npm downloads for @zip.js/zip.js</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-uppy" data-pagefind-title="Uppy"><a href="https://uppy.io/docs/react/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Uppy<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A modular file uploader with React integration.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="1232456" title="1,232,456 weekly npm downloads for @uppy/react"><data value="1232456" aria-hidden="true">1.23M</data><span class="sr-only">1,232,456 weekly npm downloads for @uppy/react</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-downloadjs" data-pagefind-title="downloadjs"><a href="https://github.com/rndme/download#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">downloadjs<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A browser helper for downloading strings, blobs, and data URLs.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="721510" title="721,510 weekly npm downloads for downloadjs"><data value="721510" aria-hidden="true">722K</data><span class="sr-only">721,510 weekly npm downloads for downloadjs</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-react-filepond" data-pagefind-title="React FilePond"><a href="https://pqina.nl/filepond/docs/getting-started/installation/react/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">React FilePond<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A React adapter for the FilePond upload interface.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="230406" title="230,406 weekly npm downloads for react-filepond"><data value="230406" aria-hidden="true">230K</data><span class="sr-only">230,406 weekly npm downloads for react-filepond</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-uploadthing" data-pagefind-title="UploadThing"><a href="https://docs.uploadthing.com/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">UploadThing<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A service and SDK for application file uploads.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="174043" title="174,043 weekly npm downloads for @uploadthing/react"><data value="174043" aria-hidden="true">174K</data><span class="sr-only">174,043 weekly npm downloads for @uploadthing/react</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-react-drag-drop-files" data-pagefind-title="react-drag-drop-files"><a href="https://github.com/KarimMokhtar/react-drag-drop-files#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">react-drag-drop-files<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A React component for selecting files through drag and drop.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="150622" title="150,622 weekly npm downloads for react-drag-drop-files"><data value="150622" aria-hidden="true">151K</data><span class="sr-only">150,622 weekly npm downloads for react-drag-drop-files</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-json-to-csv-export" data-pagefind-title="json-to-csv-export"><a href="https://github.com/coston/json-to-csv-export#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">json-to-csv-export<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A utility for converting JSON data into a downloadable CSV file.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="90889" title="90,889 weekly npm downloads for json-to-csv-export"><data value="90889" aria-hidden="true">90.9K</data><span class="sr-only">90,889 weekly npm downloads for json-to-csv-export</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-better-upload" data-pagefind-title="Better Upload"><a href="https://better-upload.com/docs" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Better Upload<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">File-upload tooling for React and S3-compatible storage.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="52636" title="52,636 weekly npm downloads for @better-upload/client"><data value="52636" aria-hidden="true">52.6K</data><span class="sr-only">52,636 weekly npm downloads for @better-upload/client</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-content-disposition-header" data-pagefind-title="content-disposition-header"><a href="https://github.com/Methuselah96/content-disposition-header" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">content-disposition-header<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Utilities for working with HTTP Content-Disposition headers.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="17766" title="17,766 weekly npm downloads for content-disposition-header"><data value="17766" aria-hidden="true">17.8K</data><span class="sr-only">17,766 weekly npm downloads for content-disposition-header</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-hellocsv" data-pagefind-title="HelloCSV"><a href="https://github.com/HelloCSV/HelloCSV#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">HelloCSV<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A CSV import interface for bringing tabular data into an application.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="12125" title="12,125 weekly npm downloads for hello-csv"><data value="12125" aria-hidden="true">12.1K</data><span class="sr-only">12,125 weekly npm downloads for hello-csv</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-verifyfetch" data-pagefind-title="verifyfetch"><a href="https://github.com/hamzaydia/verifyfetch" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">verifyfetch<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A browser download utility with resumable transfers and integrity verification.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="27" title="27 weekly npm downloads for verifyfetch"><data value="27" aria-hidden="true">27</data><span class="sr-only">27 weekly npm downloads for verifyfetch</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="files" />
-
-<LibraryCard libraryId="better-upload" />
-
-<LibraryCard libraryId="content-disposition-header" />
-
-<LibraryCard libraryId="downloadjs" />
-
-<LibraryCard libraryId="filesaver-js" />
-
-<LibraryCard libraryId="formidable" />
-
-<LibraryCard libraryId="glob" />
-
-<LibraryCard libraryId="globby" />
-
-<LibraryCard libraryId="hellocsv" />
-
-<LibraryCard libraryId="json-to-csv-export" />
-
-<LibraryCard libraryId="minimatch" />
-
-<LibraryCard libraryId="react-filepond" />
-
-<LibraryCard libraryId="react-drag-drop-files" />
-
-<LibraryCard libraryId="react-dropzone" />
-
-<LibraryCard libraryId="rimraf" />
-
-<LibraryCard libraryId="uploadthing" />
-
-<LibraryCard libraryId="uppy" />
-
-<LibraryCard libraryId="verifyfetch" />
-
-<LibraryCard libraryId="zip-js" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse files, uploads &amp; downloads →](/files)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/files">Files, uploads &amp; downloads →</a>
+  <a href="/tasks/import-or-export-a-file.md" download>Download Markdown</a>
+</div>

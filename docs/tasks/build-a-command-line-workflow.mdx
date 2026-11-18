@@ -1,63 +1,130 @@
 ---
 title: "Build a command-line workflow"
 description: "Parse arguments, prompt users, run processes, and format terminal output."
+mode: wide
 pagination: false
 ---
 
 {/* Generated from content/. Edit the catalog, not this page. */}
 
-<PurposeNote title="Start with the tradeoff">Support both interactive use and non-interactive automation where the command needs to run in CI.</PurposeNote>
+<p class="task-context">Support both interactive use and non-interactive automation where the command needs to run in CI.</p>
 
-## Options for this task
+<div class="library-list not-prose" data-pagefind-ignore="all">
+  <div class="library-list-header" data-pagefind-ignore>
+    <span>Libraries &amp; tools</span>
+    <span class="library-list-metric">Weekly npm downloads <span aria-hidden="true">↓</span><span class="library-list-period">Nov 11 – 17, 2026</span></span>
+  </div>
+  <span class="sr-only" id="new-tab-hint" data-pagefind-ignore>Opens in a new tab</span>
+<ul class="library-rows" role="list">
+<li class="library-row">
+  <h2 class="library-name" id="library-picocolors" data-pagefind-title="picocolors"><a href="https://github.com/alexeyraspopov/picocolors" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">picocolors<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A small terminal color-formatting utility.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="348756237" title="348,756,237 weekly npm downloads for picocolors"><data value="348756237" aria-hidden="true">349M</data><span class="sr-only">348,756,237 weekly npm downloads for picocolors</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-execa" data-pagefind-title="Execa"><a href="https://github.com/sindresorhus/execa#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Execa<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A process-execution library for Node.js.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="239652641" title="239,652,641 weekly npm downloads for execa"><data value="239652641" aria-hidden="true">240M</data><span class="sr-only">239,652,641 weekly npm downloads for execa</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-npm-run-path" data-pagefind-title="npm-run-path"><a href="https://github.com/sindresorhus/npm-run-path" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">npm-run-path<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A helper that resolves executable paths similarly to package scripts.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="221606134" title="221,606,134 weekly npm downloads for npm-run-path"><data value="221606134" aria-hidden="true">222M</data><span class="sr-only">221,606,134 weekly npm downloads for npm-run-path</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-is-unicode-supported" data-pagefind-title="is-unicode-supported"><a href="https://github.com/sindresorhus/is-unicode-supported#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">is-unicode-supported<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A detector for terminal Unicode support.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="177528600" title="177,528,600 weekly npm downloads for is-unicode-supported"><data value="177528600" aria-hidden="true">178M</data><span class="sr-only">177,528,600 weekly npm downloads for is-unicode-supported</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-cli-cursor" data-pagefind-title="cli-cursor"><a href="https://github.com/sindresorhus/cli-cursor#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">cli-cursor<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A utility for showing and hiding the terminal cursor.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="175729835" title="175,729,835 weekly npm downloads for cli-cursor"><data value="175729835" aria-hidden="true">176M</data><span class="sr-only">175,729,835 weekly npm downloads for cli-cursor</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-kleur" data-pagefind-title="kleur"><a href="https://github.com/lukeed/kleur" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">kleur<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Functions for formatting terminal text with ANSI styles.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="172931967" title="172,931,967 weekly npm downloads for kleur"><data value="172931967" aria-hidden="true">173M</data><span class="sr-only">172,931,967 weekly npm downloads for kleur</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-log-symbols" data-pagefind-title="log-symbols"><a href="https://github.com/sindresorhus/log-symbols#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">log-symbols<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Colored symbols for common log levels.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="154420803" title="154,420,803 weekly npm downloads for log-symbols"><data value="154420803" aria-hidden="true">154M</data><span class="sr-only">154,420,803 weekly npm downloads for log-symbols</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-ora" data-pagefind-title="ora"><a href="https://github.com/sindresorhus/ora" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">ora<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A terminal spinner for asynchronous command-line work.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="135449117" title="135,449,117 weekly npm downloads for ora"><data value="135449117" aria-hidden="true">135M</data><span class="sr-only">135,449,117 weekly npm downloads for ora</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-cli-spinners" data-pagefind-title="cli-spinners"><a href="https://github.com/sindresorhus/cli-spinners#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">cli-spinners<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A collection of animation frames for terminal spinners.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="119837565" title="119,837,565 weekly npm downloads for cli-spinners"><data value="119837565" aria-hidden="true">120M</data><span class="sr-only">119,837,565 weekly npm downloads for cli-spinners</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-is-interactive" data-pagefind-title="is-interactive"><a href="https://github.com/sindresorhus/is-interactive#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">is-interactive<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A detector for interactive terminal output.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="104386286" title="104,386,286 weekly npm downloads for is-interactive"><data value="104386286" aria-hidden="true">104M</data><span class="sr-only">104,386,286 weekly npm downloads for is-interactive</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-prompts" data-pagefind-title="prompts"><a href="https://github.com/terkelg/prompts#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">prompts<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A library for interactive command-line questions.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="96069489" title="96,069,489 weekly npm downloads for prompts"><data value="96069489" aria-hidden="true">96.1M</data><span class="sr-only">96,069,489 weekly npm downloads for prompts</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-cac" data-pagefind-title="CAC"><a href="https://github.com/cacjs/cac#readme" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">CAC<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A framework for defining command-line commands and options.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="70694449" title="70,694,449 weekly npm downloads for cac"><data value="70694449" aria-hidden="true">70.7M</data><span class="sr-only">70,694,449 weekly npm downloads for cac</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-ansis" data-pagefind-title="Ansis"><a href="https://github.com/webdiscus/ansis" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Ansis<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">ANSI color and styling helpers for terminal text.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="62590406" title="62,590,406 weekly npm downloads for ansis"><data value="62590406" aria-hidden="true">62.6M</data><span class="sr-only">62,590,406 weekly npm downloads for ansis</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-meow" data-pagefind-title="meow"><a href="https://github.com/sindresorhus/meow" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">meow<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A helper for creating command-line applications.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="48483830" title="48,483,830 weekly npm downloads for meow"><data value="48483830" aria-hidden="true">48.5M</data><span class="sr-only">48,483,830 weekly npm downloads for meow</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-clack" data-pagefind-title="Clack"><a href="https://bomb.sh/docs/clack/basics/getting-started/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Clack<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Components for building interactive command-line experiences.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="46623929" title="46,623,929 weekly npm downloads for @clack/prompts"><data value="46623929" aria-hidden="true">46.6M</data><span class="sr-only">46,623,929 weekly npm downloads for @clack/prompts</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-clipboardy" data-pagefind-title="clipboardy"><a href="https://github.com/sindresorhus/clipboardy" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">clipboardy<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A utility for reading and writing the system clipboard.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="8713439" title="8,713,439 weekly npm downloads for clipboardy"><data value="8713439" aria-hidden="true">8.71M</data><span class="sr-only">8,713,439 weekly npm downloads for clipboardy</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-zx" data-pagefind-title="zx"><a href="https://google.github.io/zx/" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">zx<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A toolkit for writing shell-oriented scripts in JavaScript.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="2779845" title="2,779,845 weekly npm downloads for zx"><data value="2779845" aria-hidden="true">2.78M</data><span class="sr-only">2,779,845 weekly npm downloads for zx</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-progress-estimator" data-pagefind-title="progress-estimator"><a href="https://github.com/bvaughn/progress-estimator" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">progress-estimator<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A helper for estimating and displaying task progress.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="62667" title="62,667 weekly npm downloads for progress-estimator"><data value="62667" aria-hidden="true">62.7K</data><span class="sr-only">62,667 weekly npm downloads for progress-estimator</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-tiged" data-pagefind-title="tiged"><a href="https://github.com/tiged/tiged" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">tiged<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A tool for downloading repository templates without their Git history.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="31476" title="31,476 weekly npm downloads for tiged"><data value="31476" aria-hidden="true">31.5K</data><span class="sr-only">31,476 weekly npm downloads for tiged</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-sly" data-pagefind-title="Sly"><a href="https://github.com/jacobparis-insiders/sly/blob/main/cli/README.md" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">Sly<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">A command-line tool for adding reusable components and utilities to a project.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="21155" title="21,155 weekly npm downloads for @sly-cli/sly"><data value="21155" aria-hidden="true">21.2K</data><span class="sr-only">21,155 weekly npm downloads for @sly-cli/sly</span></span>
+</li>
+<li class="library-row">
+  <h2 class="library-name" id="library-tldr-pages" data-pagefind-title="tldr pages"><a href="https://tldr.sh/#installation" target="_blank" rel="noopener noreferrer" aria-describedby="new-tab-hint">tldr pages<span class="library-external-arrow" aria-hidden="true" data-pagefind-ignore>↗</span></a></h2>
+  <p class="library-bio">Community-written command examples that complement traditional manual pages.</p>
+  <span class="library-downloads" data-pagefind-ignore data-downloads="822" title="822 weekly npm downloads for tldr"><data value="822" aria-hidden="true">822</data><span class="sr-only">822 weekly npm downloads for tldr</span></span>
+</li>
+</ul>
+</div>
 
-<LibraryIndex category="cli" />
-
-<LibraryCard libraryId="ansis" />
-
-<LibraryCard libraryId="cac" />
-
-<LibraryCard libraryId="clack" />
-
-<LibraryCard libraryId="cli-cursor" />
-
-<LibraryCard libraryId="cli-spinners" />
-
-<LibraryCard libraryId="clipboardy" />
-
-<LibraryCard libraryId="execa" />
-
-<LibraryCard libraryId="is-interactive" />
-
-<LibraryCard libraryId="is-unicode-supported" />
-
-<LibraryCard libraryId="kleur" />
-
-<LibraryCard libraryId="log-symbols" />
-
-<LibraryCard libraryId="meow" />
-
-<LibraryCard libraryId="npm-run-path" />
-
-<LibraryCard libraryId="ora" />
-
-<LibraryCard libraryId="picocolors" />
-
-<LibraryCard libraryId="progress-estimator" />
-
-<LibraryCard libraryId="prompts" />
-
-<LibraryCard libraryId="sly" />
-
-<LibraryCard libraryId="tiged" />
-
-<LibraryCard libraryId="tldr-pages" />
-
-<LibraryCard libraryId="zx" />
-
-## Before you decide
-
-Try a small, realistic example. Check the runtime, accessibility, maintenance, and license requirements for the features you need.
-
-[Browse command-line tools →](/cli)
-
-[Explore more tasks →](/tasks)
+<div class="directory-links not-prose" data-pagefind-ignore>
+  <a href="/cli">Command-line tools →</a>
+  <a href="/tasks/build-a-command-line-workflow.md" download>Download Markdown</a>
+</div>
