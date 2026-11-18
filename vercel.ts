@@ -6,6 +6,7 @@ export const config = {
   buildCommand: "pnpm run build",
   outputDirectory: "dist",
   cleanUrls: true,
+  trailingSlash: false,
   redirects: [
     ...overviewRedirects.map(({ from, to, status }) => ({ source: from, destination: to, statusCode: status })),
     // Group the retired Markdown mirrors by category to stay within Vercel's route limit.

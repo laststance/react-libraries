@@ -2,7 +2,7 @@
 
 An English field guide for finding libraries and tools by what you want to build. Built with Blume, Astro MDX, and static Pagefind search.
 
-Browse **562 libraries, tools, and resources in 59 categories**. Each name opens the project's documentation or original source in a new tab. A one-sentence bio explains when to use it. Category and task lists sort packages by weekly npm downloads. Cmd/Ctrl K finds tasks such as “Explore a large dataset” and jumps to the matching row for names such as “TanStack Query.”
+Browse **562 libraries, tools, and resources in 59 categories**. Each name opens the project's documentation or original source in a new tab. A short bio explains when to use it. Category and task lists sort packages by weekly npm downloads. Cmd/Ctrl K finds tasks such as “Explore a large dataset” and jumps to matching rows by project name or npm package. For example, searching for `next-auth` opens the Auth.js entry.
 
 ## Run locally
 
