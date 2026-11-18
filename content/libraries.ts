@@ -6093,11 +6093,11 @@ export const libraries: Library[] = [
     "id": "react-spectrum",
     "name": "React Spectrum",
     "category": "ui-kits",
-    "description": "Adobe's React implementation of its Spectrum design system.",
+    "description": "Build accessible forms, tables, and menus with Adobe's React Spectrum v3 components.",
     "goodFor": "Building interfaces with coordinated adaptive components and accessibility patterns.",
     "monogram": "Re",
     "kind": "UI toolkit",
-    "official": "https://react-spectrum.adobe.com/getting-started",
+    "official": "https://react-spectrum.adobe.com/v3/getting-started.html",
     "keywords": [],
     "sourceIds": [
       540
@@ -6560,11 +6560,11 @@ export const libraries: Library[] = [
     "id": "reactour",
     "name": "Reactour",
     "category": "onboarding",
-    "description": "A tour library for guiding users around a React interface.",
+    "description": "Guide users through a React interface by highlighting elements in a step-by-step tour.",
     "goodFor": "Highlighting features and explaining workflows inside the application.",
     "monogram": "Re",
     "kind": "Library / tool",
-    "official": "https://github.com/elrumordelaluz/reactour/tree/v1#readme",
+    "official": "https://docs.reactour.dev/tour/quickstart",
     "keywords": [],
     "sourceIds": [
       508

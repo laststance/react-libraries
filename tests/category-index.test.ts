@@ -20,13 +20,15 @@ test("weekly npm download counts descend and rows without counts follow them", a
   const directory = page.getByRole("main");
 
   // Act
-  const counts = await directory.locator(".library-row .library-downloads").evaluateAll((cells) =>
-    cells.map((cell) => cell.getAttribute("data-downloads")),
+  const cellsByRow = await directory.locator("li.library-row").evaluateAll((rows) =>
+    rows.map((row) => Array.from(row.querySelectorAll(".library-downloads"), (cell) => cell.getAttribute("data-downloads"))),
   );
+  const counts = cellsByRow.flat();
   const known = counts.filter((value) => value !== null).map(Number);
   const unknown = counts.filter((value) => value === null);
 
   // Assert
+  expect(cellsByRow.every((cells) => cells.length === 1)).toBe(true);
   expect(new Set(known).size).toBeGreaterThan(1);
   expect(known.every((count) => Number.isSafeInteger(count) && count >= 0)).toBe(true);
   expect(unknown.length).toBeGreaterThan(0);
@@ -76,11 +78,14 @@ test("bookmarked Markdown files download the category list in the requested form
     // Act
     const redirect = await request.get(`${original}.${format}`, { maxRedirects: 0 });
     const markdown = await request.get(redirect.headers().location);
+    const body = await markdown.text();
 
     // Assert
     expect(redirect.status()).toBe(308);
     expect(redirect.headers().location).toBe(`/data-fetching.${format}`);
     expect(markdown.ok()).toBe(true);
-    expect(await markdown.text()).toContain("https://tanstack.com/query/latest/docs/framework/react/overview");
+    expect(markdown.headers()["content-type"].split(";")[0]).toBe(format === "md" ? "text/markdown" : "text/mdx");
+    expect(body).toMatch(/^---\r?\ntitle: "Data fetching"/u);
+    expect(body).toContain("https://tanstack.com/query/latest/docs/framework/react/overview");
   }
 });

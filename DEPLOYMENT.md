@@ -23,4 +23,6 @@ Use `--scope laststance` on every Vercel CLI command. Keep `.vercel/` and enviro
 
 ## Recovery
 
-Select the previous verified deployment in the Laststance Vercel project and roll back through Vercel. Revert the corresponding Git change so the next build retains the correction. Check the deployed revision and a representative category after recovery.
+1. In the Laststance Vercel project, use Instant Rollback to restore the last verified production deployment. Open a category on the production domain to confirm recovery.
+2. Revert or fix the Git change on `main`. Wait for the corrected deployment to be Ready, verify its `githubCommitSha`, and open a category at its deployment URL.
+3. An Instant Rollback pauses automatic assignment of production domains. Run `vercel promote <corrected-deployment-url> --scope laststance` to publish the verified build and resume automatic assignment. Confirm that the production domain serves that deployment and the project's rollback has ended. [Vercel's rollback recovery guide](https://vercel.com/docs/instant-rollback#undo-a-rollback)

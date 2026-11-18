@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readdir, readFile } from "node:fs/promises";
+import { sep } from "node:path";
 import { categories, libraries, overviewRedirects } from "../content/catalog.ts";
 
 const report = JSON.parse(await readFile(new URL("../migration/report.json", import.meta.url), "utf8"));
@@ -47,7 +48,8 @@ test("the generated catalog contains category, task, and index pages", async () 
   // Assert
   assert.equal(expectedRoutes.length, 121);
   assert.deepEqual(routes.sort(), expectedRoutes);
-  assert.deepEqual(files.filter((file) => file.endsWith(".mdx")).sort(), expectedRoutes);
+  const pagePaths = files.filter((file) => file.endsWith(".mdx")).map((file) => file.split(sep).join("/"));
+  assert.deepEqual(pagePaths.sort(), expectedRoutes);
 });
 
 test("all 562 libraries have one category row with a linked name and a short bio", async () => {
@@ -97,14 +99,19 @@ test("all 562 libraries have one category row with a linked name and a short bio
 
 test("legacy library URLs permanently redirect to the corresponding category row", () => {
   // Arrange
-  const legacy = "/data-fetching/tanstack-query";
+  const tanstackOverview = "/data-fetching/tanstack-query";
 
   // Act
-  const redirect = overviewRedirects.find(({ from }) => from === legacy);
+  const byLegacyPath = new Map(overviewRedirects.map((redirect) => [redirect.from, redirect]));
 
   // Assert
   assert.equal(overviewRedirects.length, 562);
-  assert.deepEqual(redirect, { from: legacy, to: "/data-fetching#library-tanstack-query", status: 308 });
+  assert.equal(byLegacyPath.size, overviewRedirects.length);
+  assert.deepEqual(byLegacyPath.get(tanstackOverview), { from: tanstackOverview, to: "/data-fetching#library-tanstack-query", status: 308 });
+  for (const { category, id } of libraries) {
+    const from = `/${category}/${id}`;
+    assert.deepEqual(byLegacyPath.get(from), { from, to: `/${category}#library-${id}`, status: 308 }, from);
+  }
 });
 
 test("duplicate bookmarks share one row while replaced links keep their migration provenance", () => {
@@ -128,6 +135,8 @@ test("the selected project documentation replaces old URLs without losing the or
   assert.equal(calendarHeatmap.official, "https://github.com/wa0x6e/cal-heatmap-doc/blob/main/docs/getting-started/quickstart.md");
   assert.equal(timeline.official, "https://github.com/prabhuignoto/react-chrono");
   assert.equal(tanstackQuery.official, "https://tanstack.com/query/latest/docs/framework/react/overview");
+  assert.equal(libraries.find((entry) => entry.id === "reactour")?.official, "https://docs.reactour.dev/tour/quickstart");
+  assert.equal(libraries.find((entry) => entry.id === "react-spectrum")?.official, "https://react-spectrum.adobe.com/v3/getting-started.html");
   assert.equal(report.mapping.find((entry: { sourceId: number }) => entry.sourceId === 88).sourceUrl, "https://cal-heatmap.com/");
   assert.equal(report.mapping.find((entry: { sourceId: number }) => entry.sourceId === 501).sourceUrl, "https://react-chrono.prabhumurthy.com/");
 });
