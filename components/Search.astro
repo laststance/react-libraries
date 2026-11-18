@@ -17,4 +17,13 @@ import Search from "blume/components/layout/Search.astro";
     dialog.close();
     document.querySelector<HTMLButtonElement>("[data-blume-search-open]")?.focus();
   });
+
+  // An in-page result keeps the same header, so navigation cannot dismiss the dialog.
+  document.addEventListener("click", (event) => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    if (!(event.target instanceof Element)) return;
+
+    const result = event.target.closest(".library-search [data-blume-search-results] a[href]");
+    result?.closest<HTMLDialogElement>("[data-blume-search-dialog][open]")?.close();
+  }, { capture: true });
 </script>
