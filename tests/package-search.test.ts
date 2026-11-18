@@ -301,6 +301,7 @@ test("an older query cannot replace the cached fragment already read by the acti
 
 test("expired exact npm queries do not start Pagefind work once the shared index becomes ready", async ({ page }) => {
   // Arrange
+  await page.clock.install();
   await page.route("**/pagefind/pagefind.js", (route) => route.fulfill({
     contentType: "text/javascript",
     body: `const html = document.documentElement;
@@ -337,8 +338,10 @@ test("expired exact npm queries do not start Pagefind work once the shared index
   await expect(selected).toHaveAttribute("href", "/auth#library-auth-js");
   await search.fill("react-datepicker");
   await expect(selected).toHaveAttribute("href", "/calendars#library-react-datepicker");
-  await page.evaluate(() => document.dispatchEvent(new Event("test:index-ready")));
   await search.fill("large dataset");
+  // Ordinary queries still need the index after the exact-package deadline has elapsed.
+  await page.clock.runFor(1000);
+  await page.evaluate(() => document.dispatchEvent(new Event("test:index-ready")));
 
   // Assert
   await expect(selected).toHaveAttribute("href", "/data-tables");
