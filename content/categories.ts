@@ -7,10 +7,10 @@ export const categories = [
     "icon": "calendar",
     "task": "Format a date",
     "taskId": "format-a-date",
-    "description": "Format, parse, and work with dates across locales and timezones.",
+    "description": "Format, parse, and compare dates across locales and time zones.",
     "note": "Date calculations and formatting are separate from the calendar UI used to choose a date.",
     "noteTitle": "Working with dates, or choosing a date?",
-    "taskDescription": "Format, parse, and work with dates across locales and timezones."
+    "taskDescription": "Format dates for display, compare dates, and parse values in different time zones."
   },
   {
     "id": "drag-and-drop",
@@ -31,8 +31,8 @@ export const categories = [
     "icon": "table",
     "task": "Explore a large dataset",
     "taskId": "explore-a-large-dataset",
-    "description": "Find tools for searching, sorting, filtering, and editing large datasets in a table.",
-    "note": "Use headless table logic when you want to design the rows and controls. Choose a complete grid when built-in editors, filters, and keyboard navigation cover the job.",
+    "description": "Display a large dataset in a table with searching, sorting, filtering, and cell editing.",
+    "note": "Display data in a table people can search, sort, and filter. Use headless table logic to design the rows and controls, or a complete grid for built-in editors and keyboard navigation.",
     "noteTitle": "Table logic, or a complete grid?",
     "taskDescription": "Build a searchable, sortable, filterable table for a large dataset. Compare grids with built-in editors and headless tools for custom controls."
   },

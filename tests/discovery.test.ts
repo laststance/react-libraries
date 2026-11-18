@@ -133,6 +133,23 @@ test("an IME can cancel or commit text while the selected search result stays in
   await expect(search).not.toBeVisible();
 });
 
+for (const [query, task] of [
+  ["display a table with sorting and filtering", "/tasks/explore-a-large-dataset"],
+  ["format and compare dates", "/tasks/format-a-date"],
+]) {
+  test(`search finds the task for “${query}” without a library name`, async ({ page }) => {
+    // Arrange
+    await page.goto("/");
+    await page.keyboard.press("ControlOrMeta+k");
+
+    // Act
+    await page.getByRole("combobox").fill(query);
+
+    // Assert
+    await expect(page.getByRole("listbox").locator(`a[href="${task}"]`)).toBeVisible();
+  });
+}
+
 test("collapsed categories can be browsed and searching a library name opens its category row", async ({ page }) => {
   // Arrange
   await page.goto("/");
