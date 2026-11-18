@@ -45,4 +45,6 @@ Portable archive: `react-library-design-references-20261024.zip`.
 
 Reference screenshots informed layout and interaction decisions; they are not shipped as site assets.
 
-The category directory follows the name-and-bio structure of Awesome React. The Raycast Store and the Canva and v0 app directories on Mobbin informed the category navigation and alignment of rows. The newer reference images are archived locally in `~/.gstack/projects/laststance-react-web-dev-wiki/designs/category-directory-20261118/`.
+Open `index.html` in the October archive to compare the ten original directions and the approved light and dark images.
+
+The category directory follows the name-and-bio structure of Awesome React. Raycast and the Canva and v0 app directories on Mobbin informed the category navigation and alignment of rows. The November archive includes six screenshots and their source links, covering the Raycast homepage, Store, and GitHub extension. Open `index.html` in `~/.gstack/projects/laststance-react-web-dev-wiki/designs/category-directory-20261118/` or download `directory-references.zip` from the same folder.
