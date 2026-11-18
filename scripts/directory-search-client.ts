@@ -1,6 +1,10 @@
 import { joinBase } from "blume/components/islands/base-path.ts";
 import { highlight, RESULT_POOL, sanitizeExcerpt, SEARCH_LIMIT } from "blume/components/layout/search/types.ts";
 import type { SearchFn } from "blume/components/layout/search/types.ts";
+import type { PackageSearchRows } from "./directory-search.ts";
+
+declare const __DIRECTORY_PACKAGE_ROWS__: PackageSearchRows;
+const packageRows = __DIRECTORY_PACKAGE_ROWS__;
 
 interface PagefindHit {
   url: string;
@@ -74,16 +78,28 @@ export async function createSearch(): Promise<SearchFn> {
         : [{ title, rank, url: page.url, excerpt: pageMatch?.excerpt ?? page.excerpt }, ...rows];
     });
 
-    return {
-      hits: hits
-        .sort((a, b) => b.rank - a.rank)
-        .slice(0, SEARCH_LIMIT)
-        .map(({ title, url, excerpt }) => ({
-          title: highlight(title, query),
-          url: url.replace(trailingSlash, ""),
-          excerpt: sanitizeExcerpt(excerpt),
-        })),
-      sections: [],
-    };
+    const pagefindHits = hits
+      .sort((a, b) => b.rank - a.rank)
+      .slice(0, SEARCH_LIMIT)
+      .map(({ title, url, excerpt }) => ({
+        title: highlight(title, query),
+        url: url.replace(trailingSlash, ""),
+        excerpt: sanitizeExcerpt(excerpt),
+      }));
+    if (!Object.hasOwn(packageRows, normalizedQuery)) {
+      return { hits: pagefindHits, sections: [] };
+    }
+
+    // Package handles may tokenize differently from the displayed library name.
+    const packageHits = packageRows[normalizedQuery].map(([url, title]) =>
+      pagefindHits.find((hit) => hit.url === url) ?? {
+        title: highlight(title, query),
+        url,
+        excerpt: `npm package ${highlight(normalizedQuery, query)}`,
+      },
+    );
+    const packageUrls = new Set(packageHits.map((hit) => hit.url));
+    const otherHits = pagefindHits.filter((hit) => !packageUrls.has(hit.url));
+    return { hits: [...packageHits, ...otherHits].slice(0, SEARCH_LIMIT), sections: [] };
   };
 }
