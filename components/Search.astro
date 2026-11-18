@@ -4,7 +4,7 @@ import Search from "blume/components/layout/Search.astro";
 <directory-search class="library-search">
   <Search {...Astro.props} strings={{ ...Astro.props.strings, label: "Search libraries", placeholder: "Search a library or what you want to build…" }} />
   <template>
-    <form method="dialog"><button class="search-dismiss" type="submit" aria-label="Close search" title="Close search (Esc)">Close</button></form>
+    <form method="dialog"><button class="search-dismiss" type="submit" tabindex="0" aria-label="Close search" title="Close search (Esc)">Close</button></form>
   </template>
   <span class="search-field-label" aria-hidden="true">Search libraries… <kbd><span class="mac-shortcut">⌘ K</span><span class="ctrl-shortcut">Ctrl K</span></kbd></span>
 </directory-search>
@@ -16,6 +16,9 @@ import Search from "blume/components/layout/Search.astro";
       const hint = this.querySelector("[data-blume-search-input] + kbd");
       const form = this.querySelector<HTMLTemplateElement>(":scope > template")?.content.querySelector("form");
       if (!hint || !form) return;
+      // Safari restores focus on dismissal when the opener was focused before showModal.
+      const opener = this.querySelector<HTMLButtonElement>("[data-blume-search-open]");
+      opener?.addEventListener("click", () => opener.focus({ preventScroll: true }), { capture: true });
       // The IME owns these keys, including the last one WebKit sends after compositionend.
       this.querySelector<HTMLInputElement>("[data-blume-search-input]")?.addEventListener("keydown", (event) => {
         if (event.isComposing || event.keyCode === 229) event.stopPropagation();
