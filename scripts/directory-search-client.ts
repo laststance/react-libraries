@@ -68,12 +68,23 @@ async function searchPages(index: PagefindIndex, query: string): Promise<Pagefin
 export async function createSearch(): Promise<SearchFn> {
   const basePath = joinBase(import.meta.env.BASE_URL, "pagefind/");
   const bundle = `${basePath}pagefind.js`;
-  // Pagefind emits this module at build time, outside Vite's module graph.
-  const index = await import(/* @vite-ignore */ bundle)
-    .then((pagefind: PagefindModule) => pagefind.createInstance({ basePath, baseUrl: "/" }))
-    .then((value) => ({ value }), (error: unknown) => ({ error }));
+  let index: Promise<PagefindIndex> | undefined;
+  const loadIndex = () => {
+    // Pagefind emits this module at build time, outside Vite's module graph.
+    index ??= import(/* @vite-ignore */ bundle)
+      .then((pagefind: PagefindModule) => pagefind.createInstance({ basePath, baseUrl: "/" }))
+      .catch((error: unknown) => {
+        // Share pending loads, then let the next query retry a failed request.
+        index = undefined;
+        throw error;
+      });
+    return index;
+  };
+
+  const preload = loadIndex();
   // Blume uses the startup error to explain that Pagefind is only present after a build.
-  if (import.meta.env.DEV && "error" in index) throw index.error;
+  if (import.meta.env.DEV) await preload;
+  else void preload.catch(() => undefined);
 
   return async (query) => {
     const normalizedQuery = normalize(query);
@@ -81,8 +92,7 @@ export async function createSearch(): Promise<SearchFn> {
 
     let pages: PagefindPage[] = [];
     try {
-      if ("error" in index) throw index.error;
-      pages = await searchPages(index.value, query);
+      pages = await searchPages(await loadIndex(), query);
     } catch (error) {
       // The local package map can still answer an exact query during a Pagefind outage.
       if (!exactRows) throw error;

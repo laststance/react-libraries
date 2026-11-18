@@ -42,19 +42,14 @@ test("searching for a shared npm package shows both library rows first", async (
   const urls = await results.getByRole("option").evaluateAll((rows) =>
     rows.slice(0, 2).map((row) => row.getAttribute("href")).sort(),
   );
-  expect(urls).toEqual(["/icons#library-iconify", "/icons#library-iconify-react"].sort());
+  expect(urls).toEqual(["/icons#library-iconify", "/icons#library-iconify-react"]);
 });
 
 test("the exact npm name opens Auth.js when Pagefind returns no matching pages", async ({ page }) => {
   // Arrange
   await page.route("**/pagefind/pagefind.js", (route) => route.fulfill({
     contentType: "text/javascript",
-    body: `export const createInstance = () => ({
-      search: async (query) => {
-        if (query === "query with a failed index") throw new Error("Index unavailable");
-        return { results: [] };
-      },
-    });`,
+    body: "export const createInstance = () => ({ search: async () => ({ results: [] }) });",
   }));
   await page.goto("/");
   await page.keyboard.press("ControlOrMeta+k");
@@ -63,8 +58,6 @@ test("the exact npm name opens Auth.js when Pagefind returns no matching pages",
   // Act
   await search.fill("large dataset");
   await expect(page.getByText("No results found.", { exact: true })).toBeVisible();
-  await search.fill("query with a failed index");
-  await expect(page.getByText("Something went wrong. Please try again.", { exact: true })).toBeVisible();
   await search.fill("next-auth");
   await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/auth#library-auth-js");
   await search.press("Enter");
@@ -72,6 +65,25 @@ test("the exact npm name opens Auth.js when Pagefind returns no matching pages",
   // Assert
   await expect(page).toHaveURL("/auth#library-auth-js");
   await expect(page.getByRole("heading", { name: "Auth.js", exact: true })).toBeInViewport();
+});
+
+test("a rejected Pagefind query shows an error and exact npm names remain available", async ({ page }) => {
+  // Arrange
+  await page.route("**/pagefind/pagefind.js", (route) => route.fulfill({
+    contentType: "text/javascript",
+    body: "export const createInstance = () => ({ search: async () => { throw new Error('Index unavailable'); } });",
+  }));
+  await page.goto("/");
+  await page.keyboard.press("ControlOrMeta+k");
+  const search = page.getByRole("combobox", { name: "Search libraries" });
+
+  // Act
+  await search.fill("large dataset");
+
+  // Assert
+  await expect(page.getByText("Something went wrong. Please try again.", { exact: true })).toBeVisible();
+  await search.fill("next-auth");
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/auth#library-auth-js");
 });
 
 test("a failed Pagefind fragment leaves results from the other fragments usable", async ({ page }) => {
@@ -98,10 +110,15 @@ test("a failed Pagefind fragment leaves results from the other fragments usable"
   await expect(page.getByText("Something went wrong. Please try again.", { exact: true })).not.toBeVisible();
 });
 
-test("total fragment failure shows an error for ordinary queries and still finds exact npm names", async ({ page }) => {
+test("failed Pagefind fragments allow exact npm matches and recover on the next ordinary query", async ({ page }) => {
   // Arrange
   let blockedFragments = 0;
+  let connectionRestored = false;
   await page.route("**/pagefind/fragment/**", async (route) => {
+    if (connectionRestored) {
+      await route.continue();
+      return;
+    }
     blockedFragments += 1;
     await route.abort();
   });
@@ -118,6 +135,9 @@ test("total fragment failure shows an error for ordinary queries and still finds
   await expect(page.getByRole("option")).toHaveCount(0);
   await search.fill("next-auth");
   await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/auth#library-auth-js");
+  connectionRestored = true;
+  await search.fill("large dataset");
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/tasks/explore-a-large-dataset");
 });
 
 test("exact npm names remain available when the Pagefind module fails to load", async ({ page }) => {
@@ -134,4 +154,33 @@ test("exact npm names remain available when the Pagefind module fails to load", 
   await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/auth#library-auth-js");
   await search.fill("large dataset");
   await expect(page.getByText("Something went wrong. Please try again.", { exact: true })).toBeVisible();
+});
+
+test("ordinary search recovers after the first Pagefind module request fails", async ({ page }) => {
+  // Arrange
+  const firstRequest = Promise.withResolvers<void>();
+  let moduleRequests = 0;
+  await page.route("**/pagefind/pagefind.js", async (route) => {
+    moduleRequests += 1;
+    if (moduleRequests === 1) {
+      await firstRequest.promise;
+      await route.abort();
+      return;
+    }
+    await route.continue();
+  });
+  await page.goto("/");
+  await page.keyboard.press("ControlOrMeta+k");
+  const search = page.getByRole("combobox", { name: "Search libraries" });
+
+  // Act
+  await search.fill("incoming data");
+  await expect.poll(() => moduleRequests).toBe(1);
+  firstRequest.resolve();
+  await expect(page.getByText("Something went wrong. Please try again.", { exact: true })).toBeVisible();
+  await search.fill("large dataset");
+
+  // Assert
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/tasks/explore-a-large-dataset");
+  expect(moduleRequests).toBe(2);
 });
