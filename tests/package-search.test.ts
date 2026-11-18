@@ -49,7 +49,7 @@ test("the exact npm name opens Auth.js when Pagefind returns no matching pages",
   // Arrange
   await page.route("**/pagefind/pagefind.js", (route) => route.fulfill({
     contentType: "text/javascript",
-    body: "export const createInstance = () => ({ search: async () => ({ results: [] }) });",
+    body: "export const createInstance = () => ({ filters: async () => ({}), search: async () => ({ results: [] }) });",
   }));
   await page.goto("/");
   await page.keyboard.press("ControlOrMeta+k");
@@ -71,7 +71,10 @@ test("a rejected Pagefind query shows an error and exact npm names remain availa
   // Arrange
   await page.route("**/pagefind/pagefind.js", (route) => route.fulfill({
     contentType: "text/javascript",
-    body: "export const createInstance = () => ({ search: async () => { throw new Error('Index unavailable'); } });",
+    body: `export const createInstance = () => ({
+      filters: async () => ({}),
+      search: async () => { throw new Error("Index unavailable"); },
+    });`,
   }));
   await page.goto("/");
   await page.keyboard.press("ControlOrMeta+k");
@@ -105,9 +108,11 @@ test("a failed Pagefind fragment leaves results from the other fragments usable"
   await search.fill("large dataset");
 
   // Assert
-  await expect(page.getByRole("option", { selected: true })).toBeVisible();
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/data-tables");
   expect(blockedFragment).toBe(true);
   await expect(page.getByText("Something went wrong. Please try again.", { exact: true })).not.toBeVisible();
+  await search.press("Enter");
+  await expect(page).toHaveURL("/data-tables");
 });
 
 test("failed Pagefind fragments allow exact npm matches and recover on the next ordinary query", async ({ page }) => {
@@ -154,6 +159,8 @@ test("exact npm names remain available when the Pagefind module fails to load", 
   await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/auth#library-auth-js");
   await search.fill("large dataset");
   await expect(page.getByText("Something went wrong. Please try again.", { exact: true })).toBeVisible();
+  await search.fill("next-auth");
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/auth#library-auth-js");
 });
 
 test("ordinary search recovers after the first Pagefind module request fails", async ({ page }) => {
@@ -183,4 +190,111 @@ test("ordinary search recovers after the first Pagefind module request fails", a
   // Assert
   await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/tasks/explore-a-large-dataset");
   expect(moduleRequests).toBe(2);
+});
+
+test("ordinary search creates a fresh index after the entry metadata responds with 503", async ({ page }) => {
+  // Arrange
+  const failFirstRequest = Promise.withResolvers<void>();
+  let entryRequests = 0;
+  await page.route((url) => url.pathname === "/pagefind/pagefind-entry.json", async (route) => {
+    entryRequests += 1;
+    if (entryRequests === 1) {
+      await failFirstRequest.promise;
+      await route.fulfill({ status: 503, body: "Temporary outage" });
+      return;
+    }
+    await route.continue();
+  });
+  await page.goto("/");
+  await page.keyboard.press("ControlOrMeta+k");
+  const search = page.getByRole("combobox", { name: "Search libraries" });
+
+  // Act
+  await search.fill("incoming data");
+  await expect.poll(() => entryRequests).toBe(1);
+  failFirstRequest.resolve();
+  await expect(page.getByText("Something went wrong. Please try again.", { exact: true })).toBeVisible();
+  await search.fill("large dataset");
+
+  // Assert
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/tasks/explore-a-large-dataset");
+  await search.fill("runtime validation");
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/validation");
+  expect(entryRequests).toBe(2);
+});
+
+test("an exact npm name opens its row while the Pagefind entry request is still pending", async ({ page }) => {
+  // Arrange
+  const requestStarted = Promise.withResolvers<void>();
+  const releaseRequest = Promise.withResolvers<void>();
+  await page.route((url) => url.pathname === "/pagefind/pagefind-entry.json", async (route) => {
+    requestStarted.resolve();
+    await releaseRequest.promise;
+    await route.continue();
+  });
+
+  try {
+    await page.goto("/");
+    await page.keyboard.press("ControlOrMeta+k");
+    await requestStarted.promise;
+    const search = page.getByRole("combobox", { name: "Search libraries" });
+
+    // Act
+    await search.fill("next-auth");
+    await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/auth#library-auth-js");
+    await search.press("Enter");
+
+    // Assert
+    await expect(page).toHaveURL("/auth#library-auth-js");
+  } finally {
+    releaseRequest.resolve();
+  }
+});
+
+test("an older query cannot replace the cached fragment already read by the active query", async ({ page }) => {
+  // Arrange
+  await page.route("**/pagefind/pagefind.js", (route) => route.fulfill({
+    contentType: "text/javascript",
+    body: `const ready = (signal) => new Promise((resolve) => document.addEventListener(signal, resolve, { once: true }));
+      const older = ready("test:finish-old-search");
+      const lastFragment = ready("test:finish-last-fragment");
+      const html = document.documentElement;
+      const shared = { url: "/validation/", meta: { title: "Runtime validation" }, excerpt: "Schemas", sub_results: [] };
+      const result = (name, id) => ({ id: "validation", data: async () => {
+        shared.sub_results = [{ title: name, url: "/validation/#library-" + id,
+          excerpt: name, anchor: { id: "library-" + id, location: 0 }, locations: [0] }];
+        html.dataset.fragmentRead = id;
+        return shared;
+      } });
+      export const createInstance = () => ({
+        filters: async () => ({}),
+        search: async (query) => {
+          if (query === "schema arktype") {
+            html.dataset.olderSearchStarted = "true";
+            await older;
+            return { results: [result("ArkType", "arktype")] };
+          }
+          return { results: [result("Zod", "zod"), { id: "slow-guide", data: async () => {
+            await lastFragment;
+            return { url: "/choosing-a-library/", meta: { title: "Choosing a library" }, excerpt: "Guide", sub_results: [] };
+          } }] };
+        },
+      });`,
+  }));
+  await page.goto("/");
+  await page.keyboard.press("ControlOrMeta+k");
+  const search = page.getByRole("combobox", { name: "Search libraries" });
+  const html = page.locator("html");
+
+  // Act
+  await search.fill("schema arktype");
+  await expect(html).toHaveAttribute("data-older-search-started", "true");
+  await search.fill("schema zod");
+  await expect(html).toHaveAttribute("data-fragment-read", "zod");
+  await page.evaluate(() => document.dispatchEvent(new Event("test:finish-old-search")));
+  await expect(html).toHaveAttribute("data-fragment-read", "arktype");
+  await page.evaluate(() => document.dispatchEvent(new Event("test:finish-last-fragment")));
+
+  // Assert
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/validation#library-zod");
 });

@@ -20,9 +20,16 @@ interface PagefindPage extends Omit<PagefindHit, "title"> {
   })[];
 }
 
+interface PagefindDocument {
+  id: string;
+  data(): Promise<PagefindPage>;
+}
+
 interface PagefindModule {
   createInstance(options: { basePath: string; baseUrl: string }): {
-    search(query: string): Promise<{ results: { data(): Promise<PagefindPage> }[] }>;
+    filters(): Promise<unknown>;
+    destroy(): Promise<void>;
+    search(query: string): Promise<{ results: PagefindDocument[] }>;
   };
 }
 
@@ -30,6 +37,7 @@ type PagefindIndex = ReturnType<PagefindModule["createInstance"]>;
 
 // Pagefind links to built directories; Blume serves those routes without the slash.
 const trailingSlash = /(?<=.)\/(?=[#?]|$)/u;
+const exactPackageWaitMs = 200;
 
 /** Folds case and spaces for the query and result titles compared by {@link titleMatch}.
  * @example normalize(" TanStack   Query "); // "tanstack query"
@@ -47,18 +55,47 @@ function titleMatch(title: string, query: string): number {
 
 /** Reads Pagefind documents for {@link createSearch} and retains successful fragments.
  * An empty index response is valid. A failed search or wholly unreadable response is an error.
- * @example const pages = await searchPages(index, "large dataset");
+ * @example const pages = await searchPages(index, "large dataset", new Map());
  */
-async function searchPages(index: PagefindIndex, query: string): Promise<PagefindPage[]> {
+async function searchPages(
+  index: PagefindIndex,
+  query: string,
+  pendingFragments: Map<string, Promise<PagefindPage>>,
+): Promise<PagefindPage[]> {
   const { results } = await index.search(query);
   // A name like Render can rank below many pages that use the same word in prose.
-  const fragments = await Promise.allSettled(results.slice(0, RESULT_POOL).map(async (result) => result.data()));
+  const fragments = await Promise.allSettled(results.slice(0, RESULT_POOL).map((result) => {
+    // Pagefind's main-thread fallback rewrites the same page object on each read.
+    const snapshot = async () => ({ ...await result.data() });
+    const previous = pendingFragments.get(result.id);
+    const reading = previous ? previous.then(snapshot, snapshot) : snapshot();
+    const pending = reading.finally(() => {
+      if (pendingFragments.get(result.id) === pending) pendingFragments.delete(result.id);
+    });
+    pendingFragments.set(result.id, pending);
+    return pending;
+  }));
   const pages = fragments.flatMap((fragment) => fragment.status === "fulfilled" ? [fragment.value] : []);
   if (pages.length === 0) {
     const failure = fragments.find((fragment) => fragment.status === "rejected");
     if (failure) throw failure.reason;
   }
   return pages;
+}
+
+/** Caps Pagefind enrichment for exact package rows so local results can render during an outage.
+ * @example const pages = await waitForRelatedPages(searchPages(index, "next-auth", new Map()));
+ */
+async function waitForRelatedPages(search: Promise<PagefindPage[]>): Promise<PagefindPage[]> {
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  const deadline = new Promise<PagefindPage[]>((resolve) => {
+    timer = setTimeout(() => resolve([]), exactPackageWaitMs);
+  });
+  try {
+    return await Promise.race([search, deadline]);
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 /** Loads the Blume build's Pagefind index when the search dialog first opens.
@@ -69,16 +106,30 @@ export async function createSearch(): Promise<SearchFn> {
   const basePath = joinBase(import.meta.env.BASE_URL, "pagefind/");
   const bundle = `${basePath}pagefind.js`;
   let index: Promise<PagefindIndex> | undefined;
+  const pendingFragments = new Map<string, Promise<PagefindPage>>();
   const loadIndex = () => {
+    if (index) return index;
+
     // Pagefind emits this module at build time, outside Vite's module graph.
-    index ??= import(/* @vite-ignore */ bundle)
-      .then((pagefind: PagefindModule) => pagefind.createInstance({ basePath, baseUrl: "/" }))
+    const attempt: Promise<PagefindIndex> = import(/* @vite-ignore */ bundle)
+      .then(async (pagefind: PagefindModule) => {
+        const instance = pagefind.createInstance({ basePath, baseUrl: "/" });
+        try {
+          // Unlike init(), filters() waits for Pagefind's metadata and WASM to be ready.
+          await instance.filters();
+          return instance;
+        } catch (error) {
+          await instance.destroy().catch(() => undefined);
+          throw error;
+        }
+      })
       .catch((error: unknown) => {
-        // Share pending loads, then let the next query retry a failed request.
-        index = undefined;
+        // Unrelated query or fragment failures keep the ready instance.
+        if (index === attempt) index = undefined;
         throw error;
       });
-    return index;
+    index = attempt;
+    return attempt;
   };
 
   const preload = loadIndex();
@@ -92,7 +143,8 @@ export async function createSearch(): Promise<SearchFn> {
 
     let pages: PagefindPage[] = [];
     try {
-      pages = await searchPages(await loadIndex(), query);
+      const search = loadIndex().then((instance) => searchPages(instance, query, pendingFragments));
+      pages = await (exactRows ? waitForRelatedPages(search) : search);
     } catch (error) {
       // The local package map can still answer an exact query during a Pagefind outage.
       if (!exactRows) throw error;
