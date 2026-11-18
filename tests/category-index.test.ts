@@ -1,16 +1,69 @@
 import { expect, test } from "@playwright/test";
 
-test("large categories let readers jump directly to a named option", async ({ page }) => {
+test("an incoming category link brings a named library into view", async ({ page }) => {
   // Arrange
-  await page.goto("/ui-kits");
+  await page.setViewportSize({ width: 1024, height: 540 });
 
   // Act
-  await page.locator(".library-index summary").click();
-  const index = page.getByRole("navigation", { name: "Libraries in this category" });
-  await index.getByRole("link", { name: "shadcn/ui", exact: true }).click();
+  await page.goto("/ui-kits#library-shadcn-ui");
 
   // Assert
-  await expect(page).toHaveURL(/#library-shadcn-ui$/);
-  await expect(page.locator("#library-shadcn-ui")).toBeInViewport();
+  const row = page.getByRole("heading", { name: "shadcn/ui", exact: true });
+  await expect(row).toHaveAttribute("id", "library-shadcn-ui");
+  await expect(row).toBeInViewport();
   await page.screenshot({ path: "qa/category-index.png" });
+});
+
+test("weekly npm download counts descend and rows without counts follow them", async ({ page }) => {
+  // Arrange
+  await page.goto("/ui-kits");
+  const directory = page.getByRole("main");
+
+  // Act
+  const counts = await directory.locator(".library-row .library-downloads").evaluateAll((cells) =>
+    cells.map((cell) => cell.getAttribute("data-downloads")),
+  );
+  const known = counts.filter((value) => value !== null).map(Number);
+  const unknown = counts.filter((value) => value === null);
+
+  // Assert
+  expect(new Set(known).size).toBeGreaterThan(1);
+  expect(known.every((count) => Number.isSafeInteger(count) && count >= 0)).toBe(true);
+  expect(unknown.length).toBeGreaterThan(0);
+  expect(counts).toEqual([...known.toSorted((a, b) => b - a).map(String), ...unknown]);
+  await expect(directory.getByText("Without npm counts", { exact: true })).toBeVisible();
+  await expect(directory.getByText("—", { exact: true }).first()).toBeVisible();
+});
+
+test("the TanStack Query name opens official documentation in a new tab", async ({ context, page }) => {
+  // Arrange
+  const docsUrl = "https://tanstack.com/query/latest/docs/framework/react/overview";
+  await context.route(docsUrl, (route) => route.fulfill({ contentType: "text/html", body: "TanStack Query" }));
+  await page.goto("/");
+  const category = page.getByRole("main").getByRole("link", { name: "Data fetching", exact: true });
+  await expect(category).toBeInViewport();
+
+  // Act
+  await category.click();
+  const name = page.getByRole("main").getByRole("link", { name: "TanStack Query", exact: true });
+  await name.hover();
+  const [popup] = await Promise.all([page.waitForEvent("popup"), name.click()]);
+
+  // Assert
+  await expect(popup).toHaveURL(docsUrl);
+  await expect(page).toHaveURL("/data-fetching");
+  await expect(page.getByText("Tools for managing asynchronous server state and cached requests.", { exact: true })).toBeVisible();
+  await popup.close();
+});
+
+test("a saved TanStack Query overview URL still opens its directory row", async ({ page }) => {
+  // Arrange
+  const legacy = "/data-fetching/tanstack-query";
+
+  // Act
+  await page.goto(legacy);
+
+  // Assert
+  await expect(page).toHaveURL("/data-fetching#library-tanstack-query");
+  await expect(page.getByRole("heading", { name: "TanStack Query", exact: true })).toBeInViewport();
 });
