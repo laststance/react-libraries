@@ -95,7 +95,11 @@ test("mobile navigation exposes categories and closes after choosing a page", as
 for (const action of ["Enter", "click"] as const) {
   test(`choosing a result by ${action} closes search and scrolls to its row on the current page`, async ({ page }) => {
     // Arrange
+    await page.setViewportSize({ width: 1000, height: 500 });
     await page.goto("/auth");
+    const heading = page.getByRole("heading", { name: "Auth.js", exact: true });
+    await page.evaluate(() => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "instant" }));
+    await expect(heading).not.toBeInViewport();
     await page.keyboard.press("ControlOrMeta+k");
     const search = page.getByRole("combobox");
     await search.fill("next-auth");
@@ -109,7 +113,7 @@ for (const action of ["Enter", "click"] as const) {
     // Assert
     await expect(page).toHaveURL("/auth#library-auth-js");
     await expect(search).not.toBeVisible();
-    await expect(page.getByRole("heading", { name: "Auth.js", exact: true })).toBeInViewport();
+    await expect(heading).toBeInViewport();
   });
 }
 
