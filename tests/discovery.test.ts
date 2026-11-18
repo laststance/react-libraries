@@ -92,6 +92,47 @@ test("mobile navigation exposes categories and closes after choosing a page", as
   await expect(openSearch).toBeFocused();
 });
 
+for (const action of ["Enter", "click"] as const) {
+  test(`choosing a result by ${action} closes search and scrolls to its row on the current page`, async ({ page }) => {
+    // Arrange
+    await page.goto("/auth");
+    await page.keyboard.press("ControlOrMeta+k");
+    const search = page.getByRole("combobox");
+    await search.fill("next-auth");
+    const option = page.getByRole("option", { selected: true });
+    await expect(option).toHaveAttribute("href", "/auth#library-auth-js");
+
+    // Act
+    if (action === "Enter") await search.press("Enter");
+    else await option.click();
+
+    // Assert
+    await expect(page).toHaveURL("/auth#library-auth-js");
+    await expect(search).not.toBeVisible();
+    await expect(page.getByRole("heading", { name: "Auth.js", exact: true })).toBeInViewport();
+  });
+}
+
+test("an IME can cancel or commit text while the selected search result stays in place", async ({ page }) => {
+  // Arrange
+  await page.goto("/dates");
+  await page.keyboard.press("ControlOrMeta+k");
+  const search = page.getByRole("combobox");
+  await search.fill("next-auth");
+  await expect(page.getByRole("option", { selected: true })).toHaveAttribute("href", "/auth#library-auth-js");
+
+  // Act: WebKit can mark an IME key with 229 after compositionend.
+  await search.dispatchEvent("keydown", { key: "Escape", keyCode: 229, isComposing: false });
+  await expect(search).toBeFocused();
+  await search.dispatchEvent("keydown", { key: "Enter", keyCode: 229, isComposing: false });
+
+  // Assert
+  await expect(search).toBeFocused();
+  await expect(page).toHaveURL("/dates");
+  await search.press("Escape");
+  await expect(search).not.toBeVisible();
+});
+
 test("collapsed categories can be browsed and searching a library name opens its category row", async ({ page }) => {
   // Arrange
   await page.goto("/");

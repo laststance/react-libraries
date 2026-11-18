@@ -14,8 +14,12 @@ import Search from "blume/components/layout/Search.astro";
   customElements.define("directory-search", class extends HTMLElement {
     connectedCallback() {
       const hint = this.querySelector("[data-blume-search-input] + kbd");
-      const form = this.querySelector("template")?.content.querySelector("form");
+      const form = this.querySelector<HTMLTemplateElement>(":scope > template")?.content.querySelector("form");
       if (!hint || !form) return;
+      // The IME owns these keys, including the last one WebKit sends after compositionend.
+      this.querySelector<HTMLInputElement>("[data-blume-search-input]")?.addEventListener("keydown", (event) => {
+        if (event.isComposing || event.keyCode === 229) event.stopPropagation();
+      });
       // Blume otherwise activates the highlighted result on Enter anywhere in the dialog.
       form.addEventListener("keydown", (event) => {
         if (event.key === "Enter") event.stopPropagation();
