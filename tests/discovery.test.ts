@@ -99,3 +99,38 @@ test("the full collection can be browsed through collapsed category groups and s
   await expect(results).toContainText("Validate incoming data");
   await page.screenshot({ path: "qa/validation-search.png" });
 });
+
+test("readers can open the TanStack Table docs from the category, task, and mobile overview", async ({ page, request }) => {
+  // Arrange
+  const officialDocs = page.getByRole("link", { name: "Official docs for TanStack Table (opens in a new tab)", exact: true });
+  const expectedUrl = "https://tanstack.com/table/latest/docs/overview";
+
+  // Act / Assert
+  for (const route of ["/data-tables", "/tasks/explore-a-large-dataset"]) {
+    await page.goto(route);
+    await expect(officialDocs).toBeVisible();
+    await expect(officialDocs).toHaveAttribute("href", expectedUrl);
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/data-tables/tanstack-table");
+  const detailDocs = page.getByRole("link", { name: "Official docs", exact: true });
+  await expect(detailDocs).toBeInViewport({ ratio: 1 });
+  await expect(detailDocs).toHaveAttribute("href", expectedUrl);
+  await expect(page.getByRole("link", { name: "Project source", exact: true })).toHaveAttribute("href", "https://tanstack.com/table/latest");
+  const markdown = await request.get("/data-tables/tanstack-table.md");
+  expect(await markdown.text()).toContain("[Official docs](<https://tanstack.com/table/latest/docs/overview>)");
+});
+
+test("historical entries without verified docs identify their saved source on cards and overviews", async ({ page }) => {
+  // Arrange
+  const expectedUrl = "https://github.com/guilhermelimak/react-codejar";
+
+  // Act / Assert
+  await page.goto("/editors");
+  const card = page.getByRole("region", { name: "React CodeJar", exact: true });
+  await expect(card.getByRole("link", { name: /Saved source/ })).toHaveAttribute("href", expectedUrl);
+  await expect(card.getByRole("link", { name: /Official docs/ })).toHaveCount(0);
+  await page.goto("/editors/react-codejar");
+  await expect(page.getByRole("link", { name: "Saved source", exact: true })).toHaveAttribute("href", expectedUrl);
+  await expect(page.getByRole("link", { name: "Official docs", exact: true })).toHaveCount(0);
+});
